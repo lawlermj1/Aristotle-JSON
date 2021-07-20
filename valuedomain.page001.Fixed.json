@@ -1,0 +1,3528 @@
+                {
+    "count": 4016,
+    "next": "http://dss.aristotlecloud.io/api/v4/metadata/valuedomain?page=2",
+    "previous": null,
+    "results": [
+        {
+            "id": 13361,
+            "created": "2020-08-12T17:16:00.708974+10:00",
+            "modified": "2021-06-21T11:12:20.958798+10:00",
+            "uuid": "accf2868-dc6b-11ea-b1f5-0a8620c9d3ec",
+            "name": "Health Insurance Commission (HIC) Online Financial Account Code X(3)",
+            "definition": "A code set containing the Health Insurance Commission (HIC) Online financial account.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "data_type": "6c35bd4a-dc6a-11ea-906f-062f7acd21ca",
+            "format": "X(3)",
+            "maximum_length": 3,
+            "unit_of_measure": null,
+            "conceptual_domain": null,
+            "classification_scheme": null,
+            "representation_class": 2,
+            "description": "",
+            "metadatareferencelink_set": [],
+            "permissiblevalue_set": [],
+            "supplementaryvalue_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "acdacd8a-dc6b-11ea-b1f5-0a8620c9d3ec",
+                    "namespace": 4,
+                    "identifier": "73696",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 13360,
+            "created": "2020-08-12T17:16:00.395651+10:00",
+            "modified": "2021-06-21T11:12:21.479886+10:00",
+            "uuid": "ac9f5944-dc6b-11ea-ac21-02b137f3fb1e",
+            "name": "Authority Referral Status Code X(5)",
+            "definition": "A code set that represents a status of an authority referral.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 96,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "data_type": "6c35bd4a-dc6a-11ea-906f-062f7acd21ca",
+            "format": "X(5)",
+            "maximum_length": 5,
+            "unit_of_measure": null,
+            "conceptual_domain": null,
+            "classification_scheme": null,
+            "representation_class": 2,
+            "description": "",
+            "metadatareferencelink_set": [],
+            "permissiblevalue_set": [
+                {
+                    "id": "acddca26-dc6b-11ea-ac21-02b137f3fb1e",
+                    "value": "1",
+                    "meaning": "Authority has been referred",
+                    "value_meaning": null,
+                    "order": 1,
+                    "start_date": "2020-07-28",
+                    "end_date": "9999-09-09"
+                },
+                {
+                    "id": "acddd03e-dc6b-11ea-ac21-02b137f3fb1e",
+                    "value": "2",
+                    "meaning": "Authority referral has been actioned by Services Australia Operator",
+                    "value_meaning": null,
+                    "order": 2,
+                    "start_date": "2020-07-28",
+                    "end_date": "9999-09-09"
+                }
+            ],
+            "supplementaryvalue_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 65572,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 65573,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 65574,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "acd03f14-dc6b-11ea-ac21-02b137f3fb1e",
+                    "namespace": 4,
+                    "identifier": "73781",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 13349,
+            "created": "2020-08-12T17:16:00.397368+10:00",
+            "modified": "2021-06-21T11:12:21.582302+10:00",
+            "uuid": "ac9f9d64-dc6b-11ea-8a08-02b137f3fb1e",
+            "name": "Parameter Value Alternate Type Code X(8)",
+            "definition": "A code set which represents a type of parameter value alternate.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "data_type": "6c35bd4a-dc6a-11ea-906f-062f7acd21ca",
+            "format": "X(8)",
+            "maximum_length": 8,
+            "unit_of_measure": null,
+            "conceptual_domain": null,
+            "classification_scheme": null,
+            "representation_class": 2,
+            "description": "",
+            "metadatareferencelink_set": [],
+            "permissiblevalue_set": [],
+            "supplementaryvalue_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "acac7dae-dc6b-11ea-8a08-02b137f3fb1e",
+                    "namespace": 4,
+                    "identifier": "73636",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 52012,
+            "created": "2020-09-28T09:44:24.993689+10:00",
+            "modified": "2020-09-30T14:01:49.289041+10:00",
+            "uuid": "5feb5dda-011b-11eb-b13e-0a781a7f93d4",
+            "name": "Business Partner Category Code X(4)",
+            "definition": "The code set that represents a category that a Business Partner belongs to.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "data_type": "6c35bd4a-dc6a-11ea-906f-062f7acd21ca",
+            "format": "X(4)",
+            "maximum_length": 4,
+            "unit_of_measure": null,
+            "conceptual_domain": null,
+            "classification_scheme": null,
+            "representation_class": 2,
+            "description": "",
+            "metadatareferencelink_set": [],
+            "permissiblevalue_set": [],
+            "supplementaryvalue_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 54515,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 54516,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 54517,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 86,
+            "created": "2018-08-10T14:00:16.249476+10:00",
+            "modified": "2021-04-15T17:06:40.227103+10:00",
+            "uuid": "3fb11154-9c50-11e8-92a9-0273a7ea5052",
+            "name": "Home ownership code A",
+            "definition": "A code set representing status of home ownership.",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "",
+            "references": "",
+            "origin_URI": "http://meteor.aihw.gov.au/content/index.phtml/itemId/645468",
+            "origin": "",
+            "comments": "",
+            "data_type": "9af47e4c-b395-11e7-a7b7-0242ac110009",
+            "format": "A",
+            "maximum_length": 1,
+            "unit_of_measure": null,
+            "conceptual_domain": null,
+            "classification_scheme": null,
+            "representation_class": null,
+            "description": "",
+            "metadatareferencelink_set": [],
+            "permissiblevalue_set": [
+                {
+                    "id": "e9129688-731c-11ea-826c-6660846ba4fa",
+                    "value": "H",
+                    "meaning": "Homeowner",
+                    "value_meaning": null,
+                    "order": 0,
+                    "start_date": null,
+                    "end_date": null
+                },
+                {
+                    "id": "e92eaf08-731c-11ea-826c-6660846ba4fa",
+                    "value": "N",
+                    "meaning": "Non-homeowner",
+                    "value_meaning": null,
+                    "order": 1,
+                    "start_date": null,
+                    "end_date": null
+                }
+            ],
+            "supplementaryvalue_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 4,
+                    "name": "Submitting Organisation",
+                    "field": 3,
+                    "content": "Australian Government Department of Social Services"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "00573c0e-731d-11ea-826c-6660846ba4fa",
+                    "namespace": 2,
+                    "identifier": "645468",
+                    "version": "1",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 10207,
+            "created": "2020-08-12T17:13:40.358722+10:00",
+            "modified": "2021-06-17T10:37:46.663182+10:00",
+            "uuid": "592768b0-dc6b-11ea-b1f5-0a8620c9d3ec",
+            "name": "Super Deductible Amount Code X",
+            "definition": "A code set representing whether the old or new Deductible Amount (Income) rules apply to a customers defined benefit income stream product.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "data_type": "6c35bd4a-dc6a-11ea-906f-062f7acd21ca",
+            "format": "X",
+            "maximum_length": 1,
+            "unit_of_measure": null,
+            "conceptual_domain": null,
+            "classification_scheme": null,
+            "representation_class": 2,
+            "description": "",
+            "metadatareferencelink_set": [],
+            "permissiblevalue_set": [
+                {
+                    "id": "593ea0c0-dc6b-11ea-b1f5-0a8620c9d3ec",
+                    "value": "O",
+                    "meaning": "DED INC AMT CALCULATED USING UPP",
+                    "value_meaning": null,
+                    "order": 0,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "593ea67e-dc6b-11ea-b1f5-0a8620c9d3ec",
+                    "value": "S",
+                    "meaning": "SAVED FROM NEW RULES",
+                    "value_meaning": null,
+                    "order": 1,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "593eaac0-dc6b-11ea-b1f5-0a8620c9d3ec",
+                    "value": "I",
+                    "meaning": "DED INC AMT APPLIES, VARIES WITH INC",
+                    "value_meaning": null,
+                    "order": 2,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "593eaebc-dc6b-11ea-b1f5-0a8620c9d3ec",
+                    "value": "F",
+                    "meaning": "DED INC AMT APPLIES, DOES NOT VARY WITH INC",
+                    "value_meaning": null,
+                    "order": 3,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "593eb29a-dc6b-11ea-b1f5-0a8620c9d3ec",
+                    "value": "Z",
+                    "meaning": "DED INC AMT NOT APPLICABLE",
+                    "value_meaning": null,
+                    "order": 4,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                }
+            ],
+            "supplementaryvalue_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "593183d6-dc6b-11ea-b1f5-0a8620c9d3ec",
+                    "namespace": 4,
+                    "identifier": "25411",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 11630,
+            "created": "2020-08-12T17:14:45.320753+10:00",
+            "modified": "2021-06-17T10:37:46.735589+10:00",
+            "uuid": "7fdfd41a-dc6b-11ea-906f-062f7acd21ca",
+            "name": "Care assessment type code XXX",
+            "definition": "The assessment type for the care receivers in exchanged group 1 of the parenting plan.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "data_type": "6c35bd4a-dc6a-11ea-906f-062f7acd21ca",
+            "format": "XXX",
+            "maximum_length": 3,
+            "unit_of_measure": null,
+            "conceptual_domain": null,
+            "classification_scheme": null,
+            "representation_class": 2,
+            "description": "",
+            "metadatareferencelink_set": [],
+            "permissiblevalue_set": [
+                {
+                    "id": "7fffde22-dc6b-11ea-906f-062f7acd21ca",
+                    "value": "CMB",
+                    "meaning": "Combined",
+                    "value_meaning": null,
+                    "order": 0,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "7fffe246-dc6b-11ea-906f-062f7acd21ca",
+                    "value": "CMG",
+                    "meaning": "Combined (grandfathered)",
+                    "value_meaning": null,
+                    "order": 1,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "7fffe3fe-dc6b-11ea-906f-062f7acd21ca",
+                    "value": "MIX",
+                    "meaning": "Mixed (Exchanged care cases)",
+                    "value_meaning": null,
+                    "order": 2,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "7fffe57a-dc6b-11ea-906f-062f7acd21ca",
+                    "value": "MSG",
+                    "meaning": "Mainstream (grandfathered)",
+                    "value_meaning": null,
+                    "order": 3,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "7fffe6e2-dc6b-11ea-906f-062f7acd21ca",
+                    "value": "MST",
+                    "meaning": "Mainstream",
+                    "value_meaning": null,
+                    "order": 4,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "7fffe840-dc6b-11ea-906f-062f7acd21ca",
+                    "value": "MUL",
+                    "meaning": "Multiple",
+                    "value_meaning": null,
+                    "order": 5,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "7fffe98a-dc6b-11ea-906f-062f7acd21ca",
+                    "value": "ADL",
+                    "meaning": "Adult",
+                    "value_meaning": null,
+                    "order": 6,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                }
+            ],
+            "supplementaryvalue_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 3745,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": "CARE.ASSMT.TYPE.CODE"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "7fed0748-dc6b-11ea-906f-062f7acd21ca",
+                    "namespace": 4,
+                    "identifier": "26982",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 12017,
+            "created": "2020-08-12T17:15:02.068645+10:00",
+            "modified": "2021-06-21T10:51:42.072410+10:00",
+            "uuid": "89db5cfa-dc6b-11ea-8a08-02b137f3fb1e",
+            "name": "Pharmaceutical Benefits Scheme (PBS) Prescriber Type Code A",
+            "definition": "A code set representing the types of health professional authorised to prescribe medicinal products under the Pharmaceutical Benefits Scheme (PBS).",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 96,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "data_type": "6c35bd4a-dc6a-11ea-906f-062f7acd21ca",
+            "format": "A",
+            "maximum_length": 1,
+            "unit_of_measure": null,
+            "conceptual_domain": null,
+            "classification_scheme": null,
+            "representation_class": 2,
+            "description": "",
+            "metadatareferencelink_set": [],
+            "permissiblevalue_set": [
+                {
+                    "id": "8a054650-dc6b-11ea-8a08-02b137f3fb1e",
+                    "value": "M",
+                    "meaning": "Medical practitioner",
+                    "value_meaning": null,
+                    "order": 0,
+                    "start_date": "2017-10-03",
+                    "end_date": null
+                },
+                {
+                    "id": "8a054b3c-dc6b-11ea-8a08-02b137f3fb1e",
+                    "value": "D",
+                    "meaning": "Dental practitioner",
+                    "value_meaning": null,
+                    "order": 1,
+                    "start_date": "2017-10-03",
+                    "end_date": null
+                },
+                {
+                    "id": "8a054dc6-dc6b-11ea-8a08-02b137f3fb1e",
+                    "value": "B",
+                    "meaning": "Both",
+                    "value_meaning": null,
+                    "order": 2,
+                    "start_date": "2017-10-03",
+                    "end_date": null
+                },
+                {
+                    "id": "8a055000-dc6b-11ea-8a08-02b137f3fb1e",
+                    "value": "O",
+                    "meaning": "Optometrist",
+                    "value_meaning": null,
+                    "order": 3,
+                    "start_date": "2017-10-03",
+                    "end_date": null
+                },
+                {
+                    "id": "8a055212-dc6b-11ea-8a08-02b137f3fb1e",
+                    "value": "N",
+                    "meaning": "Nurse practitioner",
+                    "value_meaning": null,
+                    "order": 4,
+                    "start_date": "2017-10-03",
+                    "end_date": null
+                },
+                {
+                    "id": "8a055424-dc6b-11ea-8a08-02b137f3fb1e",
+                    "value": "W",
+                    "meaning": "Midwife",
+                    "value_meaning": null,
+                    "order": 5,
+                    "start_date": "2017-10-03",
+                    "end_date": null
+                }
+            ],
+            "supplementaryvalue_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "89f16900-dc6b-11ea-8a08-02b137f3fb1e",
+                    "namespace": 4,
+                    "identifier": "57120",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 12020,
+            "created": "2020-08-12T17:15:02.480313+10:00",
+            "modified": "2021-06-17T10:37:52.638431+10:00",
+            "uuid": "8a1a2caa-dc6b-11ea-ac21-02b137f3fb1e",
+            "name": "Pharmaceutical Benefits Scheme (PBS) Adjustment Record Indicator Code X",
+            "definition": "A code set representing whether a data record is an adjustment record or otherwise.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 96,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "data_type": "6c35bd4a-dc6a-11ea-906f-062f7acd21ca",
+            "format": "X",
+            "maximum_length": 1,
+            "unit_of_measure": null,
+            "conceptual_domain": null,
+            "classification_scheme": null,
+            "representation_class": 2,
+            "description": "",
+            "metadatareferencelink_set": [],
+            "permissiblevalue_set": [
+                {
+                    "id": "8a3e2e2a-dc6b-11ea-ac21-02b137f3fb1e",
+                    "value": "A",
+                    "meaning": "Adjustment record",
+                    "value_meaning": null,
+                    "order": 0,
+                    "start_date": "2017-10-03",
+                    "end_date": null
+                },
+                {
+                    "id": "8a3e349c-dc6b-11ea-ac21-02b137f3fb1e",
+                    "value": "blank",
+                    "meaning": "Not an adjustment record",
+                    "value_meaning": null,
+                    "order": 1,
+                    "start_date": "2017-10-03",
+                    "end_date": null
+                }
+            ],
+            "supplementaryvalue_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "8a2847f4-dc6b-11ea-ac21-02b137f3fb1e",
+                    "namespace": 4,
+                    "identifier": "57129",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 1797,
+            "created": "2019-10-22T12:17:18.198715+11:00",
+            "modified": "2021-04-15T17:53:55.512346+10:00",
+            "uuid": "b0887b34-f469-11e9-8460-6edd9bb6c82a",
+            "name": "Outcome domain rating label",
+            "definition": "A label set representing an outcome domain and the associated five-point Likert scale rating.",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 7,
+            "version": "0.1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "data_type": "9af47e4c-b395-11e7-a7b7-0242ac110009",
+            "format": "AAA[A(14)]N",
+            "maximum_length": 18,
+            "unit_of_measure": null,
+            "conceptual_domain": null,
+            "classification_scheme": null,
+            "representation_class": null,
+            "description": "",
+            "metadatareferencelink_set": [],
+            "permissiblevalue_set": [
+                {
+                    "id": "e90b572e-731c-11ea-826c-6660846ba4fa",
+                    "value": "AGE1",
+                    "meaning": "Significant negative impact of poor age-appropriate development on independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 0,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "e9205944-731c-11ea-826c-6660846ba4fa",
+                    "value": "AGE2",
+                    "meaning": "Moderate negative impact of poor age-appropriate development on independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 1,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "e974095e-731c-11ea-826c-6660846ba4fa",
+                    "value": "AGE3",
+                    "meaning": "Progress towards improving age-appropriate development to support  independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 2,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "e9898b94-731c-11ea-826c-6660846ba4fa",
+                    "value": "AGE4",
+                    "meaning": "Adequate short-term age-appropriate development to support  independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 3,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "e99c36fe-731c-11ea-826c-6660846ba4fa",
+                    "value": "AGE5",
+                    "meaning": "Adequate ongoing age-appropriate development to support  independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 4,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "e9bbf71e-731c-11ea-826c-6660846ba4fa",
+                    "value": "BEHAVIOUR1",
+                    "meaning": "No progress in changing behaviours in areas relevant to client’s needs and circumstances",
+                    "value_meaning": null,
+                    "order": 5,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "e9e02efe-731c-11ea-826c-6660846ba4fa",
+                    "value": "BEHAVIOUR2",
+                    "meaning": "Limited progress to date in achieving behaviour goals–but emerging engagement",
+                    "value_meaning": null,
+                    "order": 6,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ea014846-731c-11ea-826c-6660846ba4fa",
+                    "value": "BEHAVIOUR3",
+                    "meaning": "Limited progress to date in achieving behaviour goals–but strong engagement",
+                    "value_meaning": null,
+                    "order": 7,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ea0a76a0-731c-11ea-826c-6660846ba4fa",
+                    "value": "BEHAVIOUR4",
+                    "meaning": "Moderate progress to date in achieving behaviour goals",
+                    "value_meaning": null,
+                    "order": 8,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ea286638-731c-11ea-826c-6660846ba4fa",
+                    "value": "BEHAVIOUR5",
+                    "meaning": "Full achievement of goals related to changing behaviours in areas relevant to client’s needs and circumstances",
+                    "value_meaning": null,
+                    "order": 9,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ea3400ce-731c-11ea-826c-6660846ba4fa",
+                    "value": "COMMUNITY1",
+                    "meaning": "Significant negative impact of poor community participation and  networks on independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 10,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ea4e442a-731c-11ea-826c-6660846ba4fa",
+                    "value": "COMMUNITY2",
+                    "meaning": "Moderate negative impact of poor community participation and networks on independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 11,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ea57af1a-731c-11ea-826c-6660846ba4fa",
+                    "value": "COMMUNITY3",
+                    "meaning": "Progress towards improving community participation and networks to support  independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 12,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ea685298-731c-11ea-826c-6660846ba4fa",
+                    "value": "COMMUNITY4",
+                    "meaning": "Adequate short-term community participation and networks to support  independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 13,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ea6ed442-731c-11ea-826c-6660846ba4fa",
+                    "value": "COMMUNITY5",
+                    "meaning": "Adequate ongoing community participation and networks to support  independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 14,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ea80b036-731c-11ea-826c-6660846ba4fa",
+                    "value": "CONFIDENCE1",
+                    "meaning": "No progress in increasing confidence and exercising choice/control in making decisions that impact client’s needs",
+                    "value_meaning": null,
+                    "order": 15,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ea8fa744-731c-11ea-826c-6660846ba4fa",
+                    "value": "CONFIDENCE2",
+                    "meaning": "Limited progress to date in achieving empowerment, choice and control goals–but emerging engagement",
+                    "value_meaning": null,
+                    "order": 16,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ea9450d2-731c-11ea-826c-6660846ba4fa",
+                    "value": "CONFIDENCE3",
+                    "meaning": "Limited progress to date in achieving empowerment, choice and control goals–but strong engagement",
+                    "value_meaning": null,
+                    "order": 17,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eaa301c2-731c-11ea-826c-6660846ba4fa",
+                    "value": "CONFIDENCE4",
+                    "meaning": "Moderate progress to date in achieving empowerment, choice and control goals",
+                    "value_meaning": null,
+                    "order": 18,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eaa76f82-731c-11ea-826c-6660846ba4fa",
+                    "value": "CONFIDENCE5",
+                    "meaning": "Full achievement of goals related to increasing confidence and exercising choice/control in making decisions that impact client’s needs",
+                    "value_meaning": null,
+                    "order": 19,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eabb204a-731c-11ea-826c-6660846ba4fa",
+                    "value": "EDUCEMPL1",
+                    "meaning": "Significant negative impact of lack of employment on independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 20,
+                    "start_date": "2018-08-18",
+                    "end_date": null
+                },
+                {
+                    "id": "eabe9f72-731c-11ea-826c-6660846ba4fa",
+                    "value": "EDUCEMPL2",
+                    "meaning": "Moderate negative impact of lack of engagement with education and training on independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 21,
+                    "start_date": "2018-08-18",
+                    "end_date": null
+                },
+                {
+                    "id": "eac5ee58-731c-11ea-826c-6660846ba4fa",
+                    "value": "EDUCEMPL3",
+                    "meaning": "Progress towards improving engagement with education and training to support independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 22,
+                    "start_date": "2018-08-18",
+                    "end_date": null
+                },
+                {
+                    "id": "eacfc6c6-731c-11ea-826c-6660846ba4fa",
+                    "value": "EDUCEMPL4",
+                    "meaning": "Adequate short-term engagement with education and training to support independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 23,
+                    "start_date": "2018-08-18",
+                    "end_date": null
+                },
+                {
+                    "id": "ead99278-731c-11ea-826c-6660846ba4fa",
+                    "value": "EDUCEMPL5",
+                    "meaning": "Adequate ongoing engagement with educaiton and training to support independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 24,
+                    "start_date": "2018-08-18",
+                    "end_date": null
+                },
+                {
+                    "id": "eae0799e-731c-11ea-826c-6660846ba4fa",
+                    "value": "EMPLOYMENT1",
+                    "meaning": "Significant negative impact of lack of employment on independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 25,
+                    "start_date": "2018-08-18",
+                    "end_date": null
+                },
+                {
+                    "id": "eaec4ab2-731c-11ea-826c-6660846ba4fa",
+                    "value": "EMPLOYMENT2",
+                    "meaning": "Moderate negative impact of lack of employment on independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 26,
+                    "start_date": "2018-08-18",
+                    "end_date": null
+                },
+                {
+                    "id": "eaef42d0-731c-11ea-826c-6660846ba4fa",
+                    "value": "EMPLOYMENT3",
+                    "meaning": "Progress towards improving employment to support independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 27,
+                    "start_date": "2018-08-18",
+                    "end_date": null
+                },
+                {
+                    "id": "eaf708d0-731c-11ea-826c-6660846ba4fa",
+                    "value": "EMPLOYMENT4",
+                    "meaning": "Adequate short-term employment to support independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 28,
+                    "start_date": "2018-08-18",
+                    "end_date": null
+                },
+                {
+                    "id": "eb00021e-731c-11ea-826c-6660846ba4fa",
+                    "value": "EMPLOYMENT5",
+                    "meaning": "Adequate ongoing employment to support independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 29,
+                    "start_date": "2018-08-18",
+                    "end_date": null
+                },
+                {
+                    "id": "eb02830e-731c-11ea-826c-6660846ba4fa",
+                    "value": "ENGAGEMENT1",
+                    "meaning": "No progress in increasing engagement with support services relevant to client’s needs and circumstances",
+                    "value_meaning": null,
+                    "order": 30,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb09f382-731c-11ea-826c-6660846ba4fa",
+                    "value": "ENGAGEMENT2",
+                    "meaning": "Limited progress to date in achieving engagement goals –but emerging engagement",
+                    "value_meaning": null,
+                    "order": 31,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb1509c0-731c-11ea-826c-6660846ba4fa",
+                    "value": "ENGAGEMENT3",
+                    "meaning": "Limited progress to date in achieving engagement goals–but strong engagement",
+                    "value_meaning": null,
+                    "order": 32,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb19c514-731c-11ea-826c-6660846ba4fa",
+                    "value": "ENGAGEMENT4",
+                    "meaning": "Moderate progress to date in achieving engagement goals",
+                    "value_meaning": null,
+                    "order": 33,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb216bb6-731c-11ea-826c-6660846ba4fa",
+                    "value": "ENGAGEMENT5",
+                    "meaning": "Full achievement of goals related to increasing engagement with support services relevant to client’s needs and circumstances",
+                    "value_meaning": null,
+                    "order": 34,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb24ba0a-731c-11ea-826c-6660846ba4fa",
+                    "value": "FAMILY1",
+                    "meaning": "Significant negative impact of poor personal and family safety on independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 35,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb28fe76-731c-11ea-826c-6660846ba4fa",
+                    "value": "FAMILY2",
+                    "meaning": "Moderate negative impact of poor personal and family safety on independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 36,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb325f70-731c-11ea-826c-6660846ba4fa",
+                    "value": "FAMILY3",
+                    "meaning": "Progress towards improving personal and family safety to support independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 37,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb37fd4a-731c-11ea-826c-6660846ba4fa",
+                    "value": "FAMILY4",
+                    "meaning": "Adequate short-term personal and family safety to support  independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 38,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb3beca2-731c-11ea-826c-6660846ba4fa",
+                    "value": "FAMILY5",
+                    "meaning": "Adequate ongoing personal and family safety to support  independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 39,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb41102e-731c-11ea-826c-6660846ba4fa",
+                    "value": "HOUSING1",
+                    "meaning": "Significant negative impact of poor housing on independence, participation and wellbeing e.g. ‘rough sleeping’",
+                    "value_meaning": null,
+                    "order": 40,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb467de8-731c-11ea-826c-6660846ba4fa",
+                    "value": "HOUSING2",
+                    "meaning": "Moderate negative impact of poor housing on independence, participation and wellbeing e.g. living in severe overcrowding; or at significant risk of tenancy failure",
+                    "value_meaning": null,
+                    "order": 41,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb4d9b96-731c-11ea-826c-6660846ba4fa",
+                    "value": "HOUSING3",
+                    "meaning": "Progress towards housing stability to support  independence, participation and wellbeing e.g. supported transitional housing",
+                    "value_meaning": null,
+                    "order": 42,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb532070-731c-11ea-826c-6660846ba4fa",
+                    "value": "HOUSING4",
+                    "meaning": "Adequate short-term housing stability to support  independence, participation and wellbeing e.g. supported transitional housing",
+                    "value_meaning": null,
+                    "order": 43,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb5a08ae-731c-11ea-826c-6660846ba4fa",
+                    "value": "HOUSING5",
+                    "meaning": "Adequate ongoing housing stability to support  independence, participation and wellbeing e.g. stable private rental or social housing",
+                    "value_meaning": null,
+                    "order": 44,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb62223c-731c-11ea-826c-6660846ba4fa",
+                    "value": "IMPACT1",
+                    "meaning": "No progress in reducing the negative impact of the immediate crisis",
+                    "value_meaning": null,
+                    "order": 45,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb6658de-731c-11ea-826c-6660846ba4fa",
+                    "value": "IMPACT2",
+                    "meaning": "Limited progress to date in achieving goals to reduce the negative impact– but emerging engagement",
+                    "value_meaning": null,
+                    "order": 46,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb684310-731c-11ea-826c-6660846ba4fa",
+                    "value": "IMPACT3",
+                    "meaning": "Limited progress to date in achieving goals to reduce the negative impact–but strong engagement",
+                    "value_meaning": null,
+                    "order": 47,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb6e1132-731c-11ea-826c-6660846ba4fa",
+                    "value": "IMPACT4",
+                    "meaning": "Moderate progress to date in achieving goals to reduce the negative impact",
+                    "value_meaning": null,
+                    "order": 48,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb73500c-731c-11ea-826c-6660846ba4fa",
+                    "value": "IMPACT5",
+                    "meaning": "Full achievement of goals related to reducing the negative impact of the immediate crisis",
+                    "value_meaning": null,
+                    "order": 49,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb74a7ae-731c-11ea-826c-6660846ba4fa",
+                    "value": "COHESION1",
+                    "meaning": "No change in demonstration of greater community cohesion and social harmony",
+                    "value_meaning": null,
+                    "order": 50,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb791636-731c-11ea-826c-6660846ba4fa",
+                    "value": "COHESION2",
+                    "meaning": "Limited change in demonstration of greater community cohesion and social harmony–but emerging engagement in issues",
+                    "value_meaning": null,
+                    "order": 51,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb7df660-731c-11ea-826c-6660846ba4fa",
+                    "value": "COHESION3",
+                    "meaning": "Limited change in demonstration of greater community cohesion and social harmony–but stronger engagement in issues",
+                    "value_meaning": null,
+                    "order": 52,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb83dcba-731c-11ea-826c-6660846ba4fa",
+                    "value": "COHESION4",
+                    "meaning": "Moderate demonstration of greater community cohesion and social harmony",
+                    "value_meaning": null,
+                    "order": 53,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb8617c8-731c-11ea-826c-6660846ba4fa",
+                    "value": "COHESION5",
+                    "meaning": "Significant positive demonstration of greater community cohesion and social harmony",
+                    "value_meaning": null,
+                    "order": 54,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb8badfa-731c-11ea-826c-6660846ba4fa",
+                    "value": "GROUPNETWORKS1",
+                    "meaning": "No change in community infrastructure/ networks to respond to the needs of targeted clients/ communities",
+                    "value_meaning": null,
+                    "order": 55,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb90addc-731c-11ea-826c-6660846ba4fa",
+                    "value": "GROUPNETWORKS2",
+                    "meaning": "Limited change in community infrastructure/networks–but emerging engagement of community networks",
+                    "value_meaning": null,
+                    "order": 56,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb91fdcc-731c-11ea-826c-6660846ba4fa",
+                    "value": "GROUPNETWORKS3",
+                    "meaning": "Limited change in community infrastructure/ networks–but strong engagement of community networks",
+                    "value_meaning": null,
+                    "order": 57,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb9692d8-731c-11ea-826c-6660846ba4fa",
+                    "value": "GROUPNETWORKS4",
+                    "meaning": "Moderate change in community infrastructure/ networks",
+                    "value_meaning": null,
+                    "order": 58,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eb9b54da-731c-11ea-826c-6660846ba4fa",
+                    "value": "GROUPNETWORKS5",
+                    "meaning": "Significant positive change in community infrastructure/ networks to better respond to the needs of targeted clients/ communities",
+                    "value_meaning": null,
+                    "order": 59,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eba14f02-731c-11ea-826c-6660846ba4fa",
+                    "value": "GROUPSKILLS1",
+                    "meaning": "No change in knowledge, skills, attitudes, behaviours",
+                    "value_meaning": null,
+                    "order": 60,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eba641c4-731c-11ea-826c-6660846ba4fa",
+                    "value": "GROUPSKILLS2",
+                    "meaning": "Limited change in knowledge, skills, attitudes, behaviours–but emerging engagement",
+                    "value_meaning": null,
+                    "order": 61,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "eba851f8-731c-11ea-826c-6660846ba4fa",
+                    "value": "GROUPSKILLS3",
+                    "meaning": "Limited change in knowledge, skills, attitudes, behaviours–but strong engagement",
+                    "value_meaning": null,
+                    "order": 62,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ebaa972e-731c-11ea-826c-6660846ba4fa",
+                    "value": "GROUPSKILLS4",
+                    "meaning": "Moderate change in knowledge, skills, attitudes, behaviours",
+                    "value_meaning": null,
+                    "order": 63,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ebb26e22-731c-11ea-826c-6660846ba4fa",
+                    "value": "GROUPSKILLS5",
+                    "meaning": "Significant positive change in knowledge, skills, attitudes, behaviours",
+                    "value_meaning": null,
+                    "order": 64,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ebb42438-731c-11ea-826c-6660846ba4fa",
+                    "value": "ORGSKILLS1",
+                    "meaning": "No change in organisational knowledge, skills, practices to respond to the needs of targeted clients/ communities",
+                    "value_meaning": null,
+                    "order": 65,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ebba52fe-731c-11ea-826c-6660846ba4fa",
+                    "value": "ORGSKILLS2",
+                    "meaning": "Limited change in organisational knowledge, skills, practices–but emerging engagement",
+                    "value_meaning": null,
+                    "order": 66,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ebbc4140-731c-11ea-826c-6660846ba4fa",
+                    "value": "ORGSKILLS3",
+                    "meaning": "Limited change in organisational knowledge, skills, practices–but strong engagement",
+                    "value_meaning": null,
+                    "order": 67,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ebbec316-731c-11ea-826c-6660846ba4fa",
+                    "value": "ORGSKILLS4",
+                    "meaning": "Moderate change in organisational knowledge, skills, practices",
+                    "value_meaning": null,
+                    "order": 68,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ebc3037c-731c-11ea-826c-6660846ba4fa",
+                    "value": "ORGSKILLS5",
+                    "meaning": "Significant positive change in organisational knowledge, skills, behaviours to better respond to the needs of targeted clients/ communities",
+                    "value_meaning": null,
+                    "order": 69,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ebc9877e-731c-11ea-826c-6660846ba4fa",
+                    "value": "KNOWLEDGE1",
+                    "meaning": "No progress in increasing access to information and knowledge in areas relevant to clients’ needs and circumstances",
+                    "value_meaning": null,
+                    "order": 70,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ebcca4ea-731c-11ea-826c-6660846ba4fa",
+                    "value": "KNOWLEDGE2",
+                    "meaning": "Limited progress to date in achieving information/ knowledge goals–but emerging engagement",
+                    "value_meaning": null,
+                    "order": 71,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ebce5e7a-731c-11ea-826c-6660846ba4fa",
+                    "value": "KNOWLEDGE3",
+                    "meaning": "Limited progress to date in achieving  information/ knowledge goals–but strong engagement",
+                    "value_meaning": null,
+                    "order": 72,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ebd24a76-731c-11ea-826c-6660846ba4fa",
+                    "value": "KNOWLEDGE4",
+                    "meaning": "Moderate progress to date in achieving information/knowledge goals",
+                    "value_meaning": null,
+                    "order": 73,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ebd8f7b8-731c-11ea-826c-6660846ba4fa",
+                    "value": "KNOWLEDGE5",
+                    "meaning": "Full achievement of goals related to increasing access to information and knowledge in areas relevant to client’s needs and circumstances",
+                    "value_meaning": null,
+                    "order": 74,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ebdba440-731c-11ea-826c-6660846ba4fa",
+                    "value": "MATERIAL1",
+                    "meaning": "Significant negative impact of lack of basic material resources on independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 75,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ebdf38a8-731c-11ea-826c-6660846ba4fa",
+                    "value": "MATERIAL2",
+                    "meaning": "Moderate negative impact of lack of basic material resources on independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 76,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ebe0a2b0-731c-11ea-826c-6660846ba4fa",
+                    "value": "MATERIAL3",
+                    "meaning": "Progress towards stability in meeting basic material needs to support independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 77,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ebe58cc6-731c-11ea-826c-6660846ba4fa",
+                    "value": "MATERIAL4",
+                    "meaning": "Adequate short-term basic material resources to support independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 78,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ebe7b5f0-731c-11ea-826c-6660846ba4fa",
+                    "value": "MATERIAL5",
+                    "meaning": "Adequate ongoing basic material resources to support independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 79,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ebeb2384-731c-11ea-826c-6660846ba4fa",
+                    "value": "MENTAL1",
+                    "meaning": "Significant negative impact of poor mental health, wellbeing and self-care on independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 80,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ebee77a0-731c-11ea-826c-6660846ba4fa",
+                    "value": "MENTAL2",
+                    "meaning": "Moderate negative impact of poor mental health, wellbeing and self-care on independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 81,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ebf09d8c-731c-11ea-826c-6660846ba4fa",
+                    "value": "MENTAL3",
+                    "meaning": "Progress towards improving mental health, wellbeing and self-care to support independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 82,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ebf47010-731c-11ea-826c-6660846ba4fa",
+                    "value": "MENTAL4",
+                    "meaning": "Adequate short-term mental health, wellbeing and self-care to support  independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 83,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ebf8c9c6-731c-11ea-826c-6660846ba4fa",
+                    "value": "MENTAL5",
+                    "meaning": "Adequate ongoing mental health, wellbeing and self-care to support  independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 84,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ebfa92a6-731c-11ea-826c-6660846ba4fa",
+                    "value": "MONEY1",
+                    "meaning": "Significant negative impact of poor financial resilience on independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 85,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ebfdab58-731c-11ea-826c-6660846ba4fa",
+                    "value": "MONEY2",
+                    "meaning": "Moderate negative impact of poor financial resilience on independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 86,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ec01e704-731c-11ea-826c-6660846ba4fa",
+                    "value": "MONEY3",
+                    "meaning": "Progress towards improving financial resilience to support  independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 87,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ec04b452-731c-11ea-826c-6660846ba4fa",
+                    "value": "MONEY4",
+                    "meaning": "Adequate short-term financial resilience to support  independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 88,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ec06c9fe-731c-11ea-826c-6660846ba4fa",
+                    "value": "MONEY5",
+                    "meaning": "Adequate ongoing financial resilience  to support  independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 89,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ec0b6e46-731c-11ea-826c-6660846ba4fa",
+                    "value": "PHYSICAL1",
+                    "meaning": "Significant negative impact of poor physical health on independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 90,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ec0cc2a0-731c-11ea-826c-6660846ba4fa",
+                    "value": "PHYSICAL2",
+                    "meaning": "Moderate negative impact of poor physical health on independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 91,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ec10c6f2-731c-11ea-826c-6660846ba4fa",
+                    "value": "PHYSICAL3",
+                    "meaning": "Progress towards improving physical health to support independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 92,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ec12862c-731c-11ea-826c-6660846ba4fa",
+                    "value": "PHYSICAL4",
+                    "meaning": "Sustained initial improvements in physical health to support independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 93,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ec14da26-731c-11ea-826c-6660846ba4fa",
+                    "value": "PHYSICAL5",
+                    "meaning": "Adequate ongoing physical health to support independence, participation and wellbeing",
+                    "value_meaning": null,
+                    "order": 94,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ec1687a4-731c-11ea-826c-6660846ba4fa",
+                    "value": "SERVICELISTENED1",
+                    "meaning": "Disagrees that the service listened to me and understood my issues",
+                    "value_meaning": null,
+                    "order": 95,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ec1a22ec-731c-11ea-826c-6660846ba4fa",
+                    "value": "SERVICELISTENED2",
+                    "meaning": "Tend to disagree that the service listened to me and understood my issues",
+                    "value_meaning": null,
+                    "order": 96,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ec1d5dcc-731c-11ea-826c-6660846ba4fa",
+                    "value": "SERVICELISTENED3",
+                    "meaning": "Neither agrees nor disagrees that the service listened to me and understood my issues",
+                    "value_meaning": null,
+                    "order": 97,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ec1e6884-731c-11ea-826c-6660846ba4fa",
+                    "value": "SERVICELISTENED4",
+                    "meaning": "Tends to agree that the service listened to me and understood my issues",
+                    "value_meaning": null,
+                    "order": 98,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ec209816-731c-11ea-826c-6660846ba4fa",
+                    "value": "SERVICELISTENED5",
+                    "meaning": "Agrees that the service listened to me and understood my issues",
+                    "value_meaning": null,
+                    "order": 99,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ec2578d6-731c-11ea-826c-6660846ba4fa",
+                    "value": "SERVICERECEIVED1",
+                    "meaning": "I am not satisfied with the services I have received",
+                    "value_meaning": null,
+                    "order": 100,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ec2789d2-731c-11ea-826c-6660846ba4fa",
+                    "value": "SERVICERECEIVED2",
+                    "meaning": "Tends to disagree that I was satisfied with the services I have received",
+                    "value_meaning": null,
+                    "order": 101,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ec2a0f40-731c-11ea-826c-6660846ba4fa",
+                    "value": "SERVICERECEIVED3",
+                    "meaning": "Neither agrees nor disagrees that the services listened to me and understood my issues",
+                    "value_meaning": null,
+                    "order": 102,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ec2b8726-731c-11ea-826c-6660846ba4fa",
+                    "value": "SERVICERECEIVED4",
+                    "meaning": "Tends to agree that I was satisfied with the services I have received",
+                    "value_meaning": null,
+                    "order": 103,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ec2eb270-731c-11ea-826c-6660846ba4fa",
+                    "value": "SERVICERECEIVED5",
+                    "meaning": "I am satisfied with the services I have received",
+                    "value_meaning": null,
+                    "order": 104,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ec316aa6-731c-11ea-826c-6660846ba4fa",
+                    "value": "SITUATIONIMPROVED1",
+                    "meaning": "Disagrees that I am better able to deal with my issues",
+                    "value_meaning": null,
+                    "order": 105,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ec34c9f8-731c-11ea-826c-6660846ba4fa",
+                    "value": "SITUATIONIMPROVED2",
+                    "meaning": "Tend to disagree that I am better able to deal with my issues",
+                    "value_meaning": null,
+                    "order": 106,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ec35d064-731c-11ea-826c-6660846ba4fa",
+                    "value": "SITUATIONIMPROVED3",
+                    "meaning": "Neither agrees nor disagrees that I am better able to deal with my issues",
+                    "value_meaning": null,
+                    "order": 107,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ec38ebc8-731c-11ea-826c-6660846ba4fa",
+                    "value": "SITUATIONIMPROVED4",
+                    "meaning": "Tends to agree that that I am better able to deal with my issues",
+                    "value_meaning": null,
+                    "order": 108,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ec3ab69c-731c-11ea-826c-6660846ba4fa",
+                    "value": "SITUATIONIMPROVED5",
+                    "meaning": "Agrees that that I am better able to deal with my issues",
+                    "value_meaning": null,
+                    "order": 109,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ec3ea39c-731c-11ea-826c-6660846ba4fa",
+                    "value": "SKILLS1",
+                    "meaning": "No progress in increasing skills in areas relevant to client’s needs and circumstances",
+                    "value_meaning": null,
+                    "order": 110,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ec3f9a22-731c-11ea-826c-6660846ba4fa",
+                    "value": "SKILLS2",
+                    "meaning": "Limited progress to date in achieving skills goals–but emerging engagement",
+                    "value_meaning": null,
+                    "order": 111,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ec4228dc-731c-11ea-826c-6660846ba4fa",
+                    "value": "SKILLS3",
+                    "meaning": "Limited progress to date in achieving skills goals–but strong engagement",
+                    "value_meaning": null,
+                    "order": 112,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ec43da6a-731c-11ea-826c-6660846ba4fa",
+                    "value": "SKILLS4",
+                    "meaning": "Moderate progress to date in achieving skills goals",
+                    "value_meaning": null,
+                    "order": 113,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                },
+                {
+                    "id": "ec46b74e-731c-11ea-826c-6660846ba4fa",
+                    "value": "SKILLS5",
+                    "meaning": "Full achievement of goals related to increasing skills in areas relevant to client’s needs and circumstances",
+                    "value_meaning": null,
+                    "order": 114,
+                    "start_date": "2014-07-01",
+                    "end_date": null
+                }
+            ],
+            "supplementaryvalue_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 50185,
+            "created": "2020-08-24T14:01:49.803230+10:00",
+            "modified": "2021-06-21T10:51:43.152494+10:00",
+            "uuid": "894906b4-e5be-11ea-83f5-0ab4fc2cae66",
+            "name": "Australian State or Territory Code A",
+            "definition": "A code set representing the Australian state or territory.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "data_type": "6c67be58-dc6a-11ea-b216-0a8620c9d3ec",
+            "format": "A",
+            "maximum_length": 1,
+            "unit_of_measure": null,
+            "conceptual_domain": null,
+            "classification_scheme": null,
+            "representation_class": 2,
+            "description": "",
+            "metadatareferencelink_set": [],
+            "permissiblevalue_set": [
+                {
+                    "id": "d7f9b42a-e5be-11ea-8870-02d18e12baf8",
+                    "value": "1",
+                    "meaning": "ACT",
+                    "value_meaning": null,
+                    "order": 1,
+                    "start_date": null,
+                    "end_date": null
+                },
+                {
+                    "id": "d7f9c104-e5be-11ea-8870-02d18e12baf8",
+                    "value": "2",
+                    "meaning": "NSW",
+                    "value_meaning": null,
+                    "order": 2,
+                    "start_date": null,
+                    "end_date": null
+                },
+                {
+                    "id": "d7f9cbc2-e5be-11ea-8870-02d18e12baf8",
+                    "value": "3",
+                    "meaning": "VIC",
+                    "value_meaning": null,
+                    "order": 3,
+                    "start_date": null,
+                    "end_date": null
+                },
+                {
+                    "id": "d7f9d644-e5be-11ea-8870-02d18e12baf8",
+                    "value": "4",
+                    "meaning": "QLD",
+                    "value_meaning": null,
+                    "order": 4,
+                    "start_date": null,
+                    "end_date": null
+                },
+                {
+                    "id": "d7f9e0a8-e5be-11ea-8870-02d18e12baf8",
+                    "value": "5",
+                    "meaning": "SA",
+                    "value_meaning": null,
+                    "order": 5,
+                    "start_date": null,
+                    "end_date": null
+                },
+                {
+                    "id": "d7f9ead0-e5be-11ea-8870-02d18e12baf8",
+                    "value": "6",
+                    "meaning": "WA",
+                    "value_meaning": null,
+                    "order": 6,
+                    "start_date": null,
+                    "end_date": null
+                },
+                {
+                    "id": "d7f9f732-e5be-11ea-8870-02d18e12baf8",
+                    "value": "7",
+                    "meaning": "TAS",
+                    "value_meaning": null,
+                    "order": 7,
+                    "start_date": null,
+                    "end_date": null
+                },
+                {
+                    "id": "d7fa01aa-e5be-11ea-8870-02d18e12baf8",
+                    "value": "8",
+                    "meaning": "NT",
+                    "value_meaning": null,
+                    "order": 8,
+                    "start_date": null,
+                    "end_date": null
+                },
+                {
+                    "id": "d7fa0be6-e5be-11ea-8870-02d18e12baf8",
+                    "value": "9",
+                    "meaning": "Unknown",
+                    "value_meaning": null,
+                    "order": 9,
+                    "start_date": null,
+                    "end_date": null
+                },
+                {
+                    "id": "d7fa1c4e-e5be-11ea-8870-02d18e12baf8",
+                    "value": "A",
+                    "meaning": "All States",
+                    "value_meaning": null,
+                    "order": 10,
+                    "start_date": null,
+                    "end_date": null
+                }
+            ],
+            "supplementaryvalue_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 51086,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 51087,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 51088,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 13257,
+            "created": "2020-08-12T17:15:56.034626+10:00",
+            "modified": "2021-06-21T10:51:43.765181+10:00",
+            "uuid": "aa05ea4a-dc6b-11ea-b735-022da9221366",
+            "name": "Medicare Safety Net Event Source Code X(6)",
+            "definition": "A code set that represents the source of a Medicare Safety Net event.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 126,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "data_type": "6c35bd4a-dc6a-11ea-906f-062f7acd21ca",
+            "format": "X(6)",
+            "maximum_length": 6,
+            "unit_of_measure": null,
+            "conceptual_domain": null,
+            "classification_scheme": null,
+            "representation_class": 2,
+            "description": "",
+            "metadatareferencelink_set": [],
+            "permissiblevalue_set": [
+                {
+                    "id": "394b5ed8-390f-11eb-9f6a-0a2d6a1b61de",
+                    "value": "CENTRE",
+                    "meaning": "Contact Centre",
+                    "value_meaning": null,
+                    "order": 0,
+                    "start_date": "2020-11-13",
+                    "end_date": null
+                },
+                {
+                    "id": "12f27fb8-2ed4-11eb-ab1a-06c37c6d401e",
+                    "value": "FAX",
+                    "meaning": "Facsimile (FAX)",
+                    "value_meaning": null,
+                    "order": 1,
+                    "start_date": "2020-11-13",
+                    "end_date": null
+                },
+                {
+                    "id": "12f2a8d0-2ed4-11eb-ab1a-06c37c6d401e",
+                    "value": "OTH",
+                    "meaning": "Other",
+                    "value_meaning": null,
+                    "order": 2,
+                    "start_date": "2020-11-13",
+                    "end_date": null
+                },
+                {
+                    "id": "f215de84-2537-11eb-9846-0260269b3cbc",
+                    "value": "PHONE",
+                    "meaning": "Phone Call",
+                    "value_meaning": null,
+                    "order": 3,
+                    "start_date": "2020-11-13",
+                    "end_date": null
+                },
+                {
+                    "id": "12f28fda-2ed4-11eb-ab1a-06c37c6d401e",
+                    "value": "POST",
+                    "meaning": "By Post",
+                    "value_meaning": null,
+                    "order": 4,
+                    "start_date": "2020-11-13",
+                    "end_date": null
+                },
+                {
+                    "id": "12f29cbe-2ed4-11eb-ab1a-06c37c6d401e",
+                    "value": "SMS",
+                    "meaning": "Short Message Service (SMS)",
+                    "value_meaning": null,
+                    "order": 5,
+                    "start_date": "2020-11-13",
+                    "end_date": null
+                },
+                {
+                    "id": "f2159f14-2537-11eb-9846-0260269b3cbc",
+                    "value": "MSNCDR",
+                    "meaning": "CDMS",
+                    "value_meaning": null,
+                    "order": 6,
+                    "start_date": "2020-11-13",
+                    "end_date": null
+                },
+                {
+                    "id": "f215b774-2537-11eb-9846-0260269b3cbc",
+                    "value": "MSNETL",
+                    "meaning": "Migrated Data",
+                    "value_meaning": null,
+                    "order": 8,
+                    "start_date": "2020-11-13",
+                    "end_date": null
+                },
+                {
+                    "id": "f215d22c-2537-11eb-9846-0260269b3cbc",
+                    "value": "MSNMOA",
+                    "meaning": "Medicare Online",
+                    "value_meaning": null,
+                    "order": 9,
+                    "start_date": "2020-11-13",
+                    "end_date": null
+                },
+                {
+                    "id": "f215c386-2537-11eb-9846-0260269b3cbc",
+                    "value": "MSNEXP",
+                    "meaning": "Medicare Express Application",
+                    "value_meaning": null,
+                    "order": 10,
+                    "start_date": "2020-11-13",
+                    "end_date": null
+                }
+            ],
+            "supplementaryvalue_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 59524,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 59525,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 59526,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "aa11d576-dc6b-11ea-b735-022da9221366",
+                    "namespace": 4,
+                    "identifier": "72404",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 13330,
+            "created": "2020-08-12T17:15:59.572688+10:00",
+            "modified": "2021-06-17T10:38:01.340663+10:00",
+            "uuid": "ac21c632-dc6b-11ea-8a29-062f7acd21ca",
+            "name": "Logical Delete Reason Code X(6)",
+            "definition": "A code set representing a reason something has been logically deleted.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "data_type": "6c35bd4a-dc6a-11ea-906f-062f7acd21ca",
+            "format": "X(6)",
+            "maximum_length": 6,
+            "unit_of_measure": null,
+            "conceptual_domain": null,
+            "classification_scheme": null,
+            "representation_class": 2,
+            "description": "",
+            "metadatareferencelink_set": [],
+            "permissiblevalue_set": [
+                {
+                    "id": "68dae44c-2538-11eb-a6b6-0a118ef11052",
+                    "value": "-",
+                    "meaning": "Record not deleted",
+                    "value_meaning": null,
+                    "order": 0,
+                    "start_date": "2020-11-13",
+                    "end_date": null
+                },
+                {
+                    "id": "68daf63a-2538-11eb-a6b6-0a118ef11052",
+                    "value": "A",
+                    "meaning": "Duplicate record",
+                    "value_meaning": null,
+                    "order": 1,
+                    "start_date": "2020-11-13",
+                    "end_date": null
+                },
+                {
+                    "id": "68db03d2-2538-11eb-a6b6-0a118ef11052",
+                    "value": "B",
+                    "meaning": "Created in error",
+                    "value_meaning": null,
+                    "order": 2,
+                    "start_date": "2020-11-13",
+                    "end_date": null
+                },
+                {
+                    "id": "68db10ca-2538-11eb-a6b6-0a118ef11052",
+                    "value": "C",
+                    "meaning": "Identified from quality control",
+                    "value_meaning": null,
+                    "order": 3,
+                    "start_date": "2020-11-13",
+                    "end_date": null
+                }
+            ],
+            "supplementaryvalue_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 59527,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 59528,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 59529,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "ac2e8df4-dc6b-11ea-8a29-062f7acd21ca",
+                    "namespace": 4,
+                    "identifier": "73446",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 52040,
+            "created": "2020-09-28T11:06:37.105340+10:00",
+            "modified": "2020-09-30T13:51:13.135402+10:00",
+            "uuid": "dbafe17e-0126-11eb-b13e-0a781a7f93d4",
+            "name": "Date Profile Code X(12)",
+            "definition": "A code set that represents a date profile.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "data_type": "6c35bd4a-dc6a-11ea-906f-062f7acd21ca",
+            "format": "X(12)",
+            "maximum_length": 12,
+            "unit_of_measure": null,
+            "conceptual_domain": null,
+            "classification_scheme": null,
+            "representation_class": 2,
+            "description": "",
+            "metadatareferencelink_set": [],
+            "permissiblevalue_set": [],
+            "supplementaryvalue_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 54518,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 54519,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 54520,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 52045,
+            "created": "2020-09-28T11:19:57.556432+10:00",
+            "modified": "2020-09-30T13:50:43.840798+10:00",
+            "uuid": "b8cb06dc-0128-11eb-94e0-0658d0197f68",
+            "name": "Action Profile Code X(30)",
+            "definition": "A code set that represents a set of rules used to define an action.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "data_type": "6c35bd4a-dc6a-11ea-906f-062f7acd21ca",
+            "format": "X(30)",
+            "maximum_length": 30,
+            "unit_of_measure": null,
+            "conceptual_domain": null,
+            "classification_scheme": null,
+            "representation_class": 2,
+            "description": "",
+            "metadatareferencelink_set": [],
+            "permissiblevalue_set": [],
+            "supplementaryvalue_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 54521,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 54522,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 54523,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 12193,
+            "created": "2020-08-12T17:15:10.407712+10:00",
+            "modified": "2021-06-17T10:38:02.722758+10:00",
+            "uuid": "8ed3cd1e-dc6b-11ea-b1f5-0a8620c9d3ec",
+            "name": "Self Deemed Code",
+            "definition": "",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "data_type": "6c67be58-dc6a-11ea-b216-0a8620c9d3ec",
+            "format": null,
+            "maximum_length": null,
+            "unit_of_measure": null,
+            "conceptual_domain": null,
+            "classification_scheme": null,
+            "representation_class": 2,
+            "description": "",
+            "metadatareferencelink_set": [],
+            "permissiblevalue_set": [
+                {
+                    "id": "8ef29abe-dc6b-11ea-b1f5-0a8620c9d3ec",
+                    "value": "SD",
+                    "meaning": "Self Deemed",
+                    "value_meaning": null,
+                    "order": 0,
+                    "start_date": "2018-08-24",
+                    "end_date": "9999-09-09"
+                },
+                {
+                    "id": "8ef2a158-dc6b-11ea-b1f5-0a8620c9d3ec",
+                    "value": "SS",
+                    "meaning": "Substituted Service",
+                    "value_meaning": null,
+                    "order": 1,
+                    "start_date": "2018-08-24",
+                    "end_date": "9999-09-09"
+                },
+                {
+                    "id": "8ef2a57c-dc6b-11ea-b1f5-0a8620c9d3ec",
+                    "value": "N",
+                    "meaning": "Neither a self deemed or subsituted service",
+                    "value_meaning": null,
+                    "order": 2,
+                    "start_date": "2018-08-24",
+                    "end_date": "9999-09-09"
+                }
+            ],
+            "supplementaryvalue_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "8edf6db8-dc6b-11ea-b1f5-0a8620c9d3ec",
+                    "namespace": 4,
+                    "identifier": "59541",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 52049,
+            "created": "2020-09-28T11:29:09.607459+10:00",
+            "modified": "2020-09-30T13:49:43.577704+10:00",
+            "uuid": "01d753de-012a-11eb-b13e-0a781a7f93d4",
+            "name": "Cancellation Date Procedure Code X(4)",
+            "definition": "A code set that represents a set of rules used to calculate a cancellation date.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "data_type": "6c35bd4a-dc6a-11ea-906f-062f7acd21ca",
+            "format": "X(4)",
+            "maximum_length": 4,
+            "unit_of_measure": null,
+            "conceptual_domain": null,
+            "classification_scheme": null,
+            "representation_class": 2,
+            "description": "",
+            "metadatareferencelink_set": [],
+            "permissiblevalue_set": [],
+            "supplementaryvalue_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 54530,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 54531,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 54532,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 9924,
+            "created": "2020-08-12T17:13:24.017063+10:00",
+            "modified": "2021-06-17T10:38:04.642871+10:00",
+            "uuid": "4f69ded4-dc6b-11ea-b735-022da9221366",
+            "name": "Event Type Reason DETYA Code XXX",
+            "definition": "A code set representing the DETYA event type reason.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "Column 1 = Referral Event code the reason is valid for (RFL.DETYA.EVNT.TYPE.CODE)\nColumn 2 = AEM,Advanced English Migrant Prgrmme (referral) \nColumn 3 = CRC,Career Counselling (referral)\nColumn 4 = GCP,Green Corps (referral)\nColumn 5 = JPE,Job Placement E",
+            "data_type": "6c35bd4a-dc6a-11ea-906f-062f7acd21ca",
+            "format": "XXX",
+            "maximum_length": 3,
+            "unit_of_measure": null,
+            "conceptual_domain": null,
+            "classification_scheme": null,
+            "representation_class": 2,
+            "description": "",
+            "metadatareferencelink_set": [],
+            "permissiblevalue_set": [
+                {
+                    "id": "4f83cc7c-dc6b-11ea-b735-022da9221366",
+                    "value": "ACO",
+                    "meaning": "AWAITING CONTACT",
+                    "value_meaning": null,
+                    "order": 0,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f83d23a-dc6b-11ea-b735-022da9221366",
+                    "value": "AEO",
+                    "meaning": "EMPLYMNT OUTCOME ACHIEVED",
+                    "value_meaning": null,
+                    "order": 1,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f83d672-dc6b-11ea-b735-022da9221366",
+                    "value": "AEO",
+                    "meaning": "EMPLYMNT OUTCOME ACHIEVED",
+                    "value_meaning": null,
+                    "order": 2,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f83da78-dc6b-11ea-b735-022da9221366",
+                    "value": "CAR",
+                    "meaning": "CARING FOR",
+                    "value_meaning": null,
+                    "order": 3,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f83de74-dc6b-11ea-b735-022da9221366",
+                    "value": "CBH",
+                    "meaning": "CANC. BOOKING-HEALTH",
+                    "value_meaning": null,
+                    "order": 4,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f83e270-dc6b-11ea-b735-022da9221366",
+                    "value": "CBP",
+                    "meaning": "CANC. BOOKING-PERSONAL",
+                    "value_meaning": null,
+                    "order": 5,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f83e63a-dc6b-11ea-b735-022da9221366",
+                    "value": "CBS",
+                    "meaning": "CANCELLED BOOKING-IN STDY",
+                    "value_meaning": null,
+                    "order": 6,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f83ea04-dc6b-11ea-b735-022da9221366",
+                    "value": "CBW",
+                    "meaning": "CANC. BOOKING-WORK",
+                    "value_meaning": null,
+                    "order": 7,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f83edec-dc6b-11ea-b735-022da9221366",
+                    "value": "CCP",
+                    "meaning": "CANNOT CONTCT PARTICIPANT",
+                    "value_meaning": null,
+                    "order": 8,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f83f1de-dc6b-11ea-b735-022da9221366",
+                    "value": "CCP",
+                    "meaning": "CANNOT CONTCT PARTICIPANT",
+                    "value_meaning": null,
+                    "order": 9,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f83f5a8-dc6b-11ea-b735-022da9221366",
+                    "value": "CDC",
+                    "meaning": "CUSTOMER DECLINED",
+                    "value_meaning": null,
+                    "order": 10,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f83f968-dc6b-11ea-b735-022da9221366",
+                    "value": "CLP",
+                    "meaning": "CLIENT PREFERENCE",
+                    "value_meaning": null,
+                    "order": 11,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f83fd3c-dc6b-11ea-b735-022da9221366",
+                    "value": "COM",
+                    "meaning": "COMPLETED PROGRAMME",
+                    "value_meaning": null,
+                    "order": 12,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f840110-dc6b-11ea-b735-022da9221366",
+                    "value": "CPC",
+                    "meaning": "CHNG PERSONAL CIRCUMSTNCE",
+                    "value_meaning": null,
+                    "order": 13,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f8404d0-dc6b-11ea-b735-022da9221366",
+                    "value": "CWD",
+                    "meaning": "CUSTOMER WITHDRAWN",
+                    "value_meaning": null,
+                    "order": 14,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f84089a-dc6b-11ea-b735-022da9221366",
+                    "value": "DEA",
+                    "meaning": "DECEASED",
+                    "value_meaning": null,
+                    "order": 15,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f840c6e-dc6b-11ea-b735-022da9221366",
+                    "value": "DIS",
+                    "meaning": "SIGNIFICANT DISABILITY",
+                    "value_meaning": null,
+                    "order": 16,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f84104c-dc6b-11ea-b735-022da9221366",
+                    "value": "DNA",
+                    "meaning": "DID NOT ATTEND ASSESSMENT",
+                    "value_meaning": null,
+                    "order": 17,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f8413f8-dc6b-11ea-b735-022da9221366",
+                    "value": "DNB",
+                    "meaning": "DNA AND NOT REBOOKED",
+                    "value_meaning": null,
+                    "order": 18,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f8417c2-dc6b-11ea-b735-022da9221366",
+                    "value": "ELC",
+                    "meaning": "ACCESS PROG ELIGIB CHECK",
+                    "value_meaning": null,
+                    "order": 19,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f841b8c-dc6b-11ea-b735-022da9221366",
+                    "value": "ELL",
+                    "meaning": "LLNP ELIGIBILITY CHECK",
+                    "value_meaning": null,
+                    "order": 20,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f841f4c-dc6b-11ea-b735-022da9221366",
+                    "value": "ELU",
+                    "meaning": "ELIG CHECK UNSUITABLE",
+                    "value_meaning": null,
+                    "order": 21,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f842348-dc6b-11ea-b735-022da9221366",
+                    "value": "ETS",
+                    "meaning": "EXPECTED TO START",
+                    "value_meaning": null,
+                    "order": 22,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f84271c-dc6b-11ea-b735-022da9221366",
+                    "value": "FAM",
+                    "meaning": "FAMILY REASONS",
+                    "value_meaning": null,
+                    "order": 23,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f84c906-dc6b-11ea-b735-022da9221366",
+                    "value": "FTA",
+                    "meaning": "FAILED TO ATTEND",
+                    "value_meaning": null,
+                    "order": 24,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f84cd98-dc6b-11ea-b735-022da9221366",
+                    "value": "FTA",
+                    "meaning": "FAILED TO ATTEND",
+                    "value_meaning": null,
+                    "order": 25,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f84d19e-dc6b-11ea-b735-022da9221366",
+                    "value": "HLT",
+                    "meaning": "HEALTH REASONS",
+                    "value_meaning": null,
+                    "order": 26,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f84d57c-dc6b-11ea-b735-022da9221366",
+                    "value": "HLT",
+                    "meaning": "HEALTH REASONS",
+                    "value_meaning": null,
+                    "order": 27,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f84d946-dc6b-11ea-b735-022da9221366",
+                    "value": "ILL",
+                    "meaning": "ILLNESS/INCAPACITY",
+                    "value_meaning": null,
+                    "order": 28,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f84dd10-dc6b-11ea-b735-022da9221366",
+                    "value": "ISP",
+                    "meaning": "PERSONAL ISSUE",
+                    "value_meaning": null,
+                    "order": 29,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f84e0b2-dc6b-11ea-b735-022da9221366",
+                    "value": "ISP",
+                    "meaning": "PERSONAL ISSUE",
+                    "value_meaning": null,
+                    "order": 30,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f84e49a-dc6b-11ea-b735-022da9221366",
+                    "value": "IST",
+                    "meaning": "TRANSPORT ISSUE",
+                    "value_meaning": null,
+                    "order": 31,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f84e878-dc6b-11ea-b735-022da9221366",
+                    "value": "IST",
+                    "meaning": "TRANSPORT ISSUE",
+                    "value_meaning": null,
+                    "order": 32,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f84ec38-dc6b-11ea-b735-022da9221366",
+                    "value": "ISV",
+                    "meaning": "PROVIDER ISSUE",
+                    "value_meaning": null,
+                    "order": 33,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f84eff8-dc6b-11ea-b735-022da9221366",
+                    "value": "JNM",
+                    "meaning": "JOB NETWORK REFERRAL",
+                    "value_meaning": null,
+                    "order": 34,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f84f3a4-dc6b-11ea-b735-022da9221366",
+                    "value": "MFR",
+                    "meaning": "MOVED FROM REGION",
+                    "value_meaning": null,
+                    "order": 35,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f84f75a-dc6b-11ea-b735-022da9221366",
+                    "value": "MPC",
+                    "meaning": "MAJOR PERSONAL CRISIS",
+                    "value_meaning": null,
+                    "order": 36,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f84fb10-dc6b-11ea-b735-022da9221366",
+                    "value": "NAT",
+                    "meaning": "NATURAL DISASTER",
+                    "value_meaning": null,
+                    "order": 37,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f84feda-dc6b-11ea-b735-022da9221366",
+                    "value": "NLP",
+                    "meaning": "COURSE NO LONGER PROVIDED",
+                    "value_meaning": null,
+                    "order": 38,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f85029a-dc6b-11ea-b735-022da9221366",
+                    "value": "NOS",
+                    "meaning": "NOT SUITABLE",
+                    "value_meaning": null,
+                    "order": 39,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f85065a-dc6b-11ea-b735-022da9221366",
+                    "value": "NOV",
+                    "meaning": "NO VACANCY",
+                    "value_meaning": null,
+                    "order": 40,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f850a1a-dc6b-11ea-b735-022da9221366",
+                    "value": "NPA",
+                    "meaning": "NOT PARTICIPATING",
+                    "value_meaning": null,
+                    "order": 41,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f850de4-dc6b-11ea-b735-022da9221366",
+                    "value": "NRS",
+                    "meaning": "LANG/LIT/NUM SUCCESSFUL",
+                    "value_meaning": null,
+                    "order": 42,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f8511ae-dc6b-11ea-b735-022da9221366",
+                    "value": "NSA",
+                    "meaning": "NO SERVICE AVAILABLE",
+                    "value_meaning": null,
+                    "order": 43,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f851578-dc6b-11ea-b735-022da9221366",
+                    "value": "NSO",
+                    "meaning": "LANGLIT/NUM UNSUCCESSFUL",
+                    "value_meaning": null,
+                    "order": 44,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f851924-dc6b-11ea-b735-022da9221366",
+                    "value": "NST",
+                    "meaning": "DID NOT START PROGRAMME",
+                    "value_meaning": null,
+                    "order": 45,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f851ce4-dc6b-11ea-b735-022da9221366",
+                    "value": "OTE",
+                    "meaning": "OTHER TRAINING/EDUCATION",
+                    "value_meaning": null,
+                    "order": 46,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f8520ae-dc6b-11ea-b735-022da9221366",
+                    "value": "OTE",
+                    "meaning": "OTHER TRAINING/EDUCATION",
+                    "value_meaning": null,
+                    "order": 47,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f852464-dc6b-11ea-b735-022da9221366",
+                    "value": "PAA",
+                    "meaning": "PAT APPT. ALLOCATED",
+                    "value_meaning": null,
+                    "order": 48,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f852810-dc6b-11ea-b735-022da9221366",
+                    "value": "PAN",
+                    "meaning": "PAT APPT. NOT ALLOCATED",
+                    "value_meaning": null,
+                    "order": 49,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f852bda-dc6b-11ea-b735-022da9221366",
+                    "value": "PFA",
+                    "meaning": "PFWA APPT. ALLOCATED",
+                    "value_meaning": null,
+                    "order": 50,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f852f9a-dc6b-11ea-b735-022da9221366",
+                    "value": "PFN",
+                    "meaning": "PFWA APPT. NOT ALLOCATED",
+                    "value_meaning": null,
+                    "order": 51,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f853364-dc6b-11ea-b735-022da9221366",
+                    "value": "PRC",
+                    "meaning": "PROVIDER CLOSURE",
+                    "value_meaning": null,
+                    "order": 52,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f853724-dc6b-11ea-b735-022da9221366",
+                    "value": "PRE",
+                    "meaning": "PRE-TRAINING ASSESSMENT",
+                    "value_meaning": null,
+                    "order": 53,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f853ad0-dc6b-11ea-b735-022da9221366",
+                    "value": "PTU",
+                    "meaning": "PARTICIPANT UNSUITABLE",
+                    "value_meaning": null,
+                    "order": 54,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f853e90-dc6b-11ea-b735-022da9221366",
+                    "value": "REV",
+                    "meaning": "FINALISED - AUTO ONLY",
+                    "value_meaning": null,
+                    "order": 55,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f85425a-dc6b-11ea-b735-022da9221366",
+                    "value": "SDA",
+                    "meaning": "DEST ADVICE",
+                    "value_meaning": null,
+                    "order": 56,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f85462e-dc6b-11ea-b735-022da9221366",
+                    "value": "STC",
+                    "meaning": "STARTED PROGRAMME",
+                    "value_meaning": null,
+                    "order": 57,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f854b74-dc6b-11ea-b735-022da9221366",
+                    "value": "STC",
+                    "meaning": "STARTED PROGRAMME",
+                    "value_meaning": null,
+                    "order": 58,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f8551f0-dc6b-11ea-b735-022da9221366",
+                    "value": "TRA",
+                    "meaning": "TRAVEL DISTANCE",
+                    "value_meaning": null,
+                    "order": 59,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f856816-dc6b-11ea-b735-022da9221366",
+                    "value": "UBH",
+                    "meaning": "UNACCEPTABLE BEHAVIOUR",
+                    "value_meaning": null,
+                    "order": 60,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f856e6a-dc6b-11ea-b735-022da9221366",
+                    "value": "UBH",
+                    "meaning": "UNACCEPTABLE BEHAVIOUR",
+                    "value_meaning": null,
+                    "order": 61,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f857324-dc6b-11ea-b735-022da9221366",
+                    "value": "YCI",
+                    "meaning": "YOUTH CONNCTNS INELIGIBLE",
+                    "value_meaning": null,
+                    "order": 62,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "4f857702-dc6b-11ea-b735-022da9221366",
+                    "value": "YPI",
+                    "meaning": "YOUTH PATHWAYS INELIGIBLE",
+                    "value_meaning": null,
+                    "order": 63,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                }
+            ],
+            "supplementaryvalue_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 2080,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": "RFL.DETYA.EVNT.TYPE.RSN.CODE"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "4f7961b0-dc6b-11ea-b735-022da9221366",
+                    "namespace": 4,
+                    "identifier": "25102",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 10439,
+            "created": "2020-08-12T17:13:50.376752+10:00",
+            "modified": "2021-06-17T10:38:04.740641+10:00",
+            "uuid": "5f200a2e-dc6b-11ea-ac21-02b137f3fb1e",
+            "name": "DSP participation plan channel code XXX",
+            "definition": "The codeset representing the DSP Participation Plan channel code.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "data_type": "6c35bd4a-dc6a-11ea-906f-062f7acd21ca",
+            "format": "XXX",
+            "maximum_length": 3,
+            "unit_of_measure": null,
+            "conceptual_domain": null,
+            "classification_scheme": null,
+            "representation_class": 2,
+            "description": "",
+            "metadatareferencelink_set": [],
+            "permissiblevalue_set": [
+                {
+                    "id": "5f31c34a-dc6b-11ea-ac21-02b137f3fb1e",
+                    "value": "AUT",
+                    "meaning": "Automatic Review",
+                    "value_meaning": null,
+                    "order": 0,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "5f31c73c-dc6b-11ea-ac21-02b137f3fb1e",
+                    "value": "F2F",
+                    "meaning": "Face to Face",
+                    "value_meaning": null,
+                    "order": 1,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "5f31c9b2-dc6b-11ea-ac21-02b137f3fb1e",
+                    "value": "IVR",
+                    "meaning": "Interactive Voice Response",
+                    "value_meaning": null,
+                    "order": 2,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "5f31cbe2-dc6b-11ea-ac21-02b137f3fb1e",
+                    "value": "MAI",
+                    "meaning": "Mail",
+                    "value_meaning": null,
+                    "order": 3,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "5f31cdfe-dc6b-11ea-ac21-02b137f3fb1e",
+                    "value": "PHO",
+                    "meaning": "Phone",
+                    "value_meaning": null,
+                    "order": 4,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "5f31d006-dc6b-11ea-ac21-02b137f3fb1e",
+                    "value": "WEB",
+                    "meaning": "Self Service Online",
+                    "value_meaning": null,
+                    "order": 5,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                }
+            ],
+            "supplementaryvalue_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 2560,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": "WAP.DPI.PLAN.CHNL.CODE"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "5f290368-dc6b-11ea-ac21-02b137f3fb1e",
+                    "namespace": 4,
+                    "identifier": "25646",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 11698,
+            "created": "2020-08-12T17:14:48.271324+10:00",
+            "modified": "2021-06-17T10:38:04.816908+10:00",
+            "uuid": "81a20da4-dc6b-11ea-ac21-02b137f3fb1e",
+            "name": "Offset Type Code",
+            "definition": "Specifies a type of offset used to amend an adjustment calculated by the Adjustment Handler. \n\nOffsetting is performed by program #ADJOFF. \n\nOnly valid value is currently DMN - to indicate an offset against and undetermined debt.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "data_type": "6c35bd4a-dc6a-11ea-906f-062f7acd21ca",
+            "format": "XXX",
+            "maximum_length": 3,
+            "unit_of_measure": null,
+            "conceptual_domain": null,
+            "classification_scheme": null,
+            "representation_class": 2,
+            "description": "",
+            "metadatareferencelink_set": [],
+            "permissiblevalue_set": [
+                {
+                    "id": "81bb6c72-dc6b-11ea-ac21-02b137f3fb1e",
+                    "value": "ACR",
+                    "meaning": "RA only debt offset",
+                    "value_meaning": null,
+                    "order": 0,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "81bb71a4-dc6b-11ea-ac21-02b137f3fb1e",
+                    "value": "CAN",
+                    "meaning": "Cancellation debt offset",
+                    "value_meaning": null,
+                    "order": 1,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "81bb751e-dc6b-11ea-ac21-02b137f3fb1e",
+                    "value": "DMN",
+                    "meaning": "Offset against undetermined debt",
+                    "value_meaning": null,
+                    "order": 2,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "81bb7884-dc6b-11ea-ac21-02b137f3fb1e",
+                    "value": "DVA",
+                    "meaning": "DVA Clearance debt offset",
+                    "value_meaning": null,
+                    "order": 3,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "81bb7c30-dc6b-11ea-ac21-02b137f3fb1e",
+                    "value": "EAN",
+                    "meaning": "Earnings only debt offset",
+                    "value_meaning": null,
+                    "order": 4,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "81bb7ff0-dc6b-11ea-ac21-02b137f3fb1e",
+                    "value": "LLN",
+                    "meaning": "Language, Literacy, Numeracy debt offset",
+                    "value_meaning": null,
+                    "order": 5,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "81bb837e-dc6b-11ea-ac21-02b137f3fb1e",
+                    "value": "NBA",
+                    "meaning": "Newborn Supplement additional debt offset",
+                    "value_meaning": null,
+                    "order": 6,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "81bb8734-dc6b-11ea-ac21-02b137f3fb1e",
+                    "value": "NBS",
+                    "meaning": "Newborn Supplement adjustment offset",
+                    "value_meaning": null,
+                    "order": 7,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "81bb8cc0-dc6b-11ea-ac21-02b137f3fb1e",
+                    "value": "ROA",
+                    "meaning": "Rent Assistance adjustment offset",
+                    "value_meaning": null,
+                    "order": 8,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "81bb90e4-dc6b-11ea-ac21-02b137f3fb1e",
+                    "value": "SBO",
+                    "meaning": "Stillborn Baby debt offset",
+                    "value_meaning": null,
+                    "order": 9,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "81bb9490-dc6b-11ea-ac21-02b137f3fb1e",
+                    "value": "SCO",
+                    "meaning": "Scholarship debt offset",
+                    "value_meaning": null,
+                    "order": 10,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "81bb9828-dc6b-11ea-ac21-02b137f3fb1e",
+                    "value": "SLO",
+                    "meaning": "Scholarship loan debt offset",
+                    "value_meaning": null,
+                    "order": 11,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "81bb9bc0-dc6b-11ea-ac21-02b137f3fb1e",
+                    "value": "WSE",
+                    "meaning": "Wage Subsidy debt offset",
+                    "value_meaning": null,
+                    "order": 12,
+                    "start_date": "2016-12-14",
+                    "end_date": null
+                },
+                {
+                    "id": "81bb9f44-dc6b-11ea-ac21-02b137f3fb1e",
+                    "value": "EIM",
+                    "meaning": "Employment Income Matching debt offset",
+                    "value_meaning": null,
+                    "order": 13,
+                    "start_date": "2017-02-06",
+                    "end_date": null
+                },
+                {
+                    "id": "81bba2d2-dc6b-11ea-ac21-02b137f3fb1e",
+                    "value": "XCO",
+                    "meaning": "Cross Cluster Offset",
+                    "value_meaning": null,
+                    "order": 14,
+                    "start_date": "2017-02-06",
+                    "end_date": null
+                }
+            ],
+            "supplementaryvalue_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 3818,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": "Offset Type Code"
+                },
+                {
+                    "id": 3820,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": "ASD.OFFSET.TYPE.CODE"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "81b0425c-dc6b-11ea-ac21-02b137f3fb1e",
+                    "namespace": 4,
+                    "identifier": "27044",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 53869,
+            "created": "2020-11-26T16:23:46.920554+11:00",
+            "modified": "2020-11-26T16:24:52.812947+11:00",
+            "uuid": "8ef21636-2fa7-11eb-ab1a-06c37c6d401e",
+            "name": "Automatic Action Type Code XXX",
+            "definition": "The code set that represents a type of automatic action.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "data_type": "6c35bd4a-dc6a-11ea-906f-062f7acd21ca",
+            "format": "XXX",
+            "maximum_length": 3,
+            "unit_of_measure": null,
+            "conceptual_domain": null,
+            "classification_scheme": null,
+            "representation_class": 2,
+            "description": "",
+            "metadatareferencelink_set": [],
+            "permissiblevalue_set": [],
+            "supplementaryvalue_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 60813,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 60814,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 60815,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 52057,
+            "created": "2020-09-28T11:45:26.532959+10:00",
+            "modified": "2020-09-30T13:55:32.031865+10:00",
+            "uuid": "482253be-012c-11eb-94e0-0658d0197f68",
+            "name": "Alternative Identifier Profile Code X(30)",
+            "definition": "A code set that represents a set of rules used to establish an alternative identifier.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "data_type": "6c35bd4a-dc6a-11ea-906f-062f7acd21ca",
+            "format": "X(30)",
+            "maximum_length": 30,
+            "unit_of_measure": null,
+            "conceptual_domain": null,
+            "classification_scheme": null,
+            "representation_class": 2,
+            "description": "",
+            "metadatareferencelink_set": [],
+            "permissiblevalue_set": [],
+            "supplementaryvalue_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 54524,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 54525,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 54526,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 50200,
+            "created": "2020-08-24T15:24:40.187836+10:00",
+            "modified": "2021-06-22T14:15:12.936115+10:00",
+            "uuid": "1bdd876a-e5ca-11ea-83f5-0ab4fc2cae66",
+            "name": "Restriction Response Type Code X(20)",
+            "definition": "A code set that represents a type of response in relation to a query about a restriction.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 96,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "data_type": "6c35bd4a-dc6a-11ea-906f-062f7acd21ca",
+            "format": "X(20)",
+            "maximum_length": 20,
+            "unit_of_measure": null,
+            "conceptual_domain": null,
+            "classification_scheme": null,
+            "representation_class": null,
+            "description": "",
+            "metadatareferencelink_set": [],
+            "permissiblevalue_set": [],
+            "supplementaryvalue_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 51132,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 51133,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 51134,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 13355,
+            "created": "2020-08-12T17:16:00.408432+10:00",
+            "modified": "2021-06-21T10:51:47.982272+10:00",
+            "uuid": "aca14c72-dc6b-11ea-b216-0a8620c9d3ec",
+            "name": "Workforce Incentive Program (WIP) - Doctor Stream Payment Calculation Type Code X(6)",
+            "definition": "A code set that represents a type or payment calculation under the Workforce Incentive Program (WIP) - Doctor Stream.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 78,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "data_type": "6c37e35e-dc6a-11ea-b1f5-0a8620c9d3ec",
+            "format": "X(6)",
+            "maximum_length": 6,
+            "unit_of_measure": null,
+            "conceptual_domain": null,
+            "classification_scheme": null,
+            "representation_class": 2,
+            "description": "",
+            "metadatareferencelink_set": [],
+            "permissiblevalue_set": [
+                {
+                    "id": "a999c83c-f25b-11ea-8706-064a2db31438",
+                    "value": "AUTO",
+                    "meaning": "",
+                    "value_meaning": null,
+                    "order": 0,
+                    "start_date": null,
+                    "end_date": null
+                },
+                {
+                    "id": "a999d2aa-f25b-11ea-8706-064a2db31438",
+                    "value": "MAN",
+                    "meaning": "",
+                    "value_meaning": null,
+                    "order": 1,
+                    "start_date": null,
+                    "end_date": null
+                }
+            ],
+            "supplementaryvalue_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 4073,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": "Rural Procedural Grants Program (RPGP) Payment Calculation Type Code X"
+                },
+                {
+                    "id": 52403,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 52404,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "acb29edc-dc6b-11ea-b216-0a8620c9d3ec",
+                    "namespace": 4,
+                    "identifier": "73703",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 13152,
+            "created": "2020-08-12T17:15:51.709126+10:00",
+            "modified": "2021-06-17T10:38:08.382244+10:00",
+            "uuid": "a771e3ba-dc6b-11ea-8802-062f7acd21ca",
+            "name": "Primary Body Function or Structure Affected Code X(6)",
+            "definition": "A code set that represents an affected primary body function or stucture.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "data_type": "6c35bd4a-dc6a-11ea-906f-062f7acd21ca",
+            "format": "X(6)",
+            "maximum_length": 6,
+            "unit_of_measure": null,
+            "conceptual_domain": null,
+            "classification_scheme": null,
+            "representation_class": 2,
+            "description": "",
+            "metadatareferencelink_set": [],
+            "permissiblevalue_set": [
+                {
+                    "id": "a788a4ba-dc6b-11ea-8802-062f7acd21ca",
+                    "value": "C",
+                    "meaning": "Cardiovascular, Haematological, Immunological and Respiratory",
+                    "value_meaning": null,
+                    "order": 0,
+                    "start_date": "2020-05-27",
+                    "end_date": "9999-09-09"
+                },
+                {
+                    "id": "a788aaf0-dc6b-11ea-8802-062f7acd21ca",
+                    "value": "D",
+                    "meaning": "Death",
+                    "value_meaning": null,
+                    "order": 1,
+                    "start_date": "2020-05-27",
+                    "end_date": "9999-09-09"
+                },
+                {
+                    "id": "a788ad0c-dc6b-11ea-8802-062f7acd21ca",
+                    "value": "E",
+                    "meaning": "Digestive, Metabolic and Endocrine Systems",
+                    "value_meaning": null,
+                    "order": 2,
+                    "start_date": "2020-05-27",
+                    "end_date": "9999-09-09"
+                },
+                {
+                    "id": "a788ae9c-dc6b-11ea-8802-062f7acd21ca",
+                    "value": "G",
+                    "meaning": "Genitourinary and Reproductive",
+                    "value_meaning": null,
+                    "order": 3,
+                    "start_date": "2020-05-27",
+                    "end_date": "9999-09-09"
+                },
+                {
+                    "id": "a788b072-dc6b-11ea-8802-062f7acd21ca",
+                    "value": "M",
+                    "meaning": "Mental or Nervous System",
+                    "value_meaning": null,
+                    "order": 4,
+                    "start_date": "2020-05-27",
+                    "end_date": "9999-09-09"
+                },
+                {
+                    "id": "a788b39c-dc6b-11ea-8802-062f7acd21ca",
+                    "value": "N",
+                    "meaning": "Neuro-musculoskeletal and Movement-Related",
+                    "value_meaning": null,
+                    "order": 5,
+                    "start_date": "2020-05-27",
+                    "end_date": "9999-09-09"
+                },
+                {
+                    "id": "a788b63a-dc6b-11ea-8802-062f7acd21ca",
+                    "value": "P",
+                    "meaning": "Sensory, Pain, Eye, Ear and Related Structures",
+                    "value_meaning": null,
+                    "order": 6,
+                    "start_date": "2020-05-27",
+                    "end_date": "9999-09-09"
+                },
+                {
+                    "id": "a788b8c4-dc6b-11ea-8802-062f7acd21ca",
+                    "value": "S",
+                    "meaning": "Skin and Related Structures",
+                    "value_meaning": null,
+                    "order": 7,
+                    "start_date": "2020-05-27",
+                    "end_date": "9999-09-09"
+                },
+                {
+                    "id": "a788bb3a-dc6b-11ea-8802-062f7acd21ca",
+                    "value": "V",
+                    "meaning": "Voice and Speech",
+                    "value_meaning": null,
+                    "order": 8,
+                    "start_date": "2020-05-27",
+                    "end_date": "9999-09-09"
+                }
+            ],
+            "supplementaryvalue_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "a77bfe40-dc6b-11ea-8802-062f7acd21ca",
+                    "namespace": 4,
+                    "identifier": "71084",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        }
+    ]
+}

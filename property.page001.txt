@@ -1,0 +1,876 @@
+Skip to contentLearn about the access keys available for DSS Metadata Registry
+Logo
+Search: 
+Browse
+Help
+Profile Picture Matthew Lawler 
+ 
+ 100 +
+Schema Property List & Create
+
+Property List & Create
+Quality common to all members of an :model:`aristotle_mdr.ObjectClass`
+(3.2.100)
+
+«123…303»
+GET /api/v4/metadata/property
+HTTP 200 OK
+                Allow: GET, POST, HEAD, OPTIONS
+                Content-Type: application/json
+                Vary: Accept
+                
+                {
+    "count": 7562,
+    "next": "http://dss.aristotlecloud.io/api/v4/metadata/property?page=2",
+    "previous": null,
+    "results": [
+        {
+            "id": 53444,
+            "created": "2020-11-12T15:35:40.990312+11:00",
+            "modified": "2020-11-12T15:35:40.990312+11:00",
+            "uuid": "850393fa-24a0-11eb-9846-0260269b3cbc",
+            "name": "Variable Prompt Indicator",
+            "definition": "
+An indication of a prompt for something that is capable of being varied or changed.
+
+",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 6511,
+            "created": "2020-08-12T17:10:47.198174+10:00",
+            "modified": "2021-06-21T10:51:35.866421+10:00",
+            "uuid": "f1f134f0-dc6a-11ea-906f-062f7acd21ca",
+            "name": "Regulation 24 applicable indicator",
+            "definition": "An indicator of whether Regulation 24 of the National Health (Pharmaceutical Benefits) Regulations 1960 (Cwth) is applicable.\nRegulation 24 allows a pharmacist to supply an original prescription medication and all of its repeats at the one time.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "Commonwealth Department of Health, Standard 17/12/2015",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 1503,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": "Regulation 24 applicable indicator"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "f1f8ddae-dc6a-11ea-906f-062f7acd21ca",
+                    "namespace": 4,
+                    "identifier": "56906",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 55927,
+            "created": "2021-03-17T14:13:23.875778+11:00",
+            "modified": "2021-04-09T15:31:19.015429+10:00",
+            "uuid": "bbe66fe2-86ce-11eb-ad52-0af89844d98e",
+            "name": "Review Exchange Rate",
+            "definition": "
+A rate at which one currency can be exchanged for another relating to a review.
+
+\r\n\r\n
+ 
+
+",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 67643,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 67644,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 67645,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 6014,
+            "created": "2020-08-12T17:10:19.606874+10:00",
+            "modified": "2021-06-24T09:16:50.523994+10:00",
+            "uuid": "e17f1b46-dc6a-11ea-b1f5-0a8620c9d3ec",
+            "name": "Address End Date",
+            "definition": "The date on which a collection of information used for describing the location of an entity and details describing how the entity can be contacted is no longer used.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "Standards Australia 2006. AS 4590�2006 Interchange of client information. Sydney: Standards Australia.",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "e1860802-dc6a-11ea-b1f5-0a8620c9d3ec",
+                    "namespace": 4,
+                    "identifier": "21047",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 1754,
+            "created": "2019-10-02T14:21:01.572991+10:00",
+            "modified": "2020-11-24T20:13:48.460528+11:00",
+            "uuid": "0ab6efbc-e4cc-11e9-a95c-129a57c22235",
+            "name": "Is a carer",
+            "definition": "
+Whether an individual is a carer in a carer relationship.
+
+\r\n\r\n
+A carer relationship exists when any person (the carer), such as a family member, friend or neighbour provides regular, ongoing assistance to another person (the care recipient) who has care needs, generally as a result of becoming frail due to age or having a disability, mental health condition or other chronic health condition that requires ongoing care.
+
+",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 7,
+            "version": "0.1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 3420,
+            "created": "2020-08-12T17:08:01.938222+10:00",
+            "modified": "2021-06-17T10:37:45.412428+10:00",
+            "uuid": "8f708aa6-dc6a-11ea-b216-0a8620c9d3ec",
+            "name": "Self Service Transaction Failure Reason",
+            "definition": "A transaction where a customer receives a receipt for a transaction but the expected result of the transaction does not occur. \n\nNote that a Failed Self Service Registration is a different event from a Failed Self Service Transaction.\n\nAlias: Unsuccessful",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "BDR",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "8f8155b6-dc6a-11ea-b216-0a8620c9d3ec",
+                    "namespace": 4,
+                    "identifier": "18390",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 52014,
+            "created": "2020-09-28T09:52:01.605485+10:00",
+            "modified": "2020-09-30T13:48:41.013822+10:00",
+            "uuid": "7014cc9a-011c-11eb-94e0-0658d0197f68",
+            "name": "Organisational Profile Transaction",
+            "definition": "
+An organisational profile to control a transaction performed on a row of data stored in a table.
+
+",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 54794,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 54795,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 54796,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 3555,
+            "created": "2020-08-12T17:08:09.590120+10:00",
+            "modified": "2021-06-17T10:37:45.917442+10:00",
+            "uuid": "940020cc-dc6a-11ea-b1f5-0a8620c9d3ec",
+            "name": "CCB WTS Test Approved Care Data Collection Exemption Status",
+            "definition": "An indication whether or not a current Approved Care customer was exempt from the Child Care Benefit (CCB) Work, Training, Study (WTS) Test Approved Care data collection process because they had an exception to the WTS Test.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "BDR",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "9407392a-dc6a-11ea-b1f5-0a8620c9d3ec",
+                    "namespace": 4,
+                    "identifier": "18531",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 4878,
+            "created": "2020-08-12T17:09:19.615427+10:00",
+            "modified": "2021-06-17T10:37:45.998702+10:00",
+            "uuid": "bdbd2324-dc6a-11ea-906f-062f7acd21ca",
+            "name": "Compensation Lump Sum Preclusion Period Discussion Termination Indicator",
+            "definition": "The indication of whether a Compensation Lump Sum Preclusion Period (LSPP) discussion with the Compensation Recovery Team (CRT) was terminated before its completion.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "BDR",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "bdc4ec76-dc6a-11ea-906f-062f7acd21ca",
+                    "namespace": 4,
+                    "identifier": "19895",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 50177,
+            "created": "2020-08-24T09:23:16.180402+10:00",
+            "modified": "2020-08-24T14:25:59.675212+10:00",
+            "uuid": "9f309270-e597-11ea-9c70-068250793d7e",
+            "name": "Payment Request Status",
+            "definition": "
+A current standing of a request for a payment.
+
+",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 51062,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 51063,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 51064,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 7753,
+            "created": "2020-08-12T17:11:55.659211+10:00",
+            "modified": "2021-06-17T10:37:46.488600+10:00",
+            "uuid": "1abf87ce-dc6b-11ea-8a08-02b137f3fb1e",
+            "name": "Global Location Number Reference",
+            "definition": "A reference number assigned to a company to determine its global location.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "ISO/IEC 6523 Information technology – Structure for the identification of organisations and organisation parts",
+            "comments": "The reference number is assigned by the company to identify a location or legal function within the company. The location reference varies in length as a function of the GS1 Compant Prefix length. Note that the combined length of the GS1 Compant Prefix and Location Reference is always 12 digits.\r\nThe Global Location Number (GLN) can be used by companies to identify their locations, giving them\r\ncomplete flexibility to identify any type or level of location required. The GLN can identify a company's physical locations, for example, a store, a wharehouse, or a berth in port.",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 1906,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": "Global Location Number Reference"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "1ad1fecc-dc6b-11ea-8a08-02b137f3fb1e",
+                    "namespace": 4,
+                    "identifier": "64812",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 9233,
+            "created": "2020-08-12T17:12:58.015802+10:00",
+            "modified": "2021-06-17T10:37:46.572976+10:00",
+            "uuid": "3fea64ec-dc6b-11ea-906f-062f7acd21ca",
+            "name": "Appointment Count",
+            "definition": "A count of the number of appointments.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "3ff76688-dc6b-11ea-906f-062f7acd21ca",
+                    "namespace": 4,
+                    "identifier": "71848",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 52020,
+            "created": "2020-09-28T10:05:26.355712+10:00",
+            "modified": "2020-09-30T13:57:16.113389+10:00",
+            "uuid": "4fbff012-011e-11eb-94e0-0658d0197f68",
+            "name": "Document Assignment Indicator",
+            "definition": "
+An indication as to whether a document has been assigned to something.
+
+",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 54839,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 54840,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 54841,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 53447,
+            "created": "2020-11-12T15:40:22.430545+11:00",
+            "modified": "2020-11-12T15:40:22.430545+11:00",
+            "uuid": "2cc3f4a4-24a1-11eb-a6b6-0a118ef11052",
+            "name": "Variable Receipt Type",
+            "definition": "
+A receipt type of something that is capable of being varied or changed
+
+",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 52026,
+            "created": "2020-09-28T10:23:12.473180+10:00",
+            "modified": "2020-09-30T13:57:01.642291+10:00",
+            "uuid": "cb348d8c-0120-11eb-94e0-0658d0197f68",
+            "name": "Document Updated Indicator",
+            "definition": "
+An indication as to whether a document has been updated.
+
+",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 54836,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 54837,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 54838,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 56836,
+            "created": "2021-06-21T12:22:52.711155+10:00",
+            "modified": "2021-06-21T12:22:52.711155+10:00",
+            "uuid": "94d76b72-d237-11eb-b59a-0a58a9feac02",
+            "name": "Disability Support Payment Exemption Type",
+            "definition": "
+A list of acceptable exemption types for a Disability Support Payment customer. 
+
+",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 52031,
+            "created": "2020-09-28T10:47:02.322506+10:00",
+            "modified": "2020-09-28T10:47:02.322506+10:00",
+            "uuid": "1f763f28-0124-11eb-94e0-0658d0197f68",
+            "name": "Primary Key End Date",
+            "definition": "
+A date on which a primary key, which is a unique identifier assigned to a row of data in a table record within a database, ceased to be valid.
+
+",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 50187,
+            "created": "2020-08-24T14:15:27.562242+10:00",
+            "modified": "2021-06-21T10:51:43.456891+10:00",
+            "uuid": "70b52590-e5c0-11ea-a00a-068250793d7e",
+            "name": "Container Size",
+            "definition": "
+A size of an object for holding or transporting something.
+
+",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 8086,
+            "created": "2020-08-12T17:12:11.284416+10:00",
+            "modified": "2021-06-21T10:51:43.969998+10:00",
+            "uuid": "240fbf74-dc6b-11ea-b1f5-0a8620c9d3ec",
+            "name": "Pharmaceutical Benefits Scheme (PBS) Concession Entitlement Source",
+            "definition": "An origin organisation or program of a qualification to a benefit used to provide assistance to a range of individuals experiencing disadvantage by reducing the cost of basic living needs.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 96,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "2417d880-dc6b-11ea-b1f5-0a8620c9d3ec",
+                    "namespace": 4,
+                    "identifier": "66422",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 52038,
+            "created": "2020-09-28T11:06:36.909804+10:00",
+            "modified": "2020-09-30T13:58:26.831729+10:00",
+            "uuid": "db920b54-0126-11eb-b13e-0a781a7f93d4",
+            "name": "Date Profile",
+            "definition": "
+A description or analysis of characteristics of a date.
+
+",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 54848,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 54849,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 54850,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 52043,
+            "created": "2020-09-28T11:19:57.240341+10:00",
+            "modified": "2020-09-30T13:58:52.058310+10:00",
+            "uuid": "b89acb0c-0128-11eb-94e0-0658d0197f68",
+            "name": "Action Profile",
+            "definition": "
+A description or analysis of characteristics of something being done.
+
+",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 54854,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 54855,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 54856,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 53865,
+            "created": "2020-11-26T14:05:37.615722+11:00",
+            "modified": "2020-11-30T11:55:07.424200+11:00",
+            "uuid": "42228bd2-2f94-11eb-a750-02fd8c88d60c",
+            "name": "Username",
+            "definition": "
+A sequence of characters which identify a username.
+
+",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 60799,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 60800,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 60801,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 52047,
+            "created": "2020-09-28T11:29:09.306388+10:00",
+            "modified": "2020-09-30T13:47:51.887317+10:00",
+            "uuid": "01a96302-012a-11eb-b13e-0a781a7f93d4",
+            "name": "Cancellation Date Procedure",
+            "definition": "
+A set of rules used to calculate a cancellation date.
+
+",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 54788,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 54789,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 54790,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 56531,
+            "created": "2021-05-20T08:49:02.943623+10:00",
+            "modified": "2021-05-20T10:11:00.125330+10:00",
+            "uuid": "687c414e-b8f4-11eb-a80d-0a58a9feac02",
+            "name": "Youngest Child Customer Reference Number",
+            "definition": "
+A Customer Reference Number of the youngest child. 
+
+",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 69549,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 69550,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 69551,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 52051,
+            "created": "2020-09-28T11:36:16.324169+10:00",
+            "modified": "2020-09-30T13:57:50.202505+10:00",
+            "uuid": "002f210a-012b-11eb-b13e-0a781a7f93d4",
+            "name": "Partial Transaction Processing",
+            "definition": "
+A partial processing of a transaction.
+
+",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 54842,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 54843,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 54844,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": []
+        }
+    ]
+}
+HTML form
+Raw data
+Accessibility Help
+Powered by the Aristotle Metadata Registry

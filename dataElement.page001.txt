@@ -1,0 +1,1421 @@
+Skip to contentLearn about the access keys available for DSS Metadata Registry
+Logo
+Search: 
+Browse
+Help
+Profile Picture Matthew Lawler 
+ 
+ 100 +
+Schema Data Element List & Create
+
+Data Element List & Create
+Unit of data that is considered in context to be indivisible (3.2.28)
+
+«123…884»
+GET /api/v4/metadata/dataelement
+HTTP 200 OK
+                Allow: GET, POST, HEAD, OPTIONS
+                Content-Type: application/json
+                Vary: Accept
+                
+                {
+    "count": 22081,
+    "next": "http://dss.aristotlecloud.io/api/v4/metadata/dataelement?page=2",
+    "previous": null,
+    "results": [
+        {
+            "id": 173,
+            "created": "2018-08-10T14:07:22.887875+10:00",
+            "modified": "2021-04-15T17:53:49.223379+10:00",
+            "uuid": "3fc0667c-9c50-11e8-92a9-0273a7ea5052",
+            "name": "PIA_Person—date of birth (abbreviated), MMYYYY",
+            "definition": "The month and year of birth of the person.",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "",
+            "references": "
+AS5017 Health Care Client Identification, 2002, Sydney: Standards Australia
+
+\r\n
+AS4846 Health Care Provider Identification, 2004, Sydney: Standards Australia
+
+",
+            "origin_URI": "http://meteor.aihw.gov.au/content/index.phtml/itemId/375191",
+            "origin": "",
+            "comments": "",
+            "dataElementConcept": "3fb667c6-9c50-11e8-92a9-0273a7ea5052",
+            "valueDomain": "3faea216-9c50-11e8-92a9-0273a7ea5052",
+            "metadatareferencelink_set": [],
+            "slots": [
+                {
+                    "id": 18,
+                    "name": "Short name",
+                    "value": "Month and year of birth",
+                    "order": 0,
+                    "permission": 0
+                }
+            ],
+            "customvalue_set": [
+                {
+                    "id": 638,
+                    "name": "Submitting Organisation",
+                    "field": 3,
+                    "content": "Australian Institute of Health and Welfare"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "00757c6e-731d-11ea-826c-6660846ba4fa",
+                    "namespace": 2,
+                    "identifier": "375191",
+                    "version": "1",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 174,
+            "created": "2018-08-10T14:07:25.097826+10:00",
+            "modified": "2020-11-24T20:13:46.734972+11:00",
+            "uuid": "3fc0c55e-9c50-11e8-92a9-0273a7ea5052",
+            "name": "Address: Australian postcode, Code",
+            "definition": "
+The Australian numeric descriptor for a postal delivery area for an address.
+
+",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "0.1",
+            "references": "",
+            "origin_URI": "http://meteor.aihw.gov.au/content/index.phtml/itemId/611398",
+            "origin": "",
+            "comments": "",
+            "dataElementConcept": "3fb6d3f0-9c50-11e8-92a9-0273a7ea5052",
+            "valueDomain": "3faf28da-9c50-11e8-92a9-0273a7ea5052",
+            "metadatareferencelink_set": [],
+            "slots": [
+                {
+                    "id": 20,
+                    "name": "Short name",
+                    "value": "Australian postcode",
+                    "order": 0,
+                    "permission": 0
+                }
+            ],
+            "customvalue_set": [
+                {
+                    "id": 421,
+                    "name": "Submitting Organisation",
+                    "field": 3,
+                    "content": "
+Australian Institute of Health and Welfare
+
+"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "0075e096-731d-11ea-826c-6660846ba4fa",
+                    "namespace": 2,
+                    "identifier": "611398",
+                    "version": "1",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 175,
+            "created": "2018-08-10T14:07:27.000714+10:00",
+            "modified": "2020-11-24T20:24:34.575395+11:00",
+            "uuid": "3fc11d9c-9c50-11e8-92a9-0273a7ea5052",
+            "name": "PIA_Person—date of death (abbreviated), MMYYYY",
+            "definition": "
+The date upon which a person ceases to live, expressed as MMYYYY.
+
+",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "",
+            "references": "",
+            "origin_URI": "http://meteor.aihw.gov.au/content/index.phtml/itemId/632598",
+            "origin": "",
+            "comments": "",
+            "dataElementConcept": "3fb8c250-9c50-11e8-92a9-0273a7ea5052",
+            "valueDomain": "3faea216-9c50-11e8-92a9-0273a7ea5052",
+            "metadatareferencelink_set": [],
+            "slots": [
+                {
+                    "id": 21,
+                    "name": "Short name",
+                    "value": "Date of death",
+                    "order": 0,
+                    "permission": 0
+                }
+            ],
+            "customvalue_set": [
+                {
+                    "id": 478,
+                    "name": "Submitting Organisation",
+                    "field": 3,
+                    "content": "
+Australian Government Department of Social Services
+
+"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "00764a90-731d-11ea-826c-6660846ba4fa",
+                    "namespace": 2,
+                    "identifier": "632598",
+                    "version": "1",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 176,
+            "created": "2018-08-10T14:07:28.927146+10:00",
+            "modified": "2021-04-15T17:06:43.012269+10:00",
+            "uuid": "3fc16c8e-9c50-11e8-92a9-0273a7ea5052",
+            "name": "Recipient—multiple birth indicator, yes/missing code A",
+            "definition": "
+An indicator that a recipient had a multiple birth, as represented by a code.
+\n",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "",
+            "references": "
+Guide to Social Policy Law. Family Assistance Guide. Version 1.194 - Released 8 May 2017. 1.2.16 Multiple Birth Allowance (MBA) - Description. http://guides.dss.gov.au/family-assistance-guide/1/2/16\">http://guides.dss.gov.au/family-assistance-guide/1/2/16.
+
+",
+            "origin_URI": "http://meteor.aihw.gov.au/content/index.phtml/itemId/633005",
+            "origin": "",
+            "comments": "",
+            "dataElementConcept": "3fb9fc10-9c50-11e8-92a9-0273a7ea5052",
+            "valueDomain": "3fb52834-9c50-11e8-92a9-0273a7ea5052",
+            "metadatareferencelink_set": [],
+            "slots": [
+                {
+                    "id": 23,
+                    "name": "Short name",
+                    "value": "Multiple birth indicator",
+                    "order": 0,
+                    "permission": 0
+                }
+            ],
+            "customvalue_set": [
+                {
+                    "id": 168,
+                    "name": "Submitting Organisation",
+                    "field": 3,
+                    "content": "
+Australian Government Department of Social Services
+
+"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "0076b02a-731d-11ea-826c-6660846ba4fa",
+                    "namespace": 2,
+                    "identifier": "633005",
+                    "version": "1",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 177,
+            "created": "2018-08-10T14:07:30.980741+10:00",
+            "modified": "2021-04-15T17:53:49.023270+10:00",
+            "uuid": "3fc1bcf2-9c50-11e8-92a9-0273a7ea5052",
+            "name": "PIA_Recipient—identifier, scrambled customer reference number N(9)",
+            "definition": "
+A random sequence of characters used for the purposes of identifying a Centrelink recipient in the PIA research data set.
+
+",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "",
+            "references": "",
+            "origin_URI": "http://meteor.aihw.gov.au/content/index.phtml/itemId/639185",
+            "origin": "",
+            "comments": "",
+            "dataElementConcept": "3fb7d7aa-9c50-11e8-92a9-0273a7ea5052",
+            "valueDomain": "3fb0bec0-9c50-11e8-92a9-0273a7ea5052",
+            "metadatareferencelink_set": [],
+            "slots": [
+                {
+                    "id": 24,
+                    "name": "Short name",
+                    "value": "Scrambled Customer reference number",
+                    "order": 0,
+                    "permission": 0
+                }
+            ],
+            "customvalue_set": [
+                {
+                    "id": 488,
+                    "name": "Submitting Organisation",
+                    "field": 3,
+                    "content": "
+Australian Government Department of Social Services
+
+"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "00770aac-731d-11ea-826c-6660846ba4fa",
+                    "namespace": 2,
+                    "identifier": "639185",
+                    "version": "1",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 178,
+            "created": "2018-08-10T14:07:32.911328+10:00",
+            "modified": "2021-04-15T17:53:47.929666+10:00",
+            "uuid": "3fc20248-9c50-11e8-92a9-0273a7ea5052",
+            "name": "Household: Shared accommodation type, Code",
+            "definition": "
+The type of shared accommodation in which a recipient resides, as represented by a code.
+
+",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "0.1",
+            "references": "
+Australian Government 2017. Guides to Social Policy Law. Guide to Social Security Law. Viewed 24 April 2017, http://guides.dss.gov.au/guide-social-security-law\">http://guides.dss.gov.au/guide-social-security-law
+
+",
+            "origin_URI": "http://meteor.aihw.gov.au/content/index.phtml/itemId/639201",
+            "origin": "",
+            "comments": "",
+            "dataElementConcept": "3fb7fc6c-9c50-11e8-92a9-0273a7ea5052",
+            "valueDomain": "3faf8f50-9c50-11e8-92a9-0273a7ea5052",
+            "metadatareferencelink_set": [],
+            "slots": [
+                {
+                    "id": 25,
+                    "name": "Short name",
+                    "value": "Type of shared accommodation",
+                    "order": 0,
+                    "permission": 0
+                }
+            ],
+            "customvalue_set": [
+                {
+                    "id": 440,
+                    "name": "Submitting Organisation",
+                    "field": 3,
+                    "content": "
+Australian Government Department of Social Services
+
+"
+                },
+                {
+                    "id": 1001,
+                    "name": "Responsible Organisation",
+                    "field": 4,
+                    "content": "Australian Government Department of Social Services"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "00775dfe-731d-11ea-826c-6660846ba4fa",
+                    "namespace": 2,
+                    "identifier": "639201",
+                    "version": "1",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 179,
+            "created": "2018-08-10T14:07:34.887195+10:00",
+            "modified": "2020-11-24T19:51:18.529038+11:00",
+            "uuid": "3fc24fe6-9c50-11e8-92a9-0273a7ea5052",
+            "name": "Payment: Benefit type, Code",
+            "definition": "
+The type of Australian government benefit a Welfare recipient receives, as represented by a code.
+
+",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "0.1",
+            "references": "",
+            "origin_URI": "http://meteor.aihw.gov.au/content/index.phtml/itemId/639230",
+            "origin": "",
+            "comments": "",
+            "dataElementConcept": "3fbcf03c-9c50-11e8-92a9-0273a7ea5052",
+            "valueDomain": "2d416cf2-fe24-11ea-bc17-0a781a7f93d4",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 438,
+                    "name": "Submitting Organisation",
+                    "field": 3,
+                    "content": "
+Australian Government Department of Social Services
+
+"
+                },
+                {
+                    "id": 52811,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 52812,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 52813,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "0077c01e-731d-11ea-826c-6660846ba4fa",
+                    "namespace": 2,
+                    "identifier": "639230",
+                    "version": "1",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 180,
+            "created": "2018-08-10T14:07:36.450113+10:00",
+            "modified": "2021-04-15T17:06:43.113957+10:00",
+            "uuid": "3fc2962c-9c50-11e8-92a9-0273a7ea5052",
+            "name": "Recipient—blindness indicator, code A",
+            "definition": "
+An indicator of whether a recipient is blind, as represented by a code.
+
+",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "",
+            "references": "",
+            "origin_URI": "http://meteor.aihw.gov.au/content/index.phtml/itemId/639240",
+            "origin": "",
+            "comments": "",
+            "dataElementConcept": "3fb9105c-9c50-11e8-92a9-0273a7ea5052",
+            "valueDomain": "3fb0e5f8-9c50-11e8-92a9-0273a7ea5052",
+            "metadatareferencelink_set": [],
+            "slots": [
+                {
+                    "id": 28,
+                    "name": "Short name",
+                    "value": "Blindness indicator",
+                    "order": 0,
+                    "permission": 0
+                }
+            ],
+            "customvalue_set": [
+                {
+                    "id": 166,
+                    "name": "Submitting Organisation",
+                    "field": 3,
+                    "content": "
+Australian Government Department of Social Services
+
+"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "00782a5e-731d-11ea-826c-6660846ba4fa",
+                    "namespace": 2,
+                    "identifier": "639240",
+                    "version": "1",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 181,
+            "created": "2018-08-10T14:07:38.200821+10:00",
+            "modified": "2021-04-15T17:06:44.930931+10:00",
+            "uuid": "3fc2df42-9c50-11e8-92a9-0273a7ea5052",
+            "name": "PIA_Recipient—level of educational attainment, code XXX",
+            "definition": "
+The level of educational attainment of a recipient, as represented by a code.
+
+",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "",
+            "references": "",
+            "origin_URI": "http://meteor.aihw.gov.au/content/index.phtml/itemId/639258",
+            "origin": "",
+            "comments": "",
+            "dataElementConcept": "3fb821b0-9c50-11e8-92a9-0273a7ea5052",
+            "valueDomain": "3fb06114-9c50-11e8-92a9-0273a7ea5052",
+            "metadatareferencelink_set": [],
+            "slots": [
+                {
+                    "id": 29,
+                    "name": "Guide For Use",
+                    "value": "
+The most recent level of educational attainment is recorded.
+
+",
+                    "order": 0,
+                    "permission": 0
+                },
+                {
+                    "id": 30,
+                    "name": "Short name",
+                    "value": "Level of educational attainment",
+                    "order": 0,
+                    "permission": 0
+                }
+            ],
+            "customvalue_set": [
+                {
+                    "id": 436,
+                    "name": "Submitting Organisation",
+                    "field": 3,
+                    "content": "
+Australian Government Department of Social Services
+
+"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "0078908e-731d-11ea-826c-6660846ba4fa",
+                    "namespace": 2,
+                    "identifier": "639258",
+                    "version": "1",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 182,
+            "created": "2018-08-10T14:07:40.149145+10:00",
+            "modified": "2020-11-24T20:13:46.496485+11:00",
+            "uuid": "3fc327b8-9c50-11e8-92a9-0273a7ea5052",
+            "name": "PIA_Person—sex/gender, code A",
+            "definition": "
+The identification of a person as either male, female or not exclusively male or female, as represented by a code.
+
+",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "",
+            "references": "",
+            "origin_URI": "http://meteor.aihw.gov.au/content/index.phtml/itemId/639275",
+            "origin": "",
+            "comments": "",
+            "dataElementConcept": "3fbe682c-9c50-11e8-92a9-0273a7ea5052",
+            "valueDomain": "3fb5cb4a-9c50-11e8-92a9-0273a7ea5052",
+            "metadatareferencelink_set": [],
+            "slots": [
+                {
+                    "id": 31,
+                    "name": "Short name",
+                    "value": "Sex/gender",
+                    "order": 0,
+                    "permission": 0
+                }
+            ],
+            "customvalue_set": [
+                {
+                    "id": 439,
+                    "name": "Submitting Organisation",
+                    "field": 3,
+                    "content": "
+Australian Government Department of Social Services
+
+"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "0078ee94-731d-11ea-826c-6660846ba4fa",
+                    "namespace": 2,
+                    "identifier": "639275",
+                    "version": "1",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 183,
+            "created": "2018-08-10T14:07:41.835310+10:00",
+            "modified": "2020-11-24T19:51:19.045160+11:00",
+            "uuid": "3fc36e26-9c50-11e8-92a9-0273a7ea5052",
+            "name": "PIA_Person—Indigenous status (abbreviated), code A",
+            "definition": "
+Whether a person identifies as being of Aboriginal or Torres Strait Islander origin, as represented by a code.
+
+",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "",
+            "references": "",
+            "origin_URI": "http://meteor.aihw.gov.au/content/index.phtml/itemId/639285",
+            "origin": "",
+            "comments": "",
+            "dataElementConcept": "3fb73692-9c50-11e8-92a9-0273a7ea5052",
+            "valueDomain": "3faf6066-9c50-11e8-92a9-0273a7ea5052",
+            "metadatareferencelink_set": [],
+            "slots": [
+                {
+                    "id": 32,
+                    "name": "Guide For Use",
+                    "value": "
+This information is collected on a voluntary basis and is of unknown quality. Individuals may change their identification over time.
+
+",
+                    "order": 0,
+                    "permission": 0
+                },
+                {
+                    "id": 33,
+                    "name": "Short name",
+                    "value": "Indigenous status",
+                    "order": 0,
+                    "permission": 0
+                }
+            ],
+            "customvalue_set": [
+                {
+                    "id": 461,
+                    "name": "Submitting Organisation",
+                    "field": 3,
+                    "content": "
+Australian Government Department of Social Services
+
+"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "0079599c-731d-11ea-826c-6660846ba4fa",
+                    "namespace": 2,
+                    "identifier": "639285",
+                    "version": "1",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 184,
+            "created": "2018-08-10T14:07:43.320116+10:00",
+            "modified": "2020-11-24T20:13:45.692941+11:00",
+            "uuid": "3fc3b822-9c50-11e8-92a9-0273a7ea5052",
+            "name": "Recipient—partner's Centrelink benefit type, code AAA",
+            "definition": "
+The type of Centrelink benefit a recipient's partner receives, as represented by a code.
+
+",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "",
+            "references": "",
+            "origin_URI": "http://meteor.aihw.gov.au/content/index.phtml/itemId/639301",
+            "origin": "",
+            "comments": "",
+            "dataElementConcept": "3fb7880e-9c50-11e8-92a9-0273a7ea5052",
+            "valueDomain": "3fb00bce-9c50-11e8-92a9-0273a7ea5052",
+            "metadatareferencelink_set": [],
+            "slots": [
+                {
+                    "id": 34,
+                    "name": "Short name",
+                    "value": "Partner's Centrelink benefit type",
+                    "order": 0,
+                    "permission": 0
+                }
+            ],
+            "customvalue_set": [
+                {
+                    "id": 171,
+                    "name": "Submitting Organisation",
+                    "field": 3,
+                    "content": "
+Australian Government Department of Social Services
+
+"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "0079b9d2-731d-11ea-826c-6660846ba4fa",
+                    "namespace": 2,
+                    "identifier": "639301",
+                    "version": "1",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 185,
+            "created": "2018-08-10T14:07:45.116279+10:00",
+            "modified": "2020-11-24T20:24:33.489350+11:00",
+            "uuid": "3fc3ffbc-9c50-11e8-92a9-0273a7ea5052",
+            "name": "Person—refugee indicator, yes/missing code A",
+            "definition": "
+An indicator of whether a person has been identified as a refugee at some time, as represented by a code.
+
+",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "",
+            "references": "",
+            "origin_URI": "http://meteor.aihw.gov.au/content/index.phtml/itemId/645089",
+            "origin": "",
+            "comments": "",
+            "dataElementConcept": "3fb7b040-9c50-11e8-92a9-0273a7ea5052",
+            "valueDomain": "3fb52834-9c50-11e8-92a9-0273a7ea5052",
+            "metadatareferencelink_set": [],
+            "slots": [
+                {
+                    "id": 36,
+                    "name": "Short name",
+                    "value": "Refugee indicator",
+                    "order": 0,
+                    "permission": 0
+                }
+            ],
+            "customvalue_set": [
+                {
+                    "id": 425,
+                    "name": "Submitting Organisation",
+                    "field": 3,
+                    "content": "
+Australian Government Department of Social Services
+
+"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "007a24a8-731d-11ea-826c-6660846ba4fa",
+                    "namespace": 2,
+                    "identifier": "645089",
+                    "version": "1",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 186,
+            "created": "2018-08-10T14:07:46.929035+10:00",
+            "modified": "2020-11-24T20:13:45.739592+11:00",
+            "uuid": "3fc44742-9c50-11e8-92a9-0273a7ea5052",
+            "name": "Person—marital status, recipient code AAA",
+            "definition": "
+A person's current relationship status in terms of a couple relationship or, for those not in a couple relationship, the existence of a current or previous registered marriage, as represented by a code.
+
+",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "",
+            "references": "",
+            "origin_URI": "http://meteor.aihw.gov.au/content/index.phtml/itemId/645225",
+            "origin": "",
+            "comments": "",
+            "dataElementConcept": "3fb601a0-9c50-11e8-92a9-0273a7ea5052",
+            "valueDomain": "3fb4f166-9c50-11e8-92a9-0273a7ea5052",
+            "metadatareferencelink_set": [],
+            "slots": [
+                {
+                    "id": 38,
+                    "name": "Short name",
+                    "value": "Marital status",
+                    "order": 0,
+                    "permission": 0
+                }
+            ],
+            "customvalue_set": [
+                {
+                    "id": 426,
+                    "name": "Submitting Organisation",
+                    "field": 3,
+                    "content": "
+Australian Government Department of Social Services
+
+"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "007a822c-731d-11ea-826c-6660846ba4fa",
+                    "namespace": 2,
+                    "identifier": "645225",
+                    "version": "1",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 187,
+            "created": "2018-08-10T14:07:48.641140+10:00",
+            "modified": "2021-04-15T17:06:45.413119+10:00",
+            "uuid": "3fc4942c-9c50-11e8-92a9-0273a7ea5052",
+            "name": "Address: State or territory, Code",
+            "definition": "
+The state or territory of an address, as represented by a code.
+
+",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "0.1",
+            "references": "",
+            "origin_URI": "http://meteor.aihw.gov.au/content/index.phtml/itemId/645249",
+            "origin": "",
+            "comments": "",
+            "dataElementConcept": "3fb63710-9c50-11e8-92a9-0273a7ea5052",
+            "valueDomain": "3fafd212-9c50-11e8-92a9-0273a7ea5052",
+            "metadatareferencelink_set": [],
+            "slots": [
+                {
+                    "id": 39,
+                    "name": "Short name",
+                    "value": "State or territory of usual residence",
+                    "order": 0,
+                    "permission": 0
+                }
+            ],
+            "customvalue_set": [
+                {
+                    "id": 459,
+                    "name": "Submitting Organisation",
+                    "field": 3,
+                    "content": "
+Australian Government Department of Social Services
+
+"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "007ae03c-731d-11ea-826c-6660846ba4fa",
+                    "namespace": 2,
+                    "identifier": "645249",
+                    "version": "1",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 188,
+            "created": "2018-08-10T14:07:50.403218+10:00",
+            "modified": "2020-11-24T20:24:34.209749+11:00",
+            "uuid": "3fc4deb4-9c50-11e8-92a9-0273a7ea5052",
+            "name": "PIA_Recipient—reporting period end date, DDAAAYYYY",
+            "definition": "
+The date on which a reporting period relating to a recipient ceases, expressed as DDAAAYYYY.
+
+",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "",
+            "references": "",
+            "origin_URI": "http://meteor.aihw.gov.au/content/index.phtml/itemId/645354",
+            "origin": "",
+            "comments": "",
+            "dataElementConcept": "3fbb7374-9c50-11e8-92a9-0273a7ea5052",
+            "valueDomain": "3faed470-9c50-11e8-92a9-0273a7ea5052",
+            "metadatareferencelink_set": [],
+            "slots": [
+                {
+                    "id": 40,
+                    "name": "Guide For Use",
+                    "value": "
+The reporting period end date must not be before the reporting period start date.
+
+",
+                    "order": 0,
+                    "permission": 0
+                },
+                {
+                    "id": 41,
+                    "name": "Short name",
+                    "value": "Reporting period end date",
+                    "order": 0,
+                    "permission": 0
+                }
+            ],
+            "customvalue_set": [
+                {
+                    "id": 443,
+                    "name": "Submitting Organisation",
+                    "field": 3,
+                    "content": "
+ Australian Government Department of Social Services
+
+"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "007b4734-731d-11ea-826c-6660846ba4fa",
+                    "namespace": 2,
+                    "identifier": "645354",
+                    "version": "1",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 189,
+            "created": "2018-08-10T14:07:52.288368+10:00",
+            "modified": "2020-11-24T20:13:46.645669+11:00",
+            "uuid": "3fc526bc-9c50-11e8-92a9-0273a7ea5052",
+            "name": "PIA_Recipient—home ownership status, code A",
+            "definition": "
+The home ownership status of a recipient, as represented by a code.
+
+",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "",
+            "references": "",
+            "origin_URI": "http://meteor.aihw.gov.au/content/index.phtml/itemId/645466",
+            "origin": "",
+            "comments": "",
+            "dataElementConcept": "3fb86fe4-9c50-11e8-92a9-0273a7ea5052",
+            "valueDomain": "3fb11154-9c50-11e8-92a9-0273a7ea5052",
+            "metadatareferencelink_set": [],
+            "slots": [
+                {
+                    "id": 42,
+                    "name": "Guide For Use",
+                    "value": "
+CODE H   Homeowner
+
+\r\n
+A homeowner includes a person who owns their home outright or is paying a mortgage on the home.
+
+",
+                    "order": 0,
+                    "permission": 0
+                },
+                {
+                    "id": 43,
+                    "name": "Short name",
+                    "value": "Home ownership status",
+                    "order": 0,
+                    "permission": 0
+                }
+            ],
+            "customvalue_set": [
+                {
+                    "id": 472,
+                    "name": "Submitting Organisation",
+                    "field": 3,
+                    "content": "
+Australian Government Department of Social Services
+
+"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "007ba0f8-731d-11ea-826c-6660846ba4fa",
+                    "namespace": 2,
+                    "identifier": "645466",
+                    "version": "1",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 190,
+            "created": "2018-08-10T14:07:53.837219+10:00",
+            "modified": "2021-04-15T17:53:48.325251+10:00",
+            "uuid": "3fc56f3c-9c50-11e8-92a9-0273a7ea5052",
+            "name": "Recipient: Benefit status, code",
+            "definition": "
+The status of a recipient's government benefit, as represented by a code.
+
+",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "0.1",
+            "references": "",
+            "origin_URI": "http://meteor.aihw.gov.au/content/index.phtml/itemId/645499",
+            "origin": "",
+            "comments": "",
+            "dataElementConcept": "3fba2190-9c50-11e8-92a9-0273a7ea5052",
+            "valueDomain": "3fb13c1a-9c50-11e8-92a9-0273a7ea5052",
+            "metadatareferencelink_set": [],
+            "slots": [
+                {
+                    "id": 44,
+                    "name": "Short name",
+                    "value": "Benefit status",
+                    "order": 0,
+                    "permission": 0
+                }
+            ],
+            "customvalue_set": [
+                {
+                    "id": 448,
+                    "name": "Submitting Organisation",
+                    "field": 3,
+                    "content": "
+Australian Government Department of Social Services
+
+"
+                },
+                {
+                    "id": 53394,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 53395,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 53396,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "007bfddc-731d-11ea-826c-6660846ba4fa",
+                    "namespace": 2,
+                    "identifier": "645499",
+                    "version": "1",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 191,
+            "created": "2018-08-10T14:07:55.681528+10:00",
+            "modified": "2020-11-24T20:13:45.831280+11:00",
+            "uuid": "3fc5b4ec-9c50-11e8-92a9-0273a7ea5052",
+            "name": "Recipient—carer allowance entitlement indicator, yes/missing code A",
+            "definition": "
+An indicator of whether a recipient is entitled to Carer allowance, as represented by a code.
+
+",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "",
+            "references": "",
+            "origin_URI": "http://meteor.aihw.gov.au/content/index.phtml/itemId/645540",
+            "origin": "",
+            "comments": "",
+            "dataElementConcept": "3fb95a8a-9c50-11e8-92a9-0273a7ea5052",
+            "valueDomain": "3fb52834-9c50-11e8-92a9-0273a7ea5052",
+            "metadatareferencelink_set": [],
+            "slots": [
+                {
+                    "id": 46,
+                    "name": "Short name",
+                    "value": "Carer allowance entitlement indicator",
+                    "order": 0,
+                    "permission": 0
+                }
+            ],
+            "customvalue_set": [
+                {
+                    "id": 165,
+                    "name": "Submitting Organisation",
+                    "field": 3,
+                    "content": "
+Australian Government Department of Social Services
+
+"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "007c7136-731d-11ea-826c-6660846ba4fa",
+                    "namespace": 2,
+                    "identifier": "645540",
+                    "version": "1",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 192,
+            "created": "2018-08-10T14:07:57.502376+10:00",
+            "modified": "2020-11-24T20:24:33.577861+11:00",
+            "uuid": "3fc6046a-9c50-11e8-92a9-0273a7ea5052",
+            "name": "Recipient—partner identifier, scrambled customer reference number N(9)",
+            "definition": "
+A random sequence of characters used for the purposes of identifying the partner of a Centrelink recipient in the PIA research data set.
+
+",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "",
+            "references": "",
+            "origin_URI": "http://meteor.aihw.gov.au/content/index.phtml/itemId/645558",
+            "origin": "",
+            "comments": "",
+            "dataElementConcept": "3fb89636-9c50-11e8-92a9-0273a7ea5052",
+            "valueDomain": "3fb0bec0-9c50-11e8-92a9-0273a7ea5052",
+            "metadatareferencelink_set": [],
+            "slots": [
+                {
+                    "id": 47,
+                    "name": "Short name",
+                    "value": "Scrambled partner's identifier CRN",
+                    "order": 0,
+                    "permission": 0
+                }
+            ],
+            "customvalue_set": [
+                {
+                    "id": 172,
+                    "name": "Submitting Organisation",
+                    "field": 3,
+                    "content": "
+Australian Government Department of Social Services
+
+"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "007cc122-731d-11ea-826c-6660846ba4fa",
+                    "namespace": 2,
+                    "identifier": "645558",
+                    "version": "1",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 193,
+            "created": "2018-08-10T14:07:59.512819+10:00",
+            "modified": "2021-04-15T17:53:46.224321+10:00",
+            "uuid": "3fc64b0a-9c50-11e8-92a9-0273a7ea5052",
+            "name": "Recipient—family tax benefit child, total number N[N]",
+            "definition": "
+The total number of children for which a recipient receives a Family Tax Benefit (Part A or B) payment.
+
+",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "",
+            "references": "",
+            "origin_URI": "http://meteor.aihw.gov.au/content/index.phtml/itemId/646981",
+            "origin": "",
+            "comments": "",
+            "dataElementConcept": "3fbbe2a0-9c50-11e8-92a9-0273a7ea5052",
+            "valueDomain": "3fae6922-9c50-11e8-92a9-0273a7ea5052",
+            "metadatareferencelink_set": [],
+            "slots": [
+                {
+                    "id": 48,
+                    "name": "Short name",
+                    "value": "Number of Family Tax Benefit children",
+                    "order": 0,
+                    "permission": 0
+                }
+            ],
+            "customvalue_set": [
+                {
+                    "id": 167,
+                    "name": "Submitting Organisation",
+                    "field": 3,
+                    "content": "
+ Australian Government Department of Social Services
+
+"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "007d0cd6-731d-11ea-826c-6660846ba4fa",
+                    "namespace": 2,
+                    "identifier": "646981",
+                    "version": "1",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 194,
+            "created": "2018-08-10T14:08:01.353669+10:00",
+            "modified": "2020-11-24T20:13:45.876768+11:00",
+            "uuid": "3fc69894-9c50-11e8-92a9-0273a7ea5052",
+            "name": "Recipient—regular care child, total number N[N]",
+            "definition": "
+The total number of children for which a recipient has regular care.
+
+",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "",
+            "references": "",
+            "origin_URI": "http://meteor.aihw.gov.au/content/index.phtml/itemId/646987",
+            "origin": "",
+            "comments": "",
+            "dataElementConcept": "3fbb296e-9c50-11e8-92a9-0273a7ea5052",
+            "valueDomain": "3fae6922-9c50-11e8-92a9-0273a7ea5052",
+            "metadatareferencelink_set": [],
+            "slots": [
+                {
+                    "id": 49,
+                    "name": "Short name",
+                    "value": "Number of Regular Care Children",
+                    "order": 0,
+                    "permission": 0
+                }
+            ],
+            "customvalue_set": [
+                {
+                    "id": 170,
+                    "name": "Submitting Organisation",
+                    "field": 3,
+                    "content": "
+ Australian Government Department of Social Services
+
+"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "007d53f8-731d-11ea-826c-6660846ba4fa",
+                    "namespace": 2,
+                    "identifier": "646987",
+                    "version": "1",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 195,
+            "created": "2018-08-10T14:08:03.485788+10:00",
+            "modified": "2020-11-24T20:24:33.628477+11:00",
+            "uuid": "3fc6e54c-9c50-11e8-92a9-0273a7ea5052",
+            "name": "Recipient—work capacity assessment before intervention, total hours XX[XXX]",
+            "definition": "
+The total number of hours per week that has been assessed as a recipient’s work capacity before intervention.
+
+",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "",
+            "references": "",
+            "origin_URI": "http://meteor.aihw.gov.au/content/index.phtml/itemId/646998",
+            "origin": "",
+            "comments": "",
+            "dataElementConcept": "3fbc32fa-9c50-11e8-92a9-0273a7ea5052",
+            "valueDomain": "3fb16654-9c50-11e8-92a9-0273a7ea5052",
+            "metadatareferencelink_set": [],
+            "slots": [
+                {
+                    "id": 50,
+                    "name": "Guide For Use",
+                    "value": "
+This data element should be used in conjunction with the data element: Recipient—work capacity assessment with intervention, total hours XX[XXX].
+
+",
+                    "order": 0,
+                    "permission": 0
+                },
+                {
+                    "id": 51,
+                    "name": "Short name",
+                    "value": "Work capacity assessment before intervention",
+                    "order": 0,
+                    "permission": 0
+                }
+            ],
+            "customvalue_set": [
+                {
+                    "id": 183,
+                    "name": "Submitting Organisation",
+                    "field": 3,
+                    "content": "
+ Australian Government Department of Social Services
+
+"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "007da038-731d-11ea-826c-6660846ba4fa",
+                    "namespace": 2,
+                    "identifier": "646998",
+                    "version": "1",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 196,
+            "created": "2018-08-10T14:08:05.527412+10:00",
+            "modified": "2021-04-15T17:53:46.329273+10:00",
+            "uuid": "3fc73326-9c50-11e8-92a9-0273a7ea5052",
+            "name": "Recipient—work capacity assessment with intervention, total hours XX[XXX]",
+            "definition": "
+The total number of hours per week that has been assessed as a recipient’s work capacity with intervention.
+
+",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "",
+            "references": "",
+            "origin_URI": "http://meteor.aihw.gov.au/content/index.phtml/itemId/647003",
+            "origin": "",
+            "comments": "",
+            "dataElementConcept": "3fbc57da-9c50-11e8-92a9-0273a7ea5052",
+            "valueDomain": "3fb16654-9c50-11e8-92a9-0273a7ea5052",
+            "metadatareferencelink_set": [],
+            "slots": [
+                {
+                    "id": 52,
+                    "name": "Guide For Use",
+                    "value": "
+This data element should be used in conjunction with the data element: Recipient—work capacity assessment before intervention, total hours XX[XXX].
+
+",
+                    "order": 0,
+                    "permission": 0
+                },
+                {
+                    "id": 53,
+                    "name": "Short name",
+                    "value": "Work capacity assessment with intervention",
+                    "order": 0,
+                    "permission": 0
+                }
+            ],
+            "customvalue_set": [
+                {
+                    "id": 733,
+                    "name": "Submitting Organisation",
+                    "field": 3,
+                    "content": "
+ Australian Government Department of Social Services
+
+"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "007de8a4-731d-11ea-826c-6660846ba4fa",
+                    "namespace": 2,
+                    "identifier": "647003",
+                    "version": "1",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 197,
+            "created": "2018-08-10T14:08:07.579427+10:00",
+            "modified": "2021-04-15T17:06:45.924069+10:00",
+            "uuid": "3fc779c6-9c50-11e8-92a9-0273a7ea5052",
+            "name": "PIA_Person—partner's Indigenous status, code A",
+            "definition": "
+Whether a person's partner identifies as being of Aboriginal or Torres Strait Islander origin, as represented by a code.
+
+",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "",
+            "references": "
+Australian Institute of Health and Welfare 2010. National best practice guidelines for collecting Indigenous status in health data sets. Cat. no. IHW 29. Canberra: AIHW. Viewed 29 September 2015, http://www.aihw.gov.au/publication-detail/?id=6442468342\">http://www.aihw.gov.au/publication-detail/?id=6442468342.
+
+",
+            "origin_URI": "http://meteor.aihw.gov.au/content/index.phtml/itemId/647017",
+            "origin": "",
+            "comments": "",
+            "dataElementConcept": "3fb9d5e6-9c50-11e8-92a9-0273a7ea5052",
+            "valueDomain": "3faf6066-9c50-11e8-92a9-0273a7ea5052",
+            "metadatareferencelink_set": [],
+            "slots": [
+                {
+                    "id": 54,
+                    "name": "Guide For Use",
+                    "value": "
+This information is collected on a voluntary basis and is of unknown quality. Individuals may change their identification over time.
+
+",
+                    "order": 0,
+                    "permission": 0
+                },
+                {
+                    "id": 55,
+                    "name": "Short name",
+                    "value": "Partner's Indigenous status",
+                    "order": 0,
+                    "permission": 0
+                }
+            ],
+            "customvalue_set": [
+                {
+                    "id": 33,
+                    "name": "Submitting Organisation",
+                    "field": 3,
+                    "content": "
+Australian Government Department of Social Services
+
+"
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "007e3796-731d-11ea-826c-6660846ba4fa",
+                    "namespace": 2,
+                    "identifier": "647017",
+                    "version": "1",
+                    "order": 0
+                }
+            ]
+        }
+    ]
+}
+HTML form
+Raw data
+Accessibility Help
+Powered by the Aristotle Metadata Registry

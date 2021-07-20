@@ -1,0 +1,1575 @@
+dss2o_id,dss2o_created,dss2o_modified,dss2o_uuid,dss2o_name,dss2o_definition,dss2o_stewardship_organisation,dss2o_workgroup,dss2o_version,dss2o_references,dss2o_origin_URI,dss2o_origin,dss2o_comments,dss2o_statistical_unit,dss2o_collection_method
+241,2018-08-10,2021-04-15,3fd4291e-9c50-11e8-92a9-0273a7ea5052,Priority investment approach research DSS,"<div><p>The Priority Investment Approach (PIA) research<span> </span>data set specification (DSS) defines longitudinal social security information related to Centrelink recipients and&#160;their partners. The information defined includes information related to entitlements to benefits, payment information and&#160;demographic details (for example, sex, Indigenous status, refugee status and date of birth).&#8203;</p>
+<p>A Centrelink recipient is a person to whom&#160;an Australian Government&#160;Centrelink benefit is provided.</p>
+<p>A person is considered to be a recipient's partner if the person and recipient live together, or usually live together, and are:&#160;married, or in a registered relationship (opposite-sex or same-sex), or in a de facto relationship (opposite-sex or same-sex).</p>
+<p>The data set does not include information relating to the&#160;Child Care Benefit (CCB) or Child Care Rebate (CCR).</p></div>",e4414942db3711e995fe62bb09eaf366,6,,"<p>Department of Human Services 2016. A guide to Australian Government payments 1 July&ndash;19 September 2016. Viewed 19 July 2016, <a href=""https://www.humanservices.gov.au/sites/default/files/co029-1607en.pdf"">https://www.humanservices.gov.au/sites/default/files/co029-1607en.pdf</a>.</p>",http://meteor.aihw.gov.au/content/index.phtml/itemId/650525,,"<p>The Australian Priority Investment Approach Longitudinal Income Support Administrative Dataset&nbsp;defines longitudinal social security data from the DHS&nbsp;EDW.</p>
+<p>The investment approach to welfare supports the work done to implement the recommendations of the review of Australia&#39;s welfare system - the McClure Review.&nbsp;Data about&nbsp;the triggers that affect a person&#39;s&nbsp;transitions through&nbsp;the social support system have been collected in the form of the PIA research DSS.</p>
+<p>The underlying criteria for this data set is subject to legislative review over the period of this data collection.</p>",,
+242,2018-08-10,2020-11-24,3fd456dc-9c50-11e8-92a9-0273a7ea5052,PIA_Accommodation Cluster,"<p>The PIA Accommodation Cluster defines information about&nbsp;households and recipients that are eligible to receive Centrelink rental payments&nbsp;(type,&nbsp;frequency, payee, weekly payment amount), and information about homeownership status, accommodation type and subtenant status.</p>",e4414942db3711e995fe62bb09eaf366,6,,,http://meteor.aihw.gov.au/content/index.phtml/itemId/650528,,,,
+243,2018-08-10,2021-04-15,3fd46bf4-9c50-11e8-92a9-0273a7ea5052,PIA_Children Cluster,"<p>The Children Cluster defines information about recipients of Centrelink&nbsp;benefits who have children for whom they are eligible to receive a&nbsp;Family Tax Benefit (FTB) payment, a Double Orphan Pension&nbsp;or a Multiple Birth Allowance.</p>",e4414942db3711e995fe62bb09eaf366,6,,,http://meteor.aihw.gov.au/content/index.phtml/itemId/650587,,"<div><p><strong>Family Tax Benefit Part A or B</strong></p>
+<p>A&#160;FTB payment is a&#160;two-part payment that helps with the cost of raising children. To be eligible for the payment a&#160;recipient must:</p>
+<ul>
+	<li>have a dependent child (aged 0<span>&#8211;</span>15 years), or secondary student younger than 20 years of age who is not receiving a pension, payment or benefit such as Youth Allowance</li>
+	<li>provide care for the child for at least 35% of the time</li>
+	<li>meet an income test.</li>
+</ul>
+
+<p>A young person aged 19 can be an FTB child up to the end of the calendar year in which they turn 19, as long as they are in full-time secondary study.</p>
+
+<p><strong>Double Orphan Pension</strong></p>
+
+<p>The Double Orphan Pension is a payment to a recipient who cares for a child where:</p>
+
+<ul>
+	<li>both parents deceased, or</li>
+	<li>one parent is deceased and the other parent is: in prison for at least 10 years, or held on remand and charged with an offence that may be punishable by imprisonment for a term of at least 10 years, or in a psychiatric hospital or nursing home for an indefinite period of time, or&#160;uncontactable, that is, whose whereabouts are unknown, or</li>
+	<li>both parents live outside Australia or their whereabouts are unknown, and the child has been granted refugee status by the Australian Government, or admitted into Australia under a special humanitarian program approved by the Minister with portfolio responsibility and has not at any time lived in Australia with either or both parents.</li>
+</ul>
+</div>",,
+244,2018-08-10,2021-04-15,3fd4813e-9c50-11e8-92a9-0273a7ea5052,PIA_Demographics Cluster,"<p>The Demographics Cluster defines demographic information relating to&nbsp;both recipients of Centrelink&nbsp;benefits and their partners. The information includes: age, country of birth, citizenship, gender, Indigenous status, refugee status, preferred and spoken language and marital status.</p>",e4414942db3711e995fe62bb09eaf366,6,,,http://meteor.aihw.gov.au/content/index.phtml/itemId/650590,,,,
+245,2018-08-10,2020-11-24,3fd4949e-9c50-11e8-92a9-0273a7ea5052,PIA_Disability Cluster,"The Disability cluster defines information relating to Centrelink recipients in relation to medical conditions, permanency of medical conditions and impairment ratings for the purposes of Disability Support Pension (DSP).",e4414942db3711e995fe62bb09eaf366,6,,,http://meteor.aihw.gov.au/content/index.phtml/itemId/650608,,"<p>DSP is an income support payment for people who are:</p>
+<ul>
+	<li>aged between 16 years and age pension age (when claiming)</li>
+	<li>satisfy the residence criteria, and</li>
+	<li>either&nbsp;are permanently blind, or have a physical, intellectual or psychiatric disability causing functional incapacity of at least 20 points as measured by the Impairment Tables, and</li>
+	<li>have a Continuing Inability to Work, or are participating in Supported Wage System.</li>
+</ul>
+
+<p>In order to claim the DSP, a person must undergo an assessment such as an Employment Services Assessment, a Job Capacity Assessment or Disability Medical Assessment. These assessments:</p>
+
+<ul>
+	<li>confirm details of the main medical conditions affecting the person&rsquo;s capacity to work</li>
+	<li>assess how these conditions affect the person&rsquo;s capacity to work or take part in other activities</li>
+	<li>identify suitable interventions and assistance to help the person into work or stay in a job.</li>
+</ul>
+
+<p>As part of these assessments, the person&#39;s treating doctor provides details of medical conditions that impact a person&#39;s ability to work. These conditions are given an order of impact, with the primary medical condition having the most significant impact on a person&#39;s functioning. For each medical condition, details of the permanency of the condition and an impairment rating (relating to the severity of the medical condition)&nbsp;are provided.</p>
+
+<p>In order to determine the extent of impairment and permanency of a recipient&rsquo;s medical condition, the Department of Social Services also collects information on the type of functional impairment caused by that condition. However this data element has not been included in this data set in order to maintain the privacy and confidentiality of recipients.</p>",,
+246,2018-08-10,2020-11-24,3fd4a7ea-9c50-11e8-92a9-0273a7ea5052,PIA_Income and Assets Cluster,<p>The Income and Assets Cluster defines information relating to the income received by a Centrelink recipient from&nbsp;continuous and one-off income sources.</p>,e4414942db3711e995fe62bb09eaf366,6,,,http://meteor.aihw.gov.au/content/index.phtml/itemId/650616,,"<p><strong>Income tests</strong></p>
+
+<p>Income tests are usually designed with a &rsquo;free area&rsquo;<strong>&mdash;</strong>&nbsp;the amount of income someone can have before the income test applies. The free area recognises that people need to use their wages to cover the costs of working before they can spend earnings on other needs. For unearned income, a free area allows a recipient to hold modest savings without affecting their payments (unless they have other income).</p>
+
+<p>Income tests also have a &lsquo;taper rate&#39;<strong>&mdash;</strong>the amount by which payments reduce for every extra dollar of income received in excess of the free area. The taper rate is a compromise between the goal of reducing government assistance and recognising greater self reliance on one hand, while on the other hand maintaining a reward for working. When income falls, the taper rate dictates what proportion of the income will be replaced by income support or family payments.</p>
+
+<p>The &lsquo;cut out&rsquo; is the income at which payments are reduced to zero when people cease to receive income support.</p>
+
+<p>Income banking arrangements allow people to save (or &rsquo;bank credits&#39; for periods when they have little or no earnings to offset earnings at a later date).</p>
+
+<p><strong>Assets&nbsp;tests</strong></p>
+
+<p>Assets tests are intended to ensure people with high assets draw on their savings to meet their current needs. Assets tests usually have a threshold and a taper rate.</p>
+
+<p>Non-homeowners have a higher assets test threshold than homeowners, but the principal home is exempt from the assets test.</p>
+
+<p>The assets test limit is set at the value of the assets test threshold for Newstart Allowance and Parenting Payment (Single) (that is&nbsp;there is no taper) resulting in a &lsquo;sudden death&rsquo; limit whereby recipients lose their payment entirely if they have assets above the threshold.</p>",,
+247,2018-08-10,2020-11-24,3fd4bbae-9c50-11e8-92a9-0273a7ea5052,PIA_Income support information Cluster,<p>The Income Support Information Cluster defines information in relation to the identification of Centrelink recipients and their partners; the type and status of Centrelink benefits; and income management initiatives recipients may be subject to.</p>,e4414942db3711e995fe62bb09eaf366,6,,,http://meteor.aihw.gov.au/content/index.phtml/itemId/650619,,,,
+248,2018-08-10,2021-04-15,3fd4cf72-9c50-11e8-92a9-0273a7ea5052,PIA_Location Cluster,"<p>The Location Cluster defines information relating to&nbsp;the country of birth, country of residence, and geographic location (postcode,&nbsp;Statistical area level 1 and state/territory of usual residence) of a recipient of Centrelink benefits.</p>",e4414942db3711e995fe62bb09eaf366,6,,,http://meteor.aihw.gov.au/content/index.phtml/itemId/650634,,,,
+249,2018-08-10,2021-04-15,3fd4e28c-9c50-11e8-92a9-0273a7ea5052,PIA_Reporting period Cluster,<p>The Reporting period&nbsp;cluster defines information about quarterly reporting&nbsp;start and end dates for recipients of Centrelink benefits.</p>,e4414942db3711e995fe62bb09eaf366,6,,,http://meteor.aihw.gov.au/content/index.phtml/itemId/650623,,,,
+42117,2020-08-12,2020-11-24,8f06c8e2-dc6e-11ea-b9c4-02b137f3fb1e,Digital Metrics Core Data Items,Yet to be defined,7089da98b44c11ea849a5a0bdf2d1ed7,118,,,,,,,
+42121,2020-08-12,2021-06-21,8f0c026c-dc6e-11ea-b1f5-0a8620c9d3ec,Circumstance Driven Customer Management 'Change in Study' Data Mapping,"This data set specification identifies data necessary to complete transactions associated with study details for a customer that may be used to support a proposed Beta Trial.
+Potential data sources will include universities, their software vendors and the",7089da98b44c11ea849a5a0bdf2d1ed7,111,,,,Centrelink Repository,,,
+42122,2020-08-12,2021-06-21,8f194580-dc6e-11ea-8a29-062f7acd21ca,Student Online Claim Accommodation,Yet to be defined,7089da98b44c11ea849a5a0bdf2d1ed7,111,,,,Centrelink Repository,,,
+42123,2020-08-12,2021-06-21,8f185d8c-dc6e-11ea-b153-022da9221366,Student Online Claim Australian Residence Details,Yet to be defined,7089da98b44c11ea849a5a0bdf2d1ed7,111,,,,Centrelink Repository,,,
+42124,2020-08-12,2020-11-24,8f4db2e8-dc6e-11ea-8a08-02b137f3fb1e,Data Standards Business Data Dictionary,Yet to be defined,7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,,,,
+42128,2020-08-12,2021-06-21,91bd5830-dc6e-11ea-afd9-0a8620c9d3ec,Student Online Claim Circumstances,Yet to be defined,7089da98b44c11ea849a5a0bdf2d1ed7,111,,,,Centrelink Repository,,,
+42131,2020-08-12,2021-06-21,949963c8-dc6e-11ea-ac21-02b137f3fb1e,Student Online Claim Principal Carer,Yet to be defined,7089da98b44c11ea849a5a0bdf2d1ed7,111,,,,Centrelink Repository,,,
+42132,2020-08-12,2021-06-21,9499caf2-dc6e-11ea-b1f5-0a8620c9d3ec,Student Online Claim Education Status,Yet to be defined,7089da98b44c11ea849a5a0bdf2d1ed7,111,,,,Centrelink Repository,,,
+42133,2020-08-12,2021-06-21,949ad9c4-dc6e-11ea-b735-022da9221366,Student Online Claim Savings,Yet to be defined,7089da98b44c11ea849a5a0bdf2d1ed7,111,,,,Centrelink Repository,,,
+42134,2020-08-12,2021-06-21,94992192-dc6e-11ea-906f-062f7acd21ca,Student Online Claim Independence Details,Yet to be defined,7089da98b44c11ea849a5a0bdf2d1ed7,111,,,,Centrelink Repository,,,
+42135,2020-08-12,2021-06-21,9499967c-dc6e-11ea-9a41-0a6933dafb30,Student Online Claim Reporting Regime,Yet to be defined,7089da98b44c11ea849a5a0bdf2d1ed7,111,,,,Centrelink Repository,,,
+42136,2020-08-12,2021-06-21,949a0d64-dc6e-11ea-8a29-062f7acd21ca,Student Online Claim Payment Instructions,Yet to be defined,7089da98b44c11ea849a5a0bdf2d1ed7,111,,,,Centrelink Repository,,,
+42137,2020-08-12,2021-06-21,949ca1f0-dc6e-11ea-b153-022da9221366,Student Online Claim Other Assets,Yet to be defined,7089da98b44c11ea849a5a0bdf2d1ed7,111,,,,Centrelink Repository,,,
+42138,2020-08-12,2021-06-21,949ce124-dc6e-11ea-8ba0-022da9221366,Student Online Claim Sharer Details,Yet to be defined,7089da98b44c11ea849a5a0bdf2d1ed7,111,,,,Centrelink Repository,,,
+42139,2020-08-12,2021-06-21,949c9908-dc6e-11ea-8a08-02b137f3fb1e,Student Online Claim Relationship Details,Yet to be defined,7089da98b44c11ea849a5a0bdf2d1ed7,111,,,,Centrelink Repository,,,
+42212,2020-08-12,2021-01-18,9c8dbd90-dc6e-11ea-bade-0a6933dafb30,DHS AS4590 Standards 2006,"The Department of Human Services data dictionary can be used to collect details for a person or an organisation, including the name, identification details, contact details, name and address details. It is based on the Standards prepared by Standards Aust",7089da98b44c11ea849a5a0bdf2d1ed7,88,,"Originated as part of AS 4212-1994.
+Previous edition AS 4590-1999.
+Second edition 2006.",,"Standards Australia 2006. AS 4590   2006 Interchange of client information. Sydney: Standards Australia.
+Standards Australia 201X. AS 4846   201X Person and provider identification in healthcare. Sydney: Standards Australia.",,,
+42140,2020-08-12,2021-06-21,949c615e-dc6e-11ea-b216-0a8620c9d3ec,Student Online Claim SBP Income Estimate,Yet to be defined,7089da98b44c11ea849a5a0bdf2d1ed7,111,,,,Centrelink Repository,,,
+42141,2020-08-12,2021-06-21,949e1f62-dc6e-11ea-a913-0a6933dafb30,Austudy Study Details,This cluster of data elements provides information on the study details section of the Austudy form.,7089da98b44c11ea849a5a0bdf2d1ed7,111,,,,Centrelink Repository,,,
+42143,2020-08-12,2021-06-21,94ac9dee-dc6e-11ea-b9c4-02b137f3fb1e,Austudy Relationship Details,This cluster of data elements provides information on the relationship status section of the Austudy form.,7089da98b44c11ea849a5a0bdf2d1ed7,111,,,,Centrelink Repository,,,
+42145,2020-08-12,2021-06-21,94b19754-dc6e-11ea-bade-0a6933dafb30,Austudy Accommodation Details,This cluster of data elements provides information on the accommodation section of the Austudy form.,7089da98b44c11ea849a5a0bdf2d1ed7,111,,,,Centrelink Repository,,,
+42146,2020-08-12,2021-06-21,94d59fa0-dc6e-11ea-8a08-02b137f3fb1e,Austudy Form - Claim for Austudy,Provides information on the contents of the Austudy form SY002.,7089da98b44c11ea849a5a0bdf2d1ed7,111,,SY002,,Centrelink Repository,"Business owner: Education, Employment & Disabilities Programs Branch",,
+42147,2020-08-12,2021-06-21,94dfbe86-dc6e-11ea-b216-0a8620c9d3ec,Austudy Living Arrangement Details,This cluster of data elements provides information on the living arrangements section of the Austudy form.,7089da98b44c11ea849a5a0bdf2d1ed7,111,,,,Centrelink Repository,,,
+42149,2020-08-12,2021-06-21,94e78238-dc6e-11ea-8ba0-022da9221366,Austudy Income And Assets Details,This cluster of data elements provides information on the income and assets section of the Austudy form.,7089da98b44c11ea849a5a0bdf2d1ed7,111,,,,Centrelink Repository,,,
+42150,2020-08-12,2021-06-21,94ecaf38-dc6e-11ea-b153-022da9221366,Austudy Residence Details,This cluster of data elements provides information on the residential details section of the Austudy form.,7089da98b44c11ea849a5a0bdf2d1ed7,111,,,,,,,
+42151,2020-08-12,2020-11-24,96bab440-dc6e-11ea-8a29-062f7acd21ca,Financial Account Details,"Financial institution details refers to the account the client has their refunds or credits paid to. This includes credit union, building society and lending institution accounts. The financial institution details may include the the account name, BSB, ac",7089da98b44c11ea849a5a0bdf2d1ed7,88,,Australian Taxation Office. Definitions-business portal. 2014. http://portalhelp.ato.gov.au/BP/ADMIN/Resources/Definitions/,,Centrelink Repository,,,
+42156,2020-08-12,2020-11-24,96be11a8-dc6e-11ea-8a08-02b137f3fb1e,DHS Electronic Contact Details Data Dictionary,"The electronic contact details data dictionary is used to collect electronic contact details for a person or organisation, including telephone contact details. It is based on the Standards prepared by Standards Australia Subcommittee IT-027-01, Personal a",7089da98b44c11ea849a5a0bdf2d1ed7,88,,"Originated as part of AS 4212-1994.
+Previous edition AS 4590-1999.
+Second edition 2006.",,Standards Australia 2006. AS 4590   2006 Interchange of client information. Sydney: Standards Australia.,,,
+42158,2020-08-12,2020-11-24,96c0b566-dc6e-11ea-ac21-02b137f3fb1e,DHS Organisation Details Data Dictionary,"The organisation details data dictionary is used to collect details for an organisation, including the name of the organisation. It is based on the Standards prepared by Standards Australia Subcommittee IT-027-01, Personal and Corporate Data-Representatio",7089da98b44c11ea849a5a0bdf2d1ed7,88,,"Originated as part of AS 4212-1994.
+Previous edition AS 4590-1999.
+Second edition 2006.",,Standards Australia 2006. AS 4590   2006 Interchange of client information. Sydney: Standards Australia.,Note: Updated to AS 4590_2017 Interchange of client information. Sydney: Standards Australia.,,
+42159,2020-08-12,2020-11-24,96c3d7be-dc6e-11ea-b153-022da9221366,DHS Person Details Data Dictionary,"The person details data dictionary contains the data elements to identify the name and demographic characteristics of a person defined as a human being, whether adult or child. It is based on the Standards prepared by Standards Australia Subcommittee.",7089da98b44c11ea849a5a0bdf2d1ed7,88,,"Originated as part of AS 4212-1994.
+Previous edition AS 4590-1999.
+Second edition 2006.",,Standards Australia 2006. AS 4590   2006 Interchange of client information. Sydney: Standards Australia.,,,
+42161,2020-08-12,2020-11-24,96d430e6-dc6e-11ea-8ba0-022da9221366,Disability Services NMDS 2014-15,"The Disability Services Minimum Data Set (DS NMDS) and is a national collection that has:
+
+a set of nationally significant data items or pieces of information that are collected in all Australian jurisdictions; and   an agreed method of collection and tran",7089da98b44c11ea849a5a0bdf2d1ed7,88,,Disability Services collection forms 2014-15 (Service User and Service Type Outlet),,Disability Services National Minimum Data Set (DS NMDS): data guide 2014   15,,,
+42162,2020-08-12,2020-11-24,96d467a0-dc6e-11ea-b1f5-0a8620c9d3ec,DHS Address Details Data Dictionary,"The address details data dictionary is used to collect information pertaining to an address, which is defined as a collection of information used for describing the location of an entity, and/or details describing how the entity can be contacted. It is ba",7089da98b44c11ea849a5a0bdf2d1ed7,88,,"Originated as part of AS 4212-1994.
+
+Previous edition AS 4590-1999.
+
+Second edition 2006.",,"Standards Australia 2006. AS 4590   2006 Interchange of client information. Sydney: Standards Australia.
+
+Standards Australia/Standards New Zealand 2008. AS/NZS ISO6709:2008   Standard representation of latitude, longitude and altitude for geographic point lo","The addressing information interchange section of AS 4590 has been aligned with AS/NZS 4819, Geographic information   Rural and urban addressing. AS/NZS 4819 was compiled to direct authorities required to allocate physical addresses, whether they be to prop",,
+42164,2020-08-12,2020-11-24,96f1d312-dc6e-11ea-bade-0a6933dafb30,DHS Party Identification Details Data Dictionary,The party identifier details data dictionary contains items which describe the identification details for people or organisations. A party may have multiple identification details and identifier statuses. It is based on the Standards prepared by Standards,7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,Standards Australia 2006. AS 4590   2006 Interchange of client information. Sydney: Standards Australia.,,,
+42168,2020-08-12,2021-06-17,9774ca74-dc6e-11ea-9a41-0a6933dafb30,DHS Taxonomy,"The Department of Human Services data dictionary can be used to collect details for a person or an organisation, including the name, identification details, contact details, name and address details. It is based on the Standards prepared by Standards Aust",7089da98b44c11ea849a5a0bdf2d1ed7,88,,"Originated as part of AS 4212-1994.
+Previous edition AS 4590-1999.
+Second edition 2006.",,"Standards Australia 2006. AS 4590   2006 Interchange of client information. Sydney: Standards Australia.
+Standards Australia 201X. AS 4846   201X Person and provider identification in healthcare. Sydney: Standards Australia.",,,
+42173,2020-08-12,2021-06-17,9915f6aa-dc6e-11ea-8ba0-022da9221366,Employer (Organisation) Name Details,"The organisation name and type of name should be used in conjunction to describe an organisation name. This field may be used to record the name of the Current employer, the Future employer, and /or 'Funds paid' to employer.",7089da98b44c11ea849a5a0bdf2d1ed7,118,,,,Centrelink Repository,,,
+42177,2020-08-12,2020-11-24,9918120a-dc6e-11ea-906f-062f7acd21ca,Employer Pay Cycle Details,Yet to be defined,7089da98b44c11ea849a5a0bdf2d1ed7,118,,,,Centrelink Repository,,,
+42186,2020-08-12,2020-11-24,9947e03e-dc6e-11ea-ac21-02b137f3fb1e,Organisation Identifier Details,The identifier name and identifier designation number should be used in conjunction to describe a party identifier.,7089da98b44c11ea849a5a0bdf2d1ed7,118,,,,Centrelink Repository,,,
+42189,2020-08-12,2020-11-24,99b2e0c8-dc6e-11ea-8ba0-022da9221366,Employer Address Details,"The employer address details may be used to record the details of the;- Current employer, the - - Future employer, and /or - - 'Funds paid' to employer. -",7089da98b44c11ea849a5a0bdf2d1ed7,118,,"Originated as part of AS 4212-1994.
+Previous edition AS 4590-1999.
+Second edition 2006.",,"Standards Australia 2006. AS 4590   2006 Interchange of client information. Sydney: Standards Australia.
+Standards Australia/Standards New Zealand 2008. AS/NZS ISO6709:2008   Standard representation of latitude, longitude and altitude for geographic point loc",,,
+42190,2020-08-12,2020-11-24,99e207ae-dc6e-11ea-b153-022da9221366,Employment Conditions,Contains all DHS data elements related to a person's employment.,7089da98b44c11ea849a5a0bdf2d1ed7,118,,,,Centrelink Repository,,,
+42211,2020-08-12,2020-11-24,9c8dc90c-dc6e-11ea-ac21-02b137f3fb1e,Disability And Need for Assistance Cluster,This cluster of data elements provides information on the nature and extent of disability for a client of a specialist disability service reporting to the Disability Services NMDS.,7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,Centrelink Repository,,,
+42213,2020-08-12,2021-06-17,9c8eda04-dc6e-11ea-8802-062f7acd21ca,Sex/Gender: DHS Master Data,- Gender- - Gender start date- - Gender end date- - Gender change reason code- - Sex- - Sex start date- - Sex end date- - Sex change reason-,7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,,,,
+42215,2020-08-12,2020-11-24,9c8f0592-dc6e-11ea-906f-062f7acd21ca,Activity And Participation Need for Assistance Cluster,"These data elements are used in conjunction with each other to determine the level of assistance a person with a disability requires and the type of activity for which this assistance is needed.
+
+The activity and participation need for assistance cluster",7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,Centrelink Repository,,,
+42216,2020-08-12,2020-11-24,9c90097e-dc6e-11ea-8a29-062f7acd21ca,Body Functions Cluster,This data cluster is one of four clusters that make up the Functioning and Disability DSS. To ensure a complete description of human functioning it is recommended that it be collected along with the following three clusters over time and by a range of hea,7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,Centrelink Repository,"This cluster is based on the International Classification of Functioning, Disability and Health (ICF). The ICF was endorsed by the World Health Assembly in 2001 as a reference member of the WHO Family of International Classifications and of the Australian",,
+42217,2020-08-12,2020-11-24,9c911986-dc6e-11ea-b735-022da9221366,Body Structures Cluster,This data cluster is one of four clusters that make up the Functioning and Disability DSS. To ensure a complete description of human functioning it is recommended that this cluster be collected along with the following three clusters over time and by,7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,Centrelink Repository,"This cluster is based on the International Classification of Functioning, Disability and Health (ICF). The ICF was endorsed by the World Health Assembly in 2001 as a reference member of the WHO Family of International Classifications and of the Australian",,
+42219,2020-08-12,2021-06-17,9c908ab6-dc6e-11ea-b216-0a8620c9d3ec,Activities And Participation Cluster,This data cluster is one of four clusters that make up the Functioning and Disability DSS. To ensure a complete description of human functioning it is recommended that this cluster be collected along with the following three clusters over time and by a ra,7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,Centrelink Repository,"This cluster is based on the International Classification of Functioning, Disability and Health (ICF). The ICF is a reference member of the WHO Family of International Classifications (endorsed by the World Health Assembly in 2001) and of the Australian F",,
+42220,2020-08-12,2021-06-21,9c918024-dc6e-11ea-8ba0-022da9221366,Informal Carer Benefits Cluster,This cluster may be applied to informal carers associated with clients of specialist disability services.,7089da98b44c11ea849a5a0bdf2d1ed7,99,,,,Centrelink Repository,,,
+42221,2020-08-12,2020-11-24,9c926c5a-dc6e-11ea-a913-0a6933dafb30,Cultural And Language Diversity Cluster,Standards for Statistics on Cultural and Language Diversity have been developed by the Australian Bureau of Statistics (ABS) to provide a means of standardising the way the ABS and other agencies collect and disseminate information relating to the origins,7089da98b44c11ea849a5a0bdf2d1ed7,118,,,,AUSTRALIAN BUREAU OF STATISTICS. STANDARDS FOR STATISTICS ON CULTURAL AND LANGUAGE DIVERSITY. CAT NO. 1289.0. CANBERRA. 1999.,,,
+42222,2020-08-12,2021-06-21,9c9d31ee-dc6e-11ea-b153-022da9221366,Disability Services Carer Details Cluster,This cluster of data elements provides information on carers associated with a client of a specialist disability service reporting to the Disability Services NMDS. The items may be recorded for all carers associated with a client.,7089da98b44c11ea849a5a0bdf2d1ed7,99,,,,Centrelink Repository,,,
+42223,2020-08-12,2020-11-24,9ca2c82a-dc6e-11ea-9a41-0a6933dafb30,Funding Jurisdiction Cluster,This cluster applies to service type outlets reporting to the Disability Services National Minimum Data Set.,7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,Centrelink Repository,,,
+42224,2020-08-12,2020-11-24,9cc56876-dc6e-11ea-bade-0a6933dafb30,Relationship: DHS Master Data,Relationship - Relationship Identifier- - Relationship type- - Relationship start date- - Relationship start time- - Relationship end date- - Relationship end time- - Relationship start reason - - Relationship end reason- - Relationship notes- Parental Re,7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,,,,
+42225,2020-08-12,2020-11-24,9d088c3c-dc6e-11ea-8a08-02b137f3fb1e,Disability Services Standards Cluster,This cluster regarding assessment against disability services standards applies to agencies providing services under the National Disability Agreement and providing data to the Disability Services National Minimum Data Set.,7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,Centrelink Repository,,,
+42226,2020-08-12,2020-11-24,9d0e3060-dc6e-11ea-ac21-02b137f3fb1e,Environmental Factors Cluster,This data cluster is one of four clusters that make up the Functioning and Disability DSS. To ensure a complete description of human functioning it is recommended that this cluster be collected along with the following three clusters over time and by a ra,7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,Centrelink Repository,"This cluster is based on the International Classification of Functioning, Disability and Health (ICF). The ICF was endorsed by the World Health Assembly in 2001 as a reference member of the WHO Family of International Classifications and of the Australian",,
+42227,2020-08-12,2021-06-17,9d111f8c-dc6e-11ea-b216-0a8620c9d3ec,Agency Sector Cluster,This cluster applies to agencies providing data to the Disability Services National Minimum Data Set.,7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,Centrelink Repository,,,
+42228,2020-08-12,2021-06-17,9d150502-dc6e-11ea-b1f5-0a8620c9d3ec,DHS Master Data,The following subject areas have been identified as forming the draft logical data model for the Department of Human Services Master Data Management Strategy and Architecture Project. Ernst and Young Australia 2013. - Customer details- - Address- - Contac,7089da98b44c11ea849a5a0bdf2d1ed7,88,,"Standards Australia 2006. AS 4590   2006 Interchange of client information. Sydney: Standards Australia.Standards Australia 201X. AS 4846   201X Person and provider identification in healthcare. Sydney: Standards Australia<a href=""http://elink.csda.gov.au/BDR",,DEPARTMENT OF HUMAN SERVICES MASTER DATA MANAGEMENT STRATEGY AND ARCHITECTURE PROJECT. ERNST AND YOUNG AUSTRALIA 2013.,,,
+42229,2020-08-12,2020-11-24,9d33a782-dc6e-11ea-8ba0-022da9221366,Disability Services Client Details Cluster,This cluster of data elements provides socio-demographic information on a client of a specialist disability service reporting to the Disability Services NMDS.,7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,Centrelink Repository,,,
+42230,2020-08-12,2020-11-24,9d67f140-dc6e-11ea-ac21-02b137f3fb1e,Birth: DHS Master Data,- Date of birth- - Country of birth- - State of birth- - City of birth-,7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,,Need to resolve use of ISO or ABS standard.,,
+42231,2020-08-12,2020-11-24,9e801012-dc6e-11ea-8a08-02b137f3fb1e,DHS AS4590/4846/5017 Standards,"The Department of Human Services data dictionary can be used to collect details for a person or an organisation, including the name, identification details, contact details, name and address details. It is based on the Standards prepared by Standards Aust",7089da98b44c11ea849a5a0bdf2d1ed7,88,,"Originated as part of AS 4212-1994.
+Previous edition AS 4590-1999.
+Second edition 2006.",,"Standards Australia 2006. AS 4590   2006 Interchange of client information. Sydney: Standards Australia.
+Standards Australia 201X. AS 4846   201X Person and provider identification in healthcare. Sydney: Standards Australia.",,,
+42232,2020-08-12,2021-04-15,9e813406-dc6e-11ea-b1f5-0a8620c9d3ec,Agency Credential: DHS Master Data,- Credential identifier- - Credential entry date- - Credential start date- - Credential end date- - Credential end reason code- - Credential security Lvl code- - Credential end reason source code- - Credential type- - Credential source code- - Credential,7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,,,,
+42233,2020-08-12,2020-11-24,9e820a3e-dc6e-11ea-afd9-0a8620c9d3ec,Bank: DHS Master Data,- Bank ID- - Bank name- - Bank branch name- - Bank SWIFT code- - Institution type- - Bank branch address- - Bank branch phone number- - Bank country -,7089da98b44c11ea849a5a0bdf2d1ed7,88,,Australian Taxation Office. Definitions-business portal. 2014. http://portalhelp.ato.gov.au/BP/ADMIN/Resources/Definitions/,,,,,
+42235,2020-08-12,2020-11-24,9e834e30-dc6e-11ea-b153-022da9221366,Bank Account : DHS Master Data,- Bank account ID- - Bank account start date- - Bank account end date- - Bank account BSB- - International bank account number- - Bank account holder name- - Bank account holder end date- - Bank account source code- - Bank account status timestamp- - Bank,7089da98b44c11ea849a5a0bdf2d1ed7,88,,Australian Taxation Office. Definitions-business portal. 2014. http://portalhelp.ato.gov.au/BP/ADMIN/Resources/Definitions/,,,,,
+42236,2020-08-12,2021-04-15,9e83ee80-dc6e-11ea-906f-062f7acd21ca,Personal Status: DHS Master Data,- Marital status- - Family structure code- - Partner permitted code- - Partner SSR code- - Relationship QUL code- - Research participant code- - Multiple birth code- - End school year- - Not resident tax indicator- - Not resident tax date- - Residence cou,7089da98b44c11ea849a5a0bdf2d1ed7,88,,Australian Taxation Office. Definitions-business portal. 2014. http://portalhelp.ato.gov.au/BP/ADMIN/Resources/Definitions/,,,,,
+42237,2020-08-12,2020-11-24,9e850d4c-dc6e-11ea-9a41-0a6933dafb30,Phone: DHS Master Data,- Phone type- - Phone start date- - Phone end date- - Phone country code- - Phone number- - Phone subscriber code- - Phone preferred indicator- - Phone Monday preferred indicator- - Phone Tuesday preferred indicator- - Phone Wednesday preferred indicator-,7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,,,,
+42238,2020-08-12,2020-11-24,9e855338-dc6e-11ea-8a29-062f7acd21ca,Death: DHS Master Data,- Date of death- - Date of death NTC record- - Death source code- - Death proof code- - Death proof rev date-,7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,,,,
+42239,2020-08-12,2020-11-24,9e86440a-dc6e-11ea-8ba0-022da9221366,Email: DHS Master Data,- Email type- - Email Address- - Email start date- - Email start time- - Email end date- - Email end time- - Email comments-,7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,,,,
+42240,2020-08-12,2020-11-24,9e863780-dc6e-11ea-bade-0a6933dafb30,Name: DHS Master Data,"Wherever possible, the definitions of data elements are based on existing standards. 
+Reference has been made to International and Australian Standards, and to standards from the Australian Bureau of Statistics. - Suffix- - Title- - Given name- - G name M",7089da98b44c11ea849a5a0bdf2d1ed7,88,,"Originated as part of AS 4212-1994.
+Previous edition AS 4590-1999.
+Second edition 2006.",,Standards Australia 2006. AS 4590   2006 Interchange of client information. Sydney: Standards Australia.,,,
+42241,2020-08-12,2020-11-24,9e86a6c0-dc6e-11ea-b735-022da9221366,Ethnicity: DHS Master Data,Ethnicity code- - Spoken language- - Preferred language- - Indigenous code- - Indigenous source code- - Citizenship country code-,7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,,,,
+42242,2020-08-12,2020-11-24,9e87a944-dc6e-11ea-b216-0a8620c9d3ec,Party Identification: DHS SAP Master Data,Yet to be defined,7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,Standards Australia 2006. AS 4590   2006 Interchange of client information. Sydney: Standards Australia.,,,
+42243,2020-08-12,2020-11-24,9ea844a6-dc6e-11ea-ac21-02b137f3fb1e,Address: DHS Master Data,"The address details data dictionary is used to collect information pertaining to an address, which is defined as a collection of information used for describing the location of an entity, and/or details describing how the entity can be contacted. It is ba",7089da98b44c11ea849a5a0bdf2d1ed7,88,,"Originated as part of AS 4212-1994.
+
+Previous edition AS 4590-1999.
+
+Second edition 2006.",,"Standards Australia 2006. AS 4590   2006 Interchange of client information. Sydney: Standards Australia.
+
+Standards Australia/Standards New Zealand 2008. AS/NZS ISO6709:2008   Standard representation of latitude, longitude and altitude for geographic point lo","The addressing information interchange section of AS 4590 has been aligned with AS/NZS 4819, Geographic information   Rural and urban addressing. AS/NZS 4819 was compiled to direct authorities required to allocate physical addresses, whether they be to prop",,
+42125,2020-08-12,2021-06-21,8f5bebce-dc6e-11ea-a913-0a6933dafb30,Student Online Claim Personal Details,<p>Yet to be defined</p>,7089da98b44c11ea849a5a0bdf2d1ed7,111,,,,<p>Centrelink Repository</p>,,,
+42218,2020-08-12,2020-12-03,9c90b9e6-dc6e-11ea-b1f5-0a8620c9d3ec,Statistical Linkage Key 581 Cluster,Statistical data linkage refers to the bringing together of data from different sources to gain a greater understanding of a situation or individual from the combined (or linked) dataset. This facilitat,7089da98b44c11ea849a5a0bdf2d1ed7,88,,NCSIMG 2001. Statistical Data Linkage in Community Services Data Collections. Canberra: Australian Institute of Health and Welfare.,,AIHW 1998. HOME AND COMMUNITY CARE (HACC) DATA DICTIONARY VERSION 1.0. REPORT PREPARED FOR THE COMMONWEALTH AND STATE/TERRITORY GOVERNMENT HACC OFFICIALS.,If the person   s given name is missing altogether the agency should record 99 for the two spaces associated with the given name. In some cultures it is traditional to state the family name first. To overcome discrepancies in recording/reporting that may ar,,
+42246,2020-08-12,2021-06-17,9ec5d20a-dc6e-11ea-8a08-02b137f3fb1e,Core Management Information Requirements,"The business process to capture each time a customer logs in to view, update or make an online claim, using their Unique ID (Centrelink, Child Support or Medicare). 
+This will address the need to capture analytics on the time it takes a person (either cli",7089da98b44c11ea849a5a0bdf2d1ed7,118,,,,Centrelink Repository,,,
+42248,2020-08-12,2020-11-24,9efde42e-dc6e-11ea-9a41-0a6933dafb30,Party Identification: DHS Master Data,Yet to be defined,7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,Standards Australia 2006. AS 4590   2006 Interchange of client information. Sydney: Standards Australia.,,,
+42250,2020-08-12,2020-11-24,9fb46ffa-dc6e-11ea-8a08-02b137f3fb1e,DHS AS4846/5017 Standards,The DHS data dictionary includes a subset of data items from the Australian Standards AS4846 for Health Care Provider Identification and AS5017 Health Care Client Identification.AS4846 Health Care Provider Identification standard that provides the health,7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,Standards Australia 2014. AS 4846   2014 Person and provider identification in healthcare. Sydney: Standards Australia.,,,
+42254,2020-08-12,2020-11-24,a0e74b22-dc6e-11ea-8ba0-022da9221366,Customer Name: DHS SAP Data,Yet to be defined,7089da98b44c11ea849a5a0bdf2d1ed7,88,,"Originated as part of AS 4212-1994.
+
+Previous edition AS 4590-1999.
+
+Second edition 2006.",,Standards Australia 2006. AS 4590   2006 Interchange of client information. Sydney: Standards Australia.,,,
+42258,2020-08-12,2021-06-21,a0f0286e-dc6e-11ea-bade-0a6933dafb30,Disability Services Provider Details Cluster,This cluster of data elements provides information on the administrative arrangements and scope of operations of a specialist disability service reporting to the Disability Services NMDS.,7089da98b44c11ea849a5a0bdf2d1ed7,91,,,,,,,
+42260,2020-08-12,2021-04-15,a0f69a5a-dc6e-11ea-ac21-02b137f3fb1e,Disability Services/Supports Received Cluster,"This cluster of data elements provides information on the nature, amount and intensity of services received by a client of a specialist disability service reporting to the Disability Services NMDS.",7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,Centrelink Repository,,,
+42262,2020-08-12,2020-11-24,a0f7a7ba-dc6e-11ea-b735-022da9221366,AS 4590 2017 Person Details,"The person details data dictionary contains the data elements to identify the name and demographic characteristics of a person defined as a human being, whether adult or child. It is based on the Standards prepared by Standards Australia Subcommittee.",7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,STANDARDS AUSTRALIA 2006. AS 4590   2017 INTERCHANGE OF CLIENT INFORMATION. SYDNEY: STANDARDS AUSTRALIA.,,,
+42264,2020-08-12,2021-06-17,a1069702-dc6e-11ea-906f-062f7acd21ca,AS 4590 2017 Address Details,"The address details data dictionary is used to collect information pertaining to an address, which is defined as a collection of information used for describing the location of an entity, and/or details describing how the entity can be contacted. It is ba",7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,"STANDARDS AUSTRALIA 2017. AS 4590   2017 INTERCHANGE OF CLIENT INFORMATION. SYDNEY: STANDARDS AUSTRALIA. STANDARDS AUSTRALIA/STANDARDS NEW ZEALAND 2008. AS/NZS ISO6709:2008   STANDARD REPRESENTATION OF LATITUDE, LONGITUDE AND ALTITUDE FOR GEOGRAPHIC POINT LOC",,,
+42293,2020-08-12,2021-06-21,aad8d9de-dc6e-11ea-8802-062f7acd21ca,Child Care Subsidy Customer Entitlement,null,7089da98b44c11ea849a5a0bdf2d1ed7,91,,null,,null,',,
+42301,2020-08-12,2021-06-21,aadc7c92-dc6e-11ea-b1f5-0a8620c9d3ec,Child Care Subsidy Claim Summary,null,7089da98b44c11ea849a5a0bdf2d1ed7,91,,null,,null,',,
+42302,2020-08-12,2021-06-21,aae697a4-dc6e-11ea-8a29-062f7acd21ca,Child Care Subsidy Child Demographic,null,7089da98b44c11ea849a5a0bdf2d1ed7,91,,null,,null,',,
+42303,2020-08-12,2021-06-21,aaec9dde-dc6e-11ea-b153-022da9221366,Child Care Subsidy Enrolment,"A child is officially registered with an approved childcare service to receive childcare services. 
+Each enrolment includes a unique combination of child/customer/service and is identified by a unique Enrolment ID.
+Because it is possible for the same child or customer to occur more than once, this is a unique count of enrolment but not a unique count of customers or children.",7089da98b44c11ea849a5a0bdf2d1ed7,91,,null,,null,"The following reporting requirements are listed under Enrolment but further clarification required: Enrolment status reason, Operation arrangement, Reason for late submission, Flag for review, flag for breach, flag for compliance, submitted date.",,
+42306,2020-08-12,2021-06-21,ab3c92a8-dc6e-11ea-8802-062f7acd21ca,Child Care Subsidy Wellbeing Application,null,7089da98b44c11ea849a5a0bdf2d1ed7,91,,null,,null,',,
+42466,2020-08-12,2021-06-21,b4d836e6-dc6e-11ea-906f-062f7acd21ca,Child Care Subsidy Enrolment DataMart,"Child Care Enrolments
+A child is officially registered with an approved childcare service to receive childcare services. 
+Each enrolment includes a unique combination of child/customer/service and is identified by a unique Enrolment ID.
+Because it is possible for the same child or customer to occur more than once, this is a unique count of enrolment but not a unique count of customers or children.
+All Child care enrolments for a specified period, IE;
+	    Unique Enrolment IDs where the enrolment date is during the period.
+Child Care Formal Enrolments
+All Child care Formal enrolments for a specified period., IE;
+    Unique Enrolment IDs where 	the enrolment date is during the period.
+AND
+The Child CRN is present.
+Child Care Informal Enrolments
+All Child care Informal enrolments for a specified period., IE;
+    Unique Enrolment IDs where 	the enrolment date is during the period.
+AND
+The Child CRN is NOT present.",7089da98b44c11ea849a5a0bdf2d1ed7,91,,,,,,,
+42470,2020-08-12,2021-06-21,b4f575c6-dc6e-11ea-b216-0a8620c9d3ec,Child Care Subsidy Transition DataMart,Records data elements required for reporting on the transition of current Child Care Benefit and Child Care CCCF families to CCS/ACCS.,7089da98b44c11ea849a5a0bdf2d1ed7,91,,Reporting Requirments Consolidated 31 Jan 2018,,,,,
+42471,2020-08-12,2021-06-21,b6355302-dc6e-11ea-bade-0a6933dafb30,Percentage of Customers with a Started Claim,"Milestone 1c. Application (or transition)
+Assumption: 75% families use digital channel; 25% use staff assisted channels
+Assumption: Transition ends 30 July 2017",7089da98b44c11ea849a5a0bdf2d1ed7,123,,,,Transition Reports Release 22Feb18_v2,"Claim id, channel, crn, Claim Channel, Customer_CCB_Ind",,
+42472,2020-08-12,2021-04-15,b63d7a8c-dc6e-11ea-ac21-02b137f3fb1e,Service Provider Organisation Address,,7089da98b44c11ea849a5a0bdf2d1ed7,118,,,,,,,
+42473,2020-08-12,2021-06-21,b642ac78-dc6e-11ea-b153-022da9221366,Number of Enrolments Entered via each Software Vendor,"The number of existing Software Providers, and for each software provider that has been working with the project:
+      o count and Name of Software Provider
+      o number of Enrolments / Market Share (# Enrolments and Market %)
+      o tested (Y/N and date)
+      o registered (Y/N and date)
+      o upgraded customers (Y/N and date)
+      o issues (Y/N and date)
+      o completed (Y/N and date)",7089da98b44c11ea849a5a0bdf2d1ed7,123,,,,Transition Reports Release 22Feb18_v2,"Software Vendor, Registration Indicator, Tested Indicator, Upgraded Provider Indicator, Registration Status, # of Complaints, Total Number of enrolments submitted through vendor",,
+42474,2020-08-12,2021-06-21,b649cf1c-dc6e-11ea-906f-062f7acd21ca,Number of CTA Customers on Income Support with Submitted Claim,"Total number (or percentage of cohort) / LGA location of cohort / FTB or income support payment type (if applicable) 
+Eg     200 000 CCF recipients within Rockingham LGA have completed CTA. 
+Of this cohort, 100 000 were in receipt of PPS, 50 000 were in receipt of NSA and 50 000 were not in receipt of an ISP
+
+Note - addition information: 
+-  If possible     Method of CTA completion (myGov/online services, Telephony Staff Assisted, Front of House Staff Assisted)
+- If possible     Type of CCS payment assessed (CCS or if applicable what ACCS payment also granted)
+""
+""    Total number (or percentage of cohort) / LGA location of cohort / FTB or income support payment type (if applicable) 
+Eg     200 000 CCF recipients within Rockingham LGA have completed CTA. 
+Of this cohort, 100 000 were in receipt of PPS, 50 000 were in receipt of NSA and 50 000 were not in receipt of an ISP
+
+Note - addition information: 
+-  If possible     Method of CTA completion (myGov/online services, Telephony Staff Assisted, Front of House Staff Assisted)
+- If possible     Type of CCS payment assessed (CCS or if applicable what ACCS payment also granted)",7089da98b44c11ea849a5a0bdf2d1ed7,123,,,,Transition Reports Release 22Feb18_v2,"Claim id, Customer CRN, Claim Status, Income Support Indicator, Income Support Payment Type, Customer Location (LGA, State, CED)",,
+42475,2020-08-12,2021-06-21,b64265a6-dc6e-11ea-9a41-0a6933dafb30,Number of Claims Processed,"Milestone 1d. Eligibility Assessment
+    Reporting requirement: No of claims processed by DHS from CCITS SAP system (weekly until 30 Aug 17)
+Assumption: There is an assumption that the bulk of the claims will be processed manually but that there will be a % of claims that will require manual, staff intervention due to their challenges and persona type.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,,,Transition Reports Release 22Feb18_v2,"Claim id, Zero Touch Indicator   a. Number of claims processed - 
+b. Number of claims Auto processed
+c. Number of claims Manually processed""",,
+42476,2020-08-12,2021-06-21,b6489e80-dc6e-11ea-8ba0-022da9221366,Number of CTA Customers - CCB Payment Types and New CCS payment type (assessed/eligible/entitled),"(Count of ) Detail of what payment JETCCFA/SCCB cohort who have completed CTA have transitioned to
+Eg     1000 JETCCFA recipients have completed CTA, of this cohort     500 have been assessed for CCS only, 500 have been assessed for CCS and ACCS-TTW
+Eg     200 SCCB recipients have completed the CTA, of this cohort     50 have been assessed for CCS only, 150 have been assessed for CCS and also ACCS-TFH
+Note - addition information: 
+-  If possible     Method of CTA completion (myGov/online services, Telephony Staff Assisted, Front of House Staff Assisted)
+- If possible     Type of CCS payment assessed (CCS or if applicable what ACCS payment also granted)
+    JETCCFA cohorts completed CTA - remain in April. CTA   s ACCS TTW transitioned - can be June.
+    SCCB cohorts completed CTA - remain in April. CTA   s ACCS TFH transitioned - can be July.
+""
+""    (Count of ) Detail of what payment JETCCFA/SCCB cohort who have completed CTA have transitioned to
+Eg     1000 JETCCFA recipients have completed CTA, of this cohort     500 have been assessed for CCS only, 500 have been assessed for CCS and ACCS-TTW
+Eg     200 SCCB recipients have completed the CTA, of this cohort     50 have been assessed for CCS only, 150 have been assessed for CCS and also ACCS-TFH
+Note - addition information: 
+-  If possible     Method of CTA completion (myGov/online services, Telephony Staff Assisted, Front of House Staff Assisted)
+- If possible     Type of CCS payment assessed (CCS or if applicable what ACCS payment also granted)
+    JETCCFA cohorts completed CTA - remain in April. CTA   s ACCS TTW transitioned - can be June.
+    SCCB cohorts completed CTA - remain in April. CTA   s ACCS TFH transitioned - can be July.
+""
+""    (Count of ) Detail of what payment JETCCFA/SCCB cohort who have completed CTA have transitioned to
+Eg     1000 JETCCFA recipients have completed CTA, of this cohort     500 have been assessed for CCS only, 500 have been assessed for CCS and ACCS-TTW
+Eg     200 SCCB recipients have completed the CTA, of this cohort     50 have been assessed for CCS only, 150 have been assessed for CCS and also ACCS-TFH
+Note - addition information: 
+-  If possible     Method of CTA completion (myGov/online services, Telephony Staff Assisted, Front of House Staff Assisted)
+- If possible     Type of CCS payment assessed (CCS or if applicable what ACCS payment also granted)
+    JETCCFA cohorts completed CTA - remain in April. CTA   s ACCS TTW transitioned - can be June.
+    SCCB cohorts completed CTA - remain in April. CTA   s ACCS TFH transitioned - can be July.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,,,Transition Reports Release 22Feb18_v2,"Customer CRN, Claim ID, CCS Payment Assessment Indicators, CCS Payment Eligible Indicators, CCS Payment Entitle Indicators",,
+42477,2020-08-12,2021-06-21,b6465a3a-dc6e-11ea-8a29-062f7acd21ca,List of providers and associated Employee PRODA ID,"All providers that were migrated from CCMS:
+      o count 
+      o number of completed (Count and % of total asked)
+      o in progress / on hold (Count and % of total asked)
+      o no action (Count and % of total asked)
+
+This report should be able to be segmented by:
+    Care Type (CDC, FDC, IHC, OHSC)
+    Provider + Number of Linked PRODA accounts
+Or by
+    Geography     Statistical Area Level 3""
+""All providers that were migrated from CCMS:
+      o count 
+      o number of completed (Count and % of total asked)
+      o in progress / on hold (Count and % of total asked)
+      o no action (Count and % of total asked)
+
+This report should be able to be segmented by:
+    Care Type (CDC, FDC, IHC, OHSC)
+    Provider + Number of Linked PRODA accounts
+Or by
+    Geography     Statistical Area Level 3",7089da98b44c11ea849a5a0bdf2d1ed7,123,,,,Transition Reports Release 22Feb18_v2,"Provider ID, Application Status, Provider asked to Submit Application?",,
+42478,2020-08-12,2021-06-21,b645f612-dc6e-11ea-a913-0a6933dafb30,Number of CTA Customers - with Claim and CCS Entitlement Type,"Existing CCB/CCR direct payment recipients, and from there all existing CCB/CCR direct payment recipients invited to lodge a new claim:
+      o Count 
+      o number of completed (Count and % of total asked)
+      o in progress / on hold (Count and % of total asked)
+      o staff assist (Count and % of total asked)
+      o no action (Count and % of total asked)
+
+This report should be able to be segmented by:
+    Care Type (CDC, FDC, IHC, OHSC)
+Or by
+    Geography     Statistical Area Level 3""
+""Existing CCB/CCR direct payment recipients, and from there all existing CCB/CCR direct payment recipients invited to lodge a new claim:
+      o Count 
+      o number of completed (Count and % of total asked)
+      o in progress / on hold (Count and % of total asked)
+      o staff assist (Count and % of total asked)
+      o no action (Count and % of total asked)
+
+This report should be able to be segmented by:
+    Care Type (CDC, FDC, IHC, OHSC)
+Or by
+    Geography     Statistical Area Level 3
+""
+""Existing CCB/CCR direct payment recipients, and from there all existing CCB/CCR direct payment recipients invited to lodge a new claim:
+      o Count 
+      o number of completed (Count and % of total asked)
+      o in progress / on hold (Count and % of total asked)
+      o staff assist (Count and % of total asked)
+      o no action (Count and % of total asked)
+
+This report should be able to be segmented by:
+    Care Type (CDC, FDC, IHC, OHSC)
+Or by
+    Geography     Statistical Area Level 3",7089da98b44c11ea849a5a0bdf2d1ed7,123,,,,Transition Reports Release 22Feb18_v2,"Customer CRN, Claim ID, Claim status, Call to Action Indictaor, Customer Location, CCS Payment Eligible Indicators, CCS Payment Entitle Indicators",,
+42304,2020-08-12,2021-06-21,aaf15fd6-dc6e-11ea-a913-0a6933dafb30,Child Care Subsidy Provider Application,"<p>An individual wants to register as a verified Child Care Personnel. Registration will be used for access to the Online Provider portal and will be an essential requirement for identifying Family Day care educators/carers and assigning them to sessions of care. The Registration process will also include the verification of identity of individuals registering for Provider Portal for all relevant Child Care Personnel. Note: Child Care Personnel is defined to encompass Providers, Services and Educators.</p>",7089da98b44c11ea849a5a0bdf2d1ed7,91,,<p>The New Child Care Subsidy Programme. 1.1.1 Registration. 2.1.1 Child Care Provider Approval Business Process Requirements Document</p>,,<p>null</p>,<p>&#39;</p>,,
+42479,2020-08-12,2021-06-21,b64adc40-dc6e-11ea-b216-0a8620c9d3ec,Number & List of Software Vendors Supporting CCS Program,"The number of existing Software Providers, and for each software provider that has been working with the project:
+      o count and Name of Software Provider
+      o number of Enrolments / Market Share (# Enrolments and Market %)
+      o tested (Y/N and date)
+      o registered (Y/N and date)
+      o upgraded customers (Y/N and date)
+      o issues (Y/N and date)
+      o completed (Y/N and date)",7089da98b44c11ea849a5a0bdf2d1ed7,123,,,,Transition Reports Release 22Feb18_v2,"Software Vendor, Registration Indicator, Tested Indicator, Upgraded Provider Indicator, Registration Status, # of Complaints
+
+***Missing data elements - Market Share (Market %), Upgraded Customer Indicator and date, Issues Indicator and Date, Completed Indicator and Date.",,
+42481,2020-08-12,2021-06-21,b64e8c96-dc6e-11ea-8802-062f7acd21ca,Practice Incentives Program (PIP),"The Practice Incentives Program (PIP) is an incentive program run by Medicare (on behalf of the Department of Health) which encourages continuing improvements in general practice through financial incentives to support quality care, and improve access and health outcomes for patients.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,eHealth Incentive Application Details Report,,,,,
+42483,2020-08-12,2021-06-21,b65ce53e-dc6e-11ea-8a08-02b137f3fb1e,Debt Arrangement Curated Data Set Specification,The data elements contained within this data set provide information in relation to the debt repayment arrangements debtors enter into with the Department of Human Services.,7089da98b44c11ea849a5a0bdf2d1ed7,97,,,,Centrelink Repository,,,
+42484,2020-08-12,2021-06-21,b6670910-dc6e-11ea-b9c4-02b137f3fb1e,Debt Base QA 001 Curated Data Set,,7089da98b44c11ea849a5a0bdf2d1ed7,97,,,,,,,
+42485,2020-08-12,2021-06-21,b6806b26-dc6e-11ea-afd9-0a8620c9d3ec,APLMSUM  (Appeals Management Summary Curated Dataset),Appeals Management Summary Data Elements. These are created from the SAS analytics tables for reporting on Appeals data.,7089da98b44c11ea849a5a0bdf2d1ed7,90,,,,,,,
+42486,2020-08-12,2021-06-21,b6cb51fe-dc6e-11ea-bade-0a6933dafb30,INTSUM Curated Dataset Specification,,7089da98b44c11ea849a5a0bdf2d1ed7,105,,,,,,,
+42487,2020-08-12,2021-06-21,b70c1158-dc6e-11ea-ac21-02b137f3fb1e,List of CCB Enrolment Services Existing in CCS (with same Customer + Child  + Service ID)  with Service Type and populated,"Population of Enrolments
+Details needed to evaluate enrolments that have been populated to CCITS by providers (using third party software or PAP)
+    Which Services have:
+o Provided child enrolments for 2 July 2018
+    Which enrolments have been populated
+    Which enrolments have not been populated to service (comparison with CCMS)
+(Related Requirement: R3)
+Frequency: the above report is required every week commencing 1 April 2018     31 July 2018 (inclusive).
+""
+""5. Population of Enrolments
+Details needed to evaluate enrolments that have been populated to CCITS by providers (using third party software or PAP)
+    Which Services have:
+o Provided child enrolments for 2 July 2018
+    Which enrolments have been populated
+    Which enrolments have not been populated to service (comparison with CCMS)
+(Related Requirement: R3)
+Frequency: the above report is required every week commencing 1 April 2018     31 July 2018 (inclusive).",7089da98b44c11ea849a5a0bdf2d1ed7,125,,,,Transition Reports Release 22Feb18_v2,"CCS Enrolmnet ID,CCB Enrolmnet ID, Customer CRN, Child CRN, Service ID, CCS Service Type, CCB Service Type,Validated by Parent,",,
+42488,2020-08-12,2021-06-21,b7524f56-dc6e-11ea-b153-022da9221366,List of Providers with Application status,"All providers that were migrated from CCMS:
+      o count 
+      o number of completed (Count and % of total asked)
+      o in progress / on hold (Count and % of total asked)
+      o no action (Count and % of total asked)
+
+This report should be able to be segmented by:
+    Care Type (CDC, FDC, IHC, OHSC)
+    Provider + Number of Linked PRODA accounts
+Or by
+    Geography     Statistical Area Level 3""
+""All providers that were migrated from CCMS:
+      o count 
+      o number of completed (Count and % of total asked)
+      o in progress / on hold (Count and % of total asked)
+      o no action (Count and % of total asked)
+
+This report should be able to be segmented by:
+    Care Type (CDC, FDC, IHC, OHSC)
+    Provider + Number of Linked PRODA accounts
+Or by
+    Geography     Statistical Area Level 3",7089da98b44c11ea849a5a0bdf2d1ed7,123,,,,Transition Reports Release 22Feb18_v2,"Provider ID, Application Status, Provider asked to Submit Application?",,
+42489,2020-08-12,2021-06-21,b78320d6-dc6e-11ea-8ba0-022da9221366,Number of non CTA customers - with Claim and CCS Entitlement type,"All new CCS and/or ACCS claimants, not as part of the call to action (CTA) post 2 April 2018:
+      o count of new claims
+      o number of completed (Count and % of total New Claims)
+      o in progress / on hold (Count and % of total New Claims)
+      o staff assist (Count and % of total New Claims)
+
+This report should be able to be segmented by:
+    Cohort (CCS, ACCS     Grandparent, ACCS     TTW, ACCS     TFH)
+    Care Type (CDC, FDC, IHC, OHSC)
+Or by
+    Geography     Statistical Area Level 3",7089da98b44c11ea849a5a0bdf2d1ed7,123,,,,Transition Reports Release 22Feb18_v2 (002),"Customer CRN, Claim ID, Claim status, Call to Action Indictator, Customer Location, Claim Service Type",,
+42495,2020-08-12,2021-06-21,bc8582fe-dc6e-11ea-8a29-062f7acd21ca,Debt Write-Off Curated Dataset,The data elements contained within this data set provide information in relation to the debt's that have had their recovery deferred by the Department of Human Services.,7089da98b44c11ea849a5a0bdf2d1ed7,97,,,,Centrelink Repository,,,
+42503,2020-08-12,2021-06-21,bcd0fdce-dc6e-11ea-8ba0-022da9221366,Debt Collection Agent Curated Dataset,The data elements contained within this data set provide information in relation to the debt's the Department of Human Services have referred to a Collection Agent for them to pursue recovery of a debt.,7089da98b44c11ea849a5a0bdf2d1ed7,97,,,,Centrelink Repository,,,
+42531,2020-08-12,2020-11-24,c6b478b6-dc6e-11ea-906f-062f7acd21ca,AS4590 2017 Identifier Details,The identifier details data dictionary contains the data elements used to identify a person or other entity. It is based on the Standards prepared by Standards Australia Subcommittee,7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,STANDARDS AUSTRALIA 2017. AS 4590   20117 INTERCHANGE OF CLIENT INFORMATION. SYDNEY: STANDARDS AUSTRALIA. STANDARDS AUSTRALIA 2017.,,,
+42532,2020-08-12,2021-06-21,c6bb687e-dc6e-11ea-b735-022da9221366,AIR Data Migration Specification,"This data specification describes the data requested and the preferred format for vaccine data, held by state and territory health department systems since 1 January 1996. This data will be migrated into the Australian Immunisation Register (AIR).",7089da98b44c11ea849a5a0bdf2d1ed7,85,,,,,,,
+42533,2020-08-12,2021-06-21,c6bc22b4-dc6e-11ea-8ba0-022da9221366,IPS CCS Project PS 1359 Customer-Child MDT6 V2.1,"The child population captures all customer/child relationships for whom the department has deemed to have an eligibility to CCS as at the Report date. A customer is eligible if at least one child is eligible to CCS. 
+This population also includes children who are entitled to Child Wellbeing (CWB) as at the report date.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,,,,,,
+42539,2020-08-12,2021-06-17,c6c30a48-dc6e-11ea-b216-0a8620c9d3ec,AS4590 2017 Organisation Details,The organisation details data dictionary contains the data elements to identify the name and other characteristics of an organisation. It is based on the Standards prepared by Standards Australia Subcommittee,7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,STANDARDS AUSTRALIA 2017. AS 4590   20117 INTERCHANGE OF CLIENT INFORMATION. SYDNEY: STANDARDS AUSTRALIA. STANDARDS AUSTRALIA 2017.,,,
+42546,2020-08-12,2021-06-21,c7fad738-dc6e-11ea-b9c4-02b137f3fb1e,IPS CCS Project PS 1359 Customer MDT6 V3.1,,7089da98b44c11ea849a5a0bdf2d1ed7,123,,,,,,,
+42571,2020-08-12,2021-06-21,d31d42f4-dc6e-11ea-906f-062f7acd21ca,MI10822 - All Telephone Allowance Customers (CRN Listing),"Telephone Allowance (TAL) payments are only paid if a person is qualified for TAL on the relevant day. 1 January, 20 March, 1 July, and 20 September. TAL is usually issued on the customer's first Entitlement Period End Day (EPED) that falls on or after these dates.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,All Telephone Allowance Customers (CRN Listing) V0.2,,,,,
+42572,2020-08-12,2021-06-21,d31e5b6c-dc6e-11ea-8a29-062f7acd21ca,MI10719 - CRN listing report-  Streamlining TFN Collection Technical Specification,"To identify Income Support customer numbers who have not authorised use of their TFN. A situation exists relating to customers transferring to Age Pension as the TTA process does not request the TFN, or Authorisation of the TFN. 
+The following branches will be the audience to this data:
+   	Fraud, Control & Assurance
+   	Seniors, Carers and International Branch
+Task Description
+All current Income Support customers who have not authorised use of their TFN.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Streamlining TFN Collection Technical Specification V0.1,,,,,
+42574,2020-08-12,2021-06-21,d323d056-dc6e-11ea-a913-0a6933dafb30,MI6802 - Customer Numbers Count Report 1 - Collection Agent Referrals,"Report Name: For non-current customers where Mercantile Agent has successfully recovered debt by Financial Year for 2011-12 to 2015-16 (historical years)
+Customer Numbers     Collection Agent Referrals 
+The data is required to respond to executive, media and ministerial briefings/reporting on an ongoing basis. Primarily for Senior Executive information, however it is likely to be asked again by either media or Ministers in the future.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI6802 - Customer Numbers - Collection Agent Referrals - Tech Spec's V1.0,,,,,
+42575,2020-08-12,2021-06-21,d323f7e8-dc6e-11ea-afd9-0a8620c9d3ec,MI8762 - R1790 BISS Family Tax Benefit - Count Report - Customers with SKB Reassessments Technical Specification,"The purpose of the data is to help us estimate the amount of SKB residual work from 1 July 2018 if we were to cease automatic payment of SKB from this date. 
+
+To do this the report shall identify all customers (parents and school leavers) who   ve had a SKB assessment for any Bonus test date and subsequently had a change to that SKB payment as a result of a reassessment. 
+Note: SKB reassessments that do not result in a SKB rate or entitlement change are not to be counted or included.
+
+The SKB reassessment outcome to be counted will be any rate change from the SKB initial assessment. The rate change could result in a SKB rate or entitlement change and be in the form of a SKB payment or a SKB debt for the period SKB was payable.
+
+Noting the count of REAssessments would not necessarily be unique, for example, a recipient could have several rate changes for the same bonus test date. This may mean multiple rows in the output for a customer for the same date
+
+SKB was paid every 6 months for specific Bonus Test Dates     first payment 1 January and then 30 June each financial year in 2013, 2014, 2015 and 2016.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI8762 - FTB - Customers with SKB Reassessments Technical Specification  V0.2,,,,,
+42576,2020-08-12,2021-06-21,d3261992-dc6e-11ea-8a08-02b137f3fb1e,MI10091 - Assurance of Support Sample - New AoS weekly report for SAP data cases,"The Department of Human Services (DHS) is required to provide a weekly report of the Department of Home Affairs (DHA) about newly accepted and rejected Assurance of Support (AOS) cases. This information is required to allow DHA to progress to grant the visa applications for    Accepted    cases and to refuse the visa applications for    Rejected    cases. 
+
+This report will contain information for all AOS cases that has a status of    Accepted   ,    Bonded    and    Cancelled   . This report will also determine cases that have been    Rejected    two weeks prior to the date of extraction.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,New AoS weekly report for SAP data cases - Technical Specification V0.3,,,,,
+42577,2020-08-12,2021-06-21,d3259fc6-dc6e-11ea-b153-022da9221366,MI9254 - Report 4 - Targeted Compliance Framework - Generated Suite of Reports,"Management Information (MI) reports will monitor the Targeted Compliance Framework transactions and their outcomes. The reports are for internal report generation and used for programme management purposes. There will be occasional sharing of non-identifiable limited data with client departments/s, and as required, to inform Senate Estimate briefs.
+
+   	Report 4: All jobseekers that have a Capability Assessment generated during the reporting period - This is to be both a Point in time and FYTD report.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI9254 - Targeted Compliance Framework - Generated Suite of Reports: Technical Specification V0.6,,,,,
+42578,2020-08-12,2021-06-21,d32696e2-dc6e-11ea-b9c4-02b137f3fb1e,MI9254 - Report 1 - Targeted Compliance Framework - Generated Suite of Reports,"Management Information (MI) reports will monitor the Targeted Compliance Framework transactions and their outcomes. The reports are for internal report generation and used for programme management purposes. There will be occasional sharing of non-identifiable limited data with client departments/s, and as required, to inform Senate Estimate briefs.
+
+   	Report 1: All jobseekers that have a suspension generated during the reporting period, and are in the    Demerit Phase    (Targeted Compliance Framework only) - This is to be both a Point in time and FYTD report.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI9254 - Targeted Compliance Framework - Generated Suite of Reports: Technical Specification V0.6,,,,,
+42579,2020-08-12,2021-06-21,d3270708-dc6e-11ea-b216-0a8620c9d3ec,MI8762 - R1790 BISS Family Tax Benefit - CRN Listing - Customers with SKB Reassessments Technical Specification,"The purpose of the data is to help us estimate the amount of SKB residual work from 1 July 2018 if we were to cease automatic payment of SKB from this date. 
+
+To do this the report shall identify all customers (parents and school leavers) who   ve had a SKB assessment for any Bonus test date and subsequently had a change to that SKB payment as a result of a reassessment. 
+Note: SKB reassessments that do not result in a SKB rate or entitlement change are not to be counted or included.
+
+The SKB reassessment outcome to be counted will be any rate change from the SKB initial assessment. The rate change could result in a SKB rate or entitlement change and be in the form of a SKB payment or a SKB debt for the period SKB was payable.
+
+Noting the count of REAssessments would not necessarily be unique, for example, a recipient could have several rate changes for the same bonus test date. This may mean multiple rows in the output for a customer for the same date
+
+SKB was paid every 6 months for specific Bonus Test Dates     first payment 1 January and then 30 June each financial year in 2013, 2014, 2015 and 2016.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI8762 - FTB - Customers with SKB Reassessments Technical Specification  V0.2,,,,,
+42580,2020-08-12,2021-06-21,d3265a42-dc6e-11ea-8ba0-022da9221366,MI6802 - Customer Numbers Count Report 2 - Collection Agent Referrals,"Report name: For non-current customers where Mercantile Agent has successfully recovered debt for current financial year by month.
+The data is required to respond to executive, media and ministerial briefings/reporting on an ongoing basis. Primarily for Senior Executive information, however it is likely to be asked again by either media or Ministers in the future.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI6802 - Customer Numbers - Collection Agent Referrals - Tech Spec's V1.0,,,,,
+42581,2020-08-12,2021-06-21,d326d684-dc6e-11ea-b735-022da9221366,MI11027 - Provider Nil Valuations,"Report 1 - ADH Provider Nil Valuations (one-off)
+Customers with nil Market Value following Property Valuations by a Valuer for 01/09/2016- 31/10/2018.
+
+Report 2     MTH - Provider Nil Valuations (ongoing)
+MI11027     MTH     Provider nil Valuations
+Customers with nil Market Value following Property Valuations by a Valuer for 01/09/2016- 31/10/2018
+
+To extract a driving population with the following requirements: 
+ISP recipient or customer with at least one assessable property on REBS.
+   	Any RE screen Event Date 
+   	Current market value = 0
+   	Asset Valuation Source = ONS/VAL
+   	AC.ACTIVITY.SOURCE.CODE must be equal to 'AUTO'
+   	Display all records. Customer/partner does not have to be current on a benefit. 
+   	RISL_STS_CODE = COM and RISL.USR.ID = *RB
+Do not include deleted/provisional data.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Provider Nil Valuations Technical Specification V0.2,,,,,
+42583,2020-08-12,2021-06-21,d32b0f6a-dc6e-11ea-b1f5-0a8620c9d3ec,MI9254 - Report 2 - Targeted Compliance Framework - Generated Suite of Reports,"Management Information (MI) reports will monitor the Targeted Compliance Framework transactions and their outcomes. The reports are for internal report generation and used for programme management purposes. There will be occasional sharing of non-identifiable limited data with client departments/s, and as required, to inform Senate Estimate briefs.
+
+   	Report 2: All jobseekers that have a suspension generated during the reporting period, and are in the    Penalties Phase    (Targeted Compliance Framework only) - This is to be both a Point in time and FYTD report.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI9254 - Targeted Compliance Framework - Generated Suite of Reports: Technical Specification V0.6,,,,,
+42585,2020-08-12,2021-06-21,d386d642-dc6e-11ea-8a29-062f7acd21ca,MI10822 - All Telephone Allowance Customers (Count Report),"Telephone Allowance (TAL) payments are only paid if a person is qualified for TAL on the relevant day. 1 January, 20 March, 1 July, and 20 September. TAL is usually issued on the customer's first Entitlement Period End Day (EPED) that falls on or after these dates.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Telephone Allowance (TAL) Data Integrity - Technical Specification V0.2,,,,,
+42586,2020-08-12,2021-06-21,d3b0deb0-dc6e-11ea-afd9-0a8620c9d3ec,MI10719 - Count Report of Exemptions by ISP -  Streamlining TFN Collection Technical Specification,"To identify Income Support customer numbers who have not authorised use of their TFN. A situation exists relating to customers transferring to Age Pension as the TTA process does not request the TFN, or Authorisation of the TFN. 
+The following branches will be the audience to this data:
+   	Fraud, Control & Assurance
+   	Seniors, Carers and International Branch
+Task Description
+All current Income Support customers who have not authorised use of their TFN.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Streamlining TFN Collection Technical Specification V0.1,,,,,
+42588,2020-08-12,2021-06-21,d3eb64c2-dc6e-11ea-8ba0-022da9221366,MI10719 - Driving Population - Streamlining TFN Collection,"To identify Income Support customer numbers who have not authorised use of their TFN. A situation exists relating to customers transferring to Age Pension as the TTA process does not request the TFN, or Authorisation of the TFN. 
+The following branches will be the audience to this data:
+   	Fraud, Control & Assurance
+   	Seniors, Carers and International Branch
+Task Description
+All current Income Support customers who have not authorised use of their TFN.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Streamlining TFN Collection Technical Specification V0.1,,,,,
+42589,2020-08-12,2021-06-21,d425b910-dc6e-11ea-b735-022da9221366,MI7728 - International Data Exchange Programme,"Title: International Date Exchange Programme     Poland.
+Extract Date: Latest date
+See    MI7728     International DEX Programme     Poland Sample Layout v1.0    Excel document.
+
+The selection criteria is to include all DHS records (both current and not current for any DHS payment or service) where there is an existing reference to Poland.
+This includes those who have:
+   	any income or assets from Poland (FPD and FID), or
+   	ever resided (CRES) or travelled to (RSCD) Poland, or
+   	their Country of Birth or Country of Issue of a travel document recorded as Poland (both RSIMME), or
+   	provided a document for identity purposes from Poland (POI), or
+o	previous foreign pension screening events for Poland (FGD).
+Current information suggest the cohort of known Polish pensioners in Australia is around 6,000 and Australian pensioners in Poland is around 1,000.
+It is not possible to estimate the increased numbers by widening the selection criteria but this provides for the identification of those previously unknown cases.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI7728 - International Data Exchange Programme - Tech Spec V0.2,,,,,
+42590,2020-08-12,2021-06-21,d4575358-dc6e-11ea-8a08-02b137f3fb1e,MI9999 - MTH     DSS     Personal Benefit advances DR100011AA,"Previously DSS financial reporting team have sourced a report that DSS program area have run directly from DHS data systems relating to outstanding advance payments at the end of each reporting month. DSS external auditors (ANAO) have requested assurances from DHS for the report and data given it is extracted from DHS system. DSS program area are unable to provide such assurances and thus to obtain this assurance the data is being requested direct from DHS.
+Starting at the previous month of the rundate in the previous 24 months period, provide a monthly report detailing the following:
+   	Number of advances per month.
+   	Total number of advances paid per month.
+   	Total number of advances recovered per month. This value will be recalculated each month.
+   	Total number of advances outstanding per month. This value will be recalculated each month.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI9999 (MTH     DSS     Personal Benefit advances DR100011AA) - Technical Specification V0.1,,,,,
+42592,2020-08-12,2021-06-21,d584dc8c-dc6e-11ea-906f-062f7acd21ca,MI7874 - Count Report 3 - Reissue Pensioner Concession Card,"Task Description
+To determine the number of PEN/RAC grandfathered customers (not DVA) who will have their pension concession card reissued/granted as at 9/10/2017. And the DVA/RAC grandfathered who will have the LIC cancelled.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI7874 Technical Specifications V0.4,,,,,
+42593,2020-08-12,2021-06-21,d585216a-dc6e-11ea-8ba0-022da9221366,MI7874 - Count Report 4 - Reissue Pensioner Concession Card,"Task Description
+To determine the number of PEN/RAC grandfathered customers (not DVA) who will have their pension concession card reissued/granted as at 9/10/2017. And the DVA/RAC grandfathered who will have the LIC cancelled.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI7874 Technical Specifications V0.4,,,,,
+42594,2020-08-12,2021-06-21,d585415e-dc6e-11ea-b216-0a8620c9d3ec,MI7874 - Count Report 1 & 2 - Reissue Pensioner Concession Card,"Task Description
+To determine the number of PEN/RAC grandfathered customers (not DVA) who will have their pension concession card reissued/granted as at 9/10/2017. And the DVA/RAC grandfathered who will have the LIC cancelled.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI7874 Technical Specifications V0.4,,,,,
+42595,2020-08-12,2021-06-21,d586117e-dc6e-11ea-b735-022da9221366,MI9627 - Repayment Source - ECA Reporting Suite Technical Specification,"Task Description
+Create a suite of reports  (monthly, quarterly and rolling twelve month) that report on a range of measures, including:
+   	The number and value of debts referred to an ECA;
+   	The number and value of debts recalled from an ECA by DHS and the reason for the recall and;
+   	The value recovered that can be attributed to the ECA;
+
+This information will  be critical for quarterly performance review discussions with ECAs and possible re-negotiation of contract arrangements based on performance outcomes. 
+
+Reason for recall data will inform staff and system behaviour to ensure appropriate rationale/business rules are being applied.
+
+Listing of repayments received in the reporting period when the outstanding balance of the CRN was zero or less. This includes all repayments made directly to the ECA (regardless of referral/recall dates), as well as payments received by DHS in the period where the debt was with the ECA.
+
+Where OUTSTANDING_DEBT=   N    
+and REPAYMENT_DATE >= &prev_mth_start
+and REPAYMENT_DATE <= &prev_mth_end",7089da98b44c11ea849a5a0bdf2d1ed7,123,,ECA Reporting Suite Technical Specification  V0.2,,,,,
+42596,2020-08-12,2021-06-21,d586006c-dc6e-11ea-8a29-062f7acd21ca,MI6648 - Report 1 - Money You Owe - Recovery Arrangements Set Up in Period,Centrelink Debt Management has introduced a  process that allows customers to make debt recovery arrangements on-line (Money You Owe). These reports will monitor the number of customers who make recovery arrangements through the Money You Owe system and measure the effectiveness of the system in debt recovery rates.,7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI6648 - Debt Recovery - Money You Owe Technical Specifications V0.1,,,,,
+42597,2020-08-12,2021-06-21,d588f84e-dc6e-11ea-ac21-02b137f3fb1e,MI9627 - CRN Listing - ECA Reporting Suite Technical Specification,"Task Description
+Create a suite of reports  (monthly, quarterly and rolling twelve month) that report on a range of measures, including:
+   	The number and value of debts referred to an ECA;
+   	The number and value of debts recalled from an ECA by DHS and the reason for the recall and;
+   	The value recovered that can be attributed to the ECA;
+
+This information will  be critical for quarterly performance review discussions with ECAs and possible re-negotiation of contract arrangements based on performance outcomes. 
+
+Reason for recall data will inform staff and system behaviour to ensure appropriate rationale/business rules are being applied.
+
+Listing of repayments received in the reporting period when the outstanding balance of the CRN was zero or less. This includes all repayments made directly to the ECA (regardless of referral/recall dates), as well as payments received by DHS in the period where the debt was with the ECA.
+
+Where OUTSTANDING_DEBT=   N    
+and REPAYMENT_DATE >= &prev_mth_start
+and REPAYMENT_DATE <= &prev_mth_end",7089da98b44c11ea849a5a0bdf2d1ed7,123,,ECA Reporting Suite Technical Specification  V0.2,,,,,
+42598,2020-08-12,2021-06-21,d5892526-dc6e-11ea-8a08-02b137f3fb1e,MI9254 - Report 3 - Targeted Compliance Framework - Generated Suite of Reports,"Management Information (MI) reports will monitor the Targeted Compliance Framework transactions and their outcomes. The reports are for internal report generation and used for programme management purposes. There will be occasional sharing of non-identifiable limited data with client departments/s, and as required, to inform Senate Estimate briefs.
+
+   	Report 3: All jobseekers that have a failure generated during the reporting period (Targeted Compliance Framework only) - This is to be both a Point in time and FYTD report.
+   	Report 3: All jobseekers that have a failure generated during the reporting period (Targeted Compliance Framework only) - This is to be both a Point in time and FYTD report.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI9254 - Targeted Compliance Framework - Generated Suite of Reports: Technical Specification V0.6,,,,,
+42599,2020-08-12,2021-06-21,d58ae730-dc6e-11ea-b1f5-0a8620c9d3ec,MI6648 - Report 2 - Money You Owe - Amount Recovered Through Money You Owe,Centrelink Debt Management has introduced a  process that allows customers to make debt recovery arrangements on-line (Money You Owe). These reports will monitor the number of customers who make recovery arrangements through the Money You Owe system and measure the effectiveness of the system in debt recovery rates.,7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI6648 - Debt Recovery - Money You Owe Technical Specifications V0.1,,,,,
+42601,2020-08-12,2021-06-21,d58f8178-dc6e-11ea-afd9-0a8620c9d3ec,MI9257 - Report 2 - Targeted Compliance Framework - Finalised Suite of Reports Technical Specification,"Task Description
+Management Information (MI) reports will be used to monitor the transactions and their outcomes resulting from the Targeted Compliance Framework. The reports will be used for internal report generation and used for programme management purposes; occasional sharing of non-identifiable limited data with client departments/s and to inform Senate Estimate briefs as required..
+The following MI Reports fall under PN2017.7065     Targeted Compliance Framework project:
+
+   	MI7923 - TCF - New Suite of Reports 
+   	MI9254 - TCF - Generated Suite of Reports
+   	MI9257 - TCF - Finalised Suite of Reports     this Tech Spec
+   	Use Global Demographics as defined in MI7923
+   	Report 1 : TCF Finalised Suspensions (for a compliance reason )in the Demerit Zone
+   	Report 2 : TCF Finalised Suspensions (for a compliance reason ) in the Penalties Zone
+   	Report 3: TCF Finalised Failures
+   	Report 4: Automatically rejected suspension reports 
+   	Report 5: Finalised Capability Assessments 
+   	MI9258 - TCF - Modify Existing Suite of Reports
+   	MI10429     TCF     Cancellations and Regrants",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Targeted Compliance Framework - Finalised Suite of Reports Technical Specification V0.6,,,,,
+42602,2020-08-12,2021-06-21,d5923fda-dc6e-11ea-8802-062f7acd21ca,MI9627 - Quarterly Performance Report - ECA Reporting Suite Technical Specification,"Task Description
+Create a suite of reports  (monthly, quarterly and rolling twelve month) that report on a range of measures, including:
+   	The number and value of debts referred to an ECA;
+   	The number and value of debts recalled from an ECA by DHS and the reason for the recall and;
+   	The value recovered that can be attributed to the ECA;
+
+This information will  be critical for quarterly performance review discussions with ECAs and possible re-negotiation of contract arrangements based on performance outcomes. 
+
+Reason for recall data will inform staff and system behaviour to ensure appropriate rationale/business rules are being applied.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,ECA Reporting Suite Technical Specification  V0.2,,,,,
+42603,2020-08-12,2021-06-21,d601583e-dc6e-11ea-8ba0-022da9221366,MI9627 - Monthly Performance Report - ECA Reporting Suite Technical Specification,"Task Description
+Create a suite of reports  (monthly, quarterly and rolling twelve month) that report on a range of measures, including:
+   	The number and value of debts referred to an ECA;
+   	The number and value of debts recalled from an ECA by DHS and the reason for the recall and;
+   	The value recovered that can be attributed to the ECA;
+
+This information will  be critical for quarterly performance review discussions with ECAs and possible re-negotiation of contract arrangements based on performance outcomes. 
+
+Reason for recall data will inform staff and system behaviour to ensure appropriate rationale/business rules are being applied.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,ECA Reporting Suite Technical Specification  V0.2,,,,,
+42604,2020-08-12,2021-06-21,d5fca1cc-dc6e-11ea-a913-0a6933dafb30,MI6648 - Report 3 - Money You Owe - Online Review - Recovery Arrangements Set Up in Period,Centrelink Debt Management has introduced a  process that allows customers to make debt recovery arrangements on-line (Money You Owe). These reports will monitor the number of customers who make recovery arrangements through the Money You Owe system and measure the effectiveness of the system in debt recovery rates.,7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI6648 - Debt Recovery - Money You Owe Technical Specifications V0.1,,,,,
+42605,2020-08-12,2021-06-21,d60f538a-dc6e-11ea-906f-062f7acd21ca,MI9257 - Report 1 - Targeted Compliance Framework - Finalised Suite of Reports Technical Specification,"Task Description
+Management Information (MI) reports will be used to monitor the transactions and their outcomes resulting from the Targeted Compliance Framework. The reports will be used for internal report generation and used for programme management purposes; occasional sharing of non-identifiable limited data with client departments/s and to inform Senate Estimate briefs as required..
+The following MI Reports fall under PN2017.7065     Targeted Compliance Framework project:
+
+   	MI7923 - TCF - New Suite of Reports 
+   	MI9254 - TCF - Generated Suite of Reports
+   	MI9257 - TCF - Finalised Suite of Reports     this Tech Spec
+   	Use Global Demographics as defined in MI7923
+   	Report 1 : TCF Finalised Suspensions (for a compliance reason )in the Demerit Zone
+   	Report 2 : TCF Finalised Suspensions (for a compliance reason ) in the Penalties Zone
+   	Report 3: TCF Finalised Failures
+   	Report 4: Automatically rejected suspension reports 
+   	Report 5: Finalised Capability Assessments 
+   	MI9258 - TCF - Modify Existing Suite of Reports
+   	MI10429     TCF     Cancellations and Regrants",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Targeted Compliance Framework - Finalised Suite of Reports Technical Specification V0.6,,,,,
+42606,2020-08-12,2021-06-21,d633245e-dc6e-11ea-9a41-0a6933dafb30,MI7923 - Report 1 - WKL - Targeted Compliance Framework - New Suite of Reports: Technical Specification,"Task Description
+
+Management Information (MI) reports will be used to monitor the transactions and their outcomes resulting from the Targeted Compliance Framework. The reports will be used for internal report generation and used for programme management purposes; occasional sharing of non-identifiable limited data with client departments/s and to inform Senate Estimate briefs as required..
+The following MI Reports fall under PN2017.7065     Targeted Compliance Framework project:
+
+   	MI7923 - TCF - New Suite of Reports     this Tech Spec
+
+New reports will be needed for:
+   	Job seeker circumstances
+   	Job seekers that move into the Penalties Phase
+   	Active job seekers     similar to the previous    activity tested job seeker population     
+
+   	MI9254 - TCF - Generated Suite of Reports
+   	MI9257 - TCF - Finalised Suite of Reports 
+   	MI9258 - TCF - Modify Existing Suite of Reports
+   	MI10429     TCF     Cancellations and Regrants",7089da98b44c11ea849a5a0bdf2d1ed7,123,,WKL - Targeted Compliance Framework - New Suite of Reports: Technical Specification  V0.6,,,,,
+42607,2020-08-12,2021-06-21,d64b1212-dc6e-11ea-8a29-062f7acd21ca,MI9257 - Report 3 - Targeted Compliance Framework - Finalised Suite of Reports Technical Specification,"Task Description
+Management Information (MI) reports will be used to monitor the transactions and their outcomes resulting from the Targeted Compliance Framework. The reports will be used for internal report generation and used for programme management purposes; occasional sharing of non-identifiable limited data with client departments/s and to inform Senate Estimate briefs as required..
+The following MI Reports fall under PN2017.7065     Targeted Compliance Framework project:
+
+   	MI7923 - TCF - New Suite of Reports 
+   	MI9254 - TCF - Generated Suite of Reports
+   	MI9257 - TCF - Finalised Suite of Reports     this Tech Spec
+   	Use Global Demographics as defined in MI7923
+   	Report 1 : TCF Finalised Suspensions (for a compliance reason )in the Demerit Zone
+   	Report 2 : TCF Finalised Suspensions (for a compliance reason ) in the Penalties Zone
+   	Report 3: TCF Finalised Failures
+   	Report 4: Automatically rejected suspension reports 
+   	Report 5: Finalised Capability Assessments 
+   	MI9258 - TCF - Modify Existing Suite of Reports
+   	MI10429     TCF     Cancellations and Regrants",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Targeted Compliance Framework - Finalised Suite of Reports Technical Specification V0.6,,,,,
+42608,2020-08-12,2021-06-21,d6766200-dc6e-11ea-ac21-02b137f3fb1e,MI9627 - Recovery Trend Report - ECA Reporting Suite Technical Specification,"Create a suite of reports  (monthly, quarterly and rolling twelve month) that report on a range of measures, including:
+
+   	The number and value of debts referred to an ECA;
+   	The number and value of debts recalled from an ECA by DHS and the reason for the recall and;
+   	The value recovered that can be attributed to the ECA;
+
+This information will  be critical for quarterly performance review discussions with ECAs and possible re-negotiation of contract arrangements based on performance outcomes. 
+
+Reason for recall data will inform staff and system behaviour to ensure appropriate rationale/business rules are being applied.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,ECA Reporting Suite Technical Specification  V0.2,,,,,
+42609,2020-08-12,2021-06-21,d6957096-dc6e-11ea-8a08-02b137f3fb1e,MI6648 - Report 4 - Money You Owe - Online Review - Amount Recovered Through Money You Owe,Centrelink Debt Management has introduced a  process that allows customers to make debt recovery arrangements on-line (Money You Owe). These reports will monitor the number of customers who make recovery arrangements through the Money You Owe system and measure the effectiveness of the system in debt recovery rates.,7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI6648 - Debt Recovery - Money You Owe Technical Specifications V0.1,,,,,
+42610,2020-08-12,2021-06-21,d6f13034-dc6e-11ea-a913-0a6933dafb30,MI7923 - Report 2 - WKL - Targeted Compliance Framework - New Suite of Reports: Technical Specification,"Task Description
+
+Management Information (MI) reports will be used to monitor the transactions and their outcomes resulting from the Targeted Compliance Framework. The reports will be used for internal report generation and used for programme management purposes; occasional sharing of non-identifiable limited data with client departments/s and to inform Senate Estimate briefs as required..
+The following MI Reports fall under PN2017.7065     Targeted Compliance Framework project:
+
+   	MI7923 - TCF - New Suite of Reports     this Tech Spec
+
+New reports will be needed for:
+   	Job seeker circumstances
+   	Job seekers that move into the Penalties Phase
+   	Active job seekers     similar to the previous    activity tested job seeker population     
+
+   	MI9254 - TCF - Generated Suite of Reports
+   	MI9257 - TCF - Finalised Suite of Reports 
+   	MI9258 - TCF - Modify Existing Suite of Reports
+   	MI10429     TCF     Cancellations and Regrants",7089da98b44c11ea849a5a0bdf2d1ed7,123,,WKL - Targeted Compliance Framework - New Suite of Reports: Technical Specification  V0.6,,,,,
+42611,2020-08-12,2021-06-21,d7c28058-dc6e-11ea-b153-022da9221366,MI5152 - Report 3 Count - Travel Data RSCD Screen Updates Variation Technical Specification,"Task Description
+Provide a Customers    Travel Report containing the following six tables:
+1.	Data were manually updated by staff on RSCD Screen	
+2.	Data updated by staff using Portability Script of the Portability Script
+3.	Data updated by customers online	
+4. Data updated by staff using Portability Script, both customer and partner were updated by the same activity.
+5. Child Data are manually updated outside of the Portability Script
+6. MFU completed by CIS on Cruise Departure recorded on RSIM Screen
+
+   	The tables need to list the primary payment types at the time of the update, the primary payment type is to be the payment that takes priority, for example, FTB has priority over cards, DSP has priority over MOB, PPP has priority over FTB.
+
+   	Each table needs to be broken down on a month by month basis for the period it covers.
+
+   	Updates to RSCD for a return to Australia are to be excluded from the report.
+
+   	The report requested to be back-run in the following periods:
+01/01/2014 to 31/12/2015 (dateFrom to DateTo)
+01/01/2016 to 31/03/2016 
+It is then to be scheduled for every quarter onward.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Travel Data RSCD Screen Updates Variation Technical Specification V1,,,,,
+42612,2020-08-12,2021-06-21,d7c3b676-dc6e-11ea-b735-022da9221366,MI5391 - Count Report - Manage transition of Mobility Allowance (MOB) customers to the NDIS,"Task Description
+This report will produce data that will allow the managing business teams to perform reporting and reconciliation activities.
+
+The report will keep track of who is going on, or coming off an NDIS package of support, as well as who has a MOB application rejected due to already being on NDIS     and the related data within the ISIS mainframe. This will provide an overview and assurance as to the quality of the process, as well as allowing reporting on the numbers of customers moving each way.
+
+CRN level break-down to include:
+   	NDIS Participant Number (9 or 10 digit number)
+   	Residential State (ACT/NSW/NT/QLD/SA/TAS/VIC/WA/Overseas)
+   	Residential Postcode of recipient (XXXX/Overseas)
+   	Age of Customer (in full years)
+   	HCC/PCC recipient (Yes/No)
+   	Rate of Payment (MOB/MOH/NIL)
+   	Package of support in place (Yes/No)
+   	First plan approval date (xx/xx/xxxx)
+   	MOB status (CAN/CUR/SUS/   )
+   	Reason for that Status (CND/DIS/HCC/   )
+   	Date MOB Cancelled (xx/xx/xxxx/Not Cancelled)
+   	MOB NDIS Debt amount ($$.cc/No Debt)
+   	MOB NDIS Debt waived reason (FNW/LTF/EUC/CER/   /No Debt/Not Finalised)
+   	NDIS customer mismatch/error (CUSTEXIST/ABOUTSEARCH/MATCH/NOMATCH/MULTIMATCH/MATCHERROR/FAIL)",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Manage transition of Mobility Allowance (MOB) customers to the NDIS Technical Specification V1.1,,,,,
+42613,2020-08-12,2021-06-21,d7c47a98-dc6e-11ea-906f-062f7acd21ca,MI9257 - Report 4 - Targeted Compliance Framework - Finalised Suite of Reports Technical Specification,"Task Description
+Management Information (MI) reports will be used to monitor the transactions and their outcomes resulting from the Targeted Compliance Framework. The reports will be used for internal report generation and used for programme management purposes; occasional sharing of non-identifiable limited data with client departments/s and to inform Senate Estimate briefs as required..
+The following MI Reports fall under PN2017.7065     Targeted Compliance Framework project:
+
+   	MI7923 - TCF - New Suite of Reports 
+   	MI9254 - TCF - Generated Suite of Reports
+   	MI9257 - TCF - Finalised Suite of Reports     this Tech Spec
+   	Use Global Demographics as defined in MI7923
+   	Report 1 : TCF Finalised Suspensions (for a compliance reason )in the Demerit Zone
+   	Report 2 : TCF Finalised Suspensions (for a compliance reason ) in the Penalties Zone
+   	Report 3: TCF Finalised Failures
+   	Report 4: Automatically rejected suspension reports 
+   	Report 5: Finalised Capability Assessments 
+   	MI9258 - TCF - Modify Existing Suite of Reports
+   	MI10429     TCF     Cancellations and Regrants",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Targeted Compliance Framework - Finalised Suite of Reports Technical Specification V0.6,,,,,
+42614,2020-08-12,2021-06-21,d7c186d0-dc6e-11ea-b9c4-02b137f3fb1e,MI9627 - Driving Population - Population 1: Referrals Table 4 Arrangements,"Population 1     Referrals
+All debts that were with an ECA at any time during the reporting period.
+Dataset name: Arrangements
+Description: This dateset is used to determine if a person had an arrangement at the end of the month/quarter, and if not, if the arrangement was broken during the month/quarter. DEBT_DTOR_DBMA is used to extract the arrangement status for a person at various dates: before, during and at the end of the month/quarter.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,ECA Reporting Suite Technical Specification  V0.2,,,,,
+42615,2020-08-12,2021-06-21,d7c49686-dc6e-11ea-9a41-0a6933dafb30,MI5152 - Report 2 Count - Travel Data RSCD Screen Updates Variation Technical Specification,"Task Description
+Provide a Customers    Travel Report containing the following six tables:
+1.	Data were manually updated by staff on RSCD Screen	
+2.	Data updated by staff using Portability Script of the Portability Script
+3.	Data updated by customers online	
+4. Data updated by staff using Portability Script, both customer and partner were updated by the same activity.
+5. Child Data are manually updated outside of the Portability Script
+6. MFU completed by CIS on Cruise Departure recorded on RSIM Screen
+
+   	The tables need to list the primary payment types at the time of the update, the primary payment type is to be the payment that takes priority, for example, FTB has priority over cards, DSP has priority over MOB, PPP has priority over FTB.
+
+   	Each table needs to be broken down on a month by month basis for the period it covers.
+
+   	Updates to RSCD for a return to Australia are to be excluded from the report.
+
+   	The report requested to be back-run in the following periods:
+01/01/2014 to 31/12/2015 (dateFrom to DateTo)
+01/01/2016 to 31/03/2016 
+It is then to be scheduled for every quarter onward.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Travel Data RSCD Screen Updates Variation Technical Specification V1,,,,,
+42616,2020-08-12,2021-06-21,d7c655c0-dc6e-11ea-8a08-02b137f3fb1e,MI5152 - Report 1 Count - Travel Data RSCD Screen Updates Variation Technical Specification,"Task Description
+Provide a Customers    Travel Report containing the following six tables:
+1.	Data were manually updated by staff on RSCD Screen	
+2.	Data updated by staff using Portability Script of the Portability Script
+3.	Data updated by customers online	
+4. Data updated by staff using Portability Script, both customer and partner were updated by the same activity.
+5. Child Data are manually updated outside of the Portability Script
+6. MFU completed by CIS on Cruise Departure recorded on RSIM Screen
+
+   	The tables need to list the primary payment types at the time of the update, the primary payment type is to be the payment that takes priority, for example, FTB has priority over cards, DSP has priority over MOB, PPP has priority over FTB.
+
+   	Each table needs to be broken down on a month by month basis for the period it covers.
+
+   	Updates to RSCD for a return to Australia are to be excluded from the report.
+
+   	The report requested to be back-run in the following periods:
+01/01/2014 to 31/12/2015 (dateFrom to DateTo)
+01/01/2016 to 31/03/2016 
+It is then to be scheduled for every quarter onward.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Travel Data RSCD Screen Updates Variation Technical Specification V1,,,,,
+42617,2020-08-12,2021-06-21,d7c53654-dc6e-11ea-ac21-02b137f3fb1e,MI5152 - Report 5 Count - Travel Data RSCD Screen Updates Variation Technical Specification,"Task Description
+Provide a Customers    Travel Report containing the following six tables:
+1.	Data were manually updated by staff on RSCD Screen	
+2.	Data updated by staff using Portability Script of the Portability Script
+3.	Data updated by customers online	
+4. Data updated by staff using Portability Script, both customer and partner were updated by the same activity.
+5. Child Data are manually updated outside of the Portability Script
+6. MFU completed by CIS on Cruise Departure recorded on RSIM Screen
+
+   	The tables need to list the primary payment types at the time of the update, the primary payment type is to be the payment that takes priority, for example, FTB has priority over cards, DSP has priority over MOB, PPP has priority over FTB.
+
+   	Each table needs to be broken down on a month by month basis for the period it covers.
+
+   	Updates to RSCD for a return to Australia are to be excluded from the report.
+
+   	The report requested to be back-run in the following periods:
+01/01/2014 to 31/12/2015 (dateFrom to DateTo)
+01/01/2016 to 31/03/2016 
+It is then to be scheduled for every quarter onward.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Travel Data RSCD Screen Updates Variation Technical Specification V1,,,,,
+42618,2020-08-12,2021-06-21,d7c758b2-dc6e-11ea-8a29-062f7acd21ca,MI9627 - Driving Population - Population 1: Referrals Table 5 Referrals,"Population 1     Referrals
+All debts that were with an ECA at any time during the reporting period.
+Dataset name: Referrals
+Description: This final dateset is used for the Referrals output. Join the Referrals_Base and Arrangements datasets together, and add the variables outlined below.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,ECA Reporting Suite Technical Specification  V0.2,,,,,
+42619,2020-08-12,2021-06-21,d7c98f2e-dc6e-11ea-b216-0a8620c9d3ec,MI9627 - Driving Population - Population 1: Referrals Table 2,"Population 1     Referrals
+All debts that were with an ECA at any time during the reporting period.
+Dataset name: T2     clk_sas_sb_db.d_clk_mi9627_t2
+Description: From T1, find the date when the debt status was set to a status other than    DMC    after it was previously set to    DMC    to determine the referral end date.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,ECA Reporting Suite Technical Specification  V0.2,,,,,
+42620,2020-08-12,2021-06-21,d7c8e3d0-dc6e-11ea-afd9-0a8620c9d3ec,MI5152 - Report 4 Count - Travel Data RSCD Screen Updates Variation Technical Specification,"Task Description
+Provide a Customers    Travel Report containing the following six tables:
+1.	Data were manually updated by staff on RSCD Screen	
+2.	Data updated by staff using Portability Script of the Portability Script
+3.	Data updated by customers online	
+4. Data updated by staff using Portability Script, both customer and partner were updated by the same activity.
+5. Child Data are manually updated outside of the Portability Script
+6. MFU completed by CIS on Cruise Departure recorded on RSIM Screen
+
+   	The tables need to list the primary payment types at the time of the update, the primary payment type is to be the payment that takes priority, for example, FTB has priority over cards, DSP has priority over MOB, PPP has priority over FTB.
+
+   	Each table needs to be broken down on a month by month basis for the period it covers.
+
+   	Updates to RSCD for a return to Australia are to be excluded from the report.
+
+   	The report requested to be back-run in the following periods:
+01/01/2014 to 31/12/2015 (dateFrom to DateTo)
+01/01/2016 to 31/03/2016 
+It is then to be scheduled for every quarter onward.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Travel Data RSCD Screen Updates Variation Technical Specification V1,,,,,
+42621,2020-08-12,2021-06-21,d7c9e942-dc6e-11ea-8ba0-022da9221366,MI10429 - WKL - TCF Cancellations and Re grants : Technical Specification,"Task Description
+
+The main purpose for capturing restore/re-grant data in this report is to gauge how many Targeted Compliance Framework    TCP   ,    TCU   ,    CDR,   ,    TCP   ,    TCW    cancellations return to payment.  Business also wants to capture data on re-grants within 18 weeks after cancellation for comparison/trends.  
+
+Report each instance where payment type NSA, SPL, YAL JS, PPS and PPP has been cancelled for one of the following reasons:
+
+   	CDR = Customer failed to re-engage
+   	TCF = Did not meet provider requirement(contingency if CDR/DCP cancellation process fails)
+   	TCW = Provider Work refusal Failure(contingency if CDR/DCP cancellation process fails)
+   	TCP - (if 3rd MOF applied)
+   	TCU     Unemployment Failure Penalty
+
+NB: CDR is both a TCF and JSM cancellation 
+
+A re-grant should be reported in the following circumstances:
+1.	Payment is restored/re-granted where a    TCP   ,    TCU   ,    CDR,   ,    TCP   ,    TCW    cancellation has been removed and replaced by another cancellation reason with the same DOE or an earlier DOE
+2.	Restored/re-granted from same day as    TCP   ,    TCU   ,    CDR,   ,    TCP   ,    TCW    cancellation DOE
+3.	Restored/re-granted within 18 weeks of    TCP   ,    TCU   ,    CDR,   ,    TCP   ,    TCW    cancellation DOE.  
+
+Once a re-grant/restoration event has been established in a reporting period there is no need to continue checking the record.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI10429 - WKL - TCF Cancellations and Re grants : Technical Specification V0.5,,,,,
+42622,2020-08-12,2021-06-21,d7cb73f2-dc6e-11ea-a913-0a6933dafb30,MI9627 - Driving Population - Population 2: Repayments Table 1 All_ECA_Repayments,"Population 2     Repayments
+All repayments received in reporting period that can be attributed to an ECA.
+Dataset name: All_ECA_Repayments
+Description: Extract all repayments received in the reporting period by an External Collection Agent, and add referral details from Referrals (if applicable, not all repayments will link to a referral).",7089da98b44c11ea849a5a0bdf2d1ed7,123,,ECA Reporting Suite Technical Specification  V0.2,,,,,
+42624,2020-08-12,2021-06-21,d7d13274-dc6e-11ea-b1f5-0a8620c9d3ec,MI9257 - Report 5 - Targeted Compliance Framework - Finalised Suite of Reports Technical Specification,"Task Description
+Management Information (MI) reports will be used to monitor the transactions and their outcomes resulting from the Targeted Compliance Framework. The reports will be used for internal report generation and used for programme management purposes; occasional sharing of non-identifiable limited data with client departments/s and to inform Senate Estimate briefs as required..
+The following MI Reports fall under PN2017.7065     Targeted Compliance Framework project:
+
+   	MI7923 - TCF - New Suite of Reports 
+   	MI9254 - TCF - Generated Suite of Reports
+   	MI9257 - TCF - Finalised Suite of Reports     this Tech Spec
+   	Use Global Demographics as defined in MI7923
+   	Report 1 : TCF Finalised Suspensions (for a compliance reason )in the Demerit Zone
+   	Report 2 : TCF Finalised Suspensions (for a compliance reason ) in the Penalties Zone
+   	Report 3: TCF Finalised Failures
+   	Report 4: Automatically rejected suspension reports 
+   	Report 5: Finalised Capability Assessments 
+   	MI9258 - TCF - Modify Existing Suite of Reports
+   	MI10429     TCF     Cancellations and Regrants",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Targeted Compliance Framework - Finalised Suite of Reports Technical Specification V0.6,,,,,
+42626,2020-08-12,2021-06-21,d86dadca-dc6e-11ea-8a08-02b137f3fb1e,MI5152 - Report 6 Count - Travel Data RSCD Screen Updates Variation Technical Specification,"Task Description
+Provide a Customers    Travel Report containing the following six tables:
+1.	Data were manually updated by staff on RSCD Screen	
+2.	Data updated by staff using Portability Script of the Portability Script
+3.	Data updated by customers online	
+4. Data updated by staff using Portability Script, both customer and partner were updated by the same activity.
+5. Child Data are manually updated outside of the Portability Script
+6. MFU completed by CIS on Cruise Departure recorded on RSIM Screen
+
+   	The tables need to list the primary payment types at the time of the update, the primary payment type is to be the payment that takes priority, for example, FTB has priority over cards, DSP has priority over MOB, PPP has priority over FTB.
+
+   	Each table needs to be broken down on a month by month basis for the period it covers.
+
+   	Updates to RSCD for a return to Australia are to be excluded from the report.
+
+   	The report requested to be back-run in the following periods:
+01/01/2014 to 31/12/2015 (dateFrom to DateTo)
+01/01/2016 to 31/03/2016 
+It is then to be scheduled for every quarter onward.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Travel Data RSCD Screen Updates Variation Technical Specification V1,,,,,
+42627,2020-08-12,2021-06-21,d86e89c0-dc6e-11ea-b9c4-02b137f3fb1e,MI9627 - Driving Population - Population 1: Referrals Table 3 Referrals_Base,"Population 1     Referrals
+All debts that were with an ECA at any time during the reporting period.
+Dataset name: Referrals_Base
+Description: This dateset is to add additional referral details to the driving population (T2).",7089da98b44c11ea849a5a0bdf2d1ed7,123,,ECA Reporting Suite Technical Specification  V0.2,,,,,
+42629,2020-08-12,2021-06-21,d8b00cc4-dc6e-11ea-afd9-0a8620c9d3ec,MI9627 - Driving Population - Population 1: Referrals Table 1,"Population 1     Referrals
+All debts that were with an ECA at any time during the reporting period.
+
+Dataset name: T1 clk_sas_sb_db.d_clk_mi9627_t1
+Description: Find debts that had a debt status set to    DMC    (Determined     Collection Agent)",7089da98b44c11ea849a5a0bdf2d1ed7,123,,ECA Reporting Suite Technical Specification  V0.2,,,,,
+42630,2020-08-12,2021-06-21,d8bce2d2-dc6e-11ea-b153-022da9221366,MI10076 - Assurance of Support Organisations,"Task Description
+To determine all Organisations (incorporated and unincorporated) who apply for an Assurance of Support arrangement in the given quarter (including FYTD values). This includes:
+
+   	State and Local Government
+   	PTY and LTD companies
+   	ASX listed organisations like Woolworths
+   	Churches, or
+   	Community Groups.
+
+The data will be reported on a quarterly basis to DSS as per the BMA for internal use, report generation and programme management.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,QTR - Organisation Assurers applying for an Assurance of Support Technical Specification V0.13,,,,,
+42634,2020-08-12,2021-06-21,d97a13fc-dc6e-11ea-8ba0-022da9221366,MI9627 - Driving Population - Population 2: Repayments Table 3 Repayments,"Population 2     Repayments
+All repayments received in reporting period that can be attributed to an ECA.
+Dataset name: Repayments
+Description: This final dateset is used for the Repayments output. Join the All_ECA_Repayments and Cash_Repayments datasets together, and add the variables outlined below.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,ECA Reporting Suite Technical Specification  V0.2,,,,,
+42636,2020-08-12,2021-06-21,d97c8358-dc6e-11ea-ac21-02b137f3fb1e,MI9627 - Driving Population - Population 2: Repayments Table 2 Cash_Repayments,"Population 2     Repayments
+All repayments received in reporting period that can be attributed to an ECA.
+Dataset name: Cash_Repayments
+Description: Extract all cash repayments received in the reporting period during a period when the debt was with an ECA.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,ECA Reporting Suite Technical Specification  V0.2,,,,,
+42643,2020-08-12,2021-06-21,d98aa96a-dc6e-11ea-b735-022da9221366,MI5463 - Statutory Limitations on Debt Recovery,"Task Description
+Detailed description in words of what the task is about and what the report is to be used for.
+Develop a report that lists CRNs for all customers with debts that have passed their recorded Statutory Limitation Date (SLD) (determined debts over 6 years that are not    finalised   ). Customers who have received certain letters relating to their debt, have been referred to a Collection Agent or have a repayment arrangement in place will be excluded from the report. This request is for an ongoing Monthly report and will be used to inform analysis being undertaken regarding Statutory Limitations and recovery of debt.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Statutory Limitations on Debt Recovery Technical Specification V0.1,,,,,
+42648,2020-08-12,2021-06-21,da7e4962-dc6e-11ea-b153-022da9221366,MI5964 - Driving Population - INTEREST_ADJUST,"Interest charge added/adjusted to debts during the financial year up to the reporting date.
+
+Events where a debt   s interest charge has increased or decreased during the financial year (INTEREST_ADJUST)
+
+Explanatory Notes
+The macro %debt_change_gic_trans will produce a SAS file (name of file specified by parameter outfil) containing changes to the interest charge amount in the period specified by the parameters start and end. Each observation in the file represents an individual change per day.
+
+In cases where multiple changes to the interest charge amount have occurred in one day, the file will contain details of the overall net change for that day.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Interest Charge Stock and Flow Technical Specification V0.3  and  Centrelink Debt Macros_v0.3,,,,,
+42649,2020-08-12,2021-06-21,da9f3e38-dc6e-11ea-8802-062f7acd21ca,MI5964 - Driving Population - START_OUTSTANDING,"Outstanding debts with an interest charge as at the start of the financial year (START_OUTSTANDING).
+
+Explanatory Notes
+The macro %create_debt_file will produce a SAS file (name of file specified by parameter level) containing debt information (one observation per debt) as at the extraction date specified by parameter as_at_date.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Interest Charge Stock and Flow Technical Specification V0.3  and  Centrelink Debt Macros_v0.3,,,,,
+42651,2020-08-12,2021-06-21,db83caa8-dc6e-11ea-8802-062f7acd21ca,MI5964 - Driving Population - FWO_TRANS,"Debts with an interest charge that were finalised (permanently written off) during the financial year up to the reporting date.
+
+Find Events where a debt was permanently written off during the financial year (FWO_TRANS)
+
+Explanatory Notes
+The macro %debt_change_status_trans will produce a SAS file (name of file specified by parameter outfil) containing actions that have triggered a change in a debt status in the period specified by the parameters start and end. Each observation in the file represents an individual action.
+Permanent write-off transactions are identified by the transaction type (TRANTYPE)    FWO   .",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Interest Charge Stock and Flow Technical Specification V0.3  and  Centrelink Debt Macros_v0.3,,,,,
+42652,2020-08-12,2021-06-21,db87a790-dc6e-11ea-b735-022da9221366,MI5964 - Driving Population - FULL_DEBT_WAIVER_REV,"Waiver reversals made on debts with an interest charge during the financial year where no interest-only waiver reversal was made on the same day.
+
+Find non interest-only waiver reversal events where the debt still had interest charged. (FULL_DEBT_WAIVER_REV)
+
+Match tables (NO_INT_WAIVER_REV - Dataset ID: 63838 and DEBTS_WITH_INTEREST _2 - Dataset ID: 63839) by DEBTID and TRANDTE",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Interest Charge Stock and Flow Technical Specification V0.3  and  Centrelink Debt Macros_v0.3,,,,,
+42330,2020-08-12,2021-06-21,af4c586a-dc6e-11ea-8a08-02b137f3fb1e,Child Care Subsidy ACCS Child Wellbeing DataMart,"<p>The ACCS (Child wellbeing) payment is an additional subsidy payable in circumstances where, amongst other things, a child is considered &ldquo;at risk of serious abuse or neglect&rdquo;, and therefore additional support would assist the individual, or an eligible provider where the provider cannot identify an individual eligible for the sessions of care provided, to meet the costs of child care and help in providing an appropriate safety net for such children. An eligible Service/Provider will apply for either a certificate/determination based on the number of weeks child has identified to be at risk. Certificate is applicable for up to 6 weeks, however, determination is for up to 13 weeks. Each time when Provider/Service applies for child wellbeing there are certain rules which checks the eligibility of service/provider applying for certificate/determination. One among is the 50% limit check to see if a certificate given by an approved provider does not take effect if the certificate would have the result that, on any particular day during the first week in which the certificate takes effect, certificates given by the provider, together with any determinations made on application by the provide doesn&rsquo;t exceeds the 50% limit.</p>",7089da98b44c11ea849a5a0bdf2d1ed7,91,,,,,,,
+42653,2020-08-12,2021-06-21,db88d41c-dc6e-11ea-b153-022da9221366,MI5964 - Driving Population - END_OUTSTANDING,"Outstanding debts with an interest charge as at the reporting date (END_OUTSTANDING).
+
+Explanatory Notes
+The macro %create_debt_file will produce a SAS file (name of file specified by parameter level) containing debt information (one observation per debt) as at the extraction date specified by parameter as_at_date.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Interest Charge Stock and Flow Technical Specification V0.3  and  Centrelink Debt Macros_v0.3,,,,,
+42654,2020-08-12,2021-06-21,db8930ce-dc6e-11ea-8ba0-022da9221366,MI5964 - Driving Population - DEBTS_WITH_INTEREST,"Waivers made on debts with an interest charge that resulted in a finalised (waived) status during the financial year up to the reporting date.
+
+Find debts that had an interest charge applied as at the date of the waiver (DEBTS_WITH_INTEREST).
+
+Explanatory Notes
+Match tables (NO_INT_WAIVER - Dataset ID: 63802, DEBT_DEBT_DBIC and (Left Join) DEBT_DEBT_WV) by DEBTID/DEBT_ID for an extract date based on the date the waiver was made.  Debts have a current interest charge if the latest interest charge calculation (latest occurrence of DBIC_GIC_TOT_INT_AMT) is more than the sum of all interest-only waivers made against the debt.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Interest Charge Stock and Flow Technical Specification V0.3  and  Centrelink Debt Macros_v0.3,,,,,
+42655,2020-08-12,2021-06-21,db8a056c-dc6e-11ea-8a29-062f7acd21ca,MI5964 - Driving Population - NO_INT_WAIVER_REV,"Waiver reversals made on debts with an interest charge during the financial year where no interest-only waiver reversal was made on the same day.
+
+Find Events where a non interest-only waiver reversal has been made during the financial year (NO_INT_WAIVER_REV)
+
+Explanatory Notes
+The macro %debt_change_waiver_trans will produce a SAS file (name of file specified by parameter outfil) containing waivers and waiver reversals in the period specified by the parameters start and end. Each observation in the file represents an individual waiver/waiver reversal action.
+
+Waiver transactions are identified by the transaction types (TRANTYPE)    WAV    or    WVN   .  Waiver reversals are identified by the transaction types    RWV    or    RWN   .
+
+To exclude events found in this table, where an interest-only waiver reversal was made on the same day:
+Table: NO_INT_WAIVER_REV	
+	Table: INTEREST_WAIVER	 - TRANTYPE
+	Match tables by DEBTID, TRANTYPE and TRANDTE.  If a match is found, exclude from NO_INT_WAIVER_REV.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Interest Charge Stock and Flow Technical Specification V0.3  and  Centrelink Debt Macros_v0.3,,,,,
+42656,2020-08-12,2021-06-21,db8a30dc-dc6e-11ea-a913-0a6933dafb30,MI5964 - Driving Population - NO_INT_WAIVER,"Waivers made on debts with an interest charge that resulted in a finalised (waived) status during the financial year up to the reporting date.
+
+Find Events where a non-interest-only waiver has been made during the financial year (NO_INT_WAIVER)
+
+Explanatory Notes
+The macro %debt_change_waiver_trans will produce a SAS file (name of file specified by parameter outfil) containing waivers and waiver reversals in the period specified by the parameters start and end. Each observation in the file represents an individual waiver/waiver reversal action.
+
+Waiver transactions are identified by the transaction types (TRANTYPE)    WAV    or    WVN   .  Waiver reversals are identified by the transaction types    RWV    or    RWN   .
+
+To exclude events found in this table, where an interest-only waiver was made on the same day.
+Table: NO_INT_WAIVER	 (This dataset)
+		Table: INTEREST_WAIVER (Dataset ID: 63801) - 	TRANTYPE -    WAV       WVN   
+Match tables by DEBTID, TRANTYPE and TRANDTE.  If a match is found, exclude from NO_INT_WAIVER",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Interest Charge Stock and Flow Technical Specification V0.3  and  Centrelink Debt Macros_v0.3,,,,,
+42657,2020-08-12,2021-06-21,db8bad04-dc6e-11ea-9a41-0a6933dafb30,MI5964 - Driving Population - INTEREST_WAIVER,"Interest only waivers and waiver reversals made on debts during the financial year up to the reporting date.
+
+Events where an interest-only waiver or waiver reversal to a debt has been made during the financial year (INTEREST_WAIVER)
+
+Explanatory Notes
+ The macro %debt_change_waiver_trans will produce a SAS file (name of file specified by parameter outfil) containing waivers and waiver reversals in the period specified by the parameters start and end. Each observation in the file represents an individual waiver/waiver reversal action.
+
+Waiver transactions are identified by the transaction types (TRANTYPE)    WAV    or    WVN   .  Waiver reversals are identified by the transaction types    RWV    or    RWN   .",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Interest Charge Stock and Flow Technical Specification V0.3  and  Centrelink Debt Macros_v0.3,,,,,
+42658,2020-08-12,2021-06-21,db8d31ec-dc6e-11ea-b9c4-02b137f3fb1e,MI5964 - Driving Population - DEBTS_WITH_INTEREST_3,"Debts with an interest charge that were finalised (permanently written off) during the financial year up to the reporting date.
+
+Find debts that had an interest charge applied as at the date of the permanent write-off (DEBTS_WITH_INTEREST_3).
+
+Explanatory Notes
+Match tables (FWO_TRANS - Dataset ID: 63851, DEBT_DEBT_DBIC and (Left Join) DEBT_DEBT_WV) by DEBTID/DEBT_ID for an extract date based on the date the permanent write-off was made.  Debts have a current interest charge if the latest interest charge calculation (latest occurrence of DBIC_GIC_TOT_INT_AMT) is more than the sum of all interest-only waivers made against the debt.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Interest Charge Stock and Flow Technical Specification V0.3  and  Centrelink Debt Macros_v0.3,,,,,
+42661,2020-08-12,2021-06-21,db8f2f74-dc6e-11ea-ac21-02b137f3fb1e,MI5964 - Driving Population - FULL_DEBT_WAIVER,"Waivers made on debts with an interest charge that resulted in a finalised (waived) status during the financial year up to the reporting date.
+
+Find non interest-only waiver events that resulted in the debt being Finalised-Waived where the debt still had interest charged. (FULL_DEBT_WAIVER).
+
+Match tables (NO_INT_WAIVER - Dataset ID: 63802, DEBTS_WITH_INTEREST - Dataset ID: 63825 and DEBTS_FWV - Dataset ID: 63831) by DEBTID and TRANDTE.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Interest Charge Stock and Flow Technical Specification V0.3  and  Centrelink Debt Macros_v0.3,,,,,
+42662,2020-08-12,2021-06-21,db8f68fe-dc6e-11ea-bade-0a6933dafb30,MI5964 - Driving Population - DEBTS_FWV,"Waivers made on debts with an interest charge that resulted in a finalised (waived) status during the financial year up to the reporting date.
+
+Find debts that had a status of Finalised     Waived (FWV) as at the date of the waiver (DEBTS_FWV).
+
+Explanatory Notes
+Match tables (NO_INT_WAIVER - Dataset ID: 63802 and DEBT_DEBT_BD) by DEBTID/DEBT_ID for an extract date based on the date the waiver was made.  Only select debts where the status is Finalised     Waived.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Interest Charge Stock and Flow Technical Specification V0.3  and  Centrelink Debt Macros_v0.3,,,,,
+42663,2020-08-12,2021-06-21,db9092d8-dc6e-11ea-b216-0a8620c9d3ec,MI5964 - Driving Population - DBIX,"Outstanding debts that are accruing interest as at the reporting date.
+
+Find debts currently in an interest charge exclusion period (DBIX).
+
+Explanatory Notes
+Select distinct Debt Ids only (debt may have more than one current exclusion period)",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Interest Charge Stock and Flow Technical Specification V0.3  and  Centrelink Debt Macros_v0.3,,,,,
+42664,2020-08-12,2021-06-21,db9271de-dc6e-11ea-8a08-02b137f3fb1e,MI5964 - Driving Population - DEBTS_WITH_INTEREST_2,"Waiver reversals made on debts with an interest charge during the financial year where no interest-only waiver reversal was made on the same day.
+
+Find debts that had an interest charge applied as at the date of the waiver (DEBTS_WITH_INTEREST_2).
+
+Explanatory Notes
+Match tables (NO_INT_WAIVER_REV - Dataset ID: 63838, DEBT_DEBT_DBIC and (Left Join) DEBT_DEBT_WV) by DEBTID/DEBT_ID for an extract date based on the date the waiver was made.  Debts have a current interest charge if the latest interest charge calculation (latest occurrence of DBIC_GIC_TOT_INT_AMT) is more than the sum of all interest-only waivers made against the debt.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Interest Charge Stock and Flow Technical Specification V0.3  and  Centrelink Debt Macros_v0.3,,,,,
+42665,2020-08-12,2021-06-21,db9280b6-dc6e-11ea-afd9-0a8620c9d3ec,MI5964 - Driving Population - DEBTS_RECOVERED,"Debts with an interest charge where the debt was finalised (recovered) during the financial year up to the reporting date.
+
+Find debts that had an interest charge applied as at the end of the reporting period and has a status of Finalised     Recovered (FRE) (DEBTS_RECOVERED).
+
+Explanatory Notes
+Match tables (DEBT_DEBT_BD, DEBT_DEBT_DBIC, (Left Join) DEBT_DEBT_WV and DEBT_DEBT_RD) by DEBT_ID.  Debts have a current interest charge if the latest interest charge calculation (latest occurrence of DBIC_GIC_TOT_INT_AMT) is more than the sum of all interest-only waivers made against the debt.
+Use date the last repayment was logged to check if debt was recovered within reporting period",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Interest Charge Stock and Flow Technical Specification V0.3  and  Centrelink Debt Macros_v0.3,,,,,
+42668,2020-08-12,2021-06-21,dc0adcbe-dc6e-11ea-a913-0a6933dafb30,MI5964 - Driving Population - PERM_WRITE_OFF,"Debts with an interest charge that were finalised (permanently written off) during the financial year up to the reporting date.
+
+Match the two tables included in this driving population by DEBTID and TRANDTE.
+
+Find permanent write-off events that where the debt still had interest charged. (PERM_WRITE_OFF).
+
+Explanatory Notes
+Match tables (FWO_TRANS - Dataset ID: 63851 and DEBTS_WITH_INTEREST _3 - Dataset ID: 63855) by DEBTID and TRANDTE",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Interest Charge Stock and Flow Technical Specification V0.3  and  Centrelink Debt Macros_v0.3,,,,,
+42669,2020-08-12,2021-06-21,dc42f0cc-dc6e-11ea-b216-0a8620c9d3ec,MI5964 - Driving Population - DBED,"Outstanding debts that are accruing interest as at the reporting date.
+
+Explanatory Notes
+Debt is eligible to be charged interest only if a notification event (KIP, KIA) has been recorded after 15th April 2018 (official start date of interest charge).
+
+Can be any occurrence in the DBED group     not just the most recent entry.
+
+Select distinct Debt Ids as debt may have more than one event coded",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Interest Charge Stock and Flow Technical Specification V0.3  and  Centrelink Debt Macros_v0.3,,,,,
+42676,2020-08-12,2021-06-21,dd56b0de-dc6e-11ea-8a08-02b137f3fb1e,MI5964 - Driving Population - DEBTS_ACCRUING,"Outstanding debts that are accruing interest as at the reporting date.
+
+Find outstanding debts eligible for interest being charged but not currently in an interest charge exclusion period (DEBTS_ACCRUING).
+
+Explanatory Notes
+Extract where DEBT_DEBT_BD matches debt in DBED - Dataset ID: 63862 but does not match debt in DBIX - Dataset ID: 63864.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Interest Charge Stock and Flow Technical Specification V0.3  and  Centrelink Debt Macros_v0.3,,,,,
+42679,2020-08-12,2021-06-21,dd5adf10-dc6e-11ea-b1f5-0a8620c9d3ec,MI8687 - Count Report - SDRT - Debt Under Arrangement,"Task Description
+Extract data under the categories of Arrangement status, Customer status broken up into current and non-current customers, Arrangment type that describes the recovery arrangement the customer has to repay their debt, Financial year, Calendar year (reporting date of extraction), number of debts with a status of either Determined, Civil Action, AOS protected, Determined-Overrecovered or Determined-Collection Agent as at the reporting date. Also, the outstanding amounts which is the outstanding balance of debts as at the reporting date.
+
+Report will be used for the Service Delivery Round Table report for the Deputy Secretary.
+
+Driving Population
+
+   	Outstanding debts that can be recovered
+
+Tables where driving population can be found and the business rules",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI8687 -  SDRT - Debt Under Arrangement - Technical Specification V0.1,,,,,
+42680,2020-08-12,2021-06-21,dd5eaafa-dc6e-11ea-b735-022da9221366,MI5964 - Customer's Accruing Report Interest Charge Recovery on Social Security and Family Assistance Debt,"Task Description
+Develop code to report the stock and flow of interest charges from the start of the financial year (or 14 April 2018 whichever is later) to the end of the reporting period.  This includes    
+
+   	Number and outstanding amount of debts with an interest charge and the value of the interest charge as at the start of the financial year.
+   	Amount of interest charge added during the financial year up to the reporting date
+   	Amount of interest charge removed (through recovery, permanent write-off, waiver, or adjustment through recalculation of the debt amount) during the financial year up to the reporting date.
+   	Number and outstanding amount of debts with an interest charge and the value of the interest charge as at the reporting date.
+   	Number and outstanding amount of debts that are accruing interest as at the reporting date
+   	Number of debtors with outstanding debts that are accruing interest as at the reporting date",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Interest Charge Stock and Flow Technical Specification V0.3,,,,,
+42685,2020-08-12,2021-06-21,dda8abf0-dc6e-11ea-8a08-02b137f3fb1e,MI8344 - CRN List - Report 1 Listing of Newly Arrived Refugees who incur a suspension or cancellation within 26 weeks of their refugee start date.,"Task Description
+Summary information provided to service zones as feedback on the service provided. Summary results used to monitor compliance with the refugee servicing strategy and to measure stated KPIs.  
+
+Overview
+To determine what level of service and outcomes were received by newly arrived refugees known to DHS through the Centrelink programme, and to see how the refugee service offer (RSO) is operating.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI8344 - Technical Specification V0.2,,,,,
+42690,2020-08-12,2021-06-21,de988f94-dc6e-11ea-b153-022da9221366,MI5964 - Stock and Flow Report Interest Charge Recovery on Social Security and Family Assistance Debt,"Task Description
+Develop code to report the stock and flow of interest charges from the start of the financial year (or 14 April 2018 whichever is later) to the end of the reporting period.  This includes    
+
+   	Number and outstanding amount of debts with an interest charge and the value of the interest charge as at the start of the financial year.
+   	Amount of interest charge added during the financial year up to the reporting date
+   	Amount of interest charge removed (through recovery, permanent write-off, waiver, or adjustment through recalculation of the debt amount) during the financial year up to the reporting date.
+   	Number and outstanding amount of debts with an interest charge and the value of the interest charge as at the reporting date.
+   	Number and outstanding amount of debts that are accruing interest as at the reporting date
+   	Number of debtors with outstanding debts that are accruing interest as at the reporting date",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Interest Charge Stock and Flow Technical Specification V0.3,,,,,
+42692,2020-08-12,2021-06-21,e12c2ebe-dc6e-11ea-8ba0-022da9221366,MI7920 - Driving Population - Base Population,"This task involves 5 separate populations     all relating to events that occurred during the reporting week
+1.	Number of finalised reviews
+2.	Status updates     verified as single/partnered, cancelled/suspended FPV, Specialist Referral, form issue for a second time
+3.	Restoration of CAN/SUS FRV
+4.	Rate changes     including total value of rate changes
+5.   Debts raised as a result of the review
+
+Base Population: Extract all Third Party Reviews to create a base population     this is to be sourced from SAP CRM tables",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI7920 - Strengthen 3PV for PPS and NSA Tech Spec - V0.4,,,,,
+42693,2020-08-12,2021-06-21,e12c65fa-dc6e-11ea-9a41-0a6933dafb30,MI7920 - Driving Population - Population 1,"This task involves 5 separate populations     all relating to events that occurred during the reporting week
+1.	Number of finalised reviews
+2.	Status updates     verified as single/partnered, cancelled/suspended FPV, Specialist Referral, form issue for a second time
+3.	Restoration of CAN/SUS FRV
+4.	Rate changes     including total value of rate changes
+5.   Debts raised as a result of the review
+
+Population 1     Finalised reviews during the reporting period
+Using the base population defined above     extract reviews that were finalised in the reporting period 
+This will be sources from SAP CRM tables",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI7920 - Strengthen 3PV for PPS and NSA Tech Spec - V0.4,,,,,
+42694,2020-08-12,2021-06-21,e12e1eea-dc6e-11ea-8a08-02b137f3fb1e,MI7920 - Driving Population - Population 2,"This task involves 5 separate populations     all relating to events that occurred during the reporting week
+1.	Number of finalised reviews
+2.	Status updates     verified as single/partnered, cancelled/suspended FPV, Specialist Referral, form issue for a second time
+3.	Restoration of CAN/SUS FRV
+4.	Rate changes     including total value of rate changes
+5.   Debts raised as a result of the review
+
+Population 2     Status Reason updates - verified as single/partnered, cancelled/suspended FPV, Specialist Referral, form issue for a second time 
+This will be sourced from SAP CRM tables",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI7920 - Strengthen 3PV for PPS and NSA Tech Spec - V0.4,,,,,
+42697,2020-08-12,2021-06-21,e12f9d10-dc6e-11ea-b153-022da9221366,MI10100 - Pension Loan Scheme Financial Data - Report 6a Count Report,"Task Description
+This request is to add a new report to MI6881 detailing new PLS participants and the amounts paid commencing each financial year from 1/7/1996     30/6/2017.
+
+This is a retrospective data request for the specified period. It requires reuse of SAS program used for output R6     PLS Commencing in MI 6681. Current rules for R6 and format applies to each financial year.
+
+Report 6A is an enhancement to MI6681 and is to be delivered (in a new tab) as an ongoing biannual report within MI6681 to July 2019. Apply the modified report format for future outputs of R6     PLS Commencing Payment.
+
+2 Reports: 
+1.	Report 6     Quarterly
+   	CRN Listing of all new PLS participants and amounts paid during financial year from 1/7/1996     30/6/2019.
+
+2.	Report 6A
+   	Count Report of all new PLS participants and amounts paid during financial year from 1/7/1996     30/6/2019",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI10100 Pension Loan Scheme Financial Data Tech Spec V0.4,,,,,
+42703,2020-08-12,2021-06-21,e137d49e-dc6e-11ea-b9c4-02b137f3fb1e,MI7920 - TPV Reviews Count Report - Weekly and Cumulative - Strengthen 3PV for PPS and Newstart Allowance,"This report is run as a weekly flow and as a cumulative from 01/01/2018.
+
+Task Description
+Starting from 1 January 2018, 371,000 existing recipients will receive this form in a staggered approach over a four year period.  This task is to monitor the review process over the duration of the initiative.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Strengthen 3PV for PPS and Newstart Allowance Tech Spec V0.5,,,,,
+42704,2020-08-12,2021-06-21,e137e3d0-dc6e-11ea-b1f5-0a8620c9d3ec,MI8344 - CRN List - Report 2 Newly Arrived Refugees having their first finalised claim for a primary income support payment within the reporting month and less than 13 weeks from their refugee start date,"Task Description
+Summary information provided to service zones as feedback on the service provided. Summary results used to monitor compliance with the refugee servicing strategy and to measure stated KPIs.  
+
+Overview
+To determine what level of service and outcomes were received by newly arrived refugees known to DHS through the Centrelink programme, and to see how the refugee service offer (RSO) is operating.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI8344 - Technical Specification V0.2,,,,,
+42705,2020-08-12,2021-06-21,e15afb54-dc6e-11ea-8a29-062f7acd21ca,MI7920 - CRN Listing Weekly Report 4 - Strengthen 3PV for PPS and Newstart Allowance,"Task Description
+Starting from 1 January 2018, 371,000 existing recipients will receive this form in a staggered approach over a four year period.  This task is to monitor the review process over the duration of the initiative.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Strengthen 3PV for PPS and Newstart Allowance Tech Spec V0.5,,,,,
+42706,2020-08-12,2021-06-21,e186d076-dc6e-11ea-8ba0-022da9221366,MI10100 - Pension Loan Scheme Financial Data - Report 6 CRN Listing,"Task Description
+This request is to add a new report to MI6881 detailing new PLS participants and the amounts paid commencing each financial year from 1/7/1996     30/6/2017.
+
+This is a retrospective data request for the specified period. It requires reuse of SAS program used for output R6     PLS Commencing in MI 6681. Current rules for R6 and format applies to each financial year.
+
+Report 6A is an enhancement to MI6681 and is to be delivered (in a new tab) as an ongoing biannual report within MI6681 to July 2019. Apply the modified report format for future outputs of R6     PLS Commencing Payment.
+
+2 Reports: 
+1.	Report 6     Quarterly
+   	CRN Listing of all new PLS participants and amounts paid during financial year from 1/7/1996     30/6/2019.
+
+2.	Report 6A
+   	Count Report of all new PLS participants and amounts paid during financial year from 1/7/1996     30/6/2019",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI10100 Pension Loan Scheme Financial Data Tech Spec V0.4,,,,,
+42707,2020-08-12,2021-06-21,e18f476a-dc6e-11ea-8a08-02b137f3fb1e,MI7920 - TPV Reviews Count Report 3 - Strengthen 3PV for PPS and Newstart Allowance,"Task Description
+Starting from 1 January 2018, 371,000 existing recipients will receive this form in a staggered approach over a four year period.  This task is to monitor the review process over the duration of the initiative.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Strengthen 3PV for PPS and Newstart Allowance Tech Spec V0.5,,,,,
+42710,2020-08-12,2021-06-21,e2187b48-dc6e-11ea-a913-0a6933dafb30,COVID Registration and CRN Issuing Dashboard MI Report,This table stores details relating to the COVID Registration and CRN Issuing Dashboard MI Report.,7089da98b44c11ea849a5a0bdf2d1ed7,73,,COVID-19 Identity Verification Project - Management Information Reporting Assessment,,Report Description: Table for Tableu,,,
+42711,2020-08-12,2021-06-21,e4154f3e-dc6e-11ea-b153-022da9221366,MI11140 - International Cheque Payments,"As for existing reporting SF2220619 with the following changes:
+   	All customers paid by cheque payment to addresses other than Australia regardless of delivery method or destination country. (prev population for SF2220619 was Australian Pension Cheque Payments delivered by courier to Australian embassies in South America) 
+   	Report to be changed from weekly to 4weekly on the same schedule as SF4056826 CC2481.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Technical Specification - MI11140 - International Cheque Payments,,,,,
+42712,2020-08-12,2021-06-21,e4161bc6-dc6e-11ea-8a08-02b137f3fb1e,MI11716 - Wife pension transition to JSP - Report 3 Count report,MI is required to closely monitor the Wife Pension (WP) cohort during the transition and cessation of Wife Pension payment.  MI is needed so that the transition team can make sure customers are engaged in a timely manner.,7089da98b44c11ea849a5a0bdf2d1ed7,123,,,,,,,
+42714,2020-08-12,2021-06-21,e417a66c-dc6e-11ea-bade-0a6933dafb30,MI11716 - Wife pension transition to JSP - Report 1 CRN listing,MI is required to closely monitor the Wife Pension (WP) cohort during the transition and cessation of Wife Pension payment.  MI is needed so that the transition team can make sure customers are engaged in a timely manner.,7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI11716 - WKL - Wife pension transition to JSP Tech spec v1.0,,,,,
+42715,2020-08-12,2021-06-21,e4191c18-dc6e-11ea-8ba0-022da9221366,MI11716 - Wife pension transition to JSP - Report 2 CRN listing,MI is required to closely monitor the Wife Pension (WP) cohort during the transition and cessation of Wife Pension payment.  MI is needed so that the transition team can make sure customers are engaged in a timely manner.,7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI11716 - WKL - Wife pension transition to JSP Tech spec v1.0,,,,,
+42717,2020-08-12,2021-06-21,e419b31c-dc6e-11ea-8802-062f7acd21ca,MI10898 - Bank and Wage Garnishee Letter Success rate - Q609 CRN List,"Count the following letters     
+   	Q608 (requesting customer account information for possible garnishee)
+   	Q609 (letter to customer   s employer requesting customer   s employment details for possible garnishee)
+   	Q289 (letter contacting customer in response to a Debtor Matching exercise)
+   	Q190 (letter contacting customer with final option)",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Technical Specification - MI10898 v0.2,,,,,
+42718,2020-08-12,2021-06-21,e41a6d98-dc6e-11ea-ac21-02b137f3fb1e,MI11716 - Driving Population 2,MI is required to closely monitor the Wife Pension (WP) cohort during the transition and cessation of Wife Pension payment.  MI is needed so that the transition team can make sure customers are engaged in a timely manner.,7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI11716 - WKL - Wife pension transition to JSP Tech spec v1.0,,,,,
+42721,2020-08-12,2021-06-21,e41cc642-dc6e-11ea-a913-0a6933dafb30,MI8781 - Discount Present Value Waivers - CRN Listing,"The generation of monthly reports are required relating to debts that have had a discount agreement and the agreed discount amount has been waived. The legislative reason for the waiver is Discount Present Value (DPV). 
+
+A summary report and a CRN listing report are required for the 2017-18 financial year to date. The summary report will provide details on DPV waivers, counting the number of waivers, number of debts waived, number of customers with debts waived, and a total amount of debt waived. The CRN listing report provides further analysis of the customer   s debts waived for reason DPV, including indicators where a discount waiver applied without a discount agreement, or a discount agreement applied without a discount waiver.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Technical Specification - Discount Present Value Waivers v0.2,,,,,
+42723,2020-08-12,2021-06-21,e41dea04-dc6e-11ea-906f-062f7acd21ca,MI8781 - Discount Present Value Waivers - count report,"The generation of monthly reports are required relating to debts that have had a discount agreement and the agreed discount amount has been waived. The legislative reason for the waiver is Discount Present Value (DPV). 
+
+A summary report and a CRN listing report are required for the 2017-18 financial year to date. The summary report will provide details on DPV waivers, counting the number of waivers, number of debts waived, number of customers with debts waived, and a total amount of debt waived. The CRN listing report provides further analysis of the customer   s debts waived for reason DPV, including indicators where a discount waiver applied without a discount agreement, or a discount agreement applied without a discount waiver.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Technical Specification - discount Present Value Waivers v0.2,,,"Grouping: Group data for each Waiver Month, then by Authority",,
+42724,2020-08-12,2021-06-21,e424c2fc-dc6e-11ea-afd9-0a8620c9d3ec,MI10120 - ParentsNext Appointments - CRN Listing,"The ParentsNext programme currently operates in 10 Local Government areas, however, in the 2017-18 Budget, the Government announced a national expansion of ParentsNext from 1 July 2018, with a more intensive stream in 30 areas of high disadvantage and/or a high proportion of Indigenous parents and a targeted stream in the remaining non-remote regions of Australia.  
+There are two costings for the national rollout which are being managed as one project. These are:
+   	004753 - Strengthening Indigenous Labour Force Participation (ParentsNext), this stream will be referred to as the Intensive stream, and 
+   	004970 - ParentsNext Rollout (excluding locations under 004753), this stream will be referred to as the Targeted stream.
+The Department of Jobs and Small Business have advised they expect the appointments which are generated as a result of the national rollout will be completed within a six month period. 
+The extraction of appointment data will enable the business team to manage the expectation of the policy department by ensuring an adequate through put of appointments is occurring.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Technical Specification - MI10120 v0.2,,,"Starting date for report 11/06/2018- as soon as possible after this date. 
+Report Frequency: Weekly 
+Derived from Driving Population report DS ID 72799.
+Create master CRN listing of all appointments and data items required for various count reports",,
+42725,2020-08-12,2021-06-21,e427b3b8-dc6e-11ea-9a41-0a6933dafb30,MI11716 - Driving Population 1,"MI is required to closely monitor the Wife Pension (WP) cohort during the transition and cessation of Wife Pension payment.  MI is needed so that the transition team can make sure customers are engaged in a timely manner.  
+
+CRN level detail is required to enable business team analysis and identification of customers who may be missing out on correct entitlements.  
+
+Summarised reports only are to be provided to DSS (no identifiable data will be released). 
+
+
+   	Report 1
+
+WP customers in a bereavement period as at 20/03/2020
+This report is required to identify customers who will not transition to JSP as part of the bulk transition on the 20/03/2020. These customers will transition after their Bereavement Period ends. (This expected to be a small population < 50)
+
+   	Report 2
+
+All customers who have transferred from WP to JSP
+This report is required to monitor grant dates, payment statuses, appointment attendance, and the activity/exemption codes (new code =    WPT   ) for the formerly WP customer.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI11716 - WKL - Wife pension transition to JSP Tech spec v1.0,,,,,
+42726,2020-08-12,2021-06-21,e4f7c8f0-dc6e-11ea-8a08-02b137f3fb1e,MI10120 - ParentsNext Appointments - Cur Week Summary count report,"The ParentsNext programme currently operates in 10 Local Government areas, however, in the 2017-18 Budget, the Government announced a national expansion of ParentsNext from 1 July 2018, with a more intensive stream in 30 areas of high disadvantage and/or a high proportion of Indigenous parents and a targeted stream in the remaining non-remote regions of Australia.  
+There are two costings for the national rollout which are being managed as one project. These are:
+   	004753 - Strengthening Indigenous Labour Force Participation (ParentsNext), this stream will be referred to as the Intensive stream, and 
+   	004970 - ParentsNext Rollout (excluding locations under 004753), this stream will be referred to as the Targeted stream.
+The Department of Jobs and Small Business have advised they expect the appointments which are generated as a result of the national rollout will be completed within a six month period. 
+The extraction of appointment data will enable the business team to manage the expectation of the policy department by ensuring an adequate through put of appointments is occurring.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Technical Specification - MI10120 v0.2,,,"Starting date for report 11/06/2018- as soon as possible after this date. 
+Report Frequency: Weekly 
+Derived from Driving Population report DS ID 72799.
+List requirements 1-13 for customers where their appointment date falls within the 7 days after extract date.",,
+42727,2020-08-12,2021-06-21,e546874c-dc6e-11ea-b9c4-02b137f3fb1e,MI10898 - Bank and Wage Garnishee Letter Success rate - Q608 CRN List,"Count the following letters     
+   	Q608 (requesting customer account information for possible garnishee)
+   	Q609 (letter to customer   s employer requesting customer   s employment details for possible garnishee)
+   	Q289 (letter contacting customer in response to a Debtor Matching exercise)
+   	Q190 (letter contacting customer with final option)",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Technical Specification - MI10898 v0.2,,,,,
+42728,2020-08-12,2021-06-21,e5663f56-dc6e-11ea-bade-0a6933dafb30,MI10120 - Driving Population - ParentsNext Appointments,"The ParentsNext programme currently operates in 10 Local Government areas, however, in the 2017-18 Budget, the Government announced a national expansion of ParentsNext from 1 July 2018, with a more intensive stream in 30 areas of high disadvantage and/or a high proportion of Indigenous parents and a targeted stream in the remaining non-remote regions of Australia.  
+There are two costings for the national rollout which are being managed as one project. These are:
+   	004753 - Strengthening Indigenous Labour Force Participation (ParentsNext), this stream will be referred to as the Intensive stream, and 
+   	004970 - ParentsNext Rollout (excluding locations under 004753), this stream will be referred to as the Targeted stream.
+The Department of Jobs and Small Business have advised they expect the appointments which are generated as a result of the national rollout will be completed within a six month period. 
+The extraction of appointment data will enable the business team to manage the expectation of the policy department by ensuring an adequate through put of appointments is occurring.
+The data will be used for the business team to monitor Service Delivery performance in terms of the number of ParentsNext specific appointments which have been scheduled in relation to the national rollout of ParentsNext. We will also be monitoring the outcome to those appointments that have been scheduled.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Technical Specification - MI10120 v0.2,,,"Starting date for report 11/06/2018- as soon as possible after this date. 
+Report Frequency: Weekly 
+Create master CRN listing of all appointments and data items required for various count reports",,
+42729,2020-08-12,2021-06-21,e5b2c33a-dc6e-11ea-b216-0a8620c9d3ec,MI10120 - ParentsNext Appointments - Prev Week Summary count report,"The ParentsNext programme currently operates in 10 Local Government areas, however, in the 2017-18 Budget, the Government announced a national expansion of ParentsNext from 1 July 2018, with a more intensive stream in 30 areas of high disadvantage and/or a high proportion of Indigenous parents and a targeted stream in the remaining non-remote regions of Australia.  
+There are two costings for the national rollout which are being managed as one project. These are:
+   	004753 - Strengthening Indigenous Labour Force Participation (ParentsNext), this stream will be referred to as the Intensive stream, and 
+   	004970 - ParentsNext Rollout (excluding locations under 004753), this stream will be referred to as the Targeted stream.
+The Department of Jobs and Small Business have advised they expect the appointments which are generated as a result of the national rollout will be completed within a six month period. 
+The extraction of appointment data will enable the business team to manage the expectation of the policy department by ensuring an adequate through put of appointments is occurring.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Technical Specification - MI10120 v0.2,,,"Starting date for report 11/06/2018- as soon as possible after this date. 
+Report Frequency: Weekly 
+Derived from Driving Population report DS ID 72799.
+List requirements 1-14 and 17-18 for customers where their appointment date falls within the last 7 days as at extract date",,
+42730,2020-08-12,2021-06-21,e60559ce-dc6e-11ea-b1f5-0a8620c9d3ec,MI10120 - ParentsNext Appointments - Cumulative Summary count report,"The ParentsNext programme currently operates in 10 Local Government areas, however, in the 2017-18 Budget, the Government announced a national expansion of ParentsNext from 1 July 2018, with a more intensive stream in 30 areas of high disadvantage and/or a high proportion of Indigenous parents and a targeted stream in the remaining non-remote regions of Australia.  
+There are two costings for the national rollout which are being managed as one project. These are:
+   	004753 - Strengthening Indigenous Labour Force Participation (ParentsNext), this stream will be referred to as the Intensive stream, and 
+   	004970 - ParentsNext Rollout (excluding locations under 004753), this stream will be referred to as the Targeted stream.
+The Department of Jobs and Small Business have advised they expect the appointments which are generated as a result of the national rollout will be completed within a six month period. 
+The extraction of appointment data will enable the business team to manage the expectation of the policy department by ensuring an adequate through put of appointments is occurring.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Technical Specification - MI10120 v0.2,,,"Starting date for report 11/06/2018- as soon as possible after this date. 
+Report Frequency: Weekly 
+Derived from Driving Population report DS ID 72799.
+List requirements 1-19 based on cumulative CRNs (from 11 June 2018 onwards)",,
+42731,2020-08-12,2021-06-21,e8224406-dc6e-11ea-b216-0a8620c9d3ec,MI9423 - Strengthen Third Party Relationship Verification Phase 2 - Driving Population 1,"This task will involve 4 separate groups to make up the base population.
+For each base group 1-4, find customers who on or after 20/09/2018 meet the criteria:
+
+1.	Claimed PPS
+Claimed NSA or JSP who are single with a dependent child
+
+2.	PPP customers (CUR/ASS/CZR/SUS) who transfer to PPS
+
+3.	NSA or JSP customers (CUR/ASS/CZR/SUS) who advise of a separation (and have a dependent child/ren in their care)
+
+4.	NSA or JSP customers (CUR/ASS/CZR/SUS), who are single and have a dependent child come into their care (and are eligible to receive the dependent child rate)
+	
+Then search the base population for a previously initiated/completed TPV review (phase 1 cohort MI7920) and exclude any identified as such;
+A new relationship status verification process was introduced on 20 September 2018.  This process will require all customers claiming PPS and NSA (single with a dependent child) to complete an SC321 form. This form requires an independent referee to verify the customer   s current relationship status.   
+
+In addition to those new customers listed above, the new relationship verification process will apply in the following circumstances:
+                PPP customers who transfer to PPS
+                NSA or JSP customers who advise of a separation (and have a dependent child/ren in their care), and
+                NSA or JSP customers (single) who have a dependent child come into their care (and are eligible to receive the dependent child rate)",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI9423 Technical Specification v1.1,,,,,
+42732,2020-08-12,2021-06-21,e822fa90-dc6e-11ea-ac21-02b137f3fb1e,MI10898 - Bank and Wage Garnishee Letter Success rate - Wage garnishee CRN list,"Count the following letters     
+   	Q608 (requesting customer account information for possible garnishee)
+   	Q609 (letter to customer   s employer requesting customer   s employment details for possible garnishee)
+   	Q289 (letter contacting customer in response to a Debtor Matching exercise)
+   	Q190 (letter contacting customer with final option)",7089da98b44c11ea849a5a0bdf2d1ed7,123,,,,Technical Specification - MI10898 v0.2,,,
+42733,2020-08-12,2021-06-21,e82477c6-dc6e-11ea-8a29-062f7acd21ca,MI10898 - Bank and Wage Garnishee Letter Success rate - Garnishees placed,"Count the following letters     
+   	Q608 (requesting customer account information for possible garnishee)
+   	Q609 (letter to customer   s employer requesting customer   s employment details for possible garnishee)
+   	Q289 (letter contacting customer in response to a Debtor Matching exercise)
+   	Q190 (letter contacting customer with final option)",7089da98b44c11ea849a5a0bdf2d1ed7,123,,,,Technical Specification - MI10898 v0.2,,,
+42734,2020-08-12,2021-06-21,e824f7dc-dc6e-11ea-8a08-02b137f3fb1e,MI7925 - Q608 Bank Notices Report - Total Q608 count report,The request is designed to validate banking industry claims of increased volume of Q608 notices issued via the department for action. Data will allow us to confirm if this is due to additional resourcing in the debt recovery portfolio or whether there is another explanation for the increase such as a system issue.,7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI7925 - Q608 - Bank Notices Tech Spec v1.0,,,"Caveat
+Due to the data entry inconsistencies it is not possible to have an error free output listing all Q608 notices sent to financial institutions. There will be some duplication and omission in the total numbers of letters sent, and can   t be rectified at this time. Some of the data entry issues relate to where letters are not recorded as being sent and only replies entered; letters have been recorded as sent with no reply entry; multiple letters sent on the same entry; and letters recorded as either letters or documents. 
+
+Garnishee    Y    data indicates an institution has had a request to garnish an account. This does not indicate if the request was successful or not. 
+
+The request letter data has been derived as the QHDT_HTD_RULE table is not populated accurately due to data entry inconsistencies.",,
+42735,2020-08-12,2021-06-21,e82479ec-dc6e-11ea-b1f5-0a8620c9d3ec,MI10898 - Bank and Wage Garnishee Letter Success rate - Bank garnishee CRN list,"Count the following letters    
+   	Q608 (requesting customer account information for possible garnishee)
+   	Q609 (letter to customer   s employer requesting customer   s employment details for possible garnishee)
+   	Q289 (letter contacting customer in response to a Debtor Matching exercise)
+   	Q190 (letter contacting customer with final option)",7089da98b44c11ea849a5a0bdf2d1ed7,123,,,,Technical Specification - MI10898 v0.2,,,
+42736,2020-08-12,2021-06-21,e8252d60-dc6e-11ea-9a41-0a6933dafb30,MI10898 - Bank and Wage Garnishee Letter Success rate - Total Q190,"Count the following letters     
+   	Q608 (requesting customer account information for possible garnishee)
+   	Q609 (letter to customer   s employer requesting customer   s employment details for possible garnishee)
+   	Q289 (letter contacting customer in response to a Debtor Matching exercise)
+   	Q190 (letter contacting customer with final option)",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Technical Specification - MI10898 v0.2,,,,,
+42573,2020-08-12,2021-06-21,d320ac32-dc6e-11ea-bade-0a6933dafb30,Driving Population - MI9999 - MTH     DSS     Personal Benefit advances DR100011AA,"Task Description
+Starting at the previous month of the rundate in the previous 24 months period, provide a monthly report detailing the following:
+   	Number of advances per month.
+
+Driving Population
+Source Table: 
+DEDN_DEDD_AVLA
+Source Column and Column Transformation:
+PERSON_ID	 - Store as Person_ID.
+ENVIRONMENT_ID	 - Store as Environment_ID.
+AVLA_ID - Store as Avla_ID.
+AVLA_DOE	 - Between 20160501 and 20180530 inclusive for the first report. Convert to date format    mmm-yy   , Store as MonthYear.
+AVLA_AMR_2 - Not in (   D   ,    P   ).
+AVLA_REJ_RSN_CODE - 	Is null.
+AVLA_BEN_TYPE_CODE	 - All benefit types.
+AVLA_AMT - 	Greater then    0   . Divide by 100.00. Store as Advance_Amount.
+
+Source Table:
+DEDN_DEDD_AVRH
+Source Column and Column Transformation:
+PERSON_ID	 - Equal to Person_ID.
+ENVIRONMENT_ID - 	Equal to Environment_ID.
+AVRH_ID	 - Equal to Avla_ID.
+AVRH_DOE - 	Get the most recent.
+AVRH_AMR_2 - 	Not in (   D   ,    P   ).
+AVRH_BAL_AMT - 	Divide by 100.00. Store as Current_Balance.
+
+
+Advance Customers
+All customers that have received an advance over the last 24 months starting from the previous month of the rundate. 
+
+   	Total number of advances paid per month.
+   	Total number of advances recovered per month. This value will be recalculated each month.
+   	Total number of advances outstanding per month. This value will be recalculated each month.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI9999 (MTH     DSS     Personal Benefit advances DR100011AA) - Technical Specification V0.1,,,,,
+42587,2020-08-12,2021-06-21,d3b5f792-dc6e-11ea-bade-0a6933dafb30,"MI7923 - Global Demographics for MI9254, MI9257, MI9258 and MI10429",<p>Management Information (MI) reports will be used to monitor the transactions and their outcomes resulting from the Targeted Compliance Framework. The reports will be used for internal report generation and used for programme management purposes; occasional sharing of non-identifiable limited data with client departments/s and to inform Senate Estimate briefs as required.. The following MI Reports fall under PN2017.7065 &ndash; Targeted Compliance Framework project: &bull; MI7923 - TCF - New Suite of Reports &ndash; this Tech Spec New reports will be needed for:     Job seeker circumstances     Job seekers that move into the Penalties Phase     Active job seekers &ndash; similar to the previous &lsquo;activity tested job seeker population&rsquo; &bull; MI9254 - TCF - Generated Suite of Reports &bull; MI9257 - TCF - Finalised Suite of Reports &bull; MI9258 - TCF - Modify Existing Suite of Reports &bull; MI10429 &ndash; TCF &ndash; Cancellations and Regrants</p>,7089da98b44c11ea849a5a0bdf2d1ed7,123,,<p>WKL - Targeted Compliance Framework - New Suite of Reports: Technical Specification V0.6</p>,,,,,
+42591,2020-08-12,2021-06-21,d584a154-dc6e-11ea-9a41-0a6933dafb30,MI7923 - Global Demographics Report 3 and 3A - Targeted Compliance Framework - New Suite of Reports,"Task Description
+
+Management Information (MI) reports will be used to monitor the transactions and their outcomes resulting from the Targeted Compliance Framework. The reports will be used for internal report generation and used for programme management purposes; occasional sharing of non-identifiable limited data with client departments/s and to inform Senate Estimate briefs as required..
+The following MI Reports fall under PN2017.7065     Targeted Compliance Framework project:
+
+   	MI7923 - TCF - New Suite of Reports     this Tech Spec
+
+New reports will be needed for:
+   	Job seeker circumstances
+   	Job seekers that move into the Penalties Phase
+   	Active job seekers     similar to the previous    activity tested job seeker population     
+
+   	MI9254 - TCF - Generated Suite of Reports
+   	MI9257 - TCF - Finalised Suite of Reports 
+   	MI9258 - TCF - Modify Existing Suite of Reports
+   	MI10429     TCF     Cancellations and Regrants
+
+Report 3 Active Job Seeker (This is all point in time)  AND
+Report 3a Active Job Seeker (FYTD).
+Exclusion
+    Ensure all Logically Deleted and Provisional records are removed
+    Ensure all Duplicate and Interstate Transfer records are removed (unless otherwise stated).
+
+Reporting period
+Starting date for report 01/07/2018
+Note: Report 3 and 3A
+Output for Report 3: PIT CUS Population
+    CUR/SUS as at the PIT of the report
+    Over time, this will be a subset of the FYTD cumulative report and can go up and down in numbers from week to week. 
+
+Output for Report 3A: FYTD Cumulative CUS Population 
+    Initial report to include CUR/SUS as @ 01/07 of the financial year of extract (e.g. 01/07/2018)
+    Subsequent reports to add all new recipients during the reporting week
+     The full FY report will therefore include anyone who was CUR/ SUS at any point during the year.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,WKL - Targeted Compliance Framework - New Suite of Reports: Technical Specification  V0.6,,,,,
+42600,2020-08-12,2021-06-21,d58bb67e-dc6e-11ea-bade-0a6933dafb30,MI7874 - CRN List - Reissue Pensioner Concession Card,"Task Description
+To determine the number of PEN/RAC grandfathered customers (not DVA) who will have their pension concession card reissued/granted as at 9/10/2017. And the DVA/RAC grandfathered who will have the LIC cancelled.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,,,,,,
+42628,2020-08-12,2021-06-21,d889ab38-dc6e-11ea-9a41-0a6933dafb30,MI5391 - CRN Listing - Manage transition of Mobility Allowance (MOB) customers to the NDIS,"<p>Task Description This report will produce data that will allow the managing business teams to perform reporting and reconciliation activities. The report will keep track of who is going on, or coming off an NDIS package of support, as well as who has a MOB application rejected due to already being on NDIS &ndash; and the related data within the ISIS mainframe. This will provide an overview and assurance as to the quality of the process, as well as allowing reporting on the numbers of customers moving each way. CRN level break-down to include: &bull; NDIS Participant Number (9 or 10 digit number) &bull; Residential State (ACT/NSW/NT/QLD/SA/TAS/VIC/WA/Overseas) &bull; Residential Postcode of recipient (XXXX/Overseas) &bull; Age of Customer (in full years) &bull; HCC/PCC recipient (Yes/No) &bull; Rate of Payment (MOB/MOH/NIL) &bull; Package of support in place (Yes/No) &bull; First plan approval date (xx/xx/xxxx) &bull; MOB status (CAN/CUR/SUS/&hellip;) &bull; Reason for that Status (CND/DIS/HCC/&hellip;) &bull; Date MOB Cancelled (xx/xx/xxxx/Not Cancelled) &bull; MOB NDIS Debt amount ($$.cc/No Debt) &bull; MOB NDIS Debt waived reason (FNW/LTF/EUC/CER/&hellip;/No Debt/Not Finalised) &bull; NDIS customer mismatch/error (CUSTEXIST/ABOUTSEARCH/MATCH/NOMATCH/MULTIMATCH/MATCHERROR/FAIL)</p>",7089da98b44c11ea849a5a0bdf2d1ed7,123,,<p>Manage transition of Mobility Allowance (MOB) customers to the NDIS Technical Specification V1.1</p>,,,,,
+42691,2020-08-12,2021-07-19,e12a7ec0-dc6e-11ea-8a29-062f7acd21ca,Identity Credentials,<p>Identity credentials support biographical attributes in establishing a person&rsquo;s identity in the community. These data elements describe how data from a person&rsquo;s identity credentials should be collected and stored within Services Australia.</p>,7089da98b44c11ea849a5a0bdf2d1ed7,120,,"<ul>
+	<li>Attorney-General&rsquo;s Department (2014)&nbsp;<a href=""https://www.homeaffairs.gov.au/criminal-justice/files/national-identity-proofing-guidelines.PDF"">National Identity Proofing Guidelines</a>, ACT, accessed 15 March 2021.</li>
+	<li>Services Australia (2021) <a href=""https://ourblueprint.internal.dept.local/Pages/initial-contact-general/106-07080000-03.aspx"">Identity documents A to Z</a>, Operational Blueprint website, accessed 19 March 2021.</li>
+</ul>",,,"<p>This standard currently encompasses identity credential details, in relation to the Centrelink service delivery brand.</p>",,
+42696,2020-08-12,2021-06-21,e12e2e44-dc6e-11ea-906f-062f7acd21ca,MI7920 - Driving Population - ISIS Reviews,"Extract ALL TPV reviews in ISIS     these will be used to extract rate changes and debt amounts
+ISIS Reviews
+Note:	Rate reductions are extracted when review has a status of    Completed   
+	Debt amounts are extracted when the review has a status of    Finalised",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI7920 - Strengthen 3PV for PPS and NSA Tech Spec - V0.4,,,,,
+42698,2020-08-12,2021-06-21,e12fde56-dc6e-11ea-b735-022da9221366,MI7920 - Driving Population - Population 5,"This task involves 5 separate populations     all relating to events that occurred during the reporting week
+1.	Number of finalised reviews
+2.	Status updates     verified as single/partnered, cancelled/suspended FPV, Specialist Referral, form issue for a second time
+3.	Restoration of CAN/SUS FRV
+4.	Rate changes     including total value of rate changes
+5.   Debts raised as a result of the review
+
+Population 5  - Rate reduction, rate changes and rate change amounts.
+
+Note     there can/will be multiple IRRD groups per each review     when this occurs sum all the values found in the following IRRD_VARTN_AMT 
+Only want to include the groups as at the last variation amount
+CAN           Cancelled                   
+DVR           Downward Variation          
+ORO           Other Review Outcome        
+PRT           Present Rate to Continue    
+REJ           Rejected                    
+SUS           Suspended                   
+TDV           Transfer Downward Variation 
+TPR           Transfer PRT                
+TUV           Transfer Upward Variation   
+UVR           Upward Variation
+
+If all conditions met then include in population 5.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI7920 - Strengthen 3PV for PPS and NSA Tech Spec - V0.4,,,,,
+42700,2020-08-12,2021-06-21,e1314eb2-dc6e-11ea-bade-0a6933dafb30,MI7920 - Driving Population - Population 4,"This task involves 5 separate populations     all relating to events that occurred during the reporting week
+1.	Number of finalised reviews
+2.	Status updates     verified as single/partnered, cancelled/suspended FPV, Specialist Referral, form issue for a second time
+3.	Restoration of CAN/SUS FRV
+4.	Rate changes     including total value of rate changes
+5.   Debts raised as a result of the review
+
+Population 4 - Restoration of CAN/SUS FRV
+This will be sourced from determination data in ISIS.
+
+If all conditions met then include in population 4 - else exclude",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI7920 - Strengthen 3PV for PPS and NSA Tech Spec - V0.4,,,,,
+42701,2020-08-12,2021-06-21,e131957a-dc6e-11ea-a913-0a6933dafb30,MI7920 - Driving Population - Population 3,"This task involves 5 separate populations     all relating to events that occurred during the reporting week
+1.	Number of finalised reviews
+2.	Status updates     verified as single/partnered, cancelled/suspended FPV, Specialist Referral, form issue for a second time
+3.	Restoration of CAN/SUS FRV
+4.	Rate changes     including total value of rate changes
+5.   Debts raised as a result of the review
+
+Population 3     Suspension/Cancellation SUS FRV
+This will be sourced from determination data in ISIS.
+If above conditions met then include in population 3 - else exclude",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI7920 - Strengthen 3PV for PPS and NSA Tech Spec - V0.4,,,,,
+42702,2020-08-12,2021-06-21,e1325c94-dc6e-11ea-b216-0a8620c9d3ec,MI7920 - Driving Population - Population 6,"This task involves 5 separate populations     all relating to events that occurred during the reporting week
+1.	Number of finalised reviews
+2.	Status updates     verified as single/partnered, cancelled/suspended FPV, Specialist Referral, form issue for a second time
+3.	Restoration of CAN/SUS FRV
+4.	Rate changes     including total value of rate changes
+5.   Debts raised as a result of the review
+
+Population 6
+Debts raised as a result of the review being finalised.
+
+If all conditions met then include in population 6.
+
+Assumption that these reviews will be manually entered as existing recipients will receive a review letter    Q101    staggered over four years.
+Screens for possible viewing include HS & AL.
+Screens for manual entry: Review Registration (RVR) or Activity Registration (AYR) screens.
+When the review has been set it will appear on the customer's FAL screen with the status of REV.
+Where a manual review has matured, it may be actioned and finalised by selecting it from the AL screen
+Where a manual review has not reached maturity, it may be actioned and finalised by selecting it from the FAL screen.
+IRS is a fully integrated review system which allows Service Updates and Reviews to be accessed directly from any payment system, for example Newstart System (NSS) or the Pension System (PEN). There is also a direct relationship with other systems, such as the Service Profiling System and the Debt Management and Information System (DMIS).
+information on the Link Summary (IRLS) screen and valid Link Reason codes
+IRSD_ITR_IRRS
+The System shall attribute the following PPS cancellation reasons to the verification of relationship review if the following cancellation codes are recorded while the review is open:
+- CLR     Client request
+- OTH     Other
+- VMR - Voluntary surrender, member of a couple
+- VSM - Member of a couple
+The System shall attribute the following NSA cancellation reasons to the verification of relationship review if the following cancellation codes are recorded while the review is open:
+- CLR     Client request - claim withdrawn/ voluntary surrender
+- OTH     Other reasons",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI7920 - Strengthen 3PV for PPS and NSA Tech Spec - V0.4,,,,,
+42720,2020-08-12,2021-06-21,e41c1a3a-dc6e-11ea-b216-0a8620c9d3ec,COVID Identity Verification Dashboad MI Report,<p>COVID-19 digital identity verification and registration management Information report specification.</p>,7089da98b44c11ea849a5a0bdf2d1ed7,73,,<p>COVID-19 Identity Verification Project - Management Information Reporting Assessment</p>,,<p>Report Description: Table for Tableu &ndash; inc numbers up to dd-mm</p>,,,
+42737,2020-08-12,2021-06-21,e826574e-dc6e-11ea-8802-062f7acd21ca,MI9423 - Strengthen Third Party Relationship Verification Phase 2 - Driving Population 3,"This task will involve 4 separate groups to make up the base population.
+For each base group 1-4, find customers who on or after 20/09/2018 meet the criteria:
+
+1.	Claimed PPS
+Claimed NSA or JSP who are single with a dependent child
+
+2.	PPP customers (CUR/ASS/CZR/SUS) who transfer to PPS
+
+3.	NSA or JSP customers (CUR/ASS/CZR/SUS) who advise of a separation (and have a dependent child/ren in their care)
+
+4.	NSA or JSP customers (CUR/ASS/CZR/SUS), who are single and have a dependent child come into their care (and are eligible to receive the dependent child rate)
+	
+Then search the base population for a previously initiated/completed TPV review (phase 1 cohort MI7920) and exclude any identified as such;
+A new relationship status verification process was introduced on 20 September 2018.  This process will require all customers claiming PPS and NSA (single with a dependent child) to complete an SC321 form. This form requires an independent referee to verify the customer   s current relationship status.   
+
+In addition to those new customers listed above, the new relationship verification process will apply in the following circumstances:
+                PPP customers who transfer to PPS
+                NSA or JSP customers who advise of a separation (and have a dependent child/ren in their care), and
+                NSA or JSP customers (single) who have a dependent child come into their care (and are eligible to receive the dependent child rate)",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI9423 Technical Specification v1.1,,,,,
+42738,2020-08-12,2021-06-21,e8264dda-dc6e-11ea-bade-0a6933dafb30,MI7925 - Q608 Bank Notices Report - Total Garnishee count report,The request is designed to validate banking industry claims of increased volume of Q608 notices issued via the department for action. Data will allow us to confirm if this is due to additional resourcing in the debt recovery portfolio or whether there is another explanation for the increase such as a system issue.,7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI7925 - Q608 - Bank Notices Tech Spec v1.0,,,"Caveat
+Due to the data entry inconsistencies it is not possible to have an error free output listing all Q608 notices sent to financial institutions. There will be some duplication and omission in the total numbers of letters sent, and can   t be rectified at this time. Some of the data entry issues relate to where letters are not recorded as being sent and only replies entered; letters have been recorded as sent with no reply entry; multiple letters sent on the same entry; and letters recorded as either letters or documents. 
+
+Garnishee    Y    data indicates an institution has had a request to garnish an account. This does not indicate if the request was successful or not. 
+
+The request letter data has been derived as the QHDT_HTD_RULE table is not populated accurately due to data entry inconsistencies.",,
+42739,2020-08-12,2021-06-21,e825ff10-dc6e-11ea-b9c4-02b137f3fb1e,MI7925 - Q608 Bank Notices report - CRN List,The request is designed to validate banking industry claims of increased volume of Q608 notices issued via the department for action. Data will allow us to confirm if this is due to additional resourcing in the debt recovery portfolio or whether there is another explanation for the increase such as a system issue.,7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI7925 - Q608 - Bank Notices Tech Spec v1.0,,,,,
+42740,2020-08-12,2021-06-21,e8286a8e-dc6e-11ea-906f-062f7acd21ca,MI10898 - Bank and Wage Garnishee Letter Success rate     Total Q608,"Count the following letters     
+   	Q608 (requesting customer account information for possible garnishee)
+   	Q609 (letter to customer   s employer requesting customer   s employment details for possible garnishee)
+   	Q289 (letter contacting customer in response to a Debtor Matching exercise)
+   	Q190 (letter contacting customer with final option)",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Technical Specification - MI10898 v0.2,,,,,
+42741,2020-08-12,2021-06-21,e8296fec-dc6e-11ea-b153-022da9221366,MI10898 - Bank and Wage Garnishee Letter Success rate - Q608 to garnishee,"Count the following letters     
+   	Q608 (requesting customer account information for possible garnishee)
+   	Q609 (letter to customer   s employer requesting customer   s employment details for possible garnishee)
+   	Q289 (letter contacting customer in response to a Debtor Matching exercise)
+   	Q190 (letter contacting customer with final option)",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Technical Specification - MI10898 v0.2,,,,,
+42742,2020-08-12,2021-06-21,e82ad292-dc6e-11ea-b735-022da9221366,MI10898 - Bank and Wage Garnishee Letter Success rate - Total Q609,"Count the following letters     
+   	Q608 (requesting customer account information for possible garnishee)
+   	Q609 (letter to customer   s employer requesting customer   s employment details for possible garnishee)
+   	Q289 (letter contacting customer in response to a Debtor Matching exercise)
+   	Q190 (letter contacting customer with final option)",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Technical Specification - MI10898 v0.2,,,,,
+42743,2020-08-12,2021-06-21,e82afc7c-dc6e-11ea-a913-0a6933dafb30,MI9423 - Strengthen Third Party Relationship Verification Phase 2 - Count report,"A new relationship status verification process was introduced on 20 September 2018.  This process will require all customers claiming PPS and NSA (single with a dependent child) to complete an SC321 form. This form requires an independent referee to verify the customer   s current relationship status.   
+
+In addition to those new customers listed above, the new relationship verification process will apply in the following circumstances:
+                PPP customers who transfer to PPS
+                NSA or JSP customers who advise of a separation (and have a dependent child/ren in their care), and
+                NSA or JSP customers (single) who have a dependent child come into their care (and are eligible to receive the dependent child rate)
+Driving Population
+This task will involve 4 separate groups to make up the base population.
+For each base group 1-4, find customers who on or after 20/09/2018 meet the criteria:
+
+1.	Claimed PPS
+Claimed NSA or JSP who are single with a dependent child
+
+2.	PPP customers (CUR/ASS/CZR/SUS) who transfer to PPS
+
+3.	NSA or JSP customers (CUR/ASS/CZR/SUS) who advise of a separation (and have a dependent child/ren in their care)
+
+4.	NSA or JSP customers (CUR/ASS/CZR/SUS), who are single and have a dependent child come into their care (and are eligible to receive the dependent child rate)
+	
+Then search the base population for a previously initiated/completed TPV review (phase 1 cohort MI7920) and exclude any identified as such;",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI9423 Technical Specification v1.1,,,,,
+42744,2020-08-12,2021-06-21,e82f0f88-dc6e-11ea-8ba0-022da9221366,MI5436 - Relationship Qualifier Code report - CRN Listing,"The Families and Child Care Branch have raised a question in relation to Relationship Qualifier (RQ) codes recorded for extended periods of time that are impacting FTB part B rates of payment.
+
+The recording of an RQ code allows for partnered customers to be paid at the single rate of payment due to their current circumstances, in line with policy requirements. When an RQ is recorded, no end date can be recorded at the same time. Rather, Service Officers (SOs) need to set up a Manual Review activity (RVR) to review the customer   s circumstances at a scheduled review date and determine whether to continue or end the RQ coding.  Failing to record, or subsequently act on a Manual Review that falls due, results in the RQ code remaining on the record with no further prompts to initiate a review.  
+It is a host system decision regarding how the presence of a RQ code is applied i.e. each payment stream   s system rules define how the RQ code is used in determining rates of entitlement.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI5436 Relationship Qualifier code Tech Spec V0.1,,,"Columns needed: 
+1.	Customer CRN
+2.	Service Centre 
+This must be based on the Service Centre recorded on OC screen for the Payment Type.
+3.	Service Zone 
+This must be based on the Service Centre location. 
+4.	Payment Type 
+Hierarchy:
+1.	Customer   s ISP
+2.	FTB
+Show the most recent current Payment Type. If the customer   s payment is not current, display the most recent Payment Type that was cancelled based on the above hierarchy.
+5.	Payment Status 
+This must reflect the Payment Status for the above Payment Type.
+6.	Payment DOE
+This must be based on the above Payment Type.
+7.	FTB Status 
+Show the customer   s FTB Status as at the Report Date.
+8.	FTB DOE 
+Show the customer   s FTB DOE for the above FTB Status. 
+9.	FTB Part A 
+Indicate Y if customer is eligible for FTB Part A as at the Report Date.
+10.	FTB Part B
+Indicate Y if customer is eligible for FTB Part B as at the Report Date.
+11.	RQ Code
+Output the RQ Code 
+12.	RQ start date
+Output the RQ start date.
+13.	Marital Status 
+Output the Customer   s marital status as at the Report date
+Ensure all Logically Deleted and Provisional records are removed
+Ensure all Duplicate and Interstate Transfer records are removed (unless otherwise stated).
+Other exclusions include - Deceased Customers, Duplicate, deleted and ITO records.",,
+42745,2020-08-12,2021-06-21,e8724f32-dc6e-11ea-8802-062f7acd21ca,MI9423 - Strengthen Third Party Relationship Verification Phase 2 - CRN Listing,"A new relationship status verification process was introduced on 20 September 2018.  This process will require all customers claiming PPS and NSA (single with a dependent child) to complete an SC321 form. This form requires an independent referee to verify the customer   s current relationship status.   
+
+In addition to those new customers listed above, the new relationship verification process will apply in the following circumstances:
+                PPP customers who transfer to PPS
+                NSA or JSP customers who advise of a separation (and have a dependent child/ren in their care), and
+                NSA or JSP customers (single) who have a dependent child come into their care (and are eligible to receive the dependent child rate)
+Driving Population
+This task will involve 4 separate groups to make up the base population.
+For each base group 1-4, find customers who on or after 20/09/2018 meet the criteria:
+
+1.	Claimed PPS
+Claimed NSA or JSP who are single with a dependent child
+
+2.	PPP customers (CUR/ASS/CZR/SUS) who transfer to PPS
+
+3.	NSA or JSP customers (CUR/ASS/CZR/SUS) who advise of a separation (and have a dependent child/ren in their care)
+
+4.	NSA or JSP customers (CUR/ASS/CZR/SUS), who are single and have a dependent child come into their care (and are eligible to receive the dependent child rate)
+	
+Then search the base population for a previously initiated/completed TPV review (phase 1 cohort MI7920) and exclude any identified as such;",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI9423 Technical Specification v1.1,,,,,
+42746,2020-08-12,2021-06-21,e8acf43e-dc6e-11ea-b735-022da9221366,MI10898 - Bank and Wage Garnishee Letter Success rate- Total Q289,"Count the following letters     
+   	Q608 (requesting customer account information for possible garnishee)
+   	Q609 (letter to customer   s employer requesting customer   s employment details for possible garnishee)
+   	Q289 (letter contacting customer in response to a Debtor Matching exercise)
+   	Q190 (letter contacting customer with final option)",7089da98b44c11ea849a5a0bdf2d1ed7,123,,Technical Specification - MI10898 v0.2,,,,,
+42747,2020-08-12,2021-06-21,e8bbdeea-dc6e-11ea-9a41-0a6933dafb30,MI9423 - Strengthen Third Party Relationship Verification Phase 2 - Driving Population 4,"This task will involve 4 separate groups to make up the base population.
+For each base group 1-4, find customers who on or after 20/09/2018 meet the criteria:
+
+1.	Claimed PPS
+Claimed NSA or JSP who are single with a dependent child
+
+2.	PPP customers (CUR/ASS/CZR/SUS) who transfer to PPS
+
+3.	NSA or JSP customers (CUR/ASS/CZR/SUS) who advise of a separation (and have a dependent child/ren in their care)
+
+4.	NSA or JSP customers (CUR/ASS/CZR/SUS), who are single and have a dependent child come into their care (and are eligible to receive the dependent child rate)
+	
+Then search the base population for a previously initiated/completed TPV review (phase 1 cohort MI7920) and exclude any identified as such;
+A new relationship status verification process was introduced on 20 September 2018.  This process will require all customers claiming PPS and NSA (single with a dependent child) to complete an SC321 form. This form requires an independent referee to verify the customer   s current relationship status.   
+
+In addition to those new customers listed above, the new relationship verification process will apply in the following circumstances:
+                PPP customers who transfer to PPS
+                NSA or JSP customers who advise of a separation (and have a dependent child/ren in their care), and
+                NSA or JSP customers (single) who have a dependent child come into their care (and are eligible to receive the dependent child rate)",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI9423 Technical Specification v1.1,,,,,
+42748,2020-08-12,2021-06-21,e8d2dae6-dc6e-11ea-ac21-02b137f3fb1e,MI9423 - Strengthen Third Party Relationship Verification Phase 2 - Driving Population 2,"This task will involve 4 separate groups to make up the base population.
+For each base group 1-4, find customers who on or after 20/09/2018 meet the criteria:
+
+1.	Claimed PPS
+Claimed NSA or JSP who are single with a dependent child
+
+2.	PPP customers (CUR/ASS/CZR/SUS) who transfer to PPS
+
+3.	NSA or JSP customers (CUR/ASS/CZR/SUS) who advise of a separation (and have a dependent child/ren in their care)
+
+4.	NSA or JSP customers (CUR/ASS/CZR/SUS), who are single and have a dependent child come into their care (and are eligible to receive the dependent child rate)
+	
+Then search the base population for a previously initiated/completed TPV review (phase 1 cohort MI7920) and exclude any identified as such;
+A new relationship status verification process was introduced on 20 September 2018.  This process will require all customers claiming PPS and NSA (single with a dependent child) to complete an SC321 form. This form requires an independent referee to verify the customer   s current relationship status.   
+
+In addition to those new customers listed above, the new relationship verification process will apply in the following circumstances:
+                PPP customers who transfer to PPS
+                NSA or JSP customers who advise of a separation (and have a dependent child/ren in their care), and
+                NSA or JSP customers (single) who have a dependent child come into their care (and are eligible to receive the dependent child rate)",7089da98b44c11ea849a5a0bdf2d1ed7,123,,MI9423 Technical Specification v1.1,,,,,
+42749,2020-08-12,2021-06-21,e9099dba-dc6e-11ea-b153-022da9221366,MI8962 - Farm Household Allowance - Debt Creation Report - CRN Listing,"Farm Household Allowance provides assistance to qualified farmers and/or their partner for a period of three years. Farmers are required to regularly report their income. From time to time a debt may be raised as a result of an overpayment, system process and or the yearly reconciliation process. The report will assist with tracking the creation, processing and outcome of debts for the Farm Household Allowance programme.  The report will capture all FHA recipient debts shells created since 1.7.2014 to present.
+Produce CRN report containing all the FHA debts since 01/07/2014.",7089da98b44c11ea849a5a0bdf2d1ed7,123,,,,Technical Specification - MI8962 v0.1,"Report Frequency: Weekly
+
+Based on which date? As at the latest extract date",,
+42142,2020-08-12,2021-06-21,94aaf3fe-dc6e-11ea-8802-062f7acd21ca,Austudy Personal Details,<p>This cluster of data elements provides information on the personal details section of the Austudy form.</p>,7089da98b44c11ea849a5a0bdf2d1ed7,111,,,,<p>Centrelink Repository</p>,,,
+42144,2020-08-12,2021-06-21,94adda7e-dc6e-11ea-afd9-0a8620c9d3ec,Public Sector Mapping Authority Address Information Exchange GNAF,<p>Yet to be defined</p>,7089da98b44c11ea849a5a0bdf2d1ed7,89,,,,<p>Centrelink Repository</p>,,,
+42265,2020-08-12,2021-06-17,a14dc0e6-dc6e-11ea-9a41-0a6933dafb30,AS4590 2017 Interchange of client information,"<p>This data dictionary can be used to collect details for a person or an organisation, including the name, identification details, contact details, name and address details. It is based on the Standards prepared by Standards Australia for the Interchange of client information.</p>",7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,<p>STANDARDS AUSTRALIA 2017. AS 4590&mdash;20117 INTERCHANGE OF CLIENT INFORMATION. SYDNEY: STANDARDS AUSTRALIA. STANDARDS AUSTRALIA 2017.</p>,,,
+42309,2020-08-12,2021-06-21,abe95498-dc6e-11ea-9a41-0a6933dafb30,Child Care Subsidy Customer Demographic,<p>Child Care Services Customer Demographic data elements</p>,7089da98b44c11ea849a5a0bdf2d1ed7,91,,<p>null</p>,,,<p>&#39;</p>,,
+42469,2020-08-12,2021-03-18,b4eddf00-dc6e-11ea-afd9-0a8620c9d3ec,Customer Address,,7089da98b44c11ea849a5a0bdf2d1ed7,88,,,,,,,
+42480,2020-08-12,2021-06-21,b64bdf96-dc6e-11ea-b735-022da9221366,DEBT PAYMENT QA.01 Curated Data Set Specification,,7089da98b44c11ea849a5a0bdf2d1ed7,97,,,,,,,
+42482,2020-08-12,2021-06-21,b6590b94-dc6e-11ea-b1f5-0a8620c9d3ec,Debt Customer Demographics Curated Data Set Specification,<p>A group of a data elements that cover the demographic characteristics of debtors of the Department of Human Services.</p>,7089da98b44c11ea849a5a0bdf2d1ed7,97,,,,<p>Centrelink Repository</p>,"<p>Still require the following data elements: -Create combined latitude and longitude data elements for cus residential and postal addresses. -Gender DHS standard, which one is the standard?</p>",,
+42538,2020-08-12,2021-07-19,c6c186aa-dc6e-11ea-9a41-0a6933dafb30,Customer Identity Data Standard (Individuals),"<p>The authoritative standard for the data elements, and their definitions, needed to identify individual customers and support a common view of <a class=""aristotle-concept-link"" data-aristotle-concept-id=""56737"" href=""/item/56737"">Customer</a><a href=""https://dss.aristotlecloud.io/item/56737/glossaryitem/customer"">&nbsp;</a>identity data across Services Australia.</p>
+
+<p>The standard prescribes how identity data must be collected, stored and used in the agency and is intended for use by all projects and programmes working with identity data to ensure systems and processes are consistent across the agency.</p>
+
+<p>It covers identity data standards for individuals, not bodies corporate and organisations. It initially encompasses&nbsp;<a class=""aristotle-concept-link"" data-aristotle-concept-id=""56737"" href=""/item/56737"">Customer</a>&nbsp;identity data for Centrelink.</p>",7089da98b44c11ea849a5a0bdf2d1ed7,120,,"<p>Standards Australia 2017,&nbsp;<a href=""https://dss.aristotlecloud.io/item/42265/datasetspecification/as4590-2017-interchange-of-client-information"">AS 4590-2017 Interchange of Client Information</a>, Sydney: Standards Australia.</p>
+
+<p>&nbsp;</p>",,,"<p>Identity of a person may be defined as &lsquo;a set of biographical attributes that are supported by important credentials that can be together linked to an individual&rsquo;. This standard is composed of biographical and address data elements for establishing a person&rsquo;s identity, in relation to the Centrelink service delivery brand. Data elements describing the identity credentials that establish the use of an identity in the community are described in separate datasets.</p>
+
+<p><a href=""https://dss.aristotlecloud.io/item/50145/datasetspecification/geospatial-and-address-data-standards"">Geospatial data standards</a> are described separately.</p>",,
+42695,2020-08-12,2021-07-19,e12d2364-dc6e-11ea-afd9-0a8620c9d3ec,Individual Customer Identifiers,"<p>The&nbsp;identifiers&nbsp;that are used by Services Australia to identify an individual <a class=""aristotle-concept-link"" data-aristotle-concept-id=""56737"" href=""/item/56737"">Customer</a>.</p>
+
+<p>This includes identifiers assigned&nbsp;by Services Australia, as well as those assigned by other organisations/agencies that are used by Services Australia to identify a&nbsp;<a class=""aristotle-concept-link"" data-aristotle-concept-id=""56737"" href=""/item/56737"">Customer</a>.&nbsp;</p>",7089da98b44c11ea849a5a0bdf2d1ed7,120,,,,,,,
+50145,2020-08-18,2021-06-17,1ff47faa-e0f9-11ea-aa45-02b137f3fb1e,Geospatial and Address Data Standards,<p>Collection of standard geospatial data items.</p>,7089da98b44c11ea849a5a0bdf2d1ed7,118,1,"<p>https://psma.com.au/wp-content/uploads/2020/02/G-NAF-Product-Description.pdf</p>
+
+<p>AS 4590.1:2017 Interchange of client information, Part 1: Data elements and interchange formats</p>
+
+<p>https://www.abs.gov.au/websitedbs/D3310114.nsf/home/Australian+Statistical+Geography+Standard+(ASGS)</p>
+
+<p>&nbsp;</p>",,,"<p>Australia has two national standards applicable to addressing:</p>
+
+<p>    AS/NZS 4819:2011 Geographic information&mdash;Rural and urban addressing</p>
+
+<p>    AS4590:2006 Interchange of Client Information.&nbsp;</p>
+
+<p>The standard AS4590:2006 sets out requirements of data elements for the interchange of client information. There are several elements specific to addressing. &nbsp;As G-NAF contains both old and new addresses, it is more closely related to the structure in AS4590:2006.&nbsp;</p>",,
+52284,2020-10-01,2021-06-17,58b26da0-037e-11eb-a07b-0638d41e74d0,Incarcerated Customer Data Exchange Standard,"<p>The Incarcerated Customers Data Standard provides an authoritative standard for the data elements, and their definitions, needed to identify individual incarcerated customers and support a common view of incarcerated customer data across Services Australia. The standard prescribes how the data must be collected, stored and used in the agency and is intended for use by all projects and programs working with incarcerated customer data to ensure systems and processes are consistent across the agency.</p>",7089da98b44c11ea849a5a0bdf2d1ed7,118,,,,,,,

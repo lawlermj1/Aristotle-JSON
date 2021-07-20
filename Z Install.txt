@@ -1,0 +1,1847 @@
+Install GHC 9 
+
+
+
+Haskell 
+-------
+For Aristotle or a web example: 
+
+Refresh: 
+Delete store 
+C:\Users\lawle\AppData\Roaming\cabal\store\ghc-9.0.1\ 
+
+ghci will not open until there cabal repopulates 
+The following repeated installs were needed until they finally succeeded. 
+'cabal install --lib ' was needed to expose installed but hidden libraries. 
+
+In Powershell 
+
+cabal --version
+cabal update
+cabal install --lib word8  
+cabal install --lib aeson 
+cabal install --lib aeson 
+cabal install -j --disable-tests wreq 
+cabal install -j --disable-tests wreq 
+cabal install -j --disable-tests wreq 
+cabal install -j --disable-tests wreq 
+cabal install -j --disable-tests wreq 
+cabal install -j --disable-tests wreq 
+cabal install --lib wreq
+cabal install --lib lens 
+cabal install --lib lens-aeson  
+cabal install --lib http-client   
+
+cabal install cassava (not needed - maybe in wreq) 
+
+pacman
+------
+
+The initial install occurs when GHC is installed. 
+But this is incomplete. 
+
+See:
+https://gitlab.haskell.org/ghc/ghc/-/wikis/building/preparation/windows
+
+In msys2_shell 
+
+Enter the sync command, until all up to date: 
+$ pacman -Syuu
+
+Then enter following to get all pacakges needed by GHC.  
+
+$ pacman -S --needed git tar bsdtar binutils autoconf make xz zstd \
+    curl libtool automake python python3 p7zip patch ca-certificates \
+    mingw-w64-$(uname -m)-gcc \
+    mingw-w64-$(uname -m)-python3 \
+    mingw-w64-$(uname -m)-python3-sphinx \
+    mingw-w64-$(uname -m)-tools-git
+
+Folders
+------
+Current Path 
+
+C:\Users\lawle\AppData\Roaming\cabal\bin	nothing 
+C:\tools\ghc-9.0.1\bin	last install 4/2/2021 
+C:\tools\msys64 	pacman update 7/7/2021 
+C:\Users\lawle\AppData\Local\GitHubDesktop\bin	update 23/6/2021 
+
+add to path 
+C:\tools\ghc-9.0.1\lib\bin	4/2/21	+ ignore ? files 31/5/21
+C:\tools\ghc-9.0.1\mingw\bin	4/2/21	+ ignore ? files 31/5/21
+C:\tools\ghc-9.0.1\mingw\x86_64-w64-mingw32\bin	4/2/21	+ ignore ? files 31/5/21
+
+executable files 
+*.exe - 
+C:\tools\msys64\usr\bin		latest 2/7/2021 
+C:\tools\msys64\usr\lib\awk	latest 15/4/2020 
+C:\tools\msys64\usr\lib\gnupg	latest 29/6/2021 
+C:\tools\msys64\usr\lib\gettext	latest 31/5/2021 
+C:\tools\msys64\usr\libexec		latest 2/7/2021 
+C:\tools\msys64\usr\libexec\p11-kit		latest 16/1/2021 
+
+packages: 
+C:\Users\lawle\AppData\Roaming\cabal\packages\hackage.haskell.org	latest 9/7/21 
+
+cabal conf files: 
+*.conf in 
+C:\Users\lawle\AppData\Roaming\cabal\store\ghc-9.0.1\package.db
+
+header files:   
+*.h  
+C:\tools\msys64\usr\include 
+C:\tools\msys64\mingw64\include
+
+logs: 
+*.log - Shows all compile log files 
+C:\Users\lawle\AppData\Roaming\cabal\logs\ghc-9.0.1
+
+downloads: 
+*.gz 
+C:\Users\lawle\AppData\Roaming\cabal\packages\hackage.haskell.org
+
+Appendix 1 - Haskell Install 
+---------------------------- 
+
+cabal update
+->
+Downloading the latest package list from hackage.haskell.org
+Updated package list of hackage.haskell.org to the index-state 2021-07-09T05:11:08Z
+To revert to previous state run:
+    cabal v2-update 'hackage.haskell.org,2021-07-07T20:05:33Z'
+---------------
+
+ghci stil does not open 
+
+---------
+cabal install --lib word8  
+Resolving dependencies...
+Build profile: -w ghc-9.0.1 -O1
+In order, the following will be built (use -v for more details):
+ - word8-0.1.3 (lib) (requires build)
+Starting     word8-0.1.3 (lib)
+Building     word8-0.1.3 (lib)
+Installing   word8-0.1.3 (lib)
+Completed    word8-0.1.3 (lib)
+
+---------------
+Now ghci opens 
+
+---------------
+cabal install --lib aeson 
+Resolving dependencies...
+Build profile: -w ghc-9.0.1 -O1
+In order, the following will be built (use -v for more details):
+ - base-compat-0.11.2 (lib) (requires build)
+ - base-orphans-0.8.4 (lib) (requires build)
+ - dlist-1.0 (lib) (requires build)
+ - hashable-1.3.2.0 (lib) (requires build)
+ - indexed-traversable-0.1.1 (lib) (requires build)
+ - integer-logarithms-1.0.3.1 (lib) (requires build)
+ - primitive-0.7.1.0 (lib) (requires build)
+ - splitmix-0.1.0.3 (lib) (requires build)
+ - tagged-0.8.6.1 (lib) (requires build)
+ - th-abstraction-0.4.2.0 (lib) (requires build)
+ - transformers-compat-0.6.6 (lib) (requires build)
+ - base-compat-batteries-0.11.2 (lib) (requires build)
+ - unordered-containers-0.2.14.0 (lib) (requires build)
+ - time-compat-1.9.6 (lib) (requires build)
+ - data-fix-0.3.1 (lib) (requires build)
+ - vector-0.12.3.0 (lib) (requires build)
+ - scientific-0.3.7.0 (lib) (requires build)
+ - random-1.2.0 (lib) (requires build)
+ - distributive-0.6.2.1 (lib) (requires build)
+ - attoparsec-0.14.1 (lib) (requires build)
+ - uuid-types-1.0.5 (lib) (requires build)
+ - comonad-5.0.8 (lib) (requires build)
+ - bifunctors-5.5.11 (lib) (requires build)
+ - assoc-1.0.2 (lib) (requires build)
+ - these-1.1.1.1 (lib) (requires build)
+ - strict-0.4.0.1 (lib) (requires build)
+ - aeson-1.5.6.0 (lib) (requires build)
+Starting     indexed-traversable-0.1.1 (lib)
+Starting     th-abstraction-0.4.2.0 (lib)
+Starting     tagged-0.8.6.1 (lib)
+Starting     dlist-1.0 (lib)
+Starting     integer-logarithms-1.0.3.1 (lib)
+Starting     splitmix-0.1.0.3 (lib)
+Starting     primitive-0.7.1.0 (lib)
+Starting     hashable-1.3.2.0 (lib)
+Starting     base-orphans-0.8.4 (lib)
+Starting     transformers-compat-0.6.6 (lib)
+Building     indexed-traversable-0.1.1 (lib)
+Starting     base-compat-0.11.2 (lib)
+Building     th-abstraction-0.4.2.0 (lib)
+Building     tagged-0.8.6.1 (lib)
+Building     dlist-1.0 (lib)
+Building     integer-logarithms-1.0.3.1 (lib)
+Building     base-orphans-0.8.4 (lib)
+Building     splitmix-0.1.0.3 (lib)
+Building     transformers-compat-0.6.6 (lib)
+Building     hashable-1.3.2.0 (lib)
+Building     primitive-0.7.1.0 (lib)
+Building     base-compat-0.11.2 (lib)
+Installing   base-orphans-0.8.4 (lib)
+Completed    base-orphans-0.8.4 (lib)
+Installing   integer-logarithms-1.0.3.1 (lib)
+Completed    integer-logarithms-1.0.3.1 (lib)
+Installing   tagged-0.8.6.1 (lib)
+Completed    tagged-0.8.6.1 (lib)
+Installing   dlist-1.0 (lib)
+Starting     distributive-0.6.2.1 (lib)
+Completed    dlist-1.0 (lib)
+Installing   transformers-compat-0.6.6 (lib)
+Completed    transformers-compat-0.6.6 (lib)
+Building     distributive-0.6.2.1 (lib)
+Installing   indexed-traversable-0.1.1 (lib)
+Completed    indexed-traversable-0.1.1 (lib)
+Installing   hashable-1.3.2.0 (lib)
+Installing   th-abstraction-0.4.2.0 (lib)
+Installing   distributive-0.6.2.1 (lib)
+Completed    hashable-1.3.2.0 (lib)
+Starting     data-fix-0.3.1 (lib)
+Completed    th-abstraction-0.4.2.0 (lib)
+Starting     unordered-containers-0.2.14.0 (lib)
+Completed    distributive-0.6.2.1 (lib)
+Starting     comonad-5.0.8 (lib)
+Starting     time-compat-1.9.6 (lib)
+Installing   splitmix-0.1.0.3 (lib)
+Completed    splitmix-0.1.0.3 (lib)
+Starting     random-1.2.0 (lib)
+Building     data-fix-0.3.1 (lib)
+Building     unordered-containers-0.2.14.0 (lib)
+Building     comonad-5.0.8 (lib)
+Installing   data-fix-0.3.1 (lib)
+Building     random-1.2.0 (lib)
+Completed    data-fix-0.3.1 (lib)
+Installing   comonad-5.0.8 (lib)
+Completed    comonad-5.0.8 (lib)
+Installing   primitive-0.7.1.0 (lib)
+Completed    primitive-0.7.1.0 (lib)
+Installing   random-1.2.0 (lib)
+Completed    random-1.2.0 (lib)
+Installing   unordered-containers-0.2.14.0 (lib)
+Completed    unordered-containers-0.2.14.0 (lib)
+Installing   base-compat-0.11.2 (lib)
+Completed    base-compat-0.11.2 (lib)
+
+Failed to build time-compat-1.9.6. The failure occurred during the configure
+step.
+Build log (
+C:\Users\lawle\AppData\Roaming\cabal\logs\ghc-9.0.1\time-compat-1.9.6-edc01ccdb8cc6a5e8e7b25e9b5c5a6ed79b035d7.
+log
+):
+Configuring library for time-compat-1.9.6..
+Warning: 'include-dirs: cbits' directory does not exist.
+Warning: 'include-dirs: cbits' directory does not exist.
+Warning: 'include-dirs: cbits' directory does not exist.
+C:\Users\lawle\AppData\Local\Temp\ghc94B5.o.tmp: renameFile:renamePath:MoveFileEx "\\\\?\\C:\\Users\\lawle\\App
+Data\\Local\\Temp\\ghc94B5.o.tmp" Just "\\\\?\\C:\\Users\\lawle\\AppData\\Local\\Temp\\ghc94B5.o": does not exi
+st (The system cannot find the file specified.)
+cabal : cabal.exe: Failed to build time-compat-1.9.6 (which is required by
+At line:1 char:1
++ cabal install --lib aeson
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (cabal.exe: Fail... is required by:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+aeson-1.5.6.0). See the build log above for details.
+
+Redo 
+---------------
+cabal install --lib aeson 
+Resolving dependencies...
+Build profile: -w ghc-9.0.1 -O1
+In order, the following will be built (use -v for more details):
+ - base-compat-batteries-0.11.2 (lib) (requires build)
+ - bifunctors-5.5.11 (lib) (requires build)
+ - scientific-0.3.7.0 (lib) (requires build)
+ - time-compat-1.9.6 (lib) (requires build)
+ - uuid-types-1.0.5 (lib) (requires build)
+ - vector-0.12.3.0 (lib) (requires build)
+ - assoc-1.0.2 (lib) (requires build)
+ - attoparsec-0.14.1 (lib) (requires build)
+ - these-1.1.1.1 (lib) (requires build)
+ - strict-0.4.0.1 (lib) (requires build)
+ - aeson-1.5.6.0 (lib) (requires build)
+Starting     uuid-types-1.0.5 (lib)
+Starting     scientific-0.3.7.0 (lib)
+Starting     bifunctors-5.5.11 (lib)
+Starting     time-compat-1.9.6 (lib)
+Starting     vector-0.12.3.0 (lib)
+Starting     base-compat-batteries-0.11.2 (lib)
+Building     uuid-types-1.0.5 (lib)
+Building     scientific-0.3.7.0 (lib)
+Building     bifunctors-5.5.11 (lib)
+Building     vector-0.12.3.0 (lib)
+Building     time-compat-1.9.6 (lib)
+Building     base-compat-batteries-0.11.2 (lib)
+Installing   uuid-types-1.0.5 (lib)
+Completed    uuid-types-1.0.5 (lib)
+Installing   scientific-0.3.7.0 (lib)
+Completed    scientific-0.3.7.0 (lib)
+Starting     attoparsec-0.14.1 (lib)
+Installing   time-compat-1.9.6 (lib)
+Completed    time-compat-1.9.6 (lib)
+Building     attoparsec-0.14.1 (lib)
+Installing   bifunctors-5.5.11 (lib)
+Completed    bifunctors-5.5.11 (lib)
+Starting     assoc-1.0.2 (lib)
+Building     assoc-1.0.2 (lib)
+Installing   assoc-1.0.2 (lib)
+Completed    assoc-1.0.2 (lib)
+Starting     these-1.1.1.1 (lib)
+Building     these-1.1.1.1 (lib)
+Installing   these-1.1.1.1 (lib)
+Completed    these-1.1.1.1 (lib)
+Starting     strict-0.4.0.1 (lib)
+Building     strict-0.4.0.1 (lib)
+Installing   base-compat-batteries-0.11.2 (lib)
+Completed    base-compat-batteries-0.11.2 (lib)
+Installing   strict-0.4.0.1 (lib)
+Completed    strict-0.4.0.1 (lib)
+Installing   attoparsec-0.14.1 (lib)
+Completed    attoparsec-0.14.1 (lib)
+Installing   vector-0.12.3.0 (lib)
+Completed    vector-0.12.3.0 (lib)
+Starting     aeson-1.5.6.0 (lib)
+Building     aeson-1.5.6.0 (lib)
+Installing   aeson-1.5.6.0 (lib)
+Completed    aeson-1.5.6.0 (lib)
+
+-------------------------------------
+cabal install --lib cassava
+Resolving dependencies...
+Build profile: -w ghc-9.0.1 -O1
+In order, the following will be built (use -v for more details):
+ - Only-0.1 (lib) (requires build)
+ - text-short-0.1.3 (lib) (requires build)
+ - cassava-0.5.2.0 (lib) (requires build)
+Starting     Only-0.1 (lib)
+Starting     text-short-0.1.3 (lib)
+Building     Only-0.1 (lib)
+Installing   Only-0.1 (lib)
+Completed    Only-0.1 (lib)
+Building     text-short-0.1.3 (lib)
+Installing   text-short-0.1.3 (lib)
+Completed    text-short-0.1.3 (lib)
+Starting     cassava-0.5.2.0 (lib)
+Building     cassava-0.5.2.0 (lib)
+Installing   cassava-0.5.2.0 (lib)
+Completed    cassava-0.5.2.0 (lib)
+
+-------------------------------------
+PS C:\Users\lawle> cabal install -j --disable-tests wreq 
+Resolving dependencies...
+Build profile: -w ghc-9.0.1 -O1
+In order, the following will be built (use -v for more details):
+ - SHA-1.6.4.4 (lib) (requires build)
+ - StateVar-1.2.1 (lib) (requires build)
+ - appar-0.1.8 (lib:appar) (requires build)
+ - async-2.2.3 (lib) (requires build)
+ - base16-bytestring-1.0.1.0 (lib) (requires build)
+ - base64-bytestring-1.2.0.1 (lib) (requires build)
+ - basement-0.0.12 (lib) (requires build)
+ - blaze-builder-0.4.2.1 (lib) (requires build)
+ - byteorder-1.0.4 (lib:byteorder) (requires build)
+ - cabal-doctest-1.0.8 (lib) (requires build)
+ - call-stack-0.4.0 (lib) (requires build)
+ - case-insensitive-1.2.1.0 (lib) (requires build)
+ - cereal-0.5.8.1 (lib) (requires build)
+ - data-default-class-0.1.2.0 (lib:data-default-class) (requires build)
+ - entropy-0.4.1.6 (lib:entropy) (requires build)
+ - hourglass-0.2.12 (lib) (requires build)
+ - hsc2hs-0.68.7 (exe:hsc2hs) (requires build)
+ - indexed-traversable-instances-0.1 (lib) (requires build)
+ - mime-types-0.1.0.9 (lib) (requires build)
+ - old-locale-1.0.0.7 (lib) (requires build)
+ - parallel-3.2.2.0 (lib) (requires build)
+ - psqueues-0.2.7.2 (lib) (requires build)
+ - reflection-2.1.6 (lib) (requires build)
+ - safe-0.3.19 (lib) (requires build)
+ - semigroups-0.19.1 (lib) (requires build)
+ - th-compat-0.1.2 (lib) (requires build)
+ - time-locale-compat-0.1.1.5 (lib) (requires build)
+ - transformers-base-0.4.5.2 (lib) (requires build)
+ - void-0.7.3 (lib) (requires build)
+ - zlib-0.6.2.3 (lib) (requires build)
+ - contravariant-1.5.3 (lib) (requires build)
+ - memory-0.16.0 (lib) (requires build)
+ - http-types-0.12.3 (lib) (requires build)
+ - data-default-instances-dlist-0.0.1 (lib:data-default-instances-dlist) (requires build)
+ - data-default-instances-containers-0.0.1 (lib:data-default-instances-containers) (requires build)
+ - cookie-0.4.5 (lib) (requires build)
+ - crypto-api-0.13.3 (lib:crypto-api) (requires build)
+ - network-3.1.2.2 (lib:network) (requires build)
+ - data-default-instances-old-locale-0.0.1 (lib:data-default-instances-old-locale) (requires build)
+ - network-uri-2.6.4.1 (lib) (requires build)
+ - semigroupoids-5.3.5 (lib) (requires build)
+ - profunctors-5.6.2 (lib) (requires build)
+ - pem-0.2.4 (lib) (requires build)
+ - cryptonite-0.29 (lib) (requires build)
+ - asn1-types-0.3.4 (lib:asn1-types) (requires build)
+ - streaming-commons-0.2.2.1 (lib) (requires build)
+ - socks-0.6.1 (lib) (requires build)
+ - iproute-1.7.11 (lib) (requires build)
+ - data-default-0.7.1.1 (lib:data-default) (requires build)
+ - invariant-0.5.4 (lib) (requires build)
+ - free-5.1.7 (lib) (requires build)
+ - asn1-encoding-0.9.6 (lib) (requires build)
+ - http-client-0.7.8 (lib) (requires build)
+ - adjunctions-4.4 (lib) (requires build)
+ - crypto-pubkey-types-0.4.3 (lib:crypto-pubkey-types) (requires build)
+ - asn1-parse-0.9.5 (lib:asn1-parse) (requires build)
+ - kan-extensions-5.2.2 (lib) (requires build)
+ - RSA-2.4.1 (lib) (requires build)
+ - x509-1.7.5 (lib) (requires build)
+ - lens-5.0.1 (lib) (requires build)
+ - authenticate-oauth-1.7 (lib) (requires build)
+ - x509-store-1.6.7 (lib) (requires build)
+ - lens-aeson-1.1.1 (lib) (requires build)
+ - x509-validation-1.6.11 (lib) (requires build)
+ - x509-system-1.6.6 (lib) (requires build)
+ - tls-1.5.5 (lib) (requires build)
+ - connection-0.3.1 (lib:connection) (requires build)
+ - http-client-tls-0.3.5.3 (lib) (requires build)
+ - wreq-0.5.3.3 (lib:wreq) (requires build)
+Starting     byteorder-1.0.4 (all, legacy fallback)
+Starting     base64-bytestring-1.2.0.1 (lib)
+Starting     cabal-doctest-1.0.8 (lib)
+Starting     base16-bytestring-1.0.1.0 (lib)
+Starting     StateVar-1.2.1 (lib)
+Starting     async-2.2.3 (lib)
+Starting     appar-0.1.8 (all, legacy fallback)
+Starting     SHA-1.6.4.4 (lib)
+Starting     call-stack-0.4.0 (lib)
+Starting     case-insensitive-1.2.1.0 (lib)
+Starting     basement-0.0.12 (lib)
+Starting     blaze-builder-0.4.2.1 (lib)
+Starting     cereal-0.5.8.1 (lib)
+Building     call-stack-0.4.0 (lib)
+Building     StateVar-1.2.1 (lib)
+Building     byteorder-1.0.4 (all, legacy fallback)
+Building     base64-bytestring-1.2.0.1 (lib)
+Building     basement-0.0.12 (lib)
+Building     blaze-builder-0.4.2.1 (lib)
+Building     case-insensitive-1.2.1.0 (lib)
+Building     async-2.2.3 (lib)
+Building     cabal-doctest-1.0.8 (lib)
+Building     cereal-0.5.8.1 (lib)
+Installing   StateVar-1.2.1 (lib)
+Installing   call-stack-0.4.0 (lib)
+Installing   byteorder-1.0.4 (all, legacy fallback)
+Completed    StateVar-1.2.1 (lib)
+Completed    call-stack-0.4.0 (lib)
+Completed    byteorder-1.0.4 (all, legacy fallback)
+Installing   case-insensitive-1.2.1.0 (lib)
+Installing   base64-bytestring-1.2.0.1 (lib)
+Installing   async-2.2.3 (lib)
+Completed    case-insensitive-1.2.1.0 (lib)
+Completed    base64-bytestring-1.2.0.1 (lib)
+Completed    async-2.2.3 (lib)
+Installing   cabal-doctest-1.0.8 (lib)
+Completed    cabal-doctest-1.0.8 (lib)
+Installing   blaze-builder-0.4.2.1 (lib)
+Completed    blaze-builder-0.4.2.1 (lib)
+Installing   cereal-0.5.8.1 (lib)
+Completed    cereal-0.5.8.1 (lib)
+Installing   basement-0.0.12 (lib)
+Completed    basement-0.0.12 (lib)
+
+Failed to build SHA-1.6.4.4. The failure occurred during the configure step.
+Build log (
+C:\Users\lawle\AppData\Roaming\cabal\logs\ghc-9.0.1\SHA-1.6.4.4-79c69f051206ebb5469af9e7776e7d8daa8464e2.log
+):
+Configuring library for SHA-1.6.4.4..
+Warning: 'include-dirs: cbits' directory does not exist.
+Warning: 'include-dirs: cbits' directory does not exist.
+Warning: 'include-dirs: cbits' directory does not exist.
+Warning: 'include-dirs: cbits' directory does not exist.
+Warning: 'include-dirs: cbits' directory does not exist.
+Warning: 'include-dirs: cbits' directory does not exist.
+Warning: 'include-dirs: cbits' directory does not exist.
+C:\Users\lawle\AppData\Local\Temp\ghc846C.o.tmp: renameFile:renamePath:MoveFileEx "\\\\?\\C:\\Users\\lawle\\App
+Data\\Local\\Temp\\ghc846C.o.tmp" Just "\\\\?\\C:\\Users\\lawle\\AppData\\Local\\Temp\\ghc846C.o": does not exi
+st (The system cannot find the file specified.)
+
+Failed to build appar-0.1.8. The failure occurred during the configure step.
+Build log (
+C:\Users\lawle\AppData\Roaming\cabal\logs\ghc-9.0.1\appar-0.1.8-70cdb77440caabace7b1cf871fa08e903842497e.log
+):
+Warning: appar.cabal:20:37: version operators used. To use version operators
+the package needs to specify at least 'cabal-version: >= 1.8'.
+Configuring appar-0.1.8...
+Warning: 'include-dirs: cbits' directory does not exist.
+C:\Users\lawle\AppData\Local\Temp\ghc842E.o.tmp: renameFile:renamePath:MoveFileEx "\\\\?\\C:\\Users\\lawle\\App
+Data\\Local\\Temp\\ghc842E.o.tmp" Just "\\\\?\\C:\\Users\\lawle\\AppData\\Local\\Temp\\ghc842E.o": does not exi
+st (The system cannot find the file specified.)
+
+Failed to build base16-bytestring-1.0.1.0. The failure occurred during the
+configure step.
+Build log (
+C:\Users\lawle\AppData\Roaming\cabal\logs\ghc-9.0.1\base16-bytest_-1.0.1.0-d06532748e7a54c893acf89d1f88e9dd0b4b
+d64d.log
+):
+Configuring library for base16-bytestring-1.0.1.0..
+Warning: 'include-dirs: cbits' directory does not exist.
+Warning: 'include-dirs: cbits' directory does not exist.
+Warning: 'include-dirs: cbits' directory does not exist.
+C:\Users\lawle\AppData\Local\Temp\ghc83FF.o.tmp: renameFile:renamePath:MoveFileEx "\\\\?\\C:\\Users\\lawle\\App
+Data\\Local\\Temp\\ghc83FF.o.tmp" Just "\\\\?\\C:\\Users\\lawle\\AppData\\Local\\Temp\\ghc83FF.o": does not exi
+st (The system cannot find the file specified.)
+cabal : cabal.exe: Failed to build SHA-1.6.4.4 (which is required by wreq-0.5.3.3).
+At line:1 char:1
++ cabal install -j --disable-tests wreq
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (cabal.exe: Fail... wreq-0.5.3.3).:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+See the build log above for details.
+Failed to build appar-0.1.8 (which is required by wreq-0.5.3.3). See the build
+log above for details.
+Failed to build base16-bytestring-1.0.1.0 (which is required by wreq-0.5.3.3).
+See the build log above for details.
+
+-------------------------------------
+PS C:\Users\lawle> cabal install -j --disable-tests wreq 
+
+Resolving dependencies...
+Build profile: -w ghc-9.0.1 -O1
+In order, the following will be built (use -v for more details):
+ - SHA-1.6.4.4 (lib) (requires build)
+ - appar-0.1.8 (lib:appar) (requires build)
+ - base16-bytestring-1.0.1.0 (lib) (requires build)
+ - contravariant-1.5.3 (lib) (requires build)
+ - data-default-class-0.1.2.0 (lib:data-default-class) (requires build)
+ - entropy-0.4.1.6 (lib:entropy) (requires build)
+ - hourglass-0.2.12 (lib) (requires build)
+ - hsc2hs-0.68.7 (exe:hsc2hs) (requires build)
+ - http-types-0.12.3 (lib) (requires build)
+ - indexed-traversable-instances-0.1 (lib) (requires build)
+ - memory-0.16.0 (lib) (requires build)
+ - mime-types-0.1.0.9 (lib) (requires build)
+ - old-locale-1.0.0.7 (lib) (requires build)
+ - parallel-3.2.2.0 (lib) (requires build)
+ - psqueues-0.2.7.2 (lib) (requires build)
+ - reflection-2.1.6 (lib) (requires build)
+ - safe-0.3.19 (lib) (requires build)
+ - semigroups-0.19.1 (lib) (requires build)
+ - th-compat-0.1.2 (lib) (requires build)
+ - time-locale-compat-0.1.1.5 (lib) (requires build)
+ - transformers-base-0.4.5.2 (lib) (requires build)
+ - void-0.7.3 (lib) (requires build)
+ - zlib-0.6.2.3 (lib) (requires build)
+ - semigroupoids-5.3.5 (lib) (requires build)
+ - profunctors-5.6.2 (lib) (requires build)
+ - data-default-instances-dlist-0.0.1 (lib:data-default-instances-dlist) (requires build)
+ - data-default-instances-containers-0.0.1 (lib:data-default-instances-containers) (requires build)
+ - cookie-0.4.5 (lib) (requires build)
+ - crypto-api-0.13.3 (lib:crypto-api) (requires build)
+ - network-3.1.2.2 (lib:network) (requires build)
+ - pem-0.2.4 (lib) (requires build)
+ - cryptonite-0.29 (lib) (requires build)
+ - asn1-types-0.3.4 (lib:asn1-types) (requires build)
+ - data-default-instances-old-locale-0.0.1 (lib:data-default-instances-old-locale) (requires build)
+ - network-uri-2.6.4.1 (lib) (requires build)
+ - invariant-0.5.4 (lib) (requires build)
+ - free-5.1.7 (lib) (requires build)
+ - streaming-commons-0.2.2.1 (lib) (requires build)
+ - socks-0.6.1 (lib) (requires build)
+ - iproute-1.7.11 (lib) (requires build)
+ - asn1-encoding-0.9.6 (lib) (requires build)
+ - data-default-0.7.1.1 (lib:data-default) (requires build)
+ - adjunctions-4.4 (lib) (requires build)
+ - http-client-0.7.8 (lib) (requires build)
+ - crypto-pubkey-types-0.4.3 (lib:crypto-pubkey-types) (requires build)
+ - asn1-parse-0.9.5 (lib:asn1-parse) (requires build)
+ - kan-extensions-5.2.2 (lib) (requires build)
+ - RSA-2.4.1 (lib) (requires build)
+ - x509-1.7.5 (lib) (requires build)
+ - lens-5.0.1 (lib) (requires build)
+ - authenticate-oauth-1.7 (lib) (requires build)
+ - x509-store-1.6.7 (lib) (requires build)
+ - lens-aeson-1.1.1 (lib) (requires build)
+ - x509-validation-1.6.11 (lib) (requires build)
+ - x509-system-1.6.6 (lib) (requires build)
+ - tls-1.5.5 (lib) (requires build)
+ - connection-0.3.1 (lib:connection) (requires build)
+ - http-client-tls-0.3.5.3 (lib) (requires build)
+ - wreq-0.5.3.3 (lib:wreq) (requires build)
+Starting     indexed-traversable-instances-0.1 (lib)
+Starting     appar-0.1.8 (all, legacy fallback)
+Starting     contravariant-1.5.3 (lib)
+Starting     hourglass-0.2.12 (lib)
+Starting     data-default-class-0.1.2.0 (all, legacy fallback)
+Starting     http-types-0.12.3 (lib)
+Starting     mime-types-0.1.0.9 (lib)
+Starting     base16-bytestring-1.0.1.0 (lib)
+Starting     entropy-0.4.1.6 (all, legacy fallback)
+Starting     SHA-1.6.4.4 (lib)
+Starting     memory-0.16.0 (lib)
+Starting     hsc2hs-0.68.7 (exe:hsc2hs)
+Starting     old-locale-1.0.0.7 (lib)
+Building     data-default-class-0.1.2.0 (all, legacy fallback)
+Building     appar-0.1.8 (all, legacy fallback)
+Building     hourglass-0.2.12 (lib)
+Building     base16-bytestring-1.0.1.0 (lib)
+Building     indexed-traversable-instances-0.1 (lib)
+Building     mime-types-0.1.0.9 (lib)
+Building     http-types-0.12.3 (lib)
+Building     memory-0.16.0 (lib)
+Building     SHA-1.6.4.4 (lib)
+Building     hsc2hs-0.68.7 (exe:hsc2hs)
+Building     old-locale-1.0.0.7 (lib)
+Installing   data-default-class-0.1.2.0 (all, legacy fallback)
+Installing   base16-bytestring-1.0.1.0 (lib)
+Installing   appar-0.1.8 (all, legacy fallback)
+Installing   old-locale-1.0.0.7 (lib)
+Completed    data-default-class-0.1.2.0 (all, legacy fallback)
+Installing   indexed-traversable-instances-0.1 (lib)
+Completed    base16-bytestring-1.0.1.0 (lib)
+Completed    appar-0.1.8 (all, legacy fallback)
+Completed    old-locale-1.0.0.7 (lib)
+Completed    indexed-traversable-instances-0.1 (lib)
+Installing   http-types-0.12.3 (lib)
+Completed    http-types-0.12.3 (lib)
+Installing   mime-types-0.1.0.9 (lib)
+Completed    mime-types-0.1.0.9 (lib)
+Installing   hourglass-0.2.12 (lib)
+Completed    hourglass-0.2.12 (lib)
+Building     entropy-0.4.1.6 (all, legacy fallback)
+Installing   memory-0.16.0 (lib)
+Completed    memory-0.16.0 (lib)
+Installing   SHA-1.6.4.4 (lib)
+Completed    SHA-1.6.4.4 (lib)
+Installing   hsc2hs-0.68.7 (exe:hsc2hs)
+Completed    hsc2hs-0.68.7 (exe:hsc2hs)
+Installing   entropy-0.4.1.6 (all, legacy fallback)
+Completed    entropy-0.4.1.6 (all, legacy fallback)
+
+Failed to build contravariant-1.5.3. The failure occurred during the configure
+step.
+Build log (
+C:\Users\lawle\AppData\Roaming\cabal\logs\ghc-9.0.1\contravariant-1.5.3-ff1981deda454b44169116891137b52ad8c125a
+c.log
+):
+Configuring library for contravariant-1.5.3..
+Warning: 'include-dirs: cbits' directory does not exist.
+C:\Users\lawle\AppData\Local\Temp\ghc4093.o.tmp: renameFile:renamePath:MoveFileEx "\\\\?\\C:\\Users\\lawle\\App
+Data\\Local\\Temp\\ghc4093.o.tmp" Just "\\\\?\\C:\\Users\\lawle\\AppData\\Local\\Temp\\ghc4093.o": does not exi
+st (The system cannot find the file specified.)
+cabal : cabal.exe: Failed to build contravariant-1.5.3 (which is required by
+At line:1 char:1
++ cabal install -j --disable-tests wreq
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (cabal.exe: Fail... is required by:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+wreq-0.5.3.3). See the build log above for details.
+
+-------------------------------------
+PS C:\Users\lawle> cabal install -j --disable-tests wreq 
+Resolving dependencies...
+Build profile: -w ghc-9.0.1 -O1
+In order, the following will be built (use -v for more details):
+ - asn1-types-0.3.4 (lib:asn1-types) (requires build)
+ - contravariant-1.5.3 (lib) (requires build)
+ - cookie-0.4.5 (lib) (requires build)
+ - crypto-api-0.13.3 (lib:crypto-api) (requires build)
+ - cryptonite-0.29 (lib) (requires build)
+ - data-default-instances-containers-0.0.1 (lib:data-default-instances-containers) (requires build)
+ - data-default-instances-old-locale-0.0.1 (lib:data-default-instances-old-locale) (requires build)
+ - data-default-instances-dlist-0.0.1 (lib:data-default-instances-dlist) (requires build)
+ - network-3.1.2.2 (lib:network) (requires build)
+ - parallel-3.2.2.0 (lib) (requires build)
+ - pem-0.2.4 (lib) (requires build)
+ - psqueues-0.2.7.2 (lib) (requires build)
+ - reflection-2.1.6 (lib) (requires build)
+ - safe-0.3.19 (lib) (requires build)
+ - semigroups-0.19.1 (lib) (requires build)
+ - th-compat-0.1.2 (lib) (requires build)
+ - time-locale-compat-0.1.1.5 (lib) (requires build)
+ - transformers-base-0.4.5.2 (lib) (requires build)
+ - void-0.7.3 (lib) (requires build)
+ - zlib-0.6.2.3 (lib) (requires build)
+ - asn1-encoding-0.9.6 (lib) (requires build)
+ - semigroupoids-5.3.5 (lib) (requires build)
+ - profunctors-5.6.2 (lib) (requires build)
+ - data-default-0.7.1.1 (lib:data-default) (requires build)
+ - socks-0.6.1 (lib) (requires build)
+ - iproute-1.7.11 (lib) (requires build)
+ - network-uri-2.6.4.1 (lib) (requires build)
+ - streaming-commons-0.2.2.1 (lib) (requires build)
+ - crypto-pubkey-types-0.4.3 (lib:crypto-pubkey-types) (requires build)
+ - asn1-parse-0.9.5 (lib:asn1-parse) (requires build)
+ - invariant-0.5.4 (lib) (requires build)
+ - free-5.1.7 (lib) (requires build)
+ - http-client-0.7.8 (lib) (requires build)
+ - RSA-2.4.1 (lib) (requires build)
+ - x509-1.7.5 (lib) (requires build)
+ - adjunctions-4.4 (lib) (requires build)
+ - authenticate-oauth-1.7 (lib) (requires build)
+ - x509-store-1.6.7 (lib) (requires build)
+ - kan-extensions-5.2.2 (lib) (requires build)
+ - x509-validation-1.6.11 (lib) (requires build)
+ - x509-system-1.6.6 (lib) (requires build)
+ - lens-5.0.1 (lib) (requires build)
+ - tls-1.5.5 (lib) (requires build)
+ - lens-aeson-1.1.1 (lib) (requires build)
+ - connection-0.3.1 (lib:connection) (requires build)
+ - http-client-tls-0.3.5.3 (lib) (requires build)
+ - wreq-0.5.3.3 (lib:wreq) (requires build)
+Starting     cookie-0.4.5 (lib)
+Starting     data-default-instances-dlist-0.0.1 (all, legacy fallback)
+Starting     contravariant-1.5.3 (lib)
+Starting     data-default-instances-old-locale-0.0.1 (all, legacy fallback)
+Starting     data-default-instances-containers-0.0.1 (all, legacy fallback)
+Starting     parallel-3.2.2.0 (lib)
+Starting     pem-0.2.4 (lib)
+Starting     crypto-api-0.13.3 (all, legacy fallback)
+Starting     asn1-types-0.3.4 (all, legacy fallback)
+Starting     psqueues-0.2.7.2 (lib)
+Starting     network-3.1.2.2 (all, legacy fallback)
+Starting     cryptonite-0.29 (lib)
+Starting     reflection-2.1.6 (lib)
+Building     contravariant-1.5.3 (lib)
+Building     data-default-instances-dlist-0.0.1 (all, legacy fallback)
+Building     cookie-0.4.5 (lib)
+Building     data-default-instances-old-locale-0.0.1 (all, legacy fallback)
+Building     parallel-3.2.2.0 (lib)
+Building     crypto-api-0.13.3 (all, legacy fallback)
+Building     asn1-types-0.3.4 (all, legacy fallback)
+Building     psqueues-0.2.7.2 (lib)
+Building     cryptonite-0.29 (lib)
+Installing   data-default-instances-dlist-0.0.1 (all, legacy fallback)
+Installing   data-default-instances-old-locale-0.0.1 (all, legacy fallback)
+Building     reflection-2.1.6 (lib)
+Completed    data-default-instances-dlist-0.0.1 (all, legacy fallback)
+Completed    data-default-instances-old-locale-0.0.1 (all, legacy fallback)
+Installing   cookie-0.4.5 (lib)
+Completed    cookie-0.4.5 (lib)
+Installing   contravariant-1.5.3 (lib)
+Installing   parallel-3.2.2.0 (lib)
+Completed    contravariant-1.5.3 (lib)
+Completed    parallel-3.2.2.0 (lib)
+Installing   asn1-types-0.3.4 (all, legacy fallback)
+Completed    asn1-types-0.3.4 (all, legacy fallback)
+Installing   reflection-2.1.6 (lib)
+Completed    reflection-2.1.6 (lib)
+Installing   psqueues-0.2.7.2 (lib)
+Completed    psqueues-0.2.7.2 (lib)
+Installing   crypto-api-0.13.3 (all, legacy fallback)
+Completed    crypto-api-0.13.3 (all, legacy fallback)
+Building     network-3.1.2.2 (all, legacy fallback)
+Installing   cryptonite-0.29 (lib)
+Completed    cryptonite-0.29 (lib)
+Installing   network-3.1.2.2 (all, legacy fallback)
+Completed    network-3.1.2.2 (all, legacy fallback)
+
+Failed to build data-default-instances-containers-0.0.1. The failure occurred
+during the configure step.
+Build log (
+C:\Users\lawle\AppData\Roaming\cabal\logs\ghc-9.0.1\data-default-_-0.0.1-38d5a1444cc0ef0c506ead0c4dc6e6917948fd
+ba.log
+):
+Warning: data-default-instances-containers.cabal:17:33: version operators
+used. To use version operators the package needs to specify at least
+'cabal-version: >= 1.8'.
+Configuring data-default-instances-containers-0.0.1...
+Warning: 'include-dirs: cbits' directory does not exist.
+C:\Users\lawle\AppData\Local\Temp\ghcAA06.o.tmp: renameFile:renamePath:MoveFileEx "\\\\?\\C:\\Users\\lawle\\App
+Data\\Local\\Temp\\ghcAA06.o.tmp" Just "\\\\?\\C:\\Users\\lawle\\AppData\\Local\\Temp\\ghcAA06.o": does not exi
+st (The system cannot find the file specified.)
+
+Failed to build pem-0.2.4. The failure occurred during the configure step.
+Build log (
+C:\Users\lawle\AppData\Roaming\cabal\logs\ghc-9.0.1\pem-0.2.4-46326371e1391b0111bea3b9d281068cc5c26f31.log
+):
+Configuring library for pem-0.2.4..
+Warning: 'include-dirs: cbits' directory does not exist.
+Warning: 'include-dirs: cbits' directory does not exist.
+C:\Users\lawle\AppData\Local\Temp\ghcAB5E.o.tmp: renameFile:renamePath:MoveFileEx "\\\\?\\C:\\Users\\lawle\\App
+Data\\Local\\Temp\\ghcAB5E.o.tmp" Just "\\\\?\\C:\\Users\\lawle\\AppData\\Local\\Temp\\ghcAB5E.o": does not exi
+st (The system cannot find the file specified.)
+cabal : cabal.exe: Failed to build data-default-instances-containers-0.0.1 (which is
+At line:1 char:1
++ cabal install -j --disable-tests wreq
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (cabal.exe: Fail...0.0.1 (which is:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+required by wreq-0.5.3.3). See the build log above for details.
+Failed to build pem-0.2.4 (which is required by wreq-0.5.3.3). See the build
+log above for details.
+
+-------------------------------------
+PS C:\Users\lawle> cabal install -j --disable-tests wreq 
+Resolving dependencies...
+Build profile: -w ghc-9.0.1 -O1
+In order, the following will be built (use -v for more details):
+ - asn1-encoding-0.9.6 (lib) (requires build)
+ - data-default-instances-containers-0.0.1 (lib:data-default-instances-containers) (requires build)
+ - iproute-1.7.11 (lib) (requires build)
+ - pem-0.2.4 (lib) (requires build)
+ - profunctors-5.6.2 (lib) (requires build)
+ - safe-0.3.19 (lib) (requires build)
+ - semigroupoids-5.3.5 (lib) (requires build)
+ - semigroups-0.19.1 (lib) (requires build)
+ - socks-0.6.1 (lib) (requires build)
+ - th-compat-0.1.2 (lib) (requires build)
+ - time-locale-compat-0.1.1.5 (lib) (requires build)
+ - transformers-base-0.4.5.2 (lib) (requires build)
+ - void-0.7.3 (lib) (requires build)
+ - zlib-0.6.2.3 (lib) (requires build)
+ - crypto-pubkey-types-0.4.3 (lib:crypto-pubkey-types) (requires build)
+ - asn1-parse-0.9.5 (lib:asn1-parse) (requires build)
+ - data-default-0.7.1.1 (lib:data-default) (requires build)
+ - invariant-0.5.4 (lib) (requires build)
+ - network-uri-2.6.4.1 (lib) (requires build)
+ - free-5.1.7 (lib) (requires build)
+ - streaming-commons-0.2.2.1 (lib) (requires build)
+ - RSA-2.4.1 (lib) (requires build)
+ - x509-1.7.5 (lib) (requires build)
+ - adjunctions-4.4 (lib) (requires build)
+ - http-client-0.7.8 (lib) (requires build)
+ - x509-store-1.6.7 (lib) (requires build)
+ - kan-extensions-5.2.2 (lib) (requires build)
+ - authenticate-oauth-1.7 (lib) (requires build)
+ - x509-validation-1.6.11 (lib) (requires build)
+ - x509-system-1.6.6 (lib) (requires build)
+ - lens-5.0.1 (lib) (requires build)
+ - tls-1.5.5 (lib) (requires build)
+ - lens-aeson-1.1.1 (lib) (requires build)
+ - connection-0.3.1 (lib:connection) (requires build)
+ - http-client-tls-0.3.5.3 (lib) (requires build)
+ - wreq-0.5.3.3 (lib:wreq) (requires build)
+Starting     pem-0.2.4 (lib)
+Starting     data-default-instances-containers-0.0.1 (all, legacy fallback)
+Starting     asn1-encoding-0.9.6 (lib)
+Starting     semigroups-0.19.1 (lib)
+Starting     safe-0.3.19 (lib)
+Starting     time-locale-compat-0.1.1.5 (lib)
+Starting     profunctors-5.6.2 (lib)
+Starting     iproute-1.7.11 (lib)
+Starting     semigroupoids-5.3.5 (lib)
+Starting     transformers-base-0.4.5.2 (lib)
+Starting     socks-0.6.1 (lib)
+Starting     th-compat-0.1.2 (lib)
+Starting     void-0.7.3 (lib)
+Building     data-default-instances-containers-0.0.1 (all, legacy fallback)
+Building     pem-0.2.4 (lib)
+Building     asn1-encoding-0.9.6 (lib)
+Building     safe-0.3.19 (lib)
+Building     semigroups-0.19.1 (lib)
+Building     iproute-1.7.11 (lib)
+Building     transformers-base-0.4.5.2 (lib)
+Building     profunctors-5.6.2 (lib)
+Building     socks-0.6.1 (lib)
+Building     semigroupoids-5.3.5 (lib)
+Installing   data-default-instances-containers-0.0.1 (all, legacy fallback)
+Installing   semigroups-0.19.1 (lib)
+Completed    data-default-instances-containers-0.0.1 (all, legacy fallback)
+Building     void-0.7.3 (lib)
+Installing   pem-0.2.4 (lib)
+Completed    semigroups-0.19.1 (lib)
+Installing   transformers-base-0.4.5.2 (lib)
+Completed    pem-0.2.4 (lib)
+Installing   void-0.7.3 (lib)
+Completed    transformers-base-0.4.5.2 (lib)
+Completed    void-0.7.3 (lib)
+Installing   safe-0.3.19 (lib)
+Completed    safe-0.3.19 (lib)
+Installing   asn1-encoding-0.9.6 (lib)
+Completed    asn1-encoding-0.9.6 (lib)
+Installing   socks-0.6.1 (lib)
+Completed    socks-0.6.1 (lib)
+Installing   iproute-1.7.11 (lib)
+Completed    iproute-1.7.11 (lib)
+Installing   profunctors-5.6.2 (lib)
+Completed    profunctors-5.6.2 (lib)
+Installing   semigroupoids-5.3.5 (lib)
+Completed    semigroupoids-5.3.5 (lib)
+
+Failed to build th-compat-0.1.2. The failure occurred during the configure
+step.
+Build log (
+C:\Users\lawle\AppData\Roaming\cabal\logs\ghc-9.0.1\th-compat-0.1.2-59cd6895b849554ef840face1ac9222f1f6fbabf.lo
+g
+):
+Configuring library for th-compat-0.1.2..
+Warning: 'include-dirs: cbits' directory does not exist.
+Warning: 'include-dirs: cbits' directory does not exist.
+C:\Users\lawle\AppData\Local\Temp\ghcA93.o.tmp: renameFile:renamePath:MoveFileEx "\\\\?\\C:\\Users\\lawle\\AppD
+ata\\Local\\Temp\\ghcA93.o.tmp" Just "\\\\?\\C:\\Users\\lawle\\AppData\\Local\\Temp\\ghcA93.o": does not exist 
+(The system cannot find the file specified.)
+
+Failed to build time-locale-compat-0.1.1.5. The failure occurred during the
+configure step.
+Build log (
+C:\Users\lawle\AppData\Roaming\cabal\logs\ghc-9.0.1\time-locale-c_-0.1.1.5-29ce8a27859821224b7d0dbf1bffffd30e5c
+a19e.log
+):
+Configuring library for time-locale-compat-0.1.1.5..
+Warning: 'include-dirs: cbits' directory does not exist.
+C:\Users\lawle\AppData\Local\Temp\ghc9E7.o.tmp: renameFile:renamePath:MoveFileEx "\\\\?\\C:\\Users\\lawle\\AppD
+ata\\Local\\Temp\\ghc9E7.o.tmp" Just "\\\\?\\C:\\Users\\lawle\\AppData\\Local\\Temp\\ghc9E7.o": does not exist 
+(The system cannot find the file specified.)
+cabal : cabal.exe: Failed to build th-compat-0.1.2 (which is required by
+At line:1 char:1
++ cabal install -j --disable-tests wreq
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (cabal.exe: Fail... is required by:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+wreq-0.5.3.3). See the build log above for details.
+Failed to build time-locale-compat-0.1.1.5 (which is required by
+wreq-0.5.3.3). See the build log above for details.
+
+-------------------------------------
+PS C:\Users\lawle> cabal install -j --disable-tests wreq 
+Resolving dependencies...
+Build profile: -w ghc-9.0.1 -O1
+In order, the following will be built (use -v for more details):
+ - asn1-parse-0.9.5 (lib:asn1-parse) (requires build)
+ - crypto-pubkey-types-0.4.3 (lib:crypto-pubkey-types) (requires build)
+ - data-default-0.7.1.1 (lib:data-default) (requires build)
+ - free-5.1.7 (lib) (requires build)
+ - invariant-0.5.4 (lib) (requires build)
+ - th-compat-0.1.2 (lib) (requires build)
+ - time-locale-compat-0.1.1.5 (lib) (requires build)
+ - zlib-0.6.2.3 (lib) (requires build)
+ - x509-1.7.5 (lib) (requires build)
+ - RSA-2.4.1 (lib) (requires build)
+ - adjunctions-4.4 (lib) (requires build)
+ - network-uri-2.6.4.1 (lib) (requires build)
+ - streaming-commons-0.2.2.1 (lib) (requires build)
+ - x509-store-1.6.7 (lib) (requires build)
+ - kan-extensions-5.2.2 (lib) (requires build)
+ - http-client-0.7.8 (lib) (requires build)
+ - x509-validation-1.6.11 (lib) (requires build)
+ - x509-system-1.6.6 (lib) (requires build)
+ - lens-5.0.1 (lib) (requires build)
+ - authenticate-oauth-1.7 (lib) (requires build)
+ - tls-1.5.5 (lib) (requires build)
+ - lens-aeson-1.1.1 (lib) (requires build)
+ - connection-0.3.1 (lib:connection) (requires build)
+ - http-client-tls-0.3.5.3 (lib) (requires build)
+ - wreq-0.5.3.3 (lib:wreq) (requires build)
+Starting     th-compat-0.1.2 (lib)
+Starting     asn1-parse-0.9.5 (all, legacy fallback)
+Starting     data-default-0.7.1.1 (all, legacy fallback)
+Starting     invariant-0.5.4 (lib)
+Starting     time-locale-compat-0.1.1.5 (lib)
+Starting     crypto-pubkey-types-0.4.3 (all, legacy fallback)
+Starting     zlib-0.6.2.3 (lib)
+Starting     free-5.1.7 (lib)
+Building     time-locale-compat-0.1.1.5 (lib)
+Building     asn1-parse-0.9.5 (all, legacy fallback)
+Building     crypto-pubkey-types-0.4.3 (all, legacy fallback)
+Building     data-default-0.7.1.1 (all, legacy fallback)
+Building     zlib-0.6.2.3 (lib)
+Building     invariant-0.5.4 (lib)
+Building     free-5.1.7 (lib)
+Installing   time-locale-compat-0.1.1.5 (lib)
+Installing   data-default-0.7.1.1 (all, legacy fallback)
+Installing   asn1-parse-0.9.5 (all, legacy fallback)
+Completed    time-locale-compat-0.1.1.5 (lib)
+Completed    data-default-0.7.1.1 (all, legacy fallback)
+Completed    asn1-parse-0.9.5 (all, legacy fallback)
+Installing   invariant-0.5.4 (lib)
+Completed    invariant-0.5.4 (lib)
+Installing   crypto-pubkey-types-0.4.3 (all, legacy fallback)
+Completed    crypto-pubkey-types-0.4.3 (all, legacy fallback)
+Installing   zlib-0.6.2.3 (lib)
+Completed    zlib-0.6.2.3 (lib)
+Installing   free-5.1.7 (lib)
+Completed    free-5.1.7 (lib)
+
+Failed to build th-compat-0.1.2. The failure occurred during the configure
+step.
+Build log (
+C:\Users\lawle\AppData\Roaming\cabal\logs\ghc-9.0.1\th-compat-0.1.2-59cd6895b849554ef840face1ac9222f1f6fbabf.lo
+g
+):
+Configuring library for th-compat-0.1.2..
+Warning: 'include-dirs: cbits' directory does not exist.
+Warning: 'include-dirs: cbits' directory does not exist.
+C:\Users\lawle\AppData\Local\Temp\ghcFED6.o.tmp: renameFile:renamePath:MoveFileEx "\\\\?\\C:\\Users\\lawle\\App
+Data\\Local\\Temp\\ghcFED6.o.tmp" Just "\\\\?\\C:\\Users\\lawle\\AppData\\Local\\Temp\\ghcFED6.o": does not exi
+st (The system cannot find the file specified.)
+cabal : cabal.exe: Failed to build th-compat-0.1.2 (which is required by
+At line:1 char:1
++ cabal install -j --disable-tests wreq
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (cabal.exe: Fail... is required by:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+wreq-0.5.3.3). See the build log above for details.
+
+-------------------------------------
+PS C:\Users\lawle> cabal install -j --disable-tests wreq 
+Resolving dependencies...
+Build profile: -w ghc-9.0.1 -O1
+In order, the following will be built (use -v for more details):
+ - RSA-2.4.1 (lib) (requires build)
+ - adjunctions-4.4 (lib) (requires build)
+ - streaming-commons-0.2.2.1 (lib) (requires build)
+ - th-compat-0.1.2 (lib) (requires build)
+ - x509-1.7.5 (lib) (requires build)
+ - kan-extensions-5.2.2 (lib) (requires build)
+ - network-uri-2.6.4.1 (lib) (requires build)
+ - x509-store-1.6.7 (lib) (requires build)
+ - lens-5.0.1 (lib) (requires build)
+ - http-client-0.7.8 (lib) (requires build)
+ - x509-validation-1.6.11 (lib) (requires build)
+ - x509-system-1.6.6 (lib) (requires build)
+ - lens-aeson-1.1.1 (lib) (requires build)
+ - authenticate-oauth-1.7 (lib) (requires build)
+ - tls-1.5.5 (lib) (requires build)
+ - connection-0.3.1 (lib:connection) (requires build)
+ - http-client-tls-0.3.5.3 (lib) (requires build)
+ - wreq-0.5.3.3 (lib:wreq) (requires build)
+Starting     th-compat-0.1.2 (lib)
+Starting     RSA-2.4.1 (lib)
+Starting     x509-1.7.5 (lib)
+Starting     adjunctions-4.4 (lib)
+Starting     streaming-commons-0.2.2.1 (lib)
+Building     th-compat-0.1.2 (lib)
+Building     RSA-2.4.1 (lib)
+Building     x509-1.7.5 (lib)
+Building     streaming-commons-0.2.2.1 (lib)
+Building     adjunctions-4.4 (lib)
+Installing   th-compat-0.1.2 (lib)
+Completed    th-compat-0.1.2 (lib)
+Starting     network-uri-2.6.4.1 (lib)
+Installing   RSA-2.4.1 (lib)
+Building     network-uri-2.6.4.1 (lib)
+Completed    RSA-2.4.1 (lib)
+Installing   adjunctions-4.4 (lib)
+Completed    adjunctions-4.4 (lib)
+Starting     kan-extensions-5.2.2 (lib)
+Installing   network-uri-2.6.4.1 (lib)
+Building     kan-extensions-5.2.2 (lib)
+Completed    network-uri-2.6.4.1 (lib)
+Installing   x509-1.7.5 (lib)
+Completed    x509-1.7.5 (lib)
+Starting     x509-store-1.6.7 (lib)
+Building     x509-store-1.6.7 (lib)
+Installing   x509-store-1.6.7 (lib)
+Completed    x509-store-1.6.7 (lib)
+Starting     x509-system-1.6.6 (lib)
+Starting     x509-validation-1.6.11 (lib)
+Installing   kan-extensions-5.2.2 (lib)
+Building     x509-validation-1.6.11 (lib)
+Installing   streaming-commons-0.2.2.1 (lib)
+Completed    kan-extensions-5.2.2 (lib)
+Completed    streaming-commons-0.2.2.1 (lib)
+Installing   x509-validation-1.6.11 (lib)
+Completed    x509-validation-1.6.11 (lib)
+
+Failed to build x509-system-1.6.6. The failure occurred during the configure
+step.
+Build log (
+C:\Users\lawle\AppData\Roaming\cabal\logs\ghc-9.0.1\x509-system-1.6.6-b64f8713691cea7d76fcee3362671d4d12b1d4bf.
+log
+):
+Configuring library for x509-system-1.6.6..
+Warning: 'include-dirs: cbits' directory does not exist.
+C:\Users\lawle\AppData\Local\Temp\ghc3B2F.o.tmp: renameFile:renamePath:MoveFileEx "\\\\?\\C:\\Users\\lawle\\App
+Data\\Local\\Temp\\ghc3B2F.o.tmp" Just "\\\\?\\C:\\Users\\lawle\\AppData\\Local\\Temp\\ghc3B2F.o": does not exi
+st (The system cannot find the file specified.)
+cabal : cabal.exe: Failed to build x509-system-1.6.6 (which is required by
+At line:1 char:1
++ cabal install -j --disable-tests wreq
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (cabal.exe: Fail... is required by:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+wreq-0.5.3.3). See the build log above for details.
+
+-------------------------------------
+PS C:\Users\lawle> cabal install -j --disable-tests wreq 
+Resolving dependencies...
+Build profile: -w ghc-9.0.1 -O1
+In order, the following will be built (use -v for more details):
+ - http-client-0.7.8 (lib) (requires build)
+ - lens-5.0.1 (lib) (requires build)
+ - tls-1.5.5 (lib) (requires build)
+ - x509-system-1.6.6 (lib) (requires build)
+ - authenticate-oauth-1.7 (lib) (requires build)
+ - lens-aeson-1.1.1 (lib) (requires build)
+ - connection-0.3.1 (lib:connection) (requires build)
+ - http-client-tls-0.3.5.3 (lib) (requires build)
+ - wreq-0.5.3.3 (lib:wreq) (requires build)
+Starting     x509-system-1.6.6 (lib)
+Starting     http-client-0.7.8 (lib)
+Starting     tls-1.5.5 (lib)
+Starting     lens-5.0.1 (lib)
+Building     x509-system-1.6.6 (lib)
+Building     http-client-0.7.8 (lib)
+Building     tls-1.5.5 (lib)
+Building     lens-5.0.1 (lib)
+Installing   x509-system-1.6.6 (lib)
+Completed    x509-system-1.6.6 (lib)
+Installing   http-client-0.7.8 (lib)
+Completed    http-client-0.7.8 (lib)
+Starting     authenticate-oauth-1.7 (lib)
+Building     authenticate-oauth-1.7 (lib)
+Installing   authenticate-oauth-1.7 (lib)
+Completed    authenticate-oauth-1.7 (lib)
+Installing   tls-1.5.5 (lib)
+Completed    tls-1.5.5 (lib)
+Starting     connection-0.3.1 (all, legacy fallback)
+Building     connection-0.3.1 (all, legacy fallback)
+Installing   connection-0.3.1 (all, legacy fallback)
+Completed    connection-0.3.1 (all, legacy fallback)
+Starting     http-client-tls-0.3.5.3 (lib)
+Building     http-client-tls-0.3.5.3 (lib)
+Installing   http-client-tls-0.3.5.3 (lib)
+Completed    http-client-tls-0.3.5.3 (lib)
+Installing   lens-5.0.1 (lib)
+Completed    lens-5.0.1 (lib)
+Starting     lens-aeson-1.1.1 (lib)
+Building     lens-aeson-1.1.1 (lib)
+Installing   lens-aeson-1.1.1 (lib)
+Completed    lens-aeson-1.1.1 (lib)
+Starting     wreq-0.5.3.3 (all, legacy fallback)
+Building     wreq-0.5.3.3 (all, legacy fallback)
+Installing   wreq-0.5.3.3 (all, legacy fallback)
+Completed    wreq-0.5.3.3 (all, legacy fallback)
+cabal : Warning:
+At line:1 char:1
++ cabal install -j --disable-tests wreq
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Warning::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@ WARNING: Installation might not be completed as desired! @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Without flags, the command "cabal install" doesn't expose libraries in a
+usable manner. You might have wanted to run "cabal install --lib wreq".
+
+-------------------------------------
+cabal install --lib wreq
+Resolving dependencies...
+Up to date
+
+-------------------------------------
+cabal install --lib lens 
+Resolving dependencies...
+Up to date
+
+-------------------------------------
+cabal install --lib lens-aeson  
+Resolving dependencies...
+Up to date
+
+-------------------------------------
+cabal install --lib http-client   
+Resolving dependencies...
+Build profile: -w ghc-9.0.1 -O1
+In order, the following will be built (use -v for more details):
+ - process-1.6.12.0 (lib:process) (requires build)
+ - hsc2hs-0.68.7 (exe:hsc2hs) (requires build)
+ - network-3.1.2.2 (lib:network) (requires build)
+ - streaming-commons-0.2.2.1 (lib) (requires build)
+ - iproute-1.7.11 (lib) (requires build)
+ - http-client-0.7.8 (lib) (requires build)
+Starting     process-1.6.12.0 (all, legacy fallback)
+Building     process-1.6.12.0 (all, legacy fallback)
+Installing   process-1.6.12.0 (all, legacy fallback)
+Completed    process-1.6.12.0 (all, legacy fallback)
+Starting     hsc2hs-0.68.7 (exe:hsc2hs)
+Building     hsc2hs-0.68.7 (exe:hsc2hs)
+Installing   hsc2hs-0.68.7 (exe:hsc2hs)
+Completed    hsc2hs-0.68.7 (exe:hsc2hs)
+Starting     network-3.1.2.2 (all, legacy fallback)
+Building     network-3.1.2.2 (all, legacy fallback)
+Installing   network-3.1.2.2 (all, legacy fallback)
+Completed    network-3.1.2.2 (all, legacy fallback)
+Starting     iproute-1.7.11 (lib)
+Starting     streaming-commons-0.2.2.1 (lib)
+Building     iproute-1.7.11 (lib)
+Building     streaming-commons-0.2.2.1 (lib)
+Installing   iproute-1.7.11 (lib)
+Completed    iproute-1.7.11 (lib)
+Installing   streaming-commons-0.2.2.1 (lib)
+Completed    streaming-commons-0.2.2.1 (lib)
+Starting     http-client-0.7.8 (lib)
+Building     http-client-0.7.8 (lib)
+Installing   http-client-0.7.8 (lib)
+Completed    http-client-0.7.8 (lib)
+
+Appendix 2 - pacman Install 
+---------------------------- 
+
+
+echo $MSYSTEM
+MSYS
+
+pacman -Syuu
+:: Synchronizing package databases...
+ mingw32                                             1215.5 KiB   581 KiB/s 00:02 [#############################################] 100%
+ mingw32.sig                                          566.0   B  0.00   B/s 00:00 [#############################################] 100%
+ mingw64                                             1221.5 KiB  1228 KiB/s 00:01 [#############################################] 100%
+ mingw64.sig                                          566.0   B  0.00   B/s 00:00 [#############################################] 100%
+ ucrt64                                              1468.6 KiB  1617 KiB/s 00:01 [#############################################] 100%
+ ucrt64.sig                                           566.0   B  0.00   B/s 00:00 [#############################################] 100%
+ clang64                                             1091.0 KiB  1079 KiB/s 00:01 [#############################################] 100%
+ clang64.sig                                          566.0   B  0.00   B/s 00:00 [#############################################] 100%
+ msys                                                 372.5 KiB   582 KiB/s 00:01 [#############################################] 100%
+ msys.sig                                             566.0   B  0.00   B/s 00:00 [#############################################] 100%
+:: Starting core system upgrade...
+warning: terminate other MSYS2 programs before proceeding
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (4) filesystem-2021.06-1  msys2-runtime-3.2.0-14  pacman-6.0.0-4  pacman-mirrors-20210703-1
+
+Total Download Size:    8.58 MiB
+Total Installed Size:  43.15 MiB
+Net Upgrade Size:       0.75 MiB
+
+:: Proceed with installation? [Y/n]
+-----
+:: Synchronizing package databases...
+ mingw32 is up to date
+ mingw64 is up to date
+ ucrt64 is up to date
+ clang64 is up to date
+ msys is up to date
+:: Starting core system upgrade...
+ there is nothing to do
+:: Starting full system upgrade...
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (14) dash-0.5.11.4-1  gnupg-2.2.28-3  libedit-20210522_3.1-1  libgnutls-3.7.2-1  libgpgme-1.16.0-1
+              libhogweed-3.7.3-1  libksba-1.6.0-1  libnettle-3.7.3-1  libpcre-8.45-1  libpcre2_8-10.37-1  libsqlite-3.36.0-1
+              nano-5.8-1  nettle-3.7.3-1  pacman-contrib-1.4.0-2
+
+Total Download Size:    9.82 MiB
+Total Installed Size:  28.07 MiB
+Net Upgrade Size:       0.37 MiB
+
+:: Proceed with installation? [Y/n] Y
+:: Retrieving packages...
+ dash-0.5.11.4-1-x86_64                          76.7 KiB  81.0 KiB/s 00:01 [##########################################] 100%
+ libpcre-8.45-1-x86_64                           92.6 KiB  93.2 KiB/s 00:01 [##########################################] 100%
+ libhogweed-3.7.3-1-x86_64                      181.7 KiB   150 KiB/s 00:01 [##########################################] 100%
+ libnettle-3.7.3-1-x86_64                       125.8 KiB  80.3 KiB/s 00:02 [##########################################] 100%
+ libksba-1.6.0-1-x86_64                         125.2 KiB   173 KiB/s 00:01 [##########################################] 100%
+ nettle-3.7.3-1-x86_64                           91.9 KiB   155 KiB/s 00:01 [##########################################] 100%
+ libedit-20210522_3.1-1-x86_64                   94.8 KiB   155 KiB/s 00:01 [##########################################] 100%
+ libsqlite-3.36.0-1-x86_64                      614.3 KiB   481 KiB/s 00:01 [##########################################] 100%
+ libgnutls-3.7.2-1-x86_64                      1367.9 KiB   510 KiB/s 00:03 [##########################################] 100%
+ libgpgme-1.16.0-1-x86_64                       351.1 KiB   416 KiB/s 00:01 [##########################################] 100%
+ libpcre2_8-10.37-1-x86_64                      118.6 KiB   217 KiB/s 00:01 [##########################################] 100%
+ gnupg-2.2.28-3-x86_64                            2.2 MiB   894 KiB/s 00:02 [##########################################] 100%
+ nano-5.8-1-x86_64                              592.8 KiB   313 KiB/s 00:02 [##########################################] 100%
+ pacman-contrib-1.4.0-2-x86_64                    3.9 MiB  1173 KiB/s 00:03 [##########################################] 100%
+ Total (14/14)                                    9.8 MiB  1492 KiB/s 00:07 [##########################################] 100%
+(14/14) checking keys in keyring                                            [##########################################] 100%
+(14/14) checking package integrity                                          [##########################################] 100%
+(14/14) loading package files                                               [##########################################] 100%
+(14/14) checking for file conflicts                                         [##########################################] 100%
+(14/14) checking available disk space                                       [##########################################] 100%
+:: Processing package changes...
+( 1/14) upgrading libpcre                                                   [##########################################] 100%
+( 2/14) upgrading dash                                                      [##########################################] 100%
+( 3/14) upgrading libhogweed                                                [##########################################] 100%
+( 4/14) upgrading libnettle                                                 [##########################################] 100%
+( 5/14) upgrading libgnutls                                                 [##########################################] 100%
+( 6/14) upgrading libksba                                                   [##########################################] 100%
+( 7/14) upgrading libsqlite                                                 [##########################################] 100%
+( 8/14) upgrading nettle                                                    [##########################################] 100%
+( 9/14) upgrading libedit                                                   [##########################################] 100%
+(10/14) upgrading gnupg                                                     [##########################################] 100%
+==> Appending keys from msys2.gpg...
+==> Locally signing trusted keys in keyring...
+==> Importing owner trust values...
+==> Disabling revoked keys in keyring...
+==> Updating trust database...
+gpg: next trustdb check due at 2022-01-23
+(11/14) upgrading libgpgme                                                  [##########################################] 100%
+(12/14) upgrading libpcre2_8                                                [##########################################] 100%
+(13/14) upgrading nano                                                      [##########################################] 100%
+(14/14) upgrading pacman-contrib                                            [##########################################] 100%
+:: Running post-transaction hooks...
+(1/1) Updating the info directory file...
+
+------------------
+
+pacman -Syuu
+:: Synchronizing package databases...
+ mingw32 is up to date
+ mingw64 is up to date
+ ucrt64 is up to date
+ clang64 is up to date
+ msys is up to date
+:: Starting core system upgrade...
+ there is nothing to do
+:: Starting full system upgrade...
+ there is nothing to do
+
+------------------
+
+$ pacman -S --needed git tar bsdtar binutils autoconf make xz zstd \
+    curl libtool automake python python3 p7zip patch ca-certificates \
+    mingw-w64-$(uname -m)-gcc \
+    mingw-w64-$(uname -m)-python3 \
+    mingw-w64-$(uname -m)-python3-sphinx \
+    mingw-w64-$(uname -m)-tools-git
+warning: bsdtar-3.5.1-1 is up to date -- skipping
+warning: xz-5.2.5-1 is up to date -- skipping
+warning: zstd-1.5.0-1 is up to date -- skipping
+warning: curl-7.76.1-1 is up to date -- skipping
+warning: ca-certificates-20210119-1 is up to date -- skipping
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (119) automake1.10-1.10.3-4  automake1.11-1.11.6-4  automake1.12-1.12.6-4  automake1.13-1.13.4-5
+               automake1.14-1.14.1-4  automake1.15-1.15.1-2  automake1.16-1.16.3-1  automake1.6-1.6.3-3  automake1.7-1.7.9-3
+               automake1.8-1.8.5-4  automake1.9-1.9.6-3  diffutils-3.7-1  expat-2.3.0-1  heimdal-7.7.0-2  libltdl-2.4.6-11
+               m4-1.4.19-1  mingw-w64-x86_64-binutils-2.36.1-3  mingw-w64-x86_64-bzip2-1.0.8-2
+               mingw-w64-x86_64-ca-certificates-20200601-3  mingw-w64-x86_64-crt-git-9.0.0.6246.ae63cde27-1
+               mingw-w64-x86_64-expat-2.4.1-1  mingw-w64-x86_64-gcc-libs-10.3.0-5  mingw-w64-x86_64-gettext-0.19.8.1-10
+               mingw-w64-x86_64-gmp-6.2.1-2  mingw-w64-x86_64-headers-git-9.0.0.6246.ae63cde27-1  mingw-w64-x86_64-isl-0.24-1
+               mingw-w64-x86_64-libffi-3.3-4  mingw-w64-x86_64-libiconv-1.16-2  mingw-w64-x86_64-libsystre-1.0.1-4
+               mingw-w64-x86_64-libtasn1-4.17.0-1  mingw-w64-x86_64-libtre-git-r128.6fb7206-2
+               mingw-w64-x86_64-libwinpthread-git-9.0.0.6246.ae63cde27-1  mingw-w64-x86_64-mpc-1.2.1-1
+               mingw-w64-x86_64-mpdecimal-2.5.0-2  mingw-w64-x86_64-mpfr-4.1.0-3  mingw-w64-x86_64-ncurses-6.2-3
+               mingw-w64-x86_64-openssl-1.1.1.k-2  mingw-w64-x86_64-p11-kit-0.23.22-1  mingw-w64-x86_64-python-attrs-21.2.0-1
+               mingw-w64-x86_64-python-babel-2.9.1-1  mingw-w64-x86_64-python-certifi-2021.5.30-1
+               mingw-w64-x86_64-python-chardet-4.0.0-1  mingw-w64-x86_64-python-colorama-0.4.4-1
+               mingw-w64-x86_64-python-docutils-0.17.1-1  mingw-w64-x86_64-python-idna-3.2-1
+               mingw-w64-x86_64-python-imagesize-1.2.0-1  mingw-w64-x86_64-python-jinja-3.0.1-1
+               mingw-w64-x86_64-python-markupsafe-2.0.1-1  mingw-w64-x86_64-python-packaging-20.9-1
+               mingw-w64-x86_64-python-pygments-2.9.0-1  mingw-w64-x86_64-python-pyparsing-2.4.7-1
+               mingw-w64-x86_64-python-pytz-2021.1-1  mingw-w64-x86_64-python-requests-2.25.1-2
+               mingw-w64-x86_64-python-setuptools-57.1.0-1  mingw-w64-x86_64-python-six-1.16.0-1
+               mingw-w64-x86_64-python-snowballstemmer-2.1.0-1  mingw-w64-x86_64-python-sphinx-alabaster-theme-0.7.12-1
+               mingw-w64-x86_64-python-sphinxcontrib-applehelp-1.0.2-1  mingw-w64-x86_64-python-sphinxcontrib-devhelp-1.0.2-1
+               mingw-w64-x86_64-python-sphinxcontrib-htmlhelp-2.0.0-1  mingw-w64-x86_64-python-sphinxcontrib-jsmath-1.0.1-1
+               mingw-w64-x86_64-python-sphinxcontrib-qthelp-1.0.3-1
+               mingw-w64-x86_64-python-sphinxcontrib-serializinghtml-1.1.5-1  mingw-w64-x86_64-python-urllib3-1.26.6-1
+               mingw-w64-x86_64-readline-8.0.004-2  mingw-w64-x86_64-sqlite3-3.36.0-1  mingw-w64-x86_64-tcl-8.6.11-3
+               mingw-w64-x86_64-termcap-1.3.1-6  mingw-w64-x86_64-tk-8.6.11.1-2
+               mingw-w64-x86_64-windows-default-manifest-6.4-3  mingw-w64-x86_64-winpthreads-git-9.0.0.6246.ae63cde27-1
+               mingw-w64-x86_64-xz-5.2.5-2  mingw-w64-x86_64-zlib-1.2.11-9  mingw-w64-x86_64-zstd-1.5.0-1  mpdecimal-2.5.0-1
+               openssh-8.5p1-1  perl-Authen-SASL-2.16-2  perl-Clone-0.45-2  perl-Convert-BinHex-1.125-1
+               perl-Encode-Locale-1.05-1  perl-Error-0.17029-1  perl-File-Listing-6.14-1  perl-HTML-Parser-3.76-1
+               perl-HTML-Tagset-3.20-2  perl-HTTP-Cookies-6.10-1  perl-HTTP-Daemon-6.12-1  perl-HTTP-Date-6.05-1
+               perl-HTTP-Message-6.32-1  perl-HTTP-Negotiate-6.01-2  perl-IO-HTML-1.004-1  perl-IO-Socket-SSL-2.071-1
+               perl-IO-Stringy-2.113-1  perl-LWP-MediaTypes-6.04-1  perl-MIME-tools-5.509-1  perl-MailTools-2.21-1
+               perl-Net-HTTP-6.21-1  perl-Net-SMTP-SSL-1.04-1  perl-Net-SSLeay-1.90-1  perl-TermReadKey-2.38-2
+               perl-TimeDate-2.33-1  perl-Try-Tiny-0.30-1  perl-URI-5.09-1  perl-WWW-RobotRules-6.02-2  perl-libwww-6.55-1
+               vim-8.2.2859-2  autoconf-2.71-1  automake-wrapper-11-1  binutils-2.36.1-4  git-2.32.0-1  libtool-2.4.6-11
+               make-4.3-1  mingw-w64-x86_64-gcc-10.3.0-5  mingw-w64-x86_64-python-3.8.9-2
+               mingw-w64-x86_64-python-sphinx-4.0.2-1  mingw-w64-x86_64-tools-git-9.0.0.6246.ae63cde27-1  p7zip-17.04-1
+               patch-2.7.6-1  python-3.9.5-1  tar-1.34-1
+
+Total Download Size:    155.45 MiB
+Total Installed Size:  1110.51 MiB
+
+:: Proceed with installation? [Y/n]
+:: Retrieving packages...
+ expat-2.3.0-1-x86_64                            29.1 KiB  9.79 KiB/s 00:03 [##########################################] 100%
+ perl-Error-0.17029-1-any                        39.4 KiB  13.0 KiB/s 00:03 [##########################################] 100%
+ heimdal-7.7.0-2-x86_64                         426.9 KiB   115 KiB/s 00:04 [##########################################] 100%
+ perl-Authen-SASL-2.16-2-any                     42.4 KiB  65.6 KiB/s 00:01 [##########################################] 100%
+ perl-Encode-Locale-1.05-1-any                   24.3 KiB  41.5 KiB/s 00:01 [##########################################] 100%
+ openssh-8.5p1-1-x86_64                         897.9 KiB   220 KiB/s 00:04 [##########################################] 100%
+ perl-HTTP-Date-6.05-1-any                       28.9 KiB  27.6 KiB/s 00:01 [##########################################] 100%
+ perl-HTML-Tagset-3.20-2-any                     10.3 KiB  11.1 KiB/s 00:01 [##########################################] 100%
+ perl-Clone-0.45-2-x86_64                        11.3 KiB  16.8 KiB/s 00:01 [##########################################] 100%
+ perl-File-Listing-6.14-1-any                    11.7 KiB  12.1 KiB/s 00:01 [##########################################] 100%
+ perl-LWP-MediaTypes-6.04-1-any                  40.7 KiB  76.6 KiB/s 00:01 [##########################################] 100%
+ perl-IO-HTML-1.004-1-any                        16.1 KiB  27.8 KiB/s 00:01 [##########################################] 100%
+ perl-HTTP-Message-6.32-1-any                    74.9 KiB   130 KiB/s 00:01 [##########################################] 100%
+ perl-URI-5.09-1-any                             77.1 KiB  74.8 KiB/s 00:01 [##########################################] 100%
+ perl-HTML-Parser-3.76-1-x86_64                  80.5 KiB   136 KiB/s 00:01 [##########################################] 100%
+ perl-HTTP-Cookies-6.10-1-any                    23.4 KiB  39.5 KiB/s 00:01 [##########################################] 100%
+ perl-HTTP-Daemon-6.12-1-any                     39.6 KiB  66.6 KiB/s 00:01 [##########################################] 100%
+ perl-HTTP-Negotiate-6.01-2-any                  11.4 KiB  19.2 KiB/s 00:01 [##########################################] 100%
+ vim-8.2.2859-2-x86_64                            7.9 MiB  1116 KiB/s 00:07 [##########################################] 100%
+ perl-Net-HTTP-6.21-1-any                        23.9 KiB  43.7 KiB/s 00:01 [##########################################] 100%
+ perl-WWW-RobotRules-6.02-2-any                  12.2 KiB  23.8 KiB/s 00:01 [##########################################] 100%
+ perl-Try-Tiny-0.30-1-any                        32.0 KiB  44.6 KiB/s 00:01 [##########################################] 100%
+ perl-TimeDate-2.33-1-any                        55.2 KiB  98.2 KiB/s 00:01 [##########################################] 100%
+ perl-MailTools-2.21-1-any                       81.0 KiB   144 KiB/s 00:01 [##########################################] 100%
+ perl-libwww-6.55-1-any                         128.0 KiB   146 KiB/s 00:01 [##########################################] 100%
+ perl-IO-Stringy-2.113-1-any                     66.4 KiB  90.3 KiB/s 00:01 [##########################################] 100%
+ perl-Convert-BinHex-1.125-1-any                 42.8 KiB  78.3 KiB/s 00:01 [##########################################] 100%
+ perl-MIME-tools-5.509-1-any                    194.9 KiB   343 KiB/s 00:01 [##########################################] 100%
+ perl-Net-SSLeay-1.90-1-x86_64                  236.3 KiB   384 KiB/s 00:01 [##########################################] 100%
+ perl-IO-Socket-SSL-2.071-1-any                 147.6 KiB   203 KiB/s 00:01 [##########################################] 100%
+ perl-Net-SMTP-SSL-1.04-1-any                    18.4 KiB  34.3 KiB/s 00:01 [##########################################] 100%
+ perl-TermReadKey-2.38-2-x86_64                  42.0 KiB  58.1 KiB/s 00:01 [##########################################] 100%
+ diffutils-3.7-1-x86_64                         342.0 KiB   235 KiB/s 00:01 [##########################################] 100%
+ m4-1.4.19-1-x86_64                             239.4 KiB   149 KiB/s 00:02 [##########################################] 100%
+ tar-1.34-1-x86_64                              814.9 KiB   293 KiB/s 00:03 [##########################################] 100%
+ autoconf-2.71-1-any                            643.7 KiB   436 KiB/s 00:01 [##########################################] 100%
+ make-4.3-1-x86_64                              456.7 KiB   298 KiB/s 00:02 [##########################################] 100%
+ libltdl-2.4.6-11-x86_64                         32.5 KiB  38.7 KiB/s 00:01 [##########################################] 100%
+ git-2.32.0-1-x86_64                              5.5 MiB  1309 KiB/s 00:04 [##########################################] 100%
+ libtool-2.4.6-11-x86_64                        389.5 KiB   594 KiB/s 00:01 [##########################################] 100%
+ automake1.6-1.6.3-3-any                        256.3 KiB   421 KiB/s 00:01 [##########################################] 100%
+ automake1.7-1.7.9-3-any                        298.6 KiB   466 KiB/s 00:01 [##########################################] 100%
+ automake1.8-1.8.5-4-any                        345.0 KiB   316 KiB/s 00:01 [##########################################] 100%
+ automake1.9-1.9.6-3-any                        386.8 KiB   560 KiB/s 00:01 [##########################################] 100%
+ automake1.10-1.10.3-4-any                      441.6 KiB   366 KiB/s 00:01 [##########################################] 100%
+ binutils-2.36.1-4-x86_64                         5.2 MiB   905 KiB/s 00:06 [##########################################] 100%
+ automake1.11-1.11.6-4-any                      492.2 KiB   437 KiB/s 00:01 [##########################################] 100%
+ automake1.12-1.12.6-4-any                      505.3 KiB   708 KiB/s 00:01 [##########################################] 100%
+ automake1.13-1.13.4-5-any                      503.6 KiB   421 KiB/s 00:01 [##########################################] 100%
+ automake-wrapper-11-1-any                       18.8 KiB  33.5 KiB/s 00:01 [##########################################] 100%
+ automake1.14-1.14.1-4-any                      505.3 KiB   612 KiB/s 00:01 [##########################################] 100%
+ automake1.16-1.16.3-1-any                      520.6 KiB   607 KiB/s 00:01 [##########################################] 100%
+ automake1.15-1.15.1-2-any                      515.6 KiB   441 KiB/s 00:01 [##########################################] 100%
+ mpdecimal-2.5.0-1-x86_64                       104.8 KiB   164 KiB/s 00:01 [##########################################] 100%
+ patch-2.7.6-1-x86_64                           101.6 KiB   160 KiB/s 00:01 [##########################################] 100%
+ p7zip-17.04-1-x86_64                             2.2 MiB  1216 KiB/s 00:02 [##########################################] 100%
+ mingw-w64-x86_64-zlib-1.2.11-9-any             101.4 KiB  54.6 KiB/s 00:02 [##########################################] 100%
+ mingw-w64-x86_64-libiconv-1.16-2-any           744.5 KiB   272 KiB/s 00:03 [##########################################] 100%
+ python-3.9.5-1-x86_64                           16.0 MiB  2.26 MiB/s 00:07 [##########################################] 100%
+ mingw-w64-x86_64-isl-0.24-1-any                949.7 KiB   187 KiB/s 00:05 [##########################################] 100%
+ mingw-w64-x86_64-gmp-6.2.1-2-any               501.1 KiB   180 KiB/s 00:03 [##########################################] 100%
+ mingw-w64-x86_64-mpfr-4.1.0-3-any              357.1 KiB   202 KiB/s 00:02 [##########################################] 100%
+ mingw-w64-x86_64-mpc-1.2.1-1-any                72.7 KiB  50.3 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-crt-git-9.0.0.6246.ae63c...     3.1 MiB   339 KiB/s 00:09 [##########################################] 100%
+ mingw-w64-x86_64-libwinpthread-git-9.0.0....    28.9 KiB  28.0 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-headers-git-9.0.0.6246.a...     5.3 MiB   419 KiB/s 00:13 [##########################################] 100%
+ mingw-w64-x86_64-gcc-libs-10.3.0-5-any         742.5 KiB   585 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-windows-default-manifest...    12.9 KiB  16.1 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-winpthreads-git-9.0.0.62...    39.2 KiB  51.9 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-binutils-2.36.1-3-any           7.1 MiB   465 KiB/s 00:16 [##########################################] 100%
+ mingw-w64-x86_64-zstd-1.5.0-1-any              529.2 KiB   703 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-expat-2.4.1-1-any             156.4 KiB   131 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-bzip2-1.0.8-2-any              89.1 KiB  59.3 KiB/s 00:02 [##########################################] 100%
+ mingw-w64-x86_64-libffi-3.3-4-any               40.2 KiB  35.1 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-mpdecimal-2.5.0-2-any         324.5 KiB   252 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-libtre-git-r128.6fb7206-...    84.2 KiB  77.9 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-libsystre-1.0.1-4-any          24.0 KiB  23.4 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-gettext-0.19.8.1-10-any         3.4 MiB  1032 KiB/s 00:03 [##########################################] 100%
+ mingw-w64-x86_64-ncurses-6.2-3-any            1579.4 KiB   816 KiB/s 00:02 [##########################################] 100%
+ mingw-w64-x86_64-libtasn1-4.17.0-1-any         181.6 KiB   165 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-p11-kit-0.23.22-1-any         352.4 KiB   301 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-ca-certificates-20200601...   349.6 KiB   295 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-termcap-1.3.1-6-any            28.0 KiB  28.2 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-readline-8.0.004-2-any        378.8 KiB   304 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-tk-8.6.11.1-2-any            1972.9 KiB   850 KiB/s 00:02 [##########################################] 100%
+ mingw-w64-x86_64-tcl-8.6.11-3-any                2.6 MiB   610 KiB/s 00:04 [##########################################] 100%
+ mingw-w64-x86_64-openssl-1.1.1.k-2-any           4.8 MiB   708 KiB/s 00:07 [##########################################] 100%
+ mingw-w64-x86_64-xz-5.2.5-2-any                354.3 KiB   362 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-sqlite3-3.36.0-1-any            7.4 MiB  1250 KiB/s 00:06 [##########################################] 100%
+ mingw-w64-x86_64-python-pytz-2021.1-1-any      171.5 KiB   210 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-python-colorama-0.4.4-1-any    25.4 KiB  24.4 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-python-docutils-0.17.1-1-any  731.2 KiB   610 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-python-imagesize-1.2.0-1-any   26.3 KiB  25.1 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-python-markupsafe-2.0.1-...    21.8 KiB  29.0 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-python-babel-2.9.1-1-any        5.6 MiB  1430 KiB/s 00:04 [##########################################] 100%
+ mingw-w64-x86_64-python-jinja-3.0.1-1-any      232.6 KiB   270 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-python-pyparsing-2.4.7-1-any  138.2 KiB   172 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-python-six-1.16.0-1-any        23.1 KiB  31.2 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-python-attrs-21.2.0-1-any      77.7 KiB  74.4 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-python-packaging-20.9-1-any    56.7 KiB  57.7 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-python-pygments-2.9.0-1-any  1472.0 KiB   961 KiB/s 00:02 [##########################################] 100%
+ mingw-w64-x86_64-python-certifi-2021.5.30...   137.3 KiB   130 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-python-idna-3.2-1-any          85.6 KiB  95.9 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-python-urllib3-1.26.6-1-any   179.4 KiB   193 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-python-setuptools-57.1.0...   769.2 KiB   605 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-python-chardet-4.0.0-1-any    219.6 KiB   242 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-python-3.8.9-2-any             17.0 MiB  1509 KiB/s 00:12 [##########################################] 100%
+ mingw-w64-x86_64-python-requests-2.25.1-2-any   93.0 KiB   117 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-python-sphinx-alabaster-...    33.2 KiB  43.0 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-python-snowballstemmer-2...   173.5 KiB   204 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-python-sphinxcontrib-app...    40.0 KiB  52.2 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-gcc-10.3.0-5-any               35.2 MiB  1271 KiB/s 00:28 [##########################################] 100%
+ mingw-w64-x86_64-python-sphinxcontrib-dev...    34.6 KiB   104 KiB/s 00:00 [##########################################] 100%
+ mingw-w64-x86_64-python-sphinxcontrib-htm...    29.0 KiB  49.2 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-python-sphinxcontrib-jsm...    26.4 KiB  44.8 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-python-sphinxcontrib-qth...    38.5 KiB   100 KiB/s 00:00 [##########################################] 100%
+ mingw-w64-x86_64-python-sphinxcontrib-ser...    22.5 KiB  39.1 KiB/s 00:01 [##########################################] 100%
+ mingw-w64-x86_64-python-sphinx-4.0.2-1-any    1822.8 KiB  1018 KiB/s 00:02 [##########################################] 100%
+ mingw-w64-x86_64-tools-git-9.0.0.6246.ae6...   302.2 KiB   168 KiB/s 00:02 [##########################################] 100%
+ Total (119/119)                                155.4 MiB  2.40 MiB/s 01:05 [##########################################] 100%
+(119/119) checking keys in keyring                                          [##########################################] 100%
+(119/119) checking package integrity                                        [##########################################] 100%
+(119/119) loading package files                                             [##########################################] 100%
+(119/119) checking for file conflicts                                       [##########################################] 100%
+(119/119) checking available disk space                                     [##########################################] 100%
+:: Processing package changes...
+(  1/119) installing expat                                                  [##########################################] 100%
+(  2/119) installing vim                                                    [##########################################] 100%
+(  3/119) installing heimdal                                                [##########################################] 100%
+(  4/119) installing openssh                                                [##########################################] 100%
+(  5/119) installing perl-Error                                             [##########################################] 100%
+(  6/119) installing perl-Authen-SASL                                       [##########################################] 100%
+(  7/119) installing perl-Encode-Locale                                     [##########################################] 100%
+(  8/119) installing perl-HTTP-Date                                         [##########################################] 100%
+(  9/119) installing perl-File-Listing                                      [##########################################] 100%
+( 10/119) installing perl-HTML-Tagset                                       [##########################################] 100%
+( 11/119) installing perl-Clone                                             [##########################################] 100%
+( 12/119) installing perl-IO-HTML                                           [##########################################] 100%
+( 13/119) installing perl-LWP-MediaTypes                                    [##########################################] 100%
+( 14/119) installing perl-URI                                               [##########################################] 100%
+( 15/119) installing perl-HTTP-Message                                      [##########################################] 100%
+( 16/119) installing perl-HTML-Parser                                       [##########################################] 100%
+( 17/119) installing perl-HTTP-Cookies                                      [##########################################] 100%
+( 18/119) installing perl-HTTP-Daemon                                       [##########################################] 100%
+( 19/119) installing perl-HTTP-Negotiate                                    [##########################################] 100%
+( 20/119) installing perl-Net-HTTP                                          [##########################################] 100%
+( 21/119) installing perl-WWW-RobotRules                                    [##########################################] 100%
+( 22/119) installing perl-Try-Tiny                                          [##########################################] 100%
+( 23/119) installing perl-libwww                                            [##########################################] 100%
+Optional dependencies for perl-libwww
+    perl-LWP-Protocol-https: for https:// url schemes
+( 24/119) installing perl-TimeDate                                          [##########################################] 100%
+( 25/119) installing perl-MailTools                                         [##########################################] 100%
+( 26/119) installing perl-IO-Stringy                                        [##########################################] 100%
+( 27/119) installing perl-Convert-BinHex                                    [##########################################] 100%
+module test... pass.
+( 28/119) installing perl-MIME-tools                                        [##########################################] 100%
+( 29/119) installing perl-Net-SSLeay                                        [##########################################] 100%
+( 30/119) installing perl-IO-Socket-SSL                                     [##########################################] 100%
+( 31/119) installing perl-Net-SMTP-SSL                                      [##########################################] 100%
+( 32/119) installing perl-TermReadKey                                       [##########################################] 100%
+( 33/119) installing git                                                    [##########################################] 100%
+Optional dependencies for git
+    python: various helper scripts [pending]
+    subversion: git svn
+( 34/119) installing tar                                                    [##########################################] 100%
+( 35/119) installing binutils                                               [##########################################] 100%
+( 36/119) installing m4                                                     [##########################################] 100%
+( 37/119) installing diffutils                                              [##########################################] 100%
+( 38/119) installing autoconf                                               [##########################################] 100%
+( 39/119) installing make                                                   [##########################################] 100%
+( 40/119) installing libltdl                                                [##########################################] 100%
+( 41/119) installing libtool                                                [##########################################] 100%
+( 42/119) installing automake1.6                                            [##########################################] 100%
+( 43/119) installing automake1.7                                            [##########################################] 100%
+( 44/119) installing automake1.8                                            [##########################################] 100%
+( 45/119) installing automake1.9                                            [##########################################] 100%
+( 46/119) installing automake1.10                                           [##########################################] 100%
+( 47/119) installing automake1.11                                           [##########################################] 100%
+( 48/119) installing automake1.12                                           [##########################################] 100%
+( 49/119) installing automake1.13                                           [##########################################] 100%
+( 50/119) installing automake1.14                                           [##########################################] 100%
+( 51/119) installing automake1.15                                           [##########################################] 100%
+( 52/119) installing automake1.16                                           [##########################################] 100%
+( 53/119) installing automake-wrapper                                       [##########################################] 100%
+( 54/119) installing mpdecimal                                              [##########################################] 100%
+( 55/119) installing python                                                 [##########################################] 100%
+( 56/119) installing p7zip                                                  [##########################################] 100%
+( 57/119) installing patch                                                  [##########################################] 100%
+Optional dependencies for patch
+    ed: for patch -e functionality
+( 58/119) installing mingw-w64-x86_64-libiconv                              [##########################################] 100%
+( 59/119) installing mingw-w64-x86_64-zlib                                  [##########################################] 100%
+( 60/119) installing mingw-w64-x86_64-binutils                              [##########################################] 100%
+( 61/119) installing mingw-w64-x86_64-headers-git                           [##########################################] 100%
+( 62/119) installing mingw-w64-x86_64-crt-git                               [##########################################] 100%
+( 63/119) installing mingw-w64-x86_64-isl                                   [##########################################] 100%
+( 64/119) installing mingw-w64-x86_64-gmp                                   [##########################################] 100%
+( 65/119) installing mingw-w64-x86_64-mpfr                                  [##########################################] 100%
+( 66/119) installing mingw-w64-x86_64-mpc                                   [##########################################] 100%
+( 67/119) installing mingw-w64-x86_64-libwinpthread-git                     [##########################################] 100%
+( 68/119) installing mingw-w64-x86_64-gcc-libs                              [##########################################] 100%
+( 69/119) installing mingw-w64-x86_64-windows-default-manifest              [##########################################] 100%
+( 70/119) installing mingw-w64-x86_64-winpthreads-git                       [##########################################] 100%
+( 71/119) installing mingw-w64-x86_64-zstd                                  [##########################################] 100%
+( 72/119) installing mingw-w64-x86_64-gcc                                   [##########################################] 100%
+( 73/119) installing mingw-w64-x86_64-expat                                 [##########################################] 100%
+( 74/119) installing mingw-w64-x86_64-bzip2                                 [##########################################] 100%
+( 75/119) installing mingw-w64-x86_64-libffi                                [##########################################] 100%
+( 76/119) installing mingw-w64-x86_64-mpdecimal                             [##########################################] 100%
+( 77/119) installing mingw-w64-x86_64-gettext                               [##########################################] 100%
+( 78/119) installing mingw-w64-x86_64-libtre-git                            [##########################################] 100%
+( 79/119) installing mingw-w64-x86_64-libsystre                             [##########################################] 100%
+( 80/119) installing mingw-w64-x86_64-ncurses                               [##########################################] 100%
+( 81/119) installing mingw-w64-x86_64-libtasn1                              [##########################################] 100%
+( 82/119) installing mingw-w64-x86_64-p11-kit                               [##########################################] 100%
+( 83/119) installing mingw-w64-x86_64-ca-certificates                       [##########################################] 100%
+( 84/119) installing mingw-w64-x86_64-openssl                               [##########################################] 100%
+( 85/119) installing mingw-w64-x86_64-termcap                               [##########################################] 100%
+( 86/119) installing mingw-w64-x86_64-readline                              [##########################################] 100%
+( 87/119) installing mingw-w64-x86_64-tcl                                   [##########################################] 100%
+( 88/119) installing mingw-w64-x86_64-sqlite3                               [##########################################] 100%
+( 89/119) installing mingw-w64-x86_64-tk                                    [##########################################] 100%
+( 90/119) installing mingw-w64-x86_64-xz                                    [##########################################] 100%
+( 91/119) installing mingw-w64-x86_64-python                                [##########################################] 100%
+( 92/119) installing mingw-w64-x86_64-python-pytz                           [##########################################] 100%
+( 93/119) installing mingw-w64-x86_64-python-babel                          [##########################################] 100%
+( 94/119) installing mingw-w64-x86_64-python-colorama                       [##########################################] 100%
+( 95/119) installing mingw-w64-x86_64-python-docutils                       [##########################################] 100%
+( 96/119) installing mingw-w64-x86_64-python-imagesize                      [##########################################] 100%
+( 97/119) installing mingw-w64-x86_64-python-markupsafe                     [##########################################] 100%
+( 98/119) installing mingw-w64-x86_64-python-jinja                          [##########################################] 100%
+( 99/119) installing mingw-w64-x86_64-python-pyparsing                      [##########################################] 100%
+(100/119) installing mingw-w64-x86_64-python-six                            [##########################################] 100%
+(101/119) installing mingw-w64-x86_64-python-attrs                          [##########################################] 100%
+(102/119) installing mingw-w64-x86_64-python-packaging                      [##########################################] 100%
+(103/119) installing mingw-w64-x86_64-python-pygments                       [##########################################] 100%
+(104/119) installing mingw-w64-x86_64-python-certifi                        [##########################################] 100%
+(105/119) installing mingw-w64-x86_64-python-idna                           [##########################################] 100%
+(106/119) installing mingw-w64-x86_64-python-urllib3                        [##########################################] 100%
+(107/119) installing mingw-w64-x86_64-python-setuptools                     [##########################################] 100%
+Optional dependencies for mingw-w64-x86_64-python-setuptools
+    mingw-w64-x86_64-python-certifi: Mozilla's CA Bundle support [installed]
+    mingw-w64-x86_64-python-wincertstore: Windows' cert store support
+(108/119) installing mingw-w64-x86_64-python-chardet                        [##########################################] 100%
+(109/119) installing mingw-w64-x86_64-python-requests                       [##########################################] 100%
+Optional dependencies for mingw-w64-x86_64-python-requests
+    mingw-w64-x86_64-python-pysocks: SOCKS proxy support
+(110/119) installing mingw-w64-x86_64-python-snowballstemmer                [##########################################] 100%
+(111/119) installing mingw-w64-x86_64-python-sphinx-alabaster-theme         [##########################################] 100%
+(112/119) installing mingw-w64-x86_64-python-sphinxcontrib-applehelp        [##########################################] 100%
+(113/119) installing mingw-w64-x86_64-python-sphinxcontrib-devhelp          [##########################################] 100%
+(114/119) installing mingw-w64-x86_64-python-sphinxcontrib-htmlhelp         [##########################################] 100%
+(115/119) installing mingw-w64-x86_64-python-sphinxcontrib-jsmath           [##########################################] 100%
+(116/119) installing mingw-w64-x86_64-python-sphinxcontrib-qthelp           [##########################################] 100%
+(117/119) installing mingw-w64-x86_64-python-sphinxcontrib-serializinghtml  [##########################################] 100%
+(118/119) installing mingw-w64-x86_64-python-sphinx                         [##########################################] 100%
+Optional dependencies for mingw-w64-x86_64-python-sphinx
+    mingw-w64-x86_64-imagemagick: ext.imageconverter
+    mingw-w64-x86_64-texlive-latex-extra: for generation of PDF documentation
+(119/119) installing mingw-w64-x86_64-tools-git                             [##########################################] 100%
+:: Running post-transaction hooks...
+(1/1) Updating the info directory file...
+
+
+Appendix 3 - iconv check  
+---------------------------- 
+
+cd C:\Users\lawle\Documents\GitHub\Aristotle-JSON
+
+iconv -f UTF-8 -t ASCII dataElement.page001.json > dataElement.page001.ASCII.json
+
+-- iconv -f ISO88592 -t UTF-8 input.txt > output.txt
+
+iconv -l
+ANSI_X3.4-1968 ANSI_X3.4-1986 ASCII CP367 IBM367 ISO-IR-6 ISO646-US ISO_646.IRV:1991 US US-ASCII CSASCII
+UTF-8
+ISO-10646-UCS-2 UCS-2 CSUNICODE
+UCS-2BE UNICODE-1-1 UNICODEBIG CSUNICODE11
+UCS-2LE UNICODELITTLE
+ISO-10646-UCS-4 UCS-4 CSUCS4
+UCS-4BE
+UCS-4LE
+UTF-16
+UTF-16BE
+UTF-16LE
+UTF-32
+UTF-32BE
+UTF-32LE
+UNICODE-1-1-UTF-7 UTF-7 CSUNICODE11UTF7
+UCS-2-INTERNAL
+UCS-2-SWAPPED
+UCS-4-INTERNAL
+UCS-4-SWAPPED
+C99
+JAVA
+CP819 IBM819 ISO-8859-1 ISO-IR-100 ISO8859-1 ISO_8859-1 ISO_8859-1:1987 L1 LATIN1 CSISOLATIN1
+ISO-8859-2 ISO-IR-101 ISO8859-2 ISO_8859-2 ISO_8859-2:1987 L2 LATIN2 CSISOLATIN2
+ISO-8859-3 ISO-IR-109 ISO8859-3 ISO_8859-3 ISO_8859-3:1988 L3 LATIN3 CSISOLATIN3
+ISO-8859-4 ISO-IR-110 ISO8859-4 ISO_8859-4 ISO_8859-4:1988 L4 LATIN4 CSISOLATIN4
+CYRILLIC ISO-8859-5 ISO-IR-144 ISO8859-5 ISO_8859-5 ISO_8859-5:1988 CSISOLATINCYRILLIC
+ARABIC ASMO-708 ECMA-114 ISO-8859-6 ISO-IR-127 ISO8859-6 ISO_8859-6 ISO_8859-6:1987 CSISOLATINARABIC
+ECMA-118 ELOT_928 GREEK GREEK8 ISO-8859-7 ISO-IR-126 ISO8859-7 ISO_8859-7 ISO_8859-7:1987 ISO_8859-7:2003 CSISOLATINGR
+EEK
+HEBREW ISO-8859-8 ISO-IR-138 ISO8859-8 ISO_8859-8 ISO_8859-8:1988 CSISOLATINHEBREW
+ISO-8859-9 ISO-IR-148 ISO8859-9 ISO_8859-9 ISO_8859-9:1989 L5 LATIN5 CSISOLATIN5
+ISO-8859-10 ISO-IR-157 ISO8859-10 ISO_8859-10 ISO_8859-10:1992 L6 LATIN6 CSISOLATIN6
+ISO-8859-11 ISO8859-11 ISO_8859-11
+ISO-8859-13 ISO-IR-179 ISO8859-13 ISO_8859-13 L7 LATIN7
+ISO-8859-14 ISO-CELTIC ISO-IR-199 ISO8859-14 ISO_8859-14 ISO_8859-14:1998 L8 LATIN8
+ISO-8859-15 ISO-IR-203 ISO8859-15 ISO_8859-15 ISO_8859-15:1998 LATIN-9
+ISO-8859-16 ISO-IR-226 ISO8859-16 ISO_8859-16 ISO_8859-16:2001 L10 LATIN10
+KOI8-R CSKOI8R
+KOI8-U
+KOI8-RU
+CP1250 MS-EE WINDOWS-1250
+CP1251 MS-CYRL WINDOWS-1251
+CP1252 MS-ANSI WINDOWS-1252
+CP1253 MS-GREEK WINDOWS-1253
+CP1254 MS-TURK WINDOWS-1254
+CP1255 MS-HEBR WINDOWS-1255
+CP1256 MS-ARAB WINDOWS-1256
+CP1257 WINBALTRIM WINDOWS-1257
+CP1258 WINDOWS-1258
+850 CP850 IBM850 CSPC850MULTILINGUAL
+862 CP862 IBM862 CSPC862LATINHEBREW
+866 CP866 IBM866 CSIBM866
+CP1131
+MAC MACINTOSH MACROMAN CSMACINTOSH
+MACCENTRALEUROPE
+MACICELAND
+MACCROATIAN
+MACROMANIA
+MACCYRILLIC
+MACUKRAINE
+MACGREEK
+MACTURKISH
+MACHEBREW
+MACARABIC
+MACTHAI
+HP-ROMAN8 R8 ROMAN8 CSHPROMAN8
+NEXTSTEP
+ARMSCII-8
+GEORGIAN-ACADEMY
+GEORGIAN-PS
+KOI8-T
+CP154 CYRILLIC-ASIAN PT154 PTCP154 CSPTCP154
+KZ-1048 RK1048 STRK1048-2002 CSKZ1048
+MULELAO-1
+CP1133 IBM-CP1133
+ISO-IR-166 TIS-620 TIS620 TIS620-0 TIS620.2529-1 TIS620.2533-0 TIS620.2533-1
+CP874 WINDOWS-874
+VISCII VISCII1.1-1 CSVISCII
+TCVN TCVN-5712 TCVN5712-1 TCVN5712-1:1993
+ISO-IR-14 ISO646-JP JIS_C6220-1969-RO JP CSISO14JISC6220RO
+JISX0201-1976 JIS_X0201 X0201 CSHALFWIDTHKATAKANA
+ISO-IR-87 JIS0208 JIS_C6226-1983 JIS_X0208 JIS_X0208-1983 JIS_X0208-1990 X0208 CSISO87JISX0208
+ISO-IR-159 JIS_X0212 JIS_X0212-1990 JIS_X0212.1990-0 X0212 CSISO159JISX02121990
+CN GB_1988-80 ISO-IR-57 ISO646-CN CSISO57GB1988
+CHINESE GB_2312-80 ISO-IR-58 CSISO58GB231280
+CN-GB-ISOIR165 ISO-IR-165
+ISO-IR-149 KOREAN KSC_5601 KS_C_5601-1987 KS_C_5601-1989 CSKSC56011987
+EUC-JP EUCJP EXTENDED_UNIX_CODE_PACKED_FORMAT_FOR_JAPANESE CSEUCPKDFMTJAPANESE
+MS_KANJI SHIFT-JIS SHIFT_JIS SJIS CSSHIFTJIS
+CP932
+ISO-2022-JP CSISO2022JP
+ISO-2022-JP-1
+ISO-2022-JP-2 CSISO2022JP2
+CP50221 ISO-2022-JP-MS
+CN-GB EUC-CN EUCCN GB2312 CSGB2312
+GBK
+CP936 MS936 WINDOWS-936
+GB18030
+ISO-2022-CN CSISO2022CN
+ISO-2022-CN-EXT
+HZ HZ-GB-2312
+EUC-TW EUCTW CSEUCTW
+BIG-5 BIG-FIVE BIG5 BIGFIVE CN-BIG5 CSBIG5
+CP950
+BIG5-HKSCS:1999
+BIG5-HKSCS:2001
+BIG5-HKSCS:2004
+BIG5-HKSCS BIG5-HKSCS:2008 BIG5HKSCS
+EUC-KR EUCKR CSEUCKR
+CP949 UHC
+CP1361 JOHAB
+ISO-2022-KR CSISO2022KR
+CP856
+CP922
+CP943
+CP1046
+CP1124
+CP1129
+CP1161 IBM-1161 IBM1161 CSIBM1161
+CP1162 IBM-1162 IBM1162 CSIBM1162
+CP1163 IBM-1163 IBM1163 CSIBM1163
+DEC-KANJI
+DEC-HANYU
+437 CP437 IBM437 CSPC8CODEPAGE437
+CP737
+CP775 IBM775 CSPC775BALTIC
+852 CP852 IBM852 CSPCP852
+CP853
+855 CP855 IBM855 CSIBM855
+857 CP857 IBM857 CSIBM857
+CP858
+860 CP860 IBM860 CSIBM860
+861 CP-IS CP861 IBM861 CSIBM861
+863 CP863 IBM863 CSIBM863
+CP864 IBM864 CSIBM864
+865 CP865 IBM865 CSIBM865
+869 CP-GR CP869 IBM869 CSIBM869
+CP1125
+EUC-JIS-2004 EUC-JISX0213
+SHIFT_JIS-2004 SHIFT_JISX0213
+ISO-2022-JP-2004 ISO-2022-JP-3
+BIG5-2003
+ISO-IR-230 TDS565
+ATARI ATARIST
+RISCOS-LATIN1
+
+Appendix 4 - iconv bug example 
+---------------------------- 
+
+
+
+Bug: 
+See below
+
+Fix: 
+Use pacman to synchronise and install all packages correctly. 
+
+--------------------- 
+:load Main.FileEncoding
+[1 of 1] Compiling Main             ( Main.FileEncoding.hs, interpreted )
+Ok, one module loaded.
+ghci> main
+ghc.exe:  | C:\Users\lawle\AppData\Roaming\cabal\store\ghc-9.0.1\iconv-0.4.1.3-d2d4de730d3f7e5410e5d17e89ae9034562d2516\lib\libHSiconv-0.4.1.3-d2d4de730d3f7e5410e5d17e89ae9034562d2516.a: unknown symbol `__imp_libiconv_open'
+ghc.exe:  | C:\Users\lawle\AppData\Roaming\cabal\store\ghc-9.0.1\iconv-0.4.1.3-d2d4de730d3f7e5410e5d17e89ae9034562d2516\lib\libHSiconv-0.4.1.3-d2d4de730d3f7e5410e5d17e89ae9034562d2516.a: unknown symbol `hs_wrap_iconv'
+ghc.exe:  | C:\Users\lawle\AppData\Roaming\cabal\store\ghc-9.0.1\iconv-0.4.1.3-d2d4de730d3f7e5410e5d17e89ae9034562d2516\lib\libHSiconv-0.4.1.3-d2d4de730d3f7e5410e5d17e89ae9034562d2516.a: unknown symbol `iconvzm0zi4zi1zi3zmd2d4de730d3f7e5410e5d17e89ae9034562d2516_CodecziTextziIConvziInternal_Buffers_con_info'
+ghc.exe: ^^ Could not load 'iconvzm0zi4zi1zi3zmd2d4de730d3f7e5410e5d17e89ae9034562d2516_CodecziTextziIConv_convert_closure', dependency unresolved. See top entry above.
+
+
+GHC.ByteCode.Linker.lookupCE
+During interactive linking, GHCi couldn't find the following symbol:
+  iconvzm0zi4zi1zi3zmd2d4de730d3f7e5410e5d17e89ae9034562d2516_CodecziTextziIConv_convert_closure
+This may be due to you not asking GHCi to load extra object files,
+archives or DLLs needed by your current session.  Restart GHCi, specifying
+the missing library using the -L/path/to/object/dir and -lmissinglibname
+flags, or simply by naming the relevant files on the GHCi command line.
+Alternatively, this link failure might indicate a bug in GHCi.
+If you suspect the latter, please report this as a GHC bug:
+  https://www.haskell.org/ghc/reportabug
+  
+  
+  C:\tools\msys64\usr\lib\libiconv-1.9.2-1-lib 
+  
+ ----
+ ghci : <command line>: user specified .o/.so/.DLL could not be loaded (addDLL: 
+C:\\tools\msys64\usr\lib\libiconv-1.9.2-1-lib or dependencies not loade)
+At line:1 char:1
++ ghci -lC:\tools\msys64\usr\lib\libiconv-1.9.2-1-lib
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (<command line>:...cies not loade):String) [], RemoteExcepti 
+   on
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Whilst trying to load:  (dynamic) C:\\tools\\msys64\\usr\\lib\\libiconv-1.9.2-1-lib
+Additional directories searched:   C://tools//ghc-9.0.1//mingw//bin/
+   C://tools//ghc-9.0.1//mingw//bin/../lib/
+   C://tools//ghc-9.0.1//mingw//bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/
+   C:/tools/ghc-9.0.1/mingw/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/
+   C:/tools/ghc-9.0.1/mingw/bin/../lib/gcc/
+   C:/tools/ghc-9.0.1/mingw/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/.
+./lib/
+   C:/tools/ghc-9.0.1/mingw/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../lib/
+   C:/tools/ghc-9.0.1/mingw/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/lib/
+   C:/tools/ghc-9.0.1/mingw/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../
+   C:\windows\system32
+   
+ 
+--------------
+Blind Alley: 
+Cannot find iconv.h in msys64???
+
+https://stackoverflow.com/questions/8972662/linking-c-dll-with-haskell-platform-on-windows-outputs-undefined-reference
+
+->
+C:\Program Files (x86)\GnuWin32\src\libiconv\1.9.2\libiconv-1.9.2\include iconv.h 
+
+Bin	In 
+iconv.exe	C:\tools\msys64\usr\bin 
+libcharset1.dll	nowhere -> C:\tools\msys64\usr\bin
+libiconv2.dll	nowhere ->  C:\tools\msys64\usr\bin 
+
+*.dll.a		C:\tools\msys64\usr\lib	 C:\tools\msys64\usr\lib\gawk  ->  C:\tools\msys64\usr\lib\libiconv-1.9.2-1-lib 
+iconv.h	libcharset.h localcharset.h nowhere -> C:\tools\msys64\usr\include  
+ 
+
+

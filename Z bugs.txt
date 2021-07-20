@@ -1,0 +1,160 @@
+Bugs
+-------
+
+Parsing JSON Approach 
+---------------------
+Started with a partial JSON parsing a download. 
+Simply copy page into txt file, then edit to create the json. 
+These are the *.json files in this directory. 
+Many fields were ignored. 
+Then developed a wreq web client. 
+Then made the JSON parsing total, as all records could be downloaded. 
+Then an attempt to parse all Aristotle JSON fields was possible. 
+Many fields turned out to be nullable, so these were changed to Maybe. 
+For sparsely occurring fields, first add in dummy, which will trigger a parsing failure. 
+Even then some fields still had no examples, so no successful parsing. 
+
+ghci Commands 
+------------ 
+These are the commands used to run these programs. 
+
+:cd C:\Users\lawle\Documents\GitHub\Aristotle-JSON 
+
+:load Aristotle.Main.DataElement
+
+:load Aristotle.Main.DataElementConcept
+:load Aristotle.Main.Distribution
+:load Aristotle.Main.Property
+:load Aristotle.Main.ValueDomain
+:load Aristotle.Main.DataSetSpecification
+:load Aristotle.Main.ObjectClass
+
+Volumes 
+Not big
+Fullname	Items
+Data Set Specifications	250
+Object Classes	880
+Value Domains	3,893
+Properties	7,336
+Distributions	7,724
+Data Element Concepts	8,117
+Data Elements	21,654
+Data Elements took just under 1,000 page requests. 
+
+Install issues 
+------------
+See separate install doc. 
+
+
+Mojibake 
+-------- 
+Bug: 
+The red bars in Sublime. 
+This produces the following parsing error: 
+Left "Error in $: Failed reading: unescaped control character. Expecting object value"
+
+When displayed as a string, this appears to be Mojibake. 
+For example, nâ€”d, but in Sublime it looks like n-d !
+
+Mojibake hell occurs as Microsoft in its infinite wisdom allows and enables the random sprinkling of UTF-16 control chars throughout word docs. It appears that users just loaded up word documents full of ctl chars. 
+This produces a Mojibake hell when it appears in JSON, which causes a JSON parser to puke. 
+https://en.wikipedia.org/wiki/Mojibake
+The problem is easy to see in Sublime. 
+
+Example: 
+nâ€”d = n u+00e2 u+0080 u+0094 d = â <control> cancel 
+putStrLn "\226" = u+00e2  
+putStrLn "\128" - from u+0080 - invalid argument 
+putStrLn "\148" - from u+0094 - invalid argument 
+Note that the entered hyphen is not the standard ASCII hyphen. 
+If it was, then there would not have been any issues. 
+
+It should be: 
+n-d = n u+002D d (what it should be)  HYPHEN-MINUS 
+
+Fix: 
+Add subCtlChars to JSON parser. 
+This filters out all non-ASCII characters, which makes the ctl chars disappear. 
+CtlChar2Space = This replaces each Ctl char with a space. 
+Add trim to all Cassava String functions, which reduces leading and trailing spaces. 
+
+Test (Excel): 
+=if( VLOOKUP($A2,allAristotleDataElementOut!$A:$O,2,0) =VLOOKUP($A2,NoCtl!$A:$O,2,0),0,1) 
+
+
+Blind Alley:  
+1.	iconv 
+It was assumed that this would filter out control chars. 
+After attempting to install, and failing, a manual check was done, which should have been done first. 
+This revealed that iconv would not filter as needed. 
+So an alternate fix was built. 
+
+2.	Unicode Normalization 
+This is needed to convert from UTF-16 to UTF-8. 
+However, it arises when the FROM composed form is related to the TO target glyph. 
+In this case, the control chars are simply accidents of random cut and paste. 
+
+3.	Roundtrip 
+When the chars make a roundtrip String -> Bytestring -> String, the characters change. 
+So nâ€”d  becomes nÃ¢d! 
+The names changes from PIA_Person—date to PIA_Personâdate. 
+So, this is not a potential solution. 
+
+4.	Substituting 3 chars for a single hyphen 
+That is, change nâ€”d = n u+00e2 u+0080 u+0094 d -> n u+002D d =  n-d 
+There are 2 problems. 
+1.	There is no consistency in the use of control chars. That is, a hyphen can be displayed based on other ctl cahrs - not just this example. 
+2.	Collapsing multiple chars into a single char involves a parser style function, which has higher complexity O(n sq) 
+The simpler approach seems best. 
+
+5.	Cannot use Lens to avoid pasrsin issue 
+print (z ^. responseBody . key "results")  -> 
+No instance for (Monoid Data.Aeson.Types.Internal.Value) arising from a use of `key'
+First guess is that if the JSON parser fails, then the Lens parser will as well. 
+
+6.	Bug reporting 
+It may be possible to raise this as a bug with Aristotle to clean out these Ctl chars from their text strings. 
+This occurs in the following dss Aristotle objects: 
+Property
+Data Element Concept
+Data Element 
+Value Domain
+
+
+Web API 
+-------
+API logon 
+Don't use basic logon ; use the token in the options 
+
+Must have page number!
+example: 
+http://dss.aristotlecloud.io/api/v4/metadata/dataelement?page=2",
+get a 404 not found if http://dss.aristotlecloud.io/api/v4/metadata/dataelement/ 
+
+https does not seem to matter - http works?!?! 
+Don't know why yet. 
+
+oauth2Token vs oauth2Bearer! 
+let opts1 = defaults & auth ?~ oauth2Bearer "xyz12345...."
+But oauth2Token brings back twice as many rows as oauth2Bearer! 
+oauth2Bearer maybe only has the open data, oauth2Token has the full data? 
+count is different - Total 22233 on oauth2Token, but only 112 on oauth2Bearer 
+Compare file Aristotle.Wreq.oauth2Bearer.Mod.json to Aristotle.Wreq.oauth2Token.Mod.json
+Don't know why yet.  
+
+
+What was I thinking? 
+-------------------
+Manual install of msys2 exe is a foolish thing to do. 
+Follow the instructions to sync properly. 
+Many libraries needed by GHC. 
+
+Tried to run ghci from .bat file ; bad idea. (After all, it is interactive..) 
+
+HP Wolf! 
+This stupid app was quarantiing GHC exe files!
+Uninstall immediately. 
+
+dotnet + powershell 
+Not a starter 
+See PS script.
