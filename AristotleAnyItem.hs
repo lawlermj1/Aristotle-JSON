@@ -33,7 +33,7 @@
 -- correct structure defined in JSON models on site at
 -- https://aristotle.cloud/api/v4/ 
 -- so no need for dummies added to discover parse errors and correct structure
--- These were not used at all in the SA data, so were untested. 
+-- These were not used at all in the data, so were untested. 
 
 -- So far, distribution is the only use of AristotleMetadatarReferenceLink.  
 -- Also, AristotleIdentifier always has a cardinality of 1, so an out was not needed. 
