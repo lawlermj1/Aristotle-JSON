@@ -1,0 +1,57 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+{
+    "id": 14710,
+    "created": "2020-08-12T17:17:05.142010+10:00",
+    "modified": "2021-04-15T17:14:08.129191+10:00",
+    "uuid": "d336dc08-dc6b-11ea-afd9-0a8620c9d3ec",
+    "name": "ABSTUDY: ABSTUDY Pensioner Education Supplement Allowance Amount",
+    "definition": "The year to date amount of ABSTUDY Pensioner Education Supplement (PES) entitled to be paid in dollars and cents.",
+    "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+    "workgroup": 118,
+    "version": "",
+    "references": "",
+    "origin_URI": "",
+    "origin": "",
+    "comments": "",
+    "objectClass": "6d28968c-dc6a-11ea-b216-0a8620c9d3ec",
+    "property": "a8d72ea0-dc6a-11ea-b216-0a8620c9d3ec",
+    "conceptualDomain": null,
+    "metadatareferencelink_set": [],
+    "slots": [],
+    "customvalue_set": [
+        {
+            "id": 5389,
+            "name": "Long Name",
+            "field": 5,
+            "content": "ABSTUDY Pensioner Education Supplement Allowance Amount"
+        },
+        {
+            "id": 51921,
+            "name": "M204 Name",
+            "field": 6,
+            "content": ""
+        },
+        {
+            "id": 51922,
+            "name": "Guide for Use",
+            "field": 7,
+            "content": ""
+        }
+    ],
+    "org_records": [],
+    "identifiers": [
+        {
+            "id": "d3443c72-dc6b-11ea-afd9-0a8620c9d3ec",
+            "namespace": 4,
+            "identifier": "22683",
+            "version": "",
+            "order": 0
+        }
+    ]
+}
+]
+} 

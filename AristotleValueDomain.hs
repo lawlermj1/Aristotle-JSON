@@ -9,18 +9,17 @@
 
    Sites: 
    https://artyom.me/aeson 
-   https://dss.aristotlecloud.io/api/v4/
+   https://aristotle.cloud/api/v4/
 
  -}
 module AristotleValueDomain  
     (  
-      
-      AristotleValueDomain( .. ), 
-      AristotleValueDomainJSON( .. ),       
-      AristotleValueDomainOut( .. ),  
 
-      rb2avdOut, 
-      rb2avd, 
+      AristotleOutVD( .. ), 
+      
+      writeAristotleVD, 
+      web2aov, 
+      file2aov, 
 
      ) where
     
@@ -30,29 +29,86 @@ import Data.List
 import Data.Maybe  
 import Data.Time  
 import GHC.Generics
-import Data.Csv (FromNamedRecord, ToNamedRecord, DefaultOrdered) 
-import Data.ByteString.Lazy (ByteString) 
+import Data.Csv (FromNamedRecord, ToNamedRecord, DefaultOrdered, encodeDefaultOrderedByName)  
+import qualified Data.ByteString.Lazy as B 
+import qualified Network.Wreq as W 
 
 import CassavaUtils 
 import AristotleCommon  
 
+-- used only by VD 
+data AristotlePermissibleValue = 
+  AristotlePermissibleValue   { 
+            pv_id :: String
+          , pv_value :: String 
+          , pv_meaning :: String   
+          , pv_value_meaning :: Maybe String   
+          , pv_order :: Int 
+          , pv_start_date :: Maybe String 
+          , pv_end_date :: Maybe String                                                              
+           } deriving (Show,Generic) 
 
+instance ToJSON AristotlePermissibleValue where 
+    toJSON (AristotlePermissibleValue pv_id pv_value pv_meaning pv_value_meaning pv_order 
+        pv_start_date pv_end_date) = 
+        object ["id" .= pv_id ,"value" .= pv_value 
+               ,"meaning" .= pv_meaning 
+               ,"value_meaning" .= pv_value_meaning    
+               ,"order" .= pv_order  
+               ,"start_date" .= pv_start_date  
+               ,"end_date" .= pv_end_date                             
+               ]
+
+instance FromJSON AristotlePermissibleValue where 
+    parseJSON = withObject "AristotlePermissibleValue" $ \v -> AristotlePermissibleValue 
+        <$> v .: "id" 
+        <*> v .: "value" 
+        <*> v .: "meaning"    
+        <*> v .:? "value_meaning"  
+        <*> v .: "order" 
+        <*> v .:? "start_date" 
+        <*> v .:? "end_date" 
+
+defaultAristotlePermissibleValue = AristotlePermissibleValue "" "" "" Nothing 0 Nothing Nothing      
+
+data AristotlePermissibleValueOut  = 
+  AristotlePermissibleValueOut { 
+            pv2o_concept_id :: String 
+          , pv2o_uuid :: String
+          , pv2o_id :: String          
+          , pv2o_value :: String
+          , pv2o_meaning :: String
+          , pv2o_value_meaning :: String 
+          , pv2o_order :: String 
+          , pv2o_start_date :: String      
+          , pv2o_end_date :: String                            
+           } deriving (Show,Generic) 
+
+instance FromNamedRecord AristotlePermissibleValueOut
+instance ToNamedRecord AristotlePermissibleValueOut
+instance DefaultOrdered AristotlePermissibleValueOut 
+
+defaultAristotlePermissibleValueOut = AristotlePermissibleValueOut "" "" "" "" "" "" "" "" ""   
+
+apv2apvOut :: Int -> String -> [AristotlePermissibleValue] -> [AristotlePermissibleValueOut] 
+apv2apvOut concept uuid ps = 
+    map (\p -> AristotlePermissibleValueOut  
+                 (show concept) 
+                 uuid 
+                 (pv_id p)  
+                 (pv_value p) 
+                 (pv_meaning p)  
+                 (fromMaybe "" (pv_value_meaning p)) 
+                 (show (pv_order p)) 
+                 (fromMaybe "" (pv_start_date p))    
+                 (fromMaybe "" (pv_end_date p))                                                   
+            ) ps
+
+-- Primary type 
 data AristotleValueDomain  = 
   AristotleValueDomain { 
             avd_id :: Int 
-          , avd_created :: UTCTime 
---            "created": "2020-11-12T15:35:40.990312+11:00",          
-          , avd_modified :: UTCTime 
           , avd_uuid :: String
-          , avd_name :: String
-          , avd_definition :: String
-          , avd_stewardship_organisation :: String  
-          , avd_workgroup :: Int
-          , avd_version :: String 
-          , avd_references :: String 
-          , avd_origin_URI :: String
-          , avd_origin :: String 
-          , avd_comments :: String
           , avd_data_type :: Maybe String   
           , avd_format :: Maybe String  
           , avd_maximum_length :: Maybe Int
@@ -61,59 +117,32 @@ data AristotleValueDomain  =
           , avd_classification_scheme :: Maybe String              
           , avd_representation_class :: Maybe Int
           , avd_description :: String                      
-          , avd_metadatareferencelink_set :: [AristotleMetadatarReferenceLink] 
-          , avd_slots :: [AristotleSlot] 
-          , avd_customvalue_set :: [AristotleCustomValue] 
-          , avd_org_records :: [AristotleOrgRecord]           
-          , avd_identifiers :: [AristotleIdentifier]   
+          , avd_permissiblevalue_set :: [AristotlePermissibleValue]          
+          , avd_supplementaryvalue_set :: [AristotlePermissibleValue]
           } deriving (Show,Generic) 
 
 instance ToJSON AristotleValueDomain where 
     toJSON (AristotleValueDomain 
-              avd_id avd_created avd_modified avd_uuid avd_name
-              avd_definition avd_stewardship_organisation avd_workgroup avd_version 
-              avd_references avd_origin_URI avd_origin avd_comments 
+              avd_id avd_uuid 
               avd_data_type avd_format avd_maximum_length 
               avd_unit_of_measure avd_conceptual_domain 
               avd_classification_scheme avd_representation_class 
               avd_description 
-              avd_metadatareferencelink_set                               
-              avd_slots avd_customvalue_set 
-              avd_org_records
-              avd_identifiers
+              avd_permissiblevalue_set avd_supplementaryvalue_set 
       ) = 
-        object ["id" .= avd_id ,"created" .= avd_created  
-               ,"modified" .= avd_modified ,"uuid" .= avd_uuid   
-               ,"name" .= avd_name ,"definition" .= avd_definition 
-               ,"stewardship_organisation" .= avd_stewardship_organisation 
-               ,"workgroup" .= avd_workgroup  ,"version" .= avd_version     
-               ,"references" .= avd_references  ,"origin_URI" .= avd_origin_URI     
-               ,"origin" .= avd_origin  ,"comments" .= avd_comments 
+        object ["id" .= avd_id ,"uuid" .= avd_uuid   
                ,"data_type" .= avd_data_type  ,"format" .= avd_format  
                ,"maximum_length" .= avd_maximum_length  ,"unit_of_measure" .= avd_unit_of_measure    
                ,"conceptual_domain" .= avd_conceptual_domain  ,"classification_scheme" .= avd_classification_scheme 
                ,"description" .= avd_description  
-               ,"metadatareferencelink_set" .= avd_metadatareferencelink_set                
-               ,"slots" .= avd_slots ,"customvalue_set" .= avd_customvalue_set  
-               ,"org_records" .= avd_org_records  
-               ,"identifiers" .= avd_identifiers                                                                     
+               ,"permissiblevalue_set" .= avd_permissiblevalue_set   
+               ,"supplementaryvalue_set" .= avd_supplementaryvalue_set  
                ]
 
 instance FromJSON AristotleValueDomain where 
     parseJSON = withObject "AristotleValueDomain" $ \v -> AristotleValueDomain  
         <$> v .: "id" 
-        <*> v .: "created" 
-        <*> v .: "modified" 
         <*> v .: "uuid" 
-        <*> v .: "name" 
-        <*> v .: "definition" 
-        <*> v .: "stewardship_organisation" 
-        <*> v .: "workgroup" 
-        <*> v .: "version"
-        <*> v .: "references" 
-        <*> v .: "origin_URI" 
-        <*> v .: "origin" 
-        <*> v .: "comments"
         <*> v .:? "data_type"
         <*> v .:? "format"
         <*> v .:? "maximum_length" 
@@ -121,21 +150,18 @@ instance FromJSON AristotleValueDomain where
         <*> v .:? "conceptual_domain"
         <*> v .:? "classification_scheme"
         <*> v .:? "representation_class"   
-        <*> v .: "description"  
-        <*> v .: "metadatareferencelink_set"         
-        <*> v .: "slots"        
-        <*> v .: "customvalue_set" 
-        <*> v .: "org_records"         
-        <*> v .: "identifiers" 
+        <*> v .: "description" 
+        <*> v .: "permissiblevalue_set"    
+        <*> v .: "supplementaryvalue_set"  
 
 instance Eq AristotleValueDomain where
-  (AristotleValueDomain id1 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _) == 
-    (AristotleValueDomain id2 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _)  
+  (AristotleValueDomain id1 _ _ _ _ _ _ _ _ _ _ _ ) == 
+    (AristotleValueDomain id2 _ _ _ _ _ _ _ _ _ _ _)  
       = id1 == id2  
 
 instance Ord AristotleValueDomain where
-  (AristotleValueDomain id1 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _) `compare` 
-    (AristotleValueDomain id2 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _)  
+  (AristotleValueDomain id1 _ _ _ _ _ _ _ _ _ _ _ ) `compare` 
+    (AristotleValueDomain id2 _ _ _ _ _ _ _ _ _ _ _ )  
       = id1 `compare` id2  
 
 
@@ -148,9 +174,8 @@ data AristotleValueDomainJSON =
            } deriving (Show,Generic) 
 
 instance Eq AristotleValueDomainJSON where 
-  (AristotleValueDomainJSON c1 n1 p1 r1 ) == (AristotleValueDomainJSON c2 n2 p2 r2 )   
+  (AristotleValueDomainJSON c1 _ _ _ ) == (AristotleValueDomainJSON c2 _ _ _ )   
       = c1 == c2  
---     = c1 == c2 && n1 == n2 && p1 == p2  && r1 == r2          
 
 instance ToJSON AristotleValueDomainJSON 
 instance FromJSON AristotleValueDomainJSON 
@@ -160,18 +185,7 @@ defaultAristotleValueDomainJSON = AristotleValueDomainJSON 0 Nothing Nothing []
 data AristotleValueDomainOut  = 
   AristotleValueDomainOut { 
             vd2o_id :: String 
-          , vd2o_created :: String
-          , vd2o_modified :: String
           , vd2o_uuid :: String
-          , vd2o_name :: String
-          , vd2o_definition :: String
-          , vd2o_stewardship_organisation :: String  
-          , vd2o_workgroup :: String
-          , vd2o_version :: String 
-          , vd2o_references :: String 
-          , vd2o_origin_URI :: String
-          , vd2o_origin :: String 
-          , vd2o_comments :: String
           , vd2o_data_type :: String
           , vd2o_format :: String 
           , vd2o_maximum_length :: String 
@@ -180,30 +194,21 @@ data AristotleValueDomainOut  =
           , vd2o_classification_scheme :: String 
           , vd2o_representation_class :: String 
           , vd2o_description :: String 
-           } deriving (Show,Generic) 
+          , vd2o_permissiblevalue_set :: String        
+          , vd2o_supplementaryvalue_set :: String 
+          } deriving (Show,Generic) 
 
 instance FromNamedRecord AristotleValueDomainOut
 instance ToNamedRecord AristotleValueDomainOut
 instance DefaultOrdered AristotleValueDomainOut 
 
-defaultAristotleValueDomainOut = AristotleValueDomainOut "" "" "" "" "" "" "" "" "" "" "" "" "" "" ""  
+defaultAristotleValueDomainOut = AristotleValueDomainOut "" "" "" "" "" "" "" "" "" "" "" "" 
 
 avd2avdOut :: AristotleValueDomain -> AristotleValueDomainOut  
 avd2avdOut p = 
        AristotleValueDomainOut 
           ((show.avd_id) p)  
-          (showUTCTimeDate (avd_created p))          
-          (showUTCTimeDate (avd_modified p))  
           (avd_uuid p) 
-          (trim (avd_name p)) 
-          (trim (avd_definition p)) 
-          (avd_stewardship_organisation p)
-          ((show.avd_workgroup) p)
-          (avd_version p)
-          (trim (avd_references p))
-          (avd_origin_URI p)
-          (trim (avd_origin p))
-          (trim (avd_comments p)) 
           (fromMaybe "" (avd_data_type p))  
           (fromMaybe "" (avd_format p))  
           (show (fromMaybe 0 (avd_maximum_length p)))      
@@ -212,20 +217,106 @@ avd2avdOut p =
           (fromMaybe "" (avd_classification_scheme p)) 
           (show (fromMaybe 0 (avd_representation_class p)))  
           (avd_description p)  
+          (if (length allpvs) < 30000 then allpvs else "avd_permissiblevalue_set too long - see child type for all - 30,000 char truncate = " ++ take 30000 allpvs ) 
+          (concatMap show (avd_supplementaryvalue_set p)) 
+             where 
+                allpvs = (concatMap show (avd_permissiblevalue_set p))    
 
--- extract the list 
-getAristotleValueDomain :: AristotleValueDomainJSON -> [AristotleValueDomain] 
-getAristotleValueDomain jp = sort (results jp) 
+-- ------------------------
+-- Testing 
+-- Cardinality 
+data AristotleValueDomainCardinality  = 
+  AristotleValueDomainCardinality { 
+            avd_permissiblevalue_set_max :: Int  
+          , avd_supplementaryvalue_set_max :: Int  
+          } deriving (Show,Generic) 
 
--- convert to out  
-allAristotleValueDomainOut :: AristotleValueDomainJSON -> [AristotleValueDomainOut] 
-allAristotleValueDomainOut jp = map avd2avdOut (getAristotleValueDomain jp) 
+defaultAristotleValueDomainCardinality = AristotleValueDomainCardinality 0 0  
 
--- parse 
-rb2avd :: ByteString -> Either String AristotleValueDomainJSON    
-rb2avd = (eitherDecode.ctlChar2SpacesBS) 
+-- foldl :: Foldable t => (b -> a -> b) -> b -> t a -> b
+avdfold :: AristotleValueDomainCardinality -> AristotleValueDomain -> AristotleValueDomainCardinality
+avdfold card avd = 
+    AristotleValueDomainCardinality 
+        (max (avd_permissiblevalue_set_max card) (length (avd_permissiblevalue_set avd))) 
+        (max (avd_supplementaryvalue_set_max card) (length (avd_supplementaryvalue_set avd)))   
 
--- full extraction from byte string to class out
-rb2avdOut :: ByteString -> [AristotleValueDomainOut] 
-rb2avdOut rb 
-  = allAristotleValueDomainOut (fromRight defaultAristotleValueDomainJSON (rb2avd rb)) 
+-- ------------------------
+-- Output 
+-- extract all primary JSON objects
+avdj2avd :: [Either String AristotleValueDomainJSON] -> [AristotleValueDomain] 
+avdj2avd flist = concatMap results (rights flist) 
+
+-- convert primary JSON objects into out list 
+avd2Out :: [AristotleValueDomain] -> [AristotleValueDomainOut] 
+avd2Out jList = map avd2avdOut jList   
+
+-- convert JSON objects into permissiblevalue_set dependent list 
+avd2pvsOut :: [AristotleValueDomain] -> [AristotlePermissibleValueOut] 
+avd2pvsOut ps = concatMap (\p -> apv2apvOut (avd_id p) (avd_uuid p) (avd_permissiblevalue_set p)) ps 
+
+-- convert JSON objects into avd_supplementaryvalue_set dependent list 
+avd2svsOut :: [AristotleValueDomain] -> [AristotlePermissibleValueOut] 
+avd2svsOut ps = concatMap (\p -> apv2apvOut (avd_id p) (avd_uuid p) (avd_supplementaryvalue_set p)) ps 
+
+
+-- All VD output collected into a single type   
+data AristotleOutVD = 
+  AristotleOutVD { 
+            aov_AristotleAnyItemType :: AristotleAnyItemType 
+          , aov_AristotleValueDomain :: [AristotleValueDomain]   
+          , aov_AristotleProcessResults :: AristotleProcessResults                     
+          , aov_AristotleValueDomainOut :: [AristotleValueDomainOut] 
+          , aov_AristotleValueDomainPermissibleValueOut :: [AristotlePermissibleValueOut] 
+          , aov_AristotleValueDomainSupplementaryValueOut :: [AristotlePermissibleValueOut] 
+          } deriving (Show,Generic)  
+
+defaultAristotleOutVD = AristotleOutVD ValueDomain [] defaultAristotleProcessResults  [] []  []  
+
+populateAristotleOutVD :: AristotleAnyItemType -> [AristotleValueDomain] -> AristotleProcessResults -> AristotleOutVD 
+populateAristotleOutVD aait ps apr 
+  = AristotleOutVD aait ps apr (avd2Out ps) (avd2pvsOut ps) (avd2svsOut ps)  
+
+-- full proc  
+getAristotleVD :: AristotleAnyItemType -> [FetchResult] -> String -> String -> AristotleOutVD 
+getAristotleVD aait fetched mts mte 
+  = populateAristotleOutVD aait collected apr 
+    where 
+      parsed = map (rb2Aristotle.fetchedBody) fetched 
+      collected = avdj2avd parsed 
+      ajc = count (safeEither defaultAristotleValueDomainJSON parsed) 
+      apr = writeAPR aait mts mte ajc defaultAristotleValueDomainJSON parsed collected  
+
+-- it writes out a file if the count > 0  
+writeAristotleVD :: AristotleOutVD -> String -> IO ()  
+writeAristotleVD aov fp 
+  = do 
+  if length (aov_AristotleValueDomainOut aov) > 0 then 
+    B.writeFile (aait2filename aait fp "") (encodeDefaultOrderedByName (aov_AristotleValueDomainOut aov))  
+  else return ()  
+
+  if length (aov_AristotleValueDomainPermissibleValueOut aov) > 0 then 
+    B.writeFile (aait2filename aait fp "PermissibleValue") (encodeDefaultOrderedByName (aov_AristotleValueDomainPermissibleValueOut aov))  
+  else return ()  
+
+  if length (aov_AristotleValueDomainSupplementaryValueOut aov) > 0 then 
+    B.writeFile (aait2filename aait fp "SupplementaryValue") (encodeDefaultOrderedByName (aov_AristotleValueDomainSupplementaryValueOut aov))  
+  else return ()  
+
+      where aait = (aov_AristotleAnyItemType aov) 
+
+-- wrapper for the VD web request 
+web2aov :: W.Options -> Int -> IO AristotleOutVD 
+web2aov opts1 limitpage  = 
+  do 
+   let aait = ValueDomain 
+-- fetching      
+   mts <- messageTime "Start fetching: " 
+   fetched <- crawl opts1 limitpage (Just (aait2http aait 100)) []  
+   mte <- messageTime "End fetching:  " 
+-- return  
+   return (getAristotleVD aait fetched mts mte)  
+
+-- wrapper for the VD file read and write  
+file2aov fVD aait = 
+  do 
+    B.writeFile (aait2filename aait "fileAristotle" "") (encodeDefaultOrderedByName ((avd2Out.avdj2avd) [(rb2Aristotle fVD)] ))  

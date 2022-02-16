@@ -1,0 +1,20 @@
+{
+    "count": 1,
+    "next": "",
+    "previous": null,
+    "results": [
+
+{
+    "id": 14710,
+    "uuid": "d336dc08-dc6b-11ea-afd9-0a8620c9d3ec",
+    "name": "ABSTUDY: ABSTUDY Pensioner Education Supplement Allowance Amount",
+    "version": "",
+    "definition": "The year to date amount of ABSTUDY Pensioner Education Supplement (PES) entitled to be paid in dollars and cents.",
+    "short_definition": "The year to date amount of ABSTUDY Pensioner Education Supplement (PES) entitled to be paid in dollars and cents.",
+    "absolute_url": "/item/14710/dataelementconcept/abstudy-abstudy-pensioner-education-supplement-all",
+    "expand_node_get_url": "/api/internal/graphical/14710/general-graphical/"
+}
+]
+}
+
+     

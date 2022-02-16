@@ -114,7 +114,7 @@ First guess is that if the JSON parser fails, then the Lens parser will as well.
 
 6.	Bug reporting 
 It may be possible to raise this as a bug with Aristotle to clean out these Ctl chars from their text strings. 
-This occurs in the following dss Aristotle objects: 
+This occurs in the following Aristotle objects: 
 Property
 Data Element Concept
 Data Element 
@@ -128,8 +128,8 @@ Don't use basic logon ; use the token in the options
 
 Must have page number!
 example: 
-http://dss.aristotlecloud.io/api/v4/metadata/dataelement?page=2",
-get a 404 not found if http://dss.aristotlecloud.io/api/v4/metadata/dataelement/ 
+http://aristotle.cloud/api/v4/metadata/dataelement?page=2",
+get a 404 not found if http://aristotle.cloud/api/v4/metadata/dataelement/ 
 
 https does not seem to matter - http works?!?! 
 Don't know why yet. 
@@ -158,3 +158,29 @@ Uninstall immediately.
 dotnet + powershell 
 Not a starter 
 See PS script.
+
+----------------------
+using Network.Wreq! 
+ Couldn't match type: 
+ HistoriedResponse body0 
+ with: 
+ http-client-0.7.8:Network.HTTP.Client.Types.Response B.ByteString
+ 
+ view :: MonadReader s m => Getting a s a -> m a
+ 
+Expected: 
+Control.Lens.Getter.Getting 
+http-client-0.7.8:Network.HTTP.Client.Types.Request (http-client-0.7.8:Network.HTTP.Client.Types.Response B.ByteString) 
+http-client-0.7.8:Network.HTTP.Client.Types.Request 
+
+Actual: 
+(http-client-0.7.8:Network.HTTP.Client.Types.Request 
+-> Data.Functor.Const.Const http-client-0.7.8:Network.HTTP.Client.Types.Request http-client-0.7.8:Network.HTTP.Client.Types.Request)
+-> HistoriedResponse body0
+-> Data.Functor.Const.Const http-client-0.7.8:Network.HTTP.Client.Types.Request (HistoriedResponse body0)
+
+r -> Const r r -> h b -> Const r h b 
+
+Lens' (HistoriedResponse body) Request
+
+Lens' (m a) b -> b

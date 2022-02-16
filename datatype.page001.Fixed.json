@@ -1,0 +1,627 @@
+
+{
+    "count": 22,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 1,
+            "created": "2018-08-10T13:40:51.848667+10:00",
+            "modified": "2021-04-15T17:06:37.719324+10:00",
+            "uuid": "9af2336c-b395-11e7-a7b7-0242ac110009",
+            "name": "Currency",
+            "definition": "A numeric value expressed using a particular medium of exchange.",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 2,
+            "created": "2018-08-10T13:40:53.280722+10:00",
+            "modified": "2020-11-24T20:24:31.343379+11:00",
+            "uuid": "9af37592-b395-11e7-a7b7-0242ac110009",
+            "name": "Date/Time",
+            "definition": "A specific instance of time and/or date.",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 3,
+            "created": "2018-08-10T13:40:54.232783+10:00",
+            "modified": "2021-04-15T17:53:42.055714+10:00",
+            "uuid": "9af47e4c-b395-11e7-a7b7-0242ac110009",
+            "name": "String",
+            "definition": "A sequence of alphabetic and/or numeric characters, including ‘leading’ characters e.g. ‘01’,‘02’,‘03’.",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 4,
+            "created": "2018-08-10T13:40:55.039817+10:00",
+            "modified": "2021-04-15T17:06:37.818114+10:00",
+            "uuid": "9af2dd94-b395-11e7-a7b7-0242ac110009",
+            "name": "Number",
+            "definition": "A sequence of numeric characters, excluding codes with ‘leading’ characters e.g. ‘01’,’02’,’03’.",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 450,
+            "created": "2018-10-23T10:38:06.216466+11:00",
+            "modified": "2021-06-17T10:38:16.727406+10:00",
+            "uuid": "86831324-d653-11e8-9de7-f27a1b3d116e",
+            "name": "Text",
+            "definition": "The text data type stores any kind of alphanumerical character, and can include a combination of codes (separated by a comma) or descriptive text.",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": null,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 1796,
+            "created": "2019-10-17T15:50:07.566465+11:00",
+            "modified": "2020-11-24T20:34:39.744655+11:00",
+            "uuid": "979a9e46-f099-11e9-b05f-0a156ee49209",
+            "name": "Boolean",
+            "definition": "A binary value such as a true/false or yes/no.",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 7,
+            "version": "0.1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 1863,
+            "created": "2019-11-01T11:18:45.814167+11:00",
+            "modified": "2021-06-17T10:39:36.352881+10:00",
+            "uuid": "2b1ea320-fc3d-11e9-9e10-9efa1588758a",
+            "name": "Geospatial",
+            "definition": "A value relating to the position of things on the earth's surface.",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 1864,
+            "created": "2019-11-01T11:20:58.001678+11:00",
+            "modified": "2020-11-24T20:23:59.293390+11:00",
+            "uuid": "79e8dd7c-fc3d-11e9-b1ee-9efa1588758a",
+            "name": "Image",
+            "definition": "A depiction recorded electronically to allow viewing or transmission on a computer. e.g ‘jpg’, ‘png’, ‘gif’",
+            "stewardship_organisation": "e4414942db3711e995fe62bb09eaf366",
+            "workgroup": 6,
+            "version": "1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": []
+        },
+        {
+            "id": 2323,
+            "created": "2020-08-12T17:07:02.828456+10:00",
+            "modified": "2020-11-24T20:12:59.900044+11:00",
+            "uuid": "6c351b42-dc6a-11ea-8802-062f7acd21ca",
+            "name": "DATE",
+            "definition": "A date, or partial date (e.g. just year or year + month) as used in human communication. The format is YYYY, YYYY-MM, or YYYY-MM-DD.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "6c3d81f6-dc6a-11ea-8802-062f7acd21ca",
+                    "namespace": 5,
+                    "identifier": "506",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 2324,
+            "created": "2020-08-12T17:07:02.826706+10:00",
+            "modified": "2020-11-24T20:34:39.587986+11:00",
+            "uuid": "6c34d736-dc6a-11ea-8a29-062f7acd21ca",
+            "name": "TIME",
+            "definition": "A time during the day, in the format hh:mm:ss. There is no date specified.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "6c3dbbee-dc6a-11ea-8a29-062f7acd21ca",
+                    "namespace": 5,
+                    "identifier": "507",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 2325,
+            "created": "2020-08-12T17:07:02.832634+10:00",
+            "modified": "2021-04-15T17:29:32.129298+10:00",
+            "uuid": "6c35bd4a-dc6a-11ea-906f-062f7acd21ca",
+            "name": "CHARACTERSTRING",
+            "definition": "A sequence of characters which can include uppercase, lowercase, numeric and special characters.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "6c3d6518-dc6a-11ea-906f-062f7acd21ca",
+                    "namespace": 5,
+                    "identifier": "501",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 2326,
+            "created": "2020-08-12T17:07:02.831084+10:00",
+            "modified": "2020-11-24T20:23:59.389624+11:00",
+            "uuid": "6c35819a-dc6a-11ea-b216-0a8620c9d3ec",
+            "name": "DATETIME",
+            "definition": "A combined format of both date and time. The format may look like YYYY-MM-DDThh:mm:ss+zz:zz",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "6c3e3c5e-dc6a-11ea-b216-0a8620c9d3ec",
+                    "namespace": 5,
+                    "identifier": "505",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 2327,
+            "created": "2020-08-12T17:07:02.842072+10:00",
+            "modified": "2020-11-24T20:34:39.791489+11:00",
+            "uuid": "6c37301c-dc6a-11ea-afd9-0a8620c9d3ec",
+            "name": "DECIMAL",
+            "definition": "A sequence of numeric characters which do include fractions.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "6c418288-dc6a-11ea-afd9-0a8620c9d3ec",
+                    "namespace": 5,
+                    "identifier": "508",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 2328,
+            "created": "2020-08-12T17:07:02.846707+10:00",
+            "modified": "2020-11-24T20:34:39.640533+11:00",
+            "uuid": "6c37e35e-dc6a-11ea-b1f5-0a8620c9d3ec",
+            "name": "ALPHASTRING",
+            "definition": "A sequence of characters which can include uppercase and lowercase characters.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "6c3efdd8-dc6a-11ea-b1f5-0a8620c9d3ec",
+                    "namespace": 5,
+                    "identifier": "503",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 2329,
+            "created": "2020-08-12T17:07:03.139645+10:00",
+            "modified": "2021-06-17T10:38:39.667306+10:00",
+            "uuid": "6c649714-dc6a-11ea-906f-062f7acd21ca",
+            "name": "GEOVECTOR",
+            "definition": "A geometric shape which could be a point (latitude and longitude), line (from point a to b, road, train line) or polygon (covers a region, Local Government Area (LGA), state or bushfire burn).",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 60544,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 60545,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 60546,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                },
+                {
+                    "id": 60547,
+                    "name": "XSD Tag",
+                    "field": 12,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "6c734c50-dc6a-11ea-906f-062f7acd21ca",
+                    "namespace": 5,
+                    "identifier": "513",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 2330,
+            "created": "2020-08-12T17:07:03.204039+10:00",
+            "modified": "2020-11-24T20:23:59.441636+11:00",
+            "uuid": "6c6e6a50-dc6a-11ea-8a29-062f7acd21ca",
+            "name": "NUMBERSTRING",
+            "definition": "A sequence of numeric characters (numbers as text).",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "6c74c1b6-dc6a-11ea-8a29-062f7acd21ca",
+                    "namespace": 5,
+                    "identifier": "504",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 2331,
+            "created": "2020-08-12T17:07:03.160306+10:00",
+            "modified": "2020-11-24T20:34:39.838424+11:00",
+            "uuid": "6c67be58-dc6a-11ea-b216-0a8620c9d3ec",
+            "name": "ALPHANUMERICSTRING",
+            "definition": "A sequence of characters which can include uppercase, lowercase and  numeric characters.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "6c77d81a-dc6a-11ea-b216-0a8620c9d3ec",
+                    "namespace": 5,
+                    "identifier": "502",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 2332,
+            "created": "2020-08-12T17:07:03.225028+10:00",
+            "modified": "2021-06-24T14:11:42.286180+10:00",
+            "uuid": "6c719da6-dc6a-11ea-b1f5-0a8620c9d3ec",
+            "name": "Binary Large Object (BLOB)",
+            "definition": "A collection of binary data stored as a single entity.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "BLOBs are typically images, audio or other multimedia objects, though sometimes binary executable code is stored as a blob.",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 72169,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 72170,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 72171,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                },
+                {
+                    "id": 72172,
+                    "name": "XSD Tag",
+                    "field": 12,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "6c7907d0-dc6a-11ea-b1f5-0a8620c9d3ec",
+                    "namespace": 5,
+                    "identifier": "510",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 2333,
+            "created": "2020-08-12T17:07:03.249817+10:00",
+            "modified": "2020-11-24T20:23:59.341696+11:00",
+            "uuid": "6c75662a-dc6a-11ea-8802-062f7acd21ca",
+            "name": "LONGITUDE",
+            "definition": "A geographic coordinate that specifies the east-west position of a point on the Earth's surface",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "6c81d6f8-dc6a-11ea-8802-062f7acd21ca",
+                    "namespace": 5,
+                    "identifier": "512",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 2334,
+            "created": "2020-08-12T17:07:03.553927+10:00",
+            "modified": "2020-11-24T20:34:39.536281+11:00",
+            "uuid": "6ca3ce5c-dc6a-11ea-afd9-0a8620c9d3ec",
+            "name": "INTEGERNUMBER",
+            "definition": "A whole number (not a fraction) that can be positive, negative or zero.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "6cab082a-dc6a-11ea-afd9-0a8620c9d3ec",
+                    "namespace": 5,
+                    "identifier": "509",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 2335,
+            "created": "2020-08-12T17:07:03.554395+10:00",
+            "modified": "2020-11-24T20:12:59.992167+11:00",
+            "uuid": "6ca3e036-dc6a-11ea-b216-0a8620c9d3ec",
+            "name": "LATITUDE",
+            "definition": "A geographic coordinate that specifies the north–south position of a point on the Earth's surface",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "6cab2d3c-dc6a-11ea-b216-0a8620c9d3ec",
+                    "namespace": 5,
+                    "identifier": "511",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 56855,
+            "created": "2021-06-24T08:20:31.834531+10:00",
+            "modified": "2021-06-24T14:36:34.285605+10:00",
+            "uuid": "390afa66-d471-11eb-a1e6-0a58a9feac02",
+            "name": "Character Large Object (CLOB)",
+            "definition": "A data item that stores large amounts of character data, such as large documents in any character set.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "Character Large Objects (CLOBs) include character encoding, defining a character set and the way each character is represented.    Examples include Hypertext Markup Language (HTML), Standard Graphic Markup Language (SGML), Extensible Markup Language (XML) data, etc. CLOB data types are used by various database management systems, including Oracle and DB2.",
+            "metadatareferencelink_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 71964,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 71965,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 71966,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                },
+                {
+                    "id": 71967,
+                    "name": "XSD Tag",
+                    "field": 12,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": []
+        }
+    ]
+}

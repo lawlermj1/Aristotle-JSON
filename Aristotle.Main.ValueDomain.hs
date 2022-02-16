@@ -20,10 +20,9 @@ import CassavaUtils
 import AristotleCommon
 import AristotleValueDomain     
 
--- | Location of the local copy, in case you have it, of the JSON file.
+-- | Location of the local copy of the JSON file.
 jsonFileFrom :: FilePath
-jsonFileFrom = "valuedomain.page001.json" 
---jsonFileFrom = "valuedomain.page001.Fixed.json" 
+jsonFileFrom = "valuedomain.page001.Fixed.json" 
 
 -- Read the local copy of the JSON file.
 getJSONFrom :: IO B.ByteString
@@ -36,36 +35,19 @@ getToken = readFile "token.txt"
 main :: IO ()
 main = do
 
--- reads file from drive and parses into a csv  
- avdBS <- getJSONFrom 
- 
- let avdFileParse = rb2avd avdBS   
- print ("Checking " ++ jsonFileFrom) 
- print (checkParse avdFileParse) 
-
- let avdFile = rb2avdOut avdBS  
- let avdFileOut = encodeDefaultOrderedByName avdFile 
-
- B.writeFile "fileAristotleValueDomain.csv" avdFileOut 
+-- reads and prints file above   
+   fVD <- getJSONFrom  
+   file2aov fVD ValueDomain  
 
 -- convert token to correct type and add to Options 
- tokenIn <- getToken 
- let opts1 = opts2 & auth ?~ oauth2Token (s2bs tokenIn) :: Options 
+   tokenIn <- getToken 
+   let opts1 = opts2 & auth ?~ oauth2Token (s2bs tokenIn) :: Options 
 
--- reads all pages from Aristotle site and parses into a csv   
- let page1 = "http://dss.aristotlecloud.io/api/v4/metadata/valuedomain?page=1" 
+  -- count is about 4,000 
+   let limitpage = 999  
+-- set filepath 
+   let fp = "fullAristotle" 
 
--- full 200 actual 162 
- fetched <- crawl opts1 200 (Just page1) [] 
-
- let parsed = map (rb2avd.fetchedBody) fetched  
-
- print (nub (map checkParse parsed))  
-
--- writeFile "fetched.out" (show fetched)  
-
- let avdList = (concat (map (rb2avdOut.fetchedBody) fetched))  
- let avdOut = encodeDefaultOrderedByName avdList 
-
- B.writeFile "fullAristotleValueDomain.csv" avdOut   
- 
+   gaaiVD <- web2aov opts1 limitpage  
+   print (aov_AristotleProcessResults gaaiVD) 
+   writeAristotleVD gaaiVD fp 

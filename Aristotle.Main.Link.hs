@@ -1,8 +1,8 @@
 {-# LANGUAGE OverloadedStrings, DeriveGeneric #-}
 
 {- |
-   Module      : Aristotle.Main.Distribution   
-   Description : This is the main module. It reads the Aristotle API, parses the JSON, and exports into CSV. 
+   Module      : Aristotle.Main.Link   
+   Description : This is the main module. It reads the Aristotle API, parses the JSON, and exports into CSV.   
    Copyright   : ( c ) Matthew Lawler 2021  
    License     : 2-Clause BSD
    Maintainer  : lawlermj1@gmail.com 
@@ -18,15 +18,15 @@ import qualified Data.ByteString.Internal as I
 
 import CassavaUtils 
 import AristotleCommon
-import AristotleDistribution   
+import AristotleLink  
 
 -- | Location of the local copy of the JSON file.
 jsonFileFrom :: FilePath
-jsonFileFrom = "distribution.page001.Fixed.json"
+jsonFileFrom = "link.page001.Fixed.json" 
 
 -- Read the local copy of the JSON file.
 getJSONFrom :: IO B.ByteString
-getJSONFrom = B.readFile jsonFileFrom
+getJSONFrom = B.readFile jsonFileFrom 
 
 -- read the Aristotle provided token 
 getToken :: IO String 
@@ -36,8 +36,8 @@ main :: IO ()
 main = do
 
 -- reads and prints file above   
-   fD <- getJSONFrom  
-   file2aod fD Distribution  
+   fL <- getJSONFrom  
+   file2aol fL Link  
 
 -- convert token to correct type and add to Options 
    tokenIn <- getToken 
@@ -48,6 +48,6 @@ main = do
 -- set filepath 
    let fp = "fullAristotle" 
 
-   gaaiD <- web2aod opts1 limitpage  
-   print (aod_AristotleProcessResults gaaiD) 
-   writeAristotleD gaaiD fp 
+   gaaiL <- web2aol opts1 limitpage  
+   print (aol_AristotleProcessResults gaaiL) 
+   writeAristotleL gaaiL fp 

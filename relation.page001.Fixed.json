@@ -1,0 +1,177 @@
+ 
+{
+    "count": 4,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 50121,
+            "created": "2020-08-12T17:57:23.695323+10:00",
+            "modified": "2020-08-12T17:57:23.695323+10:00",
+            "uuid": "74c8ce8c-dc71-11ea-ac21-02b137f3fb1e",
+            "name": "GMR",
+            "definition": "The dataset maps to the other dataset.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "relationrole_set": [
+                {
+                    "id": "74ce6a22-dc71-11ea-ac21-02b137f3fb1e",
+                    "name": "Maps to",
+                    "definition": "Maps to",
+                    "multiplicity": 1,
+                    "ordinal": 0
+                },
+                {
+                    "id": "74d37378-dc71-11ea-ac21-02b137f3fb1e",
+                    "name": "Maps from",
+                    "definition": "Maps from",
+                    "multiplicity": 1,
+                    "ordinal": 1
+                }
+            ],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "74da9ff4-dc71-11ea-ac21-02b137f3fb1e",
+                    "namespace": 7,
+                    "identifier": "4",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 50122,
+            "created": "2020-08-12T17:57:23.709475+10:00",
+            "modified": "2020-08-12T17:57:23.709475+10:00",
+            "uuid": "74caf766-dc71-11ea-9a41-0a6933dafb30",
+            "name": "IET",
+            "definition": "The dataset is the equivalent to the other dataset.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "relationrole_set": [
+                {
+                    "id": "74d4d31c-dc71-11ea-9a41-0a6933dafb30",
+                    "name": "Is equivalent to",
+                    "definition": "Is equivalent to",
+                    "multiplicity": 2,
+                    "ordinal": 0
+                }
+            ],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "74de5ef0-dc71-11ea-9a41-0a6933dafb30",
+                    "namespace": 7,
+                    "identifier": "2",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 50123,
+            "created": "2020-08-12T17:57:23.711837+10:00",
+            "modified": "2020-08-12T17:57:23.711837+10:00",
+            "uuid": "74cb544a-dc71-11ea-bade-0a6933dafb30",
+            "name": "GSR",
+            "definition": "The dataset is sourced from the other dataset.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "relationrole_set": [
+                {
+                    "id": "74d4ecf8-dc71-11ea-bade-0a6933dafb30",
+                    "name": "Source",
+                    "definition": "Source",
+                    "multiplicity": 1,
+                    "ordinal": 0
+                },
+                {
+                    "id": "74dd5fe6-dc71-11ea-bade-0a6933dafb30",
+                    "name": "Sourced from",
+                    "definition": "Sourced from",
+                    "multiplicity": 1,
+                    "ordinal": 1
+                }
+            ],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "74e52af0-dc71-11ea-bade-0a6933dafb30",
+                    "namespace": 7,
+                    "identifier": "3",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 50124,
+            "created": "2020-08-12T17:57:24.081617+10:00",
+            "modified": "2020-08-12T17:57:24.081617+10:00",
+            "uuid": "7503c06e-dc71-11ea-9a41-0a6933dafb30",
+            "name": "GCR",
+            "definition": "The dataset contains the other data set.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "metadatareferencelink_set": [],
+            "relationrole_set": [
+                {
+                    "id": "750ba734-dc71-11ea-9a41-0a6933dafb30",
+                    "name": "Is contained by",
+                    "definition": "Is contained by",
+                    "multiplicity": 1,
+                    "ordinal": 0
+                },
+                {
+                    "id": "7510f8e2-dc71-11ea-9a41-0a6933dafb30",
+                    "name": "Is container for",
+                    "definition": "Is container for",
+                    "multiplicity": 1,
+                    "ordinal": 1
+                }
+            ],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "7516adbe-dc71-11ea-9a41-0a6933dafb30",
+                    "namespace": 7,
+                    "identifier": "1",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        }
+    ]
+}

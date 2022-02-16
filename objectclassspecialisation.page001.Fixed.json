@@ -1,0 +1,3292 @@
+{
+    "count": 17,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 42093,
+            "created": "2020-08-12T17:36:20.190416+10:00",
+            "modified": "2020-08-12T17:36:20.190416+10:00",
+            "uuid": "83ad4250-dc6e-11ea-b735-022da9221366",
+            "name": "PROXY OCS",
+            "definition": "TEMPORARY OBJECT CLASS SPECIALISATION TO BE ASSOCIATED WITH OBJECT CLASSES WITHOUT AN OBJECT CLASS SPECIALISATION PRIOR TO IMPORTATION INTO ONEDATA.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "broader_class": null,
+            "metadatareferencelink_set": [],
+            "objectclassspecialisationnarrowerclass_set": [
+                {
+                    "order": 0,
+                    "narrower_class": 2750
+                }
+            ],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "83c2e024-dc6e-11ea-b735-022da9221366",
+                    "namespace": 6,
+                    "identifier": "4",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 42094,
+            "created": "2020-08-12T17:36:20.193409+10:00",
+            "modified": "2020-12-21T14:20:34.515231+11:00",
+            "uuid": "83adb776-dc6e-11ea-ac21-02b137f3fb1e",
+            "name": "Party - Group of persons",
+            "definition": "A number of persons considered together as being related in some way.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "1",
+            "references": "Macquarie Dictionary 2020.",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "broader_class": "6f5d7080-dc6a-11ea-906f-062f7acd21ca",
+            "metadatareferencelink_set": [],
+            "objectclassspecialisationnarrowerclass_set": [
+                {
+                    "order": 9,
+                    "narrower_class": 2818
+                },
+                {
+                    "order": 10,
+                    "narrower_class": 2714
+                },
+                {
+                    "order": 11,
+                    "narrower_class": 3180
+                },
+                {
+                    "order": 12,
+                    "narrower_class": 2628
+                },
+                {
+                    "order": 13,
+                    "narrower_class": 2668
+                },
+                {
+                    "order": 14,
+                    "narrower_class": 2496
+                },
+                {
+                    "order": 15,
+                    "narrower_class": 2445
+                },
+                {
+                    "order": 16,
+                    "narrower_class": 2598
+                },
+                {
+                    "order": 17,
+                    "narrower_class": 2436
+                },
+                {
+                    "order": 18,
+                    "narrower_class": 2492
+                },
+                {
+                    "order": 19,
+                    "narrower_class": 2479
+                },
+                {
+                    "order": 20,
+                    "narrower_class": 2641
+                },
+                {
+                    "order": 21,
+                    "narrower_class": 3065
+                },
+                {
+                    "order": 22,
+                    "narrower_class": 6
+                },
+                {
+                    "order": 23,
+                    "narrower_class": 2818
+                },
+                {
+                    "order": 24,
+                    "narrower_class": 2714
+                },
+                {
+                    "order": 25,
+                    "narrower_class": 3180
+                },
+                {
+                    "order": 26,
+                    "narrower_class": 2628
+                },
+                {
+                    "order": 27,
+                    "narrower_class": 2668
+                },
+                {
+                    "order": 28,
+                    "narrower_class": 2496
+                },
+                {
+                    "order": 1,
+                    "narrower_class": 2445
+                },
+                {
+                    "order": 2,
+                    "narrower_class": 2598
+                },
+                {
+                    "order": 3,
+                    "narrower_class": 2436
+                },
+                {
+                    "order": 4,
+                    "narrower_class": 2492
+                },
+                {
+                    "order": 5,
+                    "narrower_class": 2479
+                },
+                {
+                    "order": 6,
+                    "narrower_class": 2641
+                },
+                {
+                    "order": 7,
+                    "narrower_class": 3065
+                },
+                {
+                    "order": 8,
+                    "narrower_class": 6
+                }
+            ],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 62050,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 62051,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 62052,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "83b7b17c-dc6e-11ea-ac21-02b137f3fb1e",
+                    "namespace": 6,
+                    "identifier": "2",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 42095,
+            "created": "2020-08-12T17:36:20.273473+10:00",
+            "modified": "2020-11-24T20:13:36.767416+11:00",
+            "uuid": "83b9f018-dc6e-11ea-afd9-0a8620c9d3ec",
+            "name": "Party",
+            "definition": "Those PERSON, PARTY GROUPS or ORGANISATIONs who are part of the system and those who are of interest to it.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "broader_class": null,
+            "metadatareferencelink_set": [],
+            "objectclassspecialisationnarrowerclass_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "83c91d22-dc6e-11ea-afd9-0a8620c9d3ec",
+                    "namespace": 6,
+                    "identifier": "17",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 42096,
+            "created": "2020-08-12T17:36:20.285419+10:00",
+            "modified": "2021-04-15T17:31:38.337173+10:00",
+            "uuid": "83bbc1b8-dc6e-11ea-bade-0a6933dafb30",
+            "name": "Location",
+            "definition": "A site or position where something happens, or will happen, or where a PARTY is located, may be contacted, or conduct business.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "broader_class": null,
+            "metadatareferencelink_set": [],
+            "objectclassspecialisationnarrowerclass_set": [
+                {
+                    "order": 5,
+                    "narrower_class": 2505
+                },
+                {
+                    "order": 7,
+                    "narrower_class": 2569
+                },
+                {
+                    "order": 10,
+                    "narrower_class": 2811
+                },
+                {
+                    "order": 12,
+                    "narrower_class": 3010
+                },
+                {
+                    "order": 13,
+                    "narrower_class": 3019
+                }
+            ],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 62053,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 62054,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 62055,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "84c969fc-dc6e-11ea-bade-0a6933dafb30",
+                    "namespace": 6,
+                    "identifier": "11",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 42097,
+            "created": "2020-08-12T17:36:20.321414+10:00",
+            "modified": "2020-12-21T14:23:58.077582+11:00",
+            "uuid": "83c14192-dc6e-11ea-8ba0-022da9221366",
+            "name": "Business Condition",
+            "definition": "Describes the specific requirement that may vary the performance of products, or arrangements and/or includes qualification criteria and restrictions of limits.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "broader_class": null,
+            "metadatareferencelink_set": [],
+            "objectclassspecialisationnarrowerclass_set": [],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 62056,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 62057,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 62058,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "8577c8d0-dc6e-11ea-8ba0-022da9221366",
+                    "namespace": 6,
+                    "identifier": "5",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 42098,
+            "created": "2020-08-12T17:36:20.351941+10:00",
+            "modified": "2020-10-30T11:22:56.824562+11:00",
+            "uuid": "83c5e94a-dc6e-11ea-a913-0a6933dafb30",
+            "name": "Event - Life Event",
+            "definition": "An instance of an event which occurs to or with a person during their life.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "broader_class": "6f8dfca0-dc6a-11ea-906f-062f7acd21ca",
+            "metadatareferencelink_set": [],
+            "objectclassspecialisationnarrowerclass_set": [
+                {
+                    "order": 1,
+                    "narrower_class": 2469
+                },
+                {
+                    "order": 2,
+                    "narrower_class": 2520
+                },
+                {
+                    "order": 3,
+                    "narrower_class": 2522
+                },
+                {
+                    "order": 4,
+                    "narrower_class": 2785
+                },
+                {
+                    "order": 5,
+                    "narrower_class": 2789
+                },
+                {
+                    "order": 6,
+                    "narrower_class": 2782
+                },
+                {
+                    "order": 7,
+                    "narrower_class": 2780
+                },
+                {
+                    "order": 8,
+                    "narrower_class": 2797
+                },
+                {
+                    "order": 9,
+                    "narrower_class": 2796
+                },
+                {
+                    "order": 10,
+                    "narrower_class": 2823
+                },
+                {
+                    "order": 11,
+                    "narrower_class": 2824
+                },
+                {
+                    "order": 16,
+                    "narrower_class": 2894
+                },
+                {
+                    "order": 17,
+                    "narrower_class": 2895
+                },
+                {
+                    "order": 18,
+                    "narrower_class": 2896
+                },
+                {
+                    "order": 19,
+                    "narrower_class": 2897
+                },
+                {
+                    "order": 20,
+                    "narrower_class": 2940
+                },
+                {
+                    "order": 23,
+                    "narrower_class": 2990
+                },
+                {
+                    "order": 24,
+                    "narrower_class": 3016
+                },
+                {
+                    "order": 25,
+                    "narrower_class": 3056
+                },
+                {
+                    "order": 12,
+                    "narrower_class": 2879
+                },
+                {
+                    "order": 13,
+                    "narrower_class": 2885
+                },
+                {
+                    "order": 14,
+                    "narrower_class": 2888
+                },
+                {
+                    "order": 15,
+                    "narrower_class": 2882
+                }
+            ],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 58843,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 58844,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 58845,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "85bb57da-dc6e-11ea-a913-0a6933dafb30",
+                    "namespace": 6,
+                    "identifier": "6",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 42099,
+            "created": "2020-08-12T17:36:20.350931+10:00",
+            "modified": "2021-04-15T17:31:38.440068+10:00",
+            "uuid": "83c5c096-dc6e-11ea-b216-0a8620c9d3ec",
+            "name": "Party - Organisation/s",
+            "definition": "Organisations that are in any way involved with the business.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "broader_class": "6f5d7080-dc6a-11ea-906f-062f7acd21ca",
+            "metadatareferencelink_set": [],
+            "objectclassspecialisationnarrowerclass_set": [
+                {
+                    "order": 25,
+                    "narrower_class": 2801
+                },
+                {
+                    "order": 15,
+                    "narrower_class": 2521
+                },
+                {
+                    "order": 16,
+                    "narrower_class": 2530
+                },
+                {
+                    "order": 17,
+                    "narrower_class": 2556
+                },
+                {
+                    "order": 18,
+                    "narrower_class": 2563
+                },
+                {
+                    "order": 19,
+                    "narrower_class": 2922
+                },
+                {
+                    "order": 20,
+                    "narrower_class": 2938
+                },
+                {
+                    "order": 21,
+                    "narrower_class": 3121
+                },
+                {
+                    "order": 22,
+                    "narrower_class": 3119
+                },
+                {
+                    "order": 0,
+                    "narrower_class": 2563
+                },
+                {
+                    "order": 1,
+                    "narrower_class": 2532
+                },
+                {
+                    "order": 2,
+                    "narrower_class": 2491
+                },
+                {
+                    "order": 3,
+                    "narrower_class": 2833
+                },
+                {
+                    "order": 4,
+                    "narrower_class": 2855
+                },
+                {
+                    "order": 5,
+                    "narrower_class": 2754
+                },
+                {
+                    "order": 6,
+                    "narrower_class": 2822
+                },
+                {
+                    "order": 7,
+                    "narrower_class": 2979
+                },
+                {
+                    "order": 8,
+                    "narrower_class": 2999
+                },
+                {
+                    "order": 9,
+                    "narrower_class": 2917
+                },
+                {
+                    "order": 10,
+                    "narrower_class": 2628
+                },
+                {
+                    "order": 11,
+                    "narrower_class": 811
+                },
+                {
+                    "order": 12,
+                    "narrower_class": 2820
+                },
+                {
+                    "order": 13,
+                    "narrower_class": 2625
+                },
+                {
+                    "order": 14,
+                    "narrower_class": 2529
+                },
+                {
+                    "order": 23,
+                    "narrower_class": 3122
+                },
+                {
+                    "order": 24,
+                    "narrower_class": 3126
+                }
+            ],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 62044,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 62045,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 62046,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "8504c33a-dc6e-11ea-b216-0a8620c9d3ec",
+                    "namespace": 6,
+                    "identifier": "14",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 42101,
+            "created": "2020-08-12T17:36:20.460585+10:00",
+            "modified": "2020-11-24T20:13:36.869210+11:00",
+            "uuid": "83d67c74-dc6e-11ea-b1f5-0a8620c9d3ec",
+            "name": "Service/Care Provider",
+            "definition": "An instance of a role that a party, as a service or care provider, plays in an event.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "broader_class": null,
+            "metadatareferencelink_set": [],
+            "objectclassspecialisationnarrowerclass_set": [
+                {
+                    "order": 0,
+                    "narrower_class": 2340
+                },
+                {
+                    "order": 1,
+                    "narrower_class": 2352
+                },
+                {
+                    "order": 2,
+                    "narrower_class": 2370
+                },
+                {
+                    "order": 3,
+                    "narrower_class": 2373
+                },
+                {
+                    "order": 4,
+                    "narrower_class": 2419
+                },
+                {
+                    "order": 5,
+                    "narrower_class": 2437
+                },
+                {
+                    "order": 6,
+                    "narrower_class": 2465
+                },
+                {
+                    "order": 7,
+                    "narrower_class": 2468
+                },
+                {
+                    "order": 8,
+                    "narrower_class": 2484
+                },
+                {
+                    "order": 9,
+                    "narrower_class": 2518
+                },
+                {
+                    "order": 10,
+                    "narrower_class": 2538
+                },
+                {
+                    "order": 11,
+                    "narrower_class": 2561
+                },
+                {
+                    "order": 12,
+                    "narrower_class": 2586
+                },
+                {
+                    "order": 13,
+                    "narrower_class": 2590
+                },
+                {
+                    "order": 14,
+                    "narrower_class": 2612
+                },
+                {
+                    "order": 15,
+                    "narrower_class": 2617
+                },
+                {
+                    "order": 16,
+                    "narrower_class": 2690
+                },
+                {
+                    "order": 17,
+                    "narrower_class": 2701
+                },
+                {
+                    "order": 18,
+                    "narrower_class": 2726
+                },
+                {
+                    "order": 19,
+                    "narrower_class": 2776
+                },
+                {
+                    "order": 20,
+                    "narrower_class": 2808
+                },
+                {
+                    "order": 21,
+                    "narrower_class": 2909
+                },
+                {
+                    "order": 22,
+                    "narrower_class": 2908
+                },
+                {
+                    "order": 23,
+                    "narrower_class": 2911
+                },
+                {
+                    "order": 24,
+                    "narrower_class": 2919
+                },
+                {
+                    "order": 25,
+                    "narrower_class": 2933
+                },
+                {
+                    "order": 26,
+                    "narrower_class": 2941
+                },
+                {
+                    "order": 27,
+                    "narrower_class": 2937
+                },
+                {
+                    "order": 28,
+                    "narrower_class": 2942
+                },
+                {
+                    "order": 29,
+                    "narrower_class": 2945
+                },
+                {
+                    "order": 30,
+                    "narrower_class": 2969
+                },
+                {
+                    "order": 31,
+                    "narrower_class": 2962
+                },
+                {
+                    "order": 32,
+                    "narrower_class": 2992
+                },
+                {
+                    "order": 33,
+                    "narrower_class": 3001
+                },
+                {
+                    "order": 34,
+                    "narrower_class": 3012
+                },
+                {
+                    "order": 35,
+                    "narrower_class": 3033
+                },
+                {
+                    "order": 36,
+                    "narrower_class": 3040
+                },
+                {
+                    "order": 37,
+                    "narrower_class": 3063
+                },
+                {
+                    "order": 38,
+                    "narrower_class": 3079
+                },
+                {
+                    "order": 39,
+                    "narrower_class": 3106
+                },
+                {
+                    "order": 40,
+                    "narrower_class": 3109
+                },
+                {
+                    "order": 41,
+                    "narrower_class": 3113
+                },
+                {
+                    "order": 42,
+                    "narrower_class": 3133
+                },
+                {
+                    "order": 43,
+                    "narrower_class": 3145
+                },
+                {
+                    "order": 44,
+                    "narrower_class": 3149
+                },
+                {
+                    "order": 45,
+                    "narrower_class": 3169
+                }
+            ],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "85ba2bd0-dc6e-11ea-b1f5-0a8620c9d3ec",
+                    "namespace": 6,
+                    "identifier": "7",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 42102,
+            "created": "2020-08-12T17:36:20.453203+10:00",
+            "modified": "2020-12-23T15:29:11.056889+11:00",
+            "uuid": "83d55c36-dc6e-11ea-b153-022da9221366",
+            "name": "Resource Item",
+            "definition": "Items of value, documents, real estate etc.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "broader_class": null,
+            "metadatareferencelink_set": [],
+            "objectclassspecialisationnarrowerclass_set": [
+                {
+                    "order": 14,
+                    "narrower_class": 2592
+                },
+                {
+                    "order": 15,
+                    "narrower_class": 2584
+                },
+                {
+                    "order": 16,
+                    "narrower_class": 2582
+                },
+                {
+                    "order": 17,
+                    "narrower_class": 2605
+                },
+                {
+                    "order": 20,
+                    "narrower_class": 2725
+                },
+                {
+                    "order": 21,
+                    "narrower_class": 2723
+                },
+                {
+                    "order": 23,
+                    "narrower_class": 2904
+                },
+                {
+                    "order": 24,
+                    "narrower_class": 2972
+                },
+                {
+                    "order": 25,
+                    "narrower_class": 2964
+                },
+                {
+                    "order": 26,
+                    "narrower_class": 2974
+                },
+                {
+                    "order": 29,
+                    "narrower_class": 3072
+                },
+                {
+                    "order": 37,
+                    "narrower_class": 3128
+                },
+                {
+                    "order": 38,
+                    "narrower_class": 3130
+                },
+                {
+                    "order": 42,
+                    "narrower_class": 3152
+                },
+                {
+                    "order": 18,
+                    "narrower_class": null
+                },
+                {
+                    "order": 19,
+                    "narrower_class": null
+                },
+                {
+                    "order": 22,
+                    "narrower_class": null
+                },
+                {
+                    "order": 27,
+                    "narrower_class": null
+                },
+                {
+                    "order": 28,
+                    "narrower_class": null
+                },
+                {
+                    "order": 30,
+                    "narrower_class": null
+                },
+                {
+                    "order": 31,
+                    "narrower_class": null
+                },
+                {
+                    "order": 32,
+                    "narrower_class": null
+                },
+                {
+                    "order": 33,
+                    "narrower_class": null
+                },
+                {
+                    "order": 34,
+                    "narrower_class": null
+                },
+                {
+                    "order": 35,
+                    "narrower_class": null
+                },
+                {
+                    "order": 36,
+                    "narrower_class": null
+                },
+                {
+                    "order": 39,
+                    "narrower_class": null
+                },
+                {
+                    "order": 40,
+                    "narrower_class": null
+                },
+                {
+                    "order": 41,
+                    "narrower_class": null
+                },
+                {
+                    "order": 2,
+                    "narrower_class": 2998
+                },
+                {
+                    "order": 3,
+                    "narrower_class": 2341
+                },
+                {
+                    "order": 4,
+                    "narrower_class": 2345
+                },
+                {
+                    "order": 5,
+                    "narrower_class": 2347
+                },
+                {
+                    "order": 6,
+                    "narrower_class": 3164
+                },
+                {
+                    "order": 8,
+                    "narrower_class": 2442
+                },
+                {
+                    "order": 10,
+                    "narrower_class": 2488
+                },
+                {
+                    "order": 1,
+                    "narrower_class": 51699
+                },
+                {
+                    "order": 7,
+                    "narrower_class": null
+                },
+                {
+                    "order": 9,
+                    "narrower_class": null
+                },
+                {
+                    "order": 11,
+                    "narrower_class": null
+                },
+                {
+                    "order": 12,
+                    "narrower_class": null
+                },
+                {
+                    "order": 13,
+                    "narrower_class": null
+                }
+            ],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 54245,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 54246,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 54247,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "87045088-dc6e-11ea-b153-022da9221366",
+                    "namespace": 6,
+                    "identifier": "3",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 42103,
+            "created": "2020-08-12T17:36:20.648444+10:00",
+            "modified": "2020-12-21T14:28:51.369147+11:00",
+            "uuid": "83f3264e-dc6e-11ea-8a29-062f7acd21ca",
+            "name": "Business Mandate or Direction",
+            "definition": "Things that vary the direction of the business e.g. goals, regulations, policies. Records an expression of a PARTY’s intent with regard to the manner and environments in which to carry out business.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "broader_class": null,
+            "metadatareferencelink_set": [],
+            "objectclassspecialisationnarrowerclass_set": [
+                {
+                    "order": 1,
+                    "narrower_class": 3143
+                },
+                {
+                    "order": 2,
+                    "narrower_class": 2418
+                },
+                {
+                    "order": 3,
+                    "narrower_class": 2455
+                },
+                {
+                    "order": 4,
+                    "narrower_class": 2728
+                },
+                {
+                    "order": 5,
+                    "narrower_class": 2857
+                },
+                {
+                    "order": 8,
+                    "narrower_class": 3014
+                },
+                {
+                    "order": 9,
+                    "narrower_class": 3104
+                },
+                {
+                    "order": 10,
+                    "narrower_class": 3100
+                },
+                {
+                    "order": 11,
+                    "narrower_class": 3098
+                },
+                {
+                    "order": 12,
+                    "narrower_class": 3102
+                },
+                {
+                    "order": 13,
+                    "narrower_class": 3105
+                },
+                {
+                    "order": 14,
+                    "narrower_class": 3111
+                },
+                {
+                    "order": 15,
+                    "narrower_class": 3114
+                }
+            ],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 62059,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 62060,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 62061,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "898c5d82-dc6e-11ea-8a29-062f7acd21ca",
+                    "namespace": 6,
+                    "identifier": "1",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 42104,
+            "created": "2020-08-12T17:36:21.007688+10:00",
+            "modified": "2020-08-12T17:36:21.007688+10:00",
+            "uuid": "8429f80e-dc6e-11ea-b735-022da9221366",
+            "name": "Service Episode",
+            "definition": "A period of time during which a person receives assistance from a service provider.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "broader_class": null,
+            "metadatareferencelink_set": [],
+            "objectclassspecialisationnarrowerclass_set": [
+                {
+                    "order": 0,
+                    "narrower_class": 2344
+                },
+                {
+                    "order": 1,
+                    "narrower_class": 2351
+                },
+                {
+                    "order": 2,
+                    "narrower_class": 2353
+                },
+                {
+                    "order": 3,
+                    "narrower_class": 2349
+                },
+                {
+                    "order": 4,
+                    "narrower_class": 2377
+                },
+                {
+                    "order": 5,
+                    "narrower_class": 2380
+                },
+                {
+                    "order": 6,
+                    "narrower_class": 2432
+                },
+                {
+                    "order": 7,
+                    "narrower_class": 2431
+                },
+                {
+                    "order": 8,
+                    "narrower_class": 2450
+                },
+                {
+                    "order": 9,
+                    "narrower_class": 2477
+                },
+                {
+                    "order": 10,
+                    "narrower_class": 2483
+                },
+                {
+                    "order": 11,
+                    "narrower_class": 2495
+                },
+                {
+                    "order": 12,
+                    "narrower_class": 2497
+                },
+                {
+                    "order": 13,
+                    "narrower_class": 2499
+                },
+                {
+                    "order": 14,
+                    "narrower_class": 2517
+                },
+                {
+                    "order": 15,
+                    "narrower_class": 2525
+                },
+                {
+                    "order": 16,
+                    "narrower_class": 2575
+                },
+                {
+                    "order": 17,
+                    "narrower_class": 2604
+                },
+                {
+                    "order": 18,
+                    "narrower_class": 2669
+                },
+                {
+                    "order": 19,
+                    "narrower_class": 2672
+                },
+                {
+                    "order": 20,
+                    "narrower_class": 2718
+                },
+                {
+                    "order": 21,
+                    "narrower_class": 2717
+                },
+                {
+                    "order": 22,
+                    "narrower_class": 2744
+                },
+                {
+                    "order": 23,
+                    "narrower_class": 2765
+                },
+                {
+                    "order": 24,
+                    "narrower_class": 2777
+                },
+                {
+                    "order": 25,
+                    "narrower_class": 2783
+                },
+                {
+                    "order": 26,
+                    "narrower_class": 2787
+                },
+                {
+                    "order": 27,
+                    "narrower_class": 2799
+                },
+                {
+                    "order": 28,
+                    "narrower_class": 2838
+                },
+                {
+                    "order": 29,
+                    "narrower_class": 2845
+                },
+                {
+                    "order": 30,
+                    "narrower_class": 2859
+                },
+                {
+                    "order": 31,
+                    "narrower_class": 2890
+                },
+                {
+                    "order": 32,
+                    "narrower_class": 2898
+                },
+                {
+                    "order": 33,
+                    "narrower_class": 2915
+                },
+                {
+                    "order": 34,
+                    "narrower_class": 2926
+                },
+                {
+                    "order": 35,
+                    "narrower_class": 2930
+                },
+                {
+                    "order": 36,
+                    "narrower_class": 2929
+                },
+                {
+                    "order": 37,
+                    "narrower_class": 2931
+                },
+                {
+                    "order": 38,
+                    "narrower_class": 2944
+                },
+                {
+                    "order": 39,
+                    "narrower_class": 2954
+                },
+                {
+                    "order": 40,
+                    "narrower_class": 2956
+                },
+                {
+                    "order": 41,
+                    "narrower_class": 2958
+                },
+                {
+                    "order": 42,
+                    "narrower_class": 2963
+                },
+                {
+                    "order": 43,
+                    "narrower_class": 2968
+                },
+                {
+                    "order": 44,
+                    "narrower_class": 2984
+                },
+                {
+                    "order": 45,
+                    "narrower_class": 3000
+                },
+                {
+                    "order": 46,
+                    "narrower_class": 3002
+                },
+                {
+                    "order": 47,
+                    "narrower_class": 3027
+                },
+                {
+                    "order": 48,
+                    "narrower_class": 3030
+                },
+                {
+                    "order": 49,
+                    "narrower_class": 3028
+                },
+                {
+                    "order": 50,
+                    "narrower_class": 3036
+                },
+                {
+                    "order": 51,
+                    "narrower_class": 3043
+                },
+                {
+                    "order": 52,
+                    "narrower_class": 3054
+                },
+                {
+                    "order": 53,
+                    "narrower_class": 3060
+                },
+                {
+                    "order": 54,
+                    "narrower_class": 3058
+                },
+                {
+                    "order": 55,
+                    "narrower_class": 3067
+                },
+                {
+                    "order": 56,
+                    "narrower_class": 3069
+                }
+            ],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "87a10306-dc6e-11ea-b735-022da9221366",
+                    "namespace": 6,
+                    "identifier": "10",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 42105,
+            "created": "2020-08-12T17:36:21.141422+10:00",
+            "modified": "2020-12-23T10:16:43.841389+11:00",
+            "uuid": "843e5ef2-dc6e-11ea-8802-062f7acd21ca",
+            "name": "Party - Person",
+            "definition": "An individual person that are in any way involved with the business.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "1",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "broader_class": "6f5f7be6-dc6a-11ea-b1f5-0a8620c9d3ec",
+            "metadatareferencelink_set": [],
+            "objectclassspecialisationnarrowerclass_set": [
+                {
+                    "order": 116,
+                    "narrower_class": 2373
+                },
+                {
+                    "order": 90,
+                    "narrower_class": 2927
+                },
+                {
+                    "order": 117,
+                    "narrower_class": 2941
+                },
+                {
+                    "order": 91,
+                    "narrower_class": 2952
+                },
+                {
+                    "order": 92,
+                    "narrower_class": 2950
+                },
+                {
+                    "order": 93,
+                    "narrower_class": 2936
+                },
+                {
+                    "order": 94,
+                    "narrower_class": 2955
+                },
+                {
+                    "order": 95,
+                    "narrower_class": 2939
+                },
+                {
+                    "order": 96,
+                    "narrower_class": 2949
+                },
+                {
+                    "order": 97,
+                    "narrower_class": 2959
+                },
+                {
+                    "order": 98,
+                    "narrower_class": 2975
+                },
+                {
+                    "order": 99,
+                    "narrower_class": 2970
+                },
+                {
+                    "order": 100,
+                    "narrower_class": 2981
+                },
+                {
+                    "order": 2,
+                    "narrower_class": 2367
+                },
+                {
+                    "order": 101,
+                    "narrower_class": 2986
+                },
+                {
+                    "order": 102,
+                    "narrower_class": 2987
+                },
+                {
+                    "order": 103,
+                    "narrower_class": 2994
+                },
+                {
+                    "order": 104,
+                    "narrower_class": 2995
+                },
+                {
+                    "order": 105,
+                    "narrower_class": 2997
+                },
+                {
+                    "order": 106,
+                    "narrower_class": 3007
+                },
+                {
+                    "order": 107,
+                    "narrower_class": 3011
+                },
+                {
+                    "order": 108,
+                    "narrower_class": 3005
+                },
+                {
+                    "order": 109,
+                    "narrower_class": 3003
+                },
+                {
+                    "order": 110,
+                    "narrower_class": 3023
+                },
+                {
+                    "order": 111,
+                    "narrower_class": 3024
+                },
+                {
+                    "order": 112,
+                    "narrower_class": 3026
+                },
+                {
+                    "order": 113,
+                    "narrower_class": 3037
+                },
+                {
+                    "order": 114,
+                    "narrower_class": 3041
+                },
+                {
+                    "order": 115,
+                    "narrower_class": 3090
+                },
+                {
+                    "order": 1,
+                    "narrower_class": 3155
+                },
+                {
+                    "order": 3,
+                    "narrower_class": 2446
+                },
+                {
+                    "order": 4,
+                    "narrower_class": 2459
+                },
+                {
+                    "order": 5,
+                    "narrower_class": 2456
+                },
+                {
+                    "order": 6,
+                    "narrower_class": 2460
+                },
+                {
+                    "order": 7,
+                    "narrower_class": 2462
+                },
+                {
+                    "order": 8,
+                    "narrower_class": 2474
+                },
+                {
+                    "order": 9,
+                    "narrower_class": 2489
+                },
+                {
+                    "order": 10,
+                    "narrower_class": 2486
+                },
+                {
+                    "order": 11,
+                    "narrower_class": 2485
+                },
+                {
+                    "order": 12,
+                    "narrower_class": 2494
+                },
+                {
+                    "order": 13,
+                    "narrower_class": 2506
+                },
+                {
+                    "order": 14,
+                    "narrower_class": 2510
+                },
+                {
+                    "order": 15,
+                    "narrower_class": 2534
+                },
+                {
+                    "order": 16,
+                    "narrower_class": 2543
+                },
+                {
+                    "order": 17,
+                    "narrower_class": 2550
+                },
+                {
+                    "order": 18,
+                    "narrower_class": 2542
+                },
+                {
+                    "order": 19,
+                    "narrower_class": 2547
+                },
+                {
+                    "order": 20,
+                    "narrower_class": 2545
+                },
+                {
+                    "order": 21,
+                    "narrower_class": 2554
+                },
+                {
+                    "order": 22,
+                    "narrower_class": 2546
+                },
+                {
+                    "order": 23,
+                    "narrower_class": 2564
+                },
+                {
+                    "order": 38,
+                    "narrower_class": 2600
+                },
+                {
+                    "order": 39,
+                    "narrower_class": 2601
+                },
+                {
+                    "order": 40,
+                    "narrower_class": 2603
+                },
+                {
+                    "order": 41,
+                    "narrower_class": 2619
+                },
+                {
+                    "order": 42,
+                    "narrower_class": 2625
+                },
+                {
+                    "order": 43,
+                    "narrower_class": 2642
+                },
+                {
+                    "order": 24,
+                    "narrower_class": 2559
+                },
+                {
+                    "order": 25,
+                    "narrower_class": 2571
+                },
+                {
+                    "order": 26,
+                    "narrower_class": 2572
+                },
+                {
+                    "order": 27,
+                    "narrower_class": 2558
+                },
+                {
+                    "order": 28,
+                    "narrower_class": 2565
+                },
+                {
+                    "order": 29,
+                    "narrower_class": 2568
+                },
+                {
+                    "order": 30,
+                    "narrower_class": 2573
+                },
+                {
+                    "order": 31,
+                    "narrower_class": 2567
+                },
+                {
+                    "order": 32,
+                    "narrower_class": 2574
+                },
+                {
+                    "order": 33,
+                    "narrower_class": 2579
+                },
+                {
+                    "order": 34,
+                    "narrower_class": 2591
+                },
+                {
+                    "order": 35,
+                    "narrower_class": 2589
+                },
+                {
+                    "order": 36,
+                    "narrower_class": 2596
+                },
+                {
+                    "order": 37,
+                    "narrower_class": 2597
+                },
+                {
+                    "order": 44,
+                    "narrower_class": 2658
+                },
+                {
+                    "order": 45,
+                    "narrower_class": 2663
+                },
+                {
+                    "order": 46,
+                    "narrower_class": 2670
+                },
+                {
+                    "order": 47,
+                    "narrower_class": 2659
+                },
+                {
+                    "order": 48,
+                    "narrower_class": 2656
+                },
+                {
+                    "order": 49,
+                    "narrower_class": 2674
+                },
+                {
+                    "order": 50,
+                    "narrower_class": 2662
+                },
+                {
+                    "order": 51,
+                    "narrower_class": 2665
+                },
+                {
+                    "order": 52,
+                    "narrower_class": 2673
+                },
+                {
+                    "order": 53,
+                    "narrower_class": 2675
+                },
+                {
+                    "order": 54,
+                    "narrower_class": 2664
+                },
+                {
+                    "order": 55,
+                    "narrower_class": 2679
+                },
+                {
+                    "order": 56,
+                    "narrower_class": 2704
+                },
+                {
+                    "order": 57,
+                    "narrower_class": 2721
+                },
+                {
+                    "order": 58,
+                    "narrower_class": 2724
+                },
+                {
+                    "order": 59,
+                    "narrower_class": 2729
+                },
+                {
+                    "order": 60,
+                    "narrower_class": 2736
+                },
+                {
+                    "order": 61,
+                    "narrower_class": 2742
+                },
+                {
+                    "order": 62,
+                    "narrower_class": 2743
+                },
+                {
+                    "order": 63,
+                    "narrower_class": 2756
+                },
+                {
+                    "order": 64,
+                    "narrower_class": 2771
+                },
+                {
+                    "order": 65,
+                    "narrower_class": 2767
+                },
+                {
+                    "order": 66,
+                    "narrower_class": 2781
+                },
+                {
+                    "order": 67,
+                    "narrower_class": 2786
+                },
+                {
+                    "order": 68,
+                    "narrower_class": 2779
+                },
+                {
+                    "order": 69,
+                    "narrower_class": 2803
+                },
+                {
+                    "order": 70,
+                    "narrower_class": 2800
+                },
+                {
+                    "order": 71,
+                    "narrower_class": 2813
+                },
+                {
+                    "order": 72,
+                    "narrower_class": 2812
+                },
+                {
+                    "order": 73,
+                    "narrower_class": 2805
+                },
+                {
+                    "order": 74,
+                    "narrower_class": 2802
+                },
+                {
+                    "order": 75,
+                    "narrower_class": 2814
+                },
+                {
+                    "order": 76,
+                    "narrower_class": 2806
+                },
+                {
+                    "order": 77,
+                    "narrower_class": 2820
+                },
+                {
+                    "order": 78,
+                    "narrower_class": 2831
+                },
+                {
+                    "order": 79,
+                    "narrower_class": 2836
+                },
+                {
+                    "order": 80,
+                    "narrower_class": 2850
+                },
+                {
+                    "order": 81,
+                    "narrower_class": 2858
+                },
+                {
+                    "order": 82,
+                    "narrower_class": 2864
+                },
+                {
+                    "order": 83,
+                    "narrower_class": 2899
+                },
+                {
+                    "order": 84,
+                    "narrower_class": 2907
+                },
+                {
+                    "order": 85,
+                    "narrower_class": 2910
+                },
+                {
+                    "order": 86,
+                    "narrower_class": 2920
+                },
+                {
+                    "order": 87,
+                    "narrower_class": 2921
+                },
+                {
+                    "order": 88,
+                    "narrower_class": 2923
+                },
+                {
+                    "order": 89,
+                    "narrower_class": 2924
+                }
+            ],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 62047,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 62048,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 62049,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "8b75cb92-dc6e-11ea-8802-062f7acd21ca",
+                    "namespace": 6,
+                    "identifier": "12",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 42106,
+            "created": "2020-08-12T17:36:22.358642+10:00",
+            "modified": "2020-12-23T15:32:52.715981+11:00",
+            "uuid": "84f81b12-dc6e-11ea-9a41-0a6933dafb30",
+            "name": "Event",
+            "definition": "Something that happens to or with a party.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "broader_class": null,
+            "metadatareferencelink_set": [],
+            "objectclassspecialisationnarrowerclass_set": [
+                {
+                    "order": 39,
+                    "narrower_class": 2397
+                },
+                {
+                    "order": 40,
+                    "narrower_class": 2398
+                },
+                {
+                    "order": 41,
+                    "narrower_class": 2402
+                },
+                {
+                    "order": 42,
+                    "narrower_class": 2400
+                },
+                {
+                    "order": 43,
+                    "narrower_class": 2401
+                },
+                {
+                    "order": 44,
+                    "narrower_class": 2404
+                },
+                {
+                    "order": 45,
+                    "narrower_class": 2399
+                },
+                {
+                    "order": 46,
+                    "narrower_class": 2413
+                },
+                {
+                    "order": 47,
+                    "narrower_class": 2403
+                },
+                {
+                    "order": 48,
+                    "narrower_class": 2406
+                },
+                {
+                    "order": 49,
+                    "narrower_class": 2408
+                },
+                {
+                    "order": 50,
+                    "narrower_class": 2407
+                },
+                {
+                    "order": 51,
+                    "narrower_class": 2415
+                },
+                {
+                    "order": 52,
+                    "narrower_class": 2410
+                },
+                {
+                    "order": 53,
+                    "narrower_class": 2409
+                },
+                {
+                    "order": 54,
+                    "narrower_class": 2414
+                },
+                {
+                    "order": 55,
+                    "narrower_class": 2412
+                },
+                {
+                    "order": 56,
+                    "narrower_class": 2411
+                },
+                {
+                    "order": 57,
+                    "narrower_class": 2416
+                },
+                {
+                    "order": 58,
+                    "narrower_class": 2417
+                },
+                {
+                    "order": 59,
+                    "narrower_class": 2429
+                },
+                {
+                    "order": 60,
+                    "narrower_class": 2427
+                },
+                {
+                    "order": 61,
+                    "narrower_class": 2424
+                },
+                {
+                    "order": 62,
+                    "narrower_class": 2434
+                },
+                {
+                    "order": 63,
+                    "narrower_class": 2426
+                },
+                {
+                    "order": 64,
+                    "narrower_class": 2433
+                },
+                {
+                    "order": 65,
+                    "narrower_class": 2428
+                },
+                {
+                    "order": 66,
+                    "narrower_class": 2435
+                },
+                {
+                    "order": 67,
+                    "narrower_class": 2438
+                },
+                {
+                    "order": 68,
+                    "narrower_class": 2457
+                },
+                {
+                    "order": 69,
+                    "narrower_class": 2458
+                },
+                {
+                    "order": 70,
+                    "narrower_class": 2461
+                },
+                {
+                    "order": 71,
+                    "narrower_class": 2467
+                },
+                {
+                    "order": 72,
+                    "narrower_class": 2475
+                },
+                {
+                    "order": 73,
+                    "narrower_class": 2472
+                },
+                {
+                    "order": 74,
+                    "narrower_class": 2464
+                },
+                {
+                    "order": 75,
+                    "narrower_class": 2480
+                },
+                {
+                    "order": 76,
+                    "narrower_class": 2476
+                },
+                {
+                    "order": 77,
+                    "narrower_class": 2490
+                },
+                {
+                    "order": 78,
+                    "narrower_class": 2487
+                },
+                {
+                    "order": 79,
+                    "narrower_class": 2508
+                },
+                {
+                    "order": 80,
+                    "narrower_class": 2500
+                },
+                {
+                    "order": 81,
+                    "narrower_class": 2503
+                },
+                {
+                    "order": 82,
+                    "narrower_class": 2514
+                },
+                {
+                    "order": 83,
+                    "narrower_class": 2504
+                },
+                {
+                    "order": 84,
+                    "narrower_class": 2507
+                },
+                {
+                    "order": 85,
+                    "narrower_class": 2515
+                },
+                {
+                    "order": 86,
+                    "narrower_class": 2512
+                },
+                {
+                    "order": 87,
+                    "narrower_class": 2516
+                },
+                {
+                    "order": 88,
+                    "narrower_class": 2524
+                },
+                {
+                    "order": 89,
+                    "narrower_class": 2519
+                },
+                {
+                    "order": 90,
+                    "narrower_class": 2523
+                },
+                {
+                    "order": 91,
+                    "narrower_class": 2527
+                },
+                {
+                    "order": 92,
+                    "narrower_class": 2529
+                },
+                {
+                    "order": 93,
+                    "narrower_class": 2526
+                },
+                {
+                    "order": 94,
+                    "narrower_class": 2531
+                },
+                {
+                    "order": 95,
+                    "narrower_class": 2539
+                },
+                {
+                    "order": 96,
+                    "narrower_class": 2537
+                },
+                {
+                    "order": 97,
+                    "narrower_class": 2552
+                },
+                {
+                    "order": 98,
+                    "narrower_class": 2544
+                },
+                {
+                    "order": 99,
+                    "narrower_class": 2549
+                },
+                {
+                    "order": 100,
+                    "narrower_class": 2555
+                },
+                {
+                    "order": 101,
+                    "narrower_class": 2557
+                },
+                {
+                    "order": 102,
+                    "narrower_class": 2560
+                },
+                {
+                    "order": 103,
+                    "narrower_class": 2570
+                },
+                {
+                    "order": 104,
+                    "narrower_class": 2577
+                },
+                {
+                    "order": 105,
+                    "narrower_class": 2580
+                },
+                {
+                    "order": 106,
+                    "narrower_class": 2587
+                },
+                {
+                    "order": 107,
+                    "narrower_class": 2588
+                },
+                {
+                    "order": 108,
+                    "narrower_class": 2581
+                },
+                {
+                    "order": 109,
+                    "narrower_class": 2594
+                },
+                {
+                    "order": 110,
+                    "narrower_class": 2602
+                },
+                {
+                    "order": 111,
+                    "narrower_class": 2610
+                },
+                {
+                    "order": 112,
+                    "narrower_class": 2606
+                },
+                {
+                    "order": 113,
+                    "narrower_class": 2599
+                },
+                {
+                    "order": 114,
+                    "narrower_class": 2607
+                },
+                {
+                    "order": 115,
+                    "narrower_class": 2613
+                },
+                {
+                    "order": 116,
+                    "narrower_class": 2615
+                },
+                {
+                    "order": 117,
+                    "narrower_class": 2608
+                },
+                {
+                    "order": 118,
+                    "narrower_class": 2616
+                },
+                {
+                    "order": 119,
+                    "narrower_class": 2622
+                },
+                {
+                    "order": 120,
+                    "narrower_class": 2621
+                },
+                {
+                    "order": 121,
+                    "narrower_class": 2633
+                },
+                {
+                    "order": 122,
+                    "narrower_class": 2624
+                },
+                {
+                    "order": 123,
+                    "narrower_class": 2626
+                },
+                {
+                    "order": 124,
+                    "narrower_class": 2630
+                },
+                {
+                    "order": 125,
+                    "narrower_class": 2632
+                },
+                {
+                    "order": 126,
+                    "narrower_class": 2631
+                },
+                {
+                    "order": 127,
+                    "narrower_class": 2636
+                },
+                {
+                    "order": 128,
+                    "narrower_class": 2637
+                },
+                {
+                    "order": 129,
+                    "narrower_class": 2643
+                },
+                {
+                    "order": 130,
+                    "narrower_class": 2640
+                },
+                {
+                    "order": 131,
+                    "narrower_class": 2653
+                },
+                {
+                    "order": 132,
+                    "narrower_class": 2652
+                },
+                {
+                    "order": 133,
+                    "narrower_class": 2645
+                },
+                {
+                    "order": 134,
+                    "narrower_class": 2646
+                },
+                {
+                    "order": 135,
+                    "narrower_class": 2667
+                },
+                {
+                    "order": 136,
+                    "narrower_class": 2661
+                },
+                {
+                    "order": 137,
+                    "narrower_class": 2666
+                },
+                {
+                    "order": 138,
+                    "narrower_class": 2678
+                },
+                {
+                    "order": 139,
+                    "narrower_class": 2691
+                },
+                {
+                    "order": 140,
+                    "narrower_class": 2684
+                },
+                {
+                    "order": 141,
+                    "narrower_class": 2694
+                },
+                {
+                    "order": 142,
+                    "narrower_class": 2695
+                },
+                {
+                    "order": 143,
+                    "narrower_class": 2693
+                },
+                {
+                    "order": 144,
+                    "narrower_class": 2708
+                },
+                {
+                    "order": 145,
+                    "narrower_class": 2699
+                },
+                {
+                    "order": 146,
+                    "narrower_class": 2706
+                },
+                {
+                    "order": 147,
+                    "narrower_class": 2709
+                },
+                {
+                    "order": 148,
+                    "narrower_class": 2705
+                },
+                {
+                    "order": 149,
+                    "narrower_class": 2700
+                },
+                {
+                    "order": 150,
+                    "narrower_class": 2703
+                },
+                {
+                    "order": 151,
+                    "narrower_class": 2715
+                },
+                {
+                    "order": 152,
+                    "narrower_class": 2720
+                },
+                {
+                    "order": 153,
+                    "narrower_class": 2716
+                },
+                {
+                    "order": 154,
+                    "narrower_class": 2719
+                },
+                {
+                    "order": 155,
+                    "narrower_class": 2727
+                },
+                {
+                    "order": 156,
+                    "narrower_class": 2739
+                },
+                {
+                    "order": 157,
+                    "narrower_class": 2737
+                },
+                {
+                    "order": 158,
+                    "narrower_class": 2738
+                },
+                {
+                    "order": 159,
+                    "narrower_class": 2749
+                },
+                {
+                    "order": 160,
+                    "narrower_class": 2741
+                },
+                {
+                    "order": 161,
+                    "narrower_class": 2748
+                },
+                {
+                    "order": 162,
+                    "narrower_class": 2755
+                },
+                {
+                    "order": 163,
+                    "narrower_class": 2751
+                },
+                {
+                    "order": 164,
+                    "narrower_class": 2766
+                },
+                {
+                    "order": 165,
+                    "narrower_class": 2769
+                },
+                {
+                    "order": 166,
+                    "narrower_class": 2757
+                },
+                {
+                    "order": 167,
+                    "narrower_class": 2773
+                },
+                {
+                    "order": 168,
+                    "narrower_class": 2761
+                },
+                {
+                    "order": 169,
+                    "narrower_class": 2759
+                },
+                {
+                    "order": 170,
+                    "narrower_class": 2762
+                },
+                {
+                    "order": 171,
+                    "narrower_class": 2760
+                },
+                {
+                    "order": 172,
+                    "narrower_class": 2770
+                },
+                {
+                    "order": 173,
+                    "narrower_class": 2768
+                },
+                {
+                    "order": 174,
+                    "narrower_class": 2772
+                },
+                {
+                    "order": 175,
+                    "narrower_class": 2763
+                },
+                {
+                    "order": 176,
+                    "narrower_class": 2764
+                },
+                {
+                    "order": 177,
+                    "narrower_class": 2774
+                },
+                {
+                    "order": 178,
+                    "narrower_class": 2775
+                },
+                {
+                    "order": 179,
+                    "narrower_class": 2778
+                },
+                {
+                    "order": 180,
+                    "narrower_class": 2784
+                },
+                {
+                    "order": 181,
+                    "narrower_class": 2794
+                },
+                {
+                    "order": 182,
+                    "narrower_class": 2788
+                },
+                {
+                    "order": 183,
+                    "narrower_class": 2795
+                },
+                {
+                    "order": 184,
+                    "narrower_class": 2793
+                },
+                {
+                    "order": 185,
+                    "narrower_class": 2810
+                },
+                {
+                    "order": 186,
+                    "narrower_class": 2804
+                },
+                {
+                    "order": 187,
+                    "narrower_class": 2809
+                },
+                {
+                    "order": 188,
+                    "narrower_class": 2807
+                },
+                {
+                    "order": 189,
+                    "narrower_class": 2815
+                },
+                {
+                    "order": 190,
+                    "narrower_class": 2819
+                },
+                {
+                    "order": 191,
+                    "narrower_class": 2826
+                },
+                {
+                    "order": 192,
+                    "narrower_class": 2816
+                },
+                {
+                    "order": 193,
+                    "narrower_class": 2828
+                },
+                {
+                    "order": 194,
+                    "narrower_class": 2821
+                },
+                {
+                    "order": 195,
+                    "narrower_class": 2830
+                },
+                {
+                    "order": 196,
+                    "narrower_class": 2835
+                },
+                {
+                    "order": 197,
+                    "narrower_class": 2832
+                },
+                {
+                    "order": 198,
+                    "narrower_class": 2841
+                },
+                {
+                    "order": 199,
+                    "narrower_class": 2851
+                },
+                {
+                    "order": 200,
+                    "narrower_class": 2840
+                },
+                {
+                    "order": 201,
+                    "narrower_class": 2849
+                },
+                {
+                    "order": 202,
+                    "narrower_class": 2853
+                },
+                {
+                    "order": 203,
+                    "narrower_class": 2846
+                },
+                {
+                    "order": 204,
+                    "narrower_class": 2842
+                },
+                {
+                    "order": 205,
+                    "narrower_class": 2848
+                },
+                {
+                    "order": 206,
+                    "narrower_class": 2843
+                },
+                {
+                    "order": 207,
+                    "narrower_class": 2852
+                },
+                {
+                    "order": 208,
+                    "narrower_class": 2855
+                },
+                {
+                    "order": 209,
+                    "narrower_class": 2856
+                },
+                {
+                    "order": 210,
+                    "narrower_class": 2860
+                },
+                {
+                    "order": 211,
+                    "narrower_class": 2861
+                },
+                {
+                    "order": 212,
+                    "narrower_class": 2862
+                },
+                {
+                    "order": 213,
+                    "narrower_class": 2866
+                },
+                {
+                    "order": 214,
+                    "narrower_class": 2869
+                },
+                {
+                    "order": 215,
+                    "narrower_class": 2875
+                },
+                {
+                    "order": 216,
+                    "narrower_class": 2863
+                },
+                {
+                    "order": 241,
+                    "narrower_class": 2957
+                },
+                {
+                    "order": 242,
+                    "narrower_class": 2967
+                },
+                {
+                    "order": 243,
+                    "narrower_class": 2960
+                },
+                {
+                    "order": 244,
+                    "narrower_class": 2982
+                },
+                {
+                    "order": 245,
+                    "narrower_class": 2976
+                },
+                {
+                    "order": 246,
+                    "narrower_class": 2978
+                },
+                {
+                    "order": 247,
+                    "narrower_class": 2993
+                },
+                {
+                    "order": 248,
+                    "narrower_class": 2980
+                },
+                {
+                    "order": 249,
+                    "narrower_class": 2985
+                },
+                {
+                    "order": 250,
+                    "narrower_class": 2991
+                },
+                {
+                    "order": 252,
+                    "narrower_class": 3006
+                },
+                {
+                    "order": 253,
+                    "narrower_class": 3013
+                },
+                {
+                    "order": 254,
+                    "narrower_class": 3015
+                },
+                {
+                    "order": 255,
+                    "narrower_class": 3017
+                },
+                {
+                    "order": 256,
+                    "narrower_class": 3021
+                },
+                {
+                    "order": 257,
+                    "narrower_class": 3018
+                },
+                {
+                    "order": 258,
+                    "narrower_class": 3022
+                },
+                {
+                    "order": 259,
+                    "narrower_class": 3025
+                },
+                {
+                    "order": 260,
+                    "narrower_class": 3034
+                },
+                {
+                    "order": 261,
+                    "narrower_class": 3035
+                },
+                {
+                    "order": 262,
+                    "narrower_class": 3032
+                },
+                {
+                    "order": 263,
+                    "narrower_class": 3045
+                },
+                {
+                    "order": 264,
+                    "narrower_class": 3049
+                },
+                {
+                    "order": 265,
+                    "narrower_class": 3039
+                },
+                {
+                    "order": 266,
+                    "narrower_class": 3044
+                },
+                {
+                    "order": 267,
+                    "narrower_class": 3047
+                },
+                {
+                    "order": 268,
+                    "narrower_class": 3046
+                },
+                {
+                    "order": 269,
+                    "narrower_class": 3066
+                },
+                {
+                    "order": 270,
+                    "narrower_class": 3073
+                },
+                {
+                    "order": 271,
+                    "narrower_class": 3075
+                },
+                {
+                    "order": 272,
+                    "narrower_class": 3068
+                },
+                {
+                    "order": 273,
+                    "narrower_class": 3061
+                },
+                {
+                    "order": 274,
+                    "narrower_class": 3071
+                },
+                {
+                    "order": 275,
+                    "narrower_class": 3062
+                },
+                {
+                    "order": 276,
+                    "narrower_class": 3064
+                },
+                {
+                    "order": 277,
+                    "narrower_class": 3088
+                },
+                {
+                    "order": 278,
+                    "narrower_class": 3087
+                },
+                {
+                    "order": 279,
+                    "narrower_class": 3086
+                },
+                {
+                    "order": 280,
+                    "narrower_class": 3101
+                },
+                {
+                    "order": 281,
+                    "narrower_class": 3097
+                },
+                {
+                    "order": 282,
+                    "narrower_class": 3107
+                },
+                {
+                    "order": 283,
+                    "narrower_class": 3123
+                },
+                {
+                    "order": 284,
+                    "narrower_class": 3158
+                },
+                {
+                    "order": 1,
+                    "narrower_class": 2342
+                },
+                {
+                    "order": 2,
+                    "narrower_class": 2350
+                },
+                {
+                    "order": 3,
+                    "narrower_class": 2355
+                },
+                {
+                    "order": 4,
+                    "narrower_class": 2357
+                },
+                {
+                    "order": 5,
+                    "narrower_class": 2359
+                },
+                {
+                    "order": 6,
+                    "narrower_class": 2365
+                },
+                {
+                    "order": 7,
+                    "narrower_class": 2356
+                },
+                {
+                    "order": 8,
+                    "narrower_class": 2361
+                },
+                {
+                    "order": 9,
+                    "narrower_class": 2358
+                },
+                {
+                    "order": 10,
+                    "narrower_class": 2369
+                },
+                {
+                    "order": 11,
+                    "narrower_class": 2371
+                },
+                {
+                    "order": 12,
+                    "narrower_class": 2366
+                },
+                {
+                    "order": 13,
+                    "narrower_class": 2362
+                },
+                {
+                    "order": 14,
+                    "narrower_class": 2363
+                },
+                {
+                    "order": 15,
+                    "narrower_class": 2360
+                },
+                {
+                    "order": 16,
+                    "narrower_class": 2364
+                },
+                {
+                    "order": 17,
+                    "narrower_class": 2374
+                },
+                {
+                    "order": 18,
+                    "narrower_class": 2368
+                },
+                {
+                    "order": 19,
+                    "narrower_class": 2372
+                },
+                {
+                    "order": 20,
+                    "narrower_class": 2375
+                },
+                {
+                    "order": 21,
+                    "narrower_class": 2381
+                },
+                {
+                    "order": 22,
+                    "narrower_class": 2385
+                },
+                {
+                    "order": 23,
+                    "narrower_class": 2388
+                },
+                {
+                    "order": 24,
+                    "narrower_class": 2379
+                },
+                {
+                    "order": 25,
+                    "narrower_class": 2378
+                },
+                {
+                    "order": 26,
+                    "narrower_class": 2382
+                },
+                {
+                    "order": 27,
+                    "narrower_class": 2383
+                },
+                {
+                    "order": 28,
+                    "narrower_class": 2389
+                },
+                {
+                    "order": 29,
+                    "narrower_class": 2386
+                },
+                {
+                    "order": 30,
+                    "narrower_class": 2384
+                },
+                {
+                    "order": 31,
+                    "narrower_class": 2390
+                },
+                {
+                    "order": 32,
+                    "narrower_class": 2387
+                },
+                {
+                    "order": 33,
+                    "narrower_class": 2392
+                },
+                {
+                    "order": 34,
+                    "narrower_class": 2394
+                },
+                {
+                    "order": 35,
+                    "narrower_class": 2393
+                },
+                {
+                    "order": 36,
+                    "narrower_class": 2395
+                },
+                {
+                    "order": 37,
+                    "narrower_class": 2396
+                },
+                {
+                    "order": 38,
+                    "narrower_class": 2405
+                },
+                {
+                    "order": 217,
+                    "narrower_class": 2874
+                },
+                {
+                    "order": 218,
+                    "narrower_class": 2877
+                },
+                {
+                    "order": 219,
+                    "narrower_class": 2880
+                },
+                {
+                    "order": 220,
+                    "narrower_class": 2893
+                },
+                {
+                    "order": 221,
+                    "narrower_class": 2881
+                },
+                {
+                    "order": 222,
+                    "narrower_class": 2886
+                },
+                {
+                    "order": 223,
+                    "narrower_class": 2884
+                },
+                {
+                    "order": 224,
+                    "narrower_class": 2891
+                },
+                {
+                    "order": 225,
+                    "narrower_class": 2887
+                },
+                {
+                    "order": 226,
+                    "narrower_class": 2889
+                },
+                {
+                    "order": 227,
+                    "narrower_class": 2900
+                },
+                {
+                    "order": 228,
+                    "narrower_class": 2903
+                },
+                {
+                    "order": 229,
+                    "narrower_class": 2902
+                },
+                {
+                    "order": 230,
+                    "narrower_class": 2913
+                },
+                {
+                    "order": 231,
+                    "narrower_class": 2906
+                },
+                {
+                    "order": 232,
+                    "narrower_class": 2905
+                },
+                {
+                    "order": 233,
+                    "narrower_class": 2925
+                },
+                {
+                    "order": 234,
+                    "narrower_class": 2928
+                },
+                {
+                    "order": 235,
+                    "narrower_class": 2916
+                },
+                {
+                    "order": 236,
+                    "narrower_class": 2935
+                },
+                {
+                    "order": 237,
+                    "narrower_class": 2934
+                },
+                {
+                    "order": 238,
+                    "narrower_class": 2946
+                },
+                {
+                    "order": 239,
+                    "narrower_class": 2951
+                },
+                {
+                    "order": 240,
+                    "narrower_class": 2953
+                }
+            ],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 62585,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 62586,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 62587,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "8d77952e-dc6e-11ea-9a41-0a6933dafb30",
+                    "namespace": 6,
+                    "identifier": "8",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 42107,
+            "created": "2020-08-12T17:36:22.559284+10:00",
+            "modified": "2020-08-12T17:36:22.559284+10:00",
+            "uuid": "8516b946-dc6e-11ea-bade-0a6933dafb30",
+            "name": "Reference OCS",
+            "definition": "Used for reference OCSs for additional work post import",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "broader_class": null,
+            "metadatareferencelink_set": [],
+            "objectclassspecialisationnarrowerclass_set": [
+                {
+                    "order": 0,
+                    "narrower_class": 2733
+                }
+            ],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "8542e5fc-dc6e-11ea-bade-0a6933dafb30",
+                    "namespace": 6,
+                    "identifier": "13",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 42108,
+            "created": "2020-08-12T17:36:23.252303+10:00",
+            "modified": "2020-11-24T20:13:36.819664+11:00",
+            "uuid": "85807840-dc6e-11ea-bade-0a6933dafb30",
+            "name": "Time",
+            "definition": "A non-spatial continuum in which EVENTs occur from the past through the present to the future, or a measurable period during which an action, process, or condition exists or continues.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "broader_class": null,
+            "metadatareferencelink_set": [],
+            "objectclassspecialisationnarrowerclass_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "85974ba6-dc6e-11ea-bade-0a6933dafb30",
+                    "namespace": 6,
+                    "identifier": "15",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 42109,
+            "created": "2020-08-12T17:36:23.818617+10:00",
+            "modified": "2020-11-24T20:35:12.113799+11:00",
+            "uuid": "85d6e14e-dc6e-11ea-906f-062f7acd21ca",
+            "name": "Outcome",
+            "definition": "A recorded change to a PARTY which is expected or presumed to be caused by an event.",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "broader_class": null,
+            "metadatareferencelink_set": [],
+            "objectclassspecialisationnarrowerclass_set": [],
+            "slots": [],
+            "customvalue_set": [],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "85e7c9be-dc6e-11ea-906f-062f7acd21ca",
+                    "namespace": 6,
+                    "identifier": "16",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        },
+        {
+            "id": 42110,
+            "created": "2020-08-12T17:36:24.229617+10:00",
+            "modified": "2021-04-15T17:31:38.541887+10:00",
+            "uuid": "861597ea-dc6e-11ea-906f-062f7acd21ca",
+            "name": "Business Services and Products",
+            "definition": "Describes the business programme, services, or goods that can be offered, sold or purchased by a PARTY",
+            "stewardship_organisation": "7089da98b44c11ea849a5a0bdf2d1ed7",
+            "workgroup": 118,
+            "version": "",
+            "references": "",
+            "origin_URI": "",
+            "origin": "",
+            "comments": "",
+            "broader_class": null,
+            "metadatareferencelink_set": [],
+            "objectclassspecialisationnarrowerclass_set": [
+                {
+                    "order": 0,
+                    "narrower_class": 2683
+                }
+            ],
+            "slots": [],
+            "customvalue_set": [
+                {
+                    "id": 62588,
+                    "name": "Long Name",
+                    "field": 5,
+                    "content": ""
+                },
+                {
+                    "id": 62589,
+                    "name": "M204 Name",
+                    "field": 6,
+                    "content": ""
+                },
+                {
+                    "id": 62590,
+                    "name": "Guide for Use",
+                    "field": 7,
+                    "content": ""
+                }
+            ],
+            "org_records": [],
+            "identifiers": [
+                {
+                    "id": "862fa298-dc6e-11ea-906f-062f7acd21ca",
+                    "namespace": 6,
+                    "identifier": "18",
+                    "version": "",
+                    "order": 0
+                }
+            ]
+        }
+    ]
+}
